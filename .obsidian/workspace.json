@@ -179,13 +179,23 @@
               "icon": "lucide-list",
               "title": "Outline of Biome"
             }
+          },
+          {
+            "id": "010f9a61f000fb69",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 264.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -199,7 +209,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9cd52009346fd558",
+  "active": "010f9a61f000fb69",
   "lastOpenFiles": [
     "Example 3.md",
     "Biome.md",
