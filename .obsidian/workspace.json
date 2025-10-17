@@ -48,9 +48,51 @@
               "icon": "lucide-file",
               "title": "Biome"
             }
+          },
+          {
+            "id": "455b9321282370f3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "React Query.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "React Query"
+            }
+          },
+          {
+            "id": "447dcae4dfbe6156",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Zod.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Zod"
+            }
+          },
+          {
+            "id": "6e1c99352516c6c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Next MDX Remote.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Next MDX Remote"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -209,10 +251,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "010f9a61f000fb69",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "Example 3.md",
+    "Zod.md",
+    "Next MDX Remote.md",
+    "React Query.md",
     "Biome.md",
+    "Example 3.md",
     "Example 2.md",
     "Article Template.md",
     "Welcome.md"
