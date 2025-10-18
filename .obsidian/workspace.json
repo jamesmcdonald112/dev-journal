@@ -90,9 +90,65 @@
               "icon": "lucide-file",
               "title": "Next MDX Remote"
             }
+          },
+          {
+            "id": "5b6a181b61fda360",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "clsx.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clsx"
+            }
+          },
+          {
+            "id": "8ca9f1bc1daf5234",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "class-variance-authority (CVA).md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "class-variance-authority (CVA)"
+            }
+          },
+          {
+            "id": "060e3c0d39fcb34e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Biome.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Biome"
+            }
+          },
+          {
+            "id": "ad80dd6685746e55",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind’s Prose Classes.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind’s Prose Classes"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -251,12 +307,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "ad80dd6685746e55",
   "lastOpenFiles": [
-    "Zod.md",
-    "Next MDX Remote.md",
-    "React Query.md",
     "Biome.md",
+    "Tailwind’s Prose Classes.md",
+    "Lucide React.md",
+    "class-variance-authority (CVA).md",
+    "clsx.md",
+    "Next MDX Remote.md",
+    "Zod.md",
+    "React Query.md",
     "Example 3.md",
     "Example 2.md",
     "Article Template.md",
