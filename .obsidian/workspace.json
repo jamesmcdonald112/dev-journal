@@ -139,12 +139,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind’s Prose Classes.md",
+                "file": "Example 3.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Tailwind’s Prose Classes"
+              "title": "Example 3"
             }
           }
         ],
@@ -309,8 +309,8 @@
   },
   "active": "ad80dd6685746e55",
   "lastOpenFiles": [
-    "Biome.md",
     "Tailwind’s Prose Classes.md",
+    "Biome.md",
     "Lucide React.md",
     "class-variance-authority (CVA).md",
     "clsx.md",
