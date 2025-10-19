@@ -109,13 +109,8 @@ i need to make a reference to yml or YAML or whatever they are called and learn 
 - Local installiation `npx @biomejs/biome` ensures that each project uses the exact Bione version listed in its package.json.
 
 ## Accessibility
-Biome's accessibility (a11y) rules check for common HTML/JSX mistakes that break screen readers or keyboard navigation. Elements like Missing alt text, invalid header order (`<h3> before <h2>`), clickable divs, missing label etc.
+Biome's accessibility (a11y) rules check for common HTML/JSX mistakes that break screen readers or keyboard navigation. Elements like Missing alt text, invalid header order (`<h3> before <h2>`), clickable divs, missing label etc. This is added as part of the defult setup for Biome
 
-### Complexity
-Biome will help to ensure that your fucniotns and conditionals are not too coplicated. It checks nested ifs, switch chains, loops and might suggest to split into fucntions. Ensures no deeply neseted jsx, and no duplicate condtions and tell you to remove redundancy. 
-
-```
-```
 
 
 Run Biome automatically _before every commit_ on your local machine.
