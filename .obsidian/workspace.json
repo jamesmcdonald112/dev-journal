@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Husky.md",
+                "file": "Lint-Staged.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Husky"
+              "title": "Lint-Staged"
             }
           }
         ],
@@ -465,6 +465,7 @@
   "active": "ccf9c7a186e7bc44",
   "lastOpenFiles": [
     "Portfolio/Building the Portolio.md",
+    "Husky.md",
     "Vitest.md",
     "Workflows.md",
     "Portfolio/Obsidian Style Graph.md",
@@ -476,7 +477,6 @@
     "Dependabot.md",
     "Biome.md",
     "Lint-Staged.md",
-    "Husky.md",
     "Next.md",
     "Portfolio",
     "Example 3.md",
