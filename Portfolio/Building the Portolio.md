@@ -5,3 +5,7 @@
 - [[Lint-Staged]]
 - [[Dependabot]]
 - [[README Badges]]
+- [[VS Code Workspace Settings]]
+- [[Commitlint]]
+- [[Workflows]]
+- [[Vitest]]
