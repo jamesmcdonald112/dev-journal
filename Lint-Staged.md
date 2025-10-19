@@ -1,0 +1,1 @@
+Runs a command (e.g. Biome) only on staged files.
