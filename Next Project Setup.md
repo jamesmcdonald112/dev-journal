@@ -42,9 +42,9 @@ npx @biomejs/biome check --write
 npx @biomejs/biome check --write <files>
 ```
 
-This cna be done all at once using Check:
+This cna be done all at once using, ensuring that all files are formatted, Lint appiled safely, imports organised:
 ```bash
-
+npx @biomejs/biome check --write
 ```
 
 
@@ -86,7 +86,7 @@ npx @biomejs/biome check --write <files>
 
 
 ### Continuous Integration Pipelines with Biome
-For this pipeline, Biome will not write changes, it only fails if issues exist, so your pipeline can stop bad code from merging.
+For this pipeline, Biome will not write changes, it only fails if issues exist, so your pipeline can stop bad code from merging. This code will be used in a .github/workflows/ yml file.
 
 Example in a GitHub Action:
 ```yaml
@@ -100,6 +100,13 @@ npx @biomejs/biome check
 ```
 
 
+i need to make a reference to yml or YAML or whatever they are called and learn how to make them. 
+
+## Why not install Biome Globally?
+- Installing globally means that one copy of Biome for all projects but diffenet prokects h=may have differnt verisons or rules.
+	- Exmaple, project A using Biome v1.9.4 and Project B uses Biome v2.0.0 (with new formatting defaults),
+	- Formatting changes between them randomally break commits.
+- Local installiation `npx @biomejs/biome` ensures that each project uses the exact Bione version listed in its package.json.
 ### References 
 - https://biomejs.dev/guides/getting-started/
 - 
