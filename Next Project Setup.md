@@ -3,9 +3,103 @@ I want ot make a note for next project set ups in my obsidian, basically i want 
 
 run a tailwind test to make sure it works
 
+## Biome
+
+It is Prettier + ESLint + ImportSorter all in one. 
+
+It Formats code like Pretteir fixing spaces, semicolons, quotes etc:
+```bash
+# Format all files
+
+npx @biomejs/biome format --write
+
+# Format specific files
+
+npx @biomejs/biome format --write <files>
+```
+
+
+it lints code like ESLin, making it detects logic and style problems:
+```bash
+# Lint files and apply safe fixes to all files
+
+npx @biomejs/biome lint --write
+
+# Lint files and apply safe fixes to specific files
+
+npx @biomejs/biome lint --write <files>
+```
+
+
+It Organises Importats, sorting and remving usused imports:
+```bash
+# Format, lint, and organize imports of all files
+
+npx @biomejs/biome check --write
+
+# Format, lint, and organize imports of specific files
+
+npx @biomejs/biome check --write <files>
+```
+
+This cna be done all at once using Check:
+```bash
+
+```
+
+
 run biome check . next to make sure that works
 if biome finds errors you can let it fix it automatically by using the Biome Vs code extension - **Biome VS Code extension** (Biome by biomejs).
 
 biome allows you to make adjustments using the command ```
 npx @biomejs/biome init to generate a biome.json file, so we will do it here, it actualyl alredy comes iwth the next setup.
 its getting start page has a lot of useful commands such as 
+
+to see if anything is incorrectly formatted
+ npx biome check .            
+
+```bash
+# Format all files
+
+npx @biomejs/biome format --write
+
+# Format specific files
+
+npx @biomejs/biome format --write <files>
+
+# Lint files and apply safe fixes to all files
+
+npx @biomejs/biome lint --write
+
+# Lint files and apply safe fixes to specific files
+
+npx @biomejs/biome lint --write <files>
+
+# Format, lint, and organize imports of all files
+
+npx @biomejs/biome check --write
+
+# Format, lint, and organize imports of specific files
+
+npx @biomejs/biome check --write <files>
+```
+
+
+### Continuous Integration Pipelines with Biome
+For this pipeline, Biome will not write changes, it only fails if issues exist, so your pipeline can stop bad code from merging.
+
+Example in a GitHub Action:
+```yaml
+- name: Run Biome CI
+  run: npx @biomejs/biome ci
+```
+
+It's equivalent to:
+```bash
+npx @biomejs/biome check
+```
+
+
+### References 
+- https://biomejs.dev/guides/getting-started/
+- 
