@@ -107,6 +107,20 @@ i need to make a reference to yml or YAML or whatever they are called and learn 
 	- Exmaple, project A using Biome v1.9.4 and Project B uses Biome v2.0.0 (with new formatting defaults),
 	- Formatting changes between them randomally break commits.
 - Local installiation `npx @biomejs/biome` ensures that each project uses the exact Bione version listed in its package.json.
+
+## Accessibility
+Biome's accessibility (a11y) rules check for common HTML/JSX mistakes that break screen readers or keyboard navigation. Elements like Missing alt text, invalid header order (`<h3> before <h2>`), clickable divs, missing label etc.
+
+### Complexity
+Biome will help to ensure that your fucniotns and conditionals are not too coplicated. It checks nested ifs, switch chains, loops and might suggest to split into fucntions. Ensures no deeply neseted jsx, and no duplicate condtions and tell you to remove redundancy. 
+
+```
+```
+
+
+Run Biome automatically _before every commit_ on your local machine.
+
+Usually done with **Husky** or **lint-staged**:
 ### References 
 - https://biomejs.dev/guides/getting-started/
 - 
