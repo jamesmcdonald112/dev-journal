@@ -335,7 +335,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Dependabot.md",
+                "file": "learning-notes/Dependabot Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -350,7 +350,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dependabot"
+              "title": "Dependabot Setup"
             }
           }
         ],
@@ -460,13 +460,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/Dependabot.md",
+                "file": "learning-notes/Dependabot Setup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dependabot"
+              "title": "Outline of Dependabot Setup"
             }
           },
           {
@@ -533,7 +533,7 @@
   "active": "04b8763e11579bf2",
   "lastOpenFiles": [
     "learning-notes/Untitled.md",
-    "learning-notes/Dependabot.md",
+    "learning-notes/Dependabot Setup.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "learning-notes/Obsidian",

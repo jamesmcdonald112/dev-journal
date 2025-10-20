@@ -4,7 +4,7 @@
 - [[Biome]]
 - [[Husky]]
 - [[Lint-Staged]]
-- [[Dependabot]]
+- [[Dependabot Setup]]
 - [[README Badges]]
 - [[VS Code Workspace Settings]]
 - [[Commitlint]]
