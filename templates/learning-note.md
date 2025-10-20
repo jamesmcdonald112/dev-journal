@@ -1,11 +1,13 @@
 ---
 title: <% tp.file.title %>
-type: learning-note
+type: case-study
 status: draft
 date: <% tp.date.now("YYYY-MM-DD") %>
+updated: <% tp.file.last_modified_date("YYYY-MM-DD") %>
 summary:
+tech_stack:
+keywords:
 ---
-
 # <% tp.file.title %>
 
 ## What I Learned
@@ -17,5 +19,12 @@ Add an example or code block here.
 ## Why It Matters
 Explain how this connects to your projects or knowledge.
 
+## Related 
+
 ## References
-List docs, videos, or articles that helped.
+- [GitHub Repository](#)
+- [Live Demo](#)
+- [Official Docs](https://react.dev)
+- [Article](#)
+- [Video](#)
+- Obsidian link

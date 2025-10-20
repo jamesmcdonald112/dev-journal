@@ -321,16 +321,30 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/learning-note.md",
+                "file": "learning-notes/Next.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "learning-note"
+              "title": "Next"
+            }
+          },
+          {
+            "id": "04b8763e11579bf2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning-notes/clsx.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "clsx"
             }
           }
         ],
-        "currentTab": 22
+        "currentTab": 23
       }
     ],
     "direction": "vertical"
@@ -490,40 +504,43 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "46f3fe36e8c30e73",
+  "active": "04b8763e11579bf2",
   "lastOpenFiles": [
+    "Screenshot 2025-10-20 at 15.17.04.png",
+    "learning-notes/clsx.md",
+    "attatchments/diagrams",
+    "attatchments/images",
+    "README.md",
+    "learning-notes/Untitled.md",
+    "learning-notes/Next.md",
+    "attatchments",
+    "learning-notes/class-variance-authority (CVA).md",
+    "learning-notes/Biome.md",
+    "learning-notes/Zod.md",
+    "learning-notes",
+    "learning.md",
+    "learning-notes/Obsidian.md",
+    "learning-notes/Husky.md",
+    "Example 2.md",
+    "Example 3.md",
     "templates/case-study.md",
     "templates/learning-note.md",
     "templates/note-template.md",
     "case-studies/frontend/ui/case 1.md",
     "case-studies/frontend/ui",
-    "class-variance-authority (CVA).md",
     "case-studies/frontend",
-    "Untitled",
     "case-studies/Untitled.md",
     "Article Template.md",
     "2025-10-21.md",
     "_scripts.md",
     "Untitled 3.md",
     "Untitled 1.md",
-    "Untitled.md",
     "Untitled 4.md",
     "templates/test-template.md",
     "templates/TEMPLATE_BaseNote.md.md",
-    "templates/TEMPLATE_CaseStudy.md",
-    "Untitled 2.md",
-    "frontend/note.md",
-    "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
-    "Portfolio/Building the Portolio.md",
     "frontend",
     "case-studies",
-    "Obsidian.md",
     "templates",
-    "Commitlint.md",
-    "Husky.md",
-    "Lint-Staged.md",
-    "Vitest.md",
-    "Workflows.md",
-    "Portfolio"
+    "case-studies/portfolio"
   ]
 }
