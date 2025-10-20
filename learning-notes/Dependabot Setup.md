@@ -1,12 +1,19 @@
 ---
 title: Dependabot Setup
-type: case-study
-status: draft
+type: setup-guide
+status: complete
 date: 2025-10-20
 updated: 2025-10-20
-summary:
+summary: Configuring Dependabot to automatically update npm and GitHub Actions dependencies on a weekly schedule.
 tech_stack:
+  - GitHub Actions
+  - npm
 keywords:
+  - dependabot
+  - github
+  - security
+  - automation
+  - updates
 ---
 # Dependabot Setup
 
@@ -29,15 +36,23 @@ updates:
     schedule:
       interval: "weekly"
 ```
+
+### Notes
+
+- The file must live directly in .github/ — **not** in .github/workflows/.
+- You can view and manage Dependabot alerts in:
+    **Repository → Settings → Code security and analysis.**
 ## Why It Matters
-Explain how this connects to your projects or knowledge.
+This ensures your dependencies stay secure and modern without manual checking.
+Dependabot helps prevent vulnerabilities from leaking into production and keeps GitHub Actions workflows compatible with the latest versions.
 
 ## Related 
+- [[Workflows]]
+- [[Commitlint]]
+- [[Husky]]
+- [[Lint-Staged]]
+- [[Biome]]
 
 ## References
-- [GitHub Repository](#)
-- [Live Demo](#)
-- [Official Docs](https://react.dev)
-- [Article](#)
-- [Video](#)
-- Obsidian link
+- https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference
+- https://docs.github.com/en/code-security/dependabot/dependabot-quickstart-guide
