@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Lint-Staged.md",
+                "file": "Portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Lint-Staged"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -462,8 +462,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ccf9c7a186e7bc44",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "Lint-Staged.md",
     "Portfolio/Building the Portolio.md",
     "Husky.md",
     "Vitest.md",
@@ -476,7 +477,6 @@
     "README Badges.md",
     "Dependabot.md",
     "Biome.md",
-    "Lint-Staged.md",
     "Next.md",
     "Portfolio",
     "Example 3.md",
