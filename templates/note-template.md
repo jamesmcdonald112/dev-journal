@@ -1,17 +1,9 @@
 ---
 title: <% tp.file.title %>
-tags:
+status: draft
 date: <% tp.date.now("YYYY-MM-DD") %>
 summary:
 ---
-
 # <% tp.file.title %>
 
-## 🧠 Summary
-<% tp.cursor() %>
-
-## 💡 Key Points
-- 
-
-## 🔗 Related Notes
-- 
+<% tp.file.cursor(1) %>

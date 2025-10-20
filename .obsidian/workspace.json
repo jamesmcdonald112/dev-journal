@@ -321,86 +321,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "frontend/note.md",
+                "file": "templates/learning-note.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "note"
-            }
-          },
-          {
-            "id": "c437fcbbff41290b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 1.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 1"
-            }
-          },
-          {
-            "id": "43d1d755d25ca814",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/test-template.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "test-template"
-            }
-          },
-          {
-            "id": "3871b1ece02100f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 2"
-            }
-          },
-          {
-            "id": "f7751d6dbff803e6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 3"
-            }
-          },
-          {
-            "id": "9fe0820686550880",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Untitled 4.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Untitled 4"
+              "title": "learning-note"
             }
           }
         ],
-        "currentTab": 27
+        "currentTab": 22
       }
     ],
     "direction": "vertical"
@@ -432,7 +362,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:<% tp.file.folder(true) .split('/') .map(f => f.toLowerCase().replace(/\\s+/g, '-')) .join('/') %>",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -560,37 +490,40 @@
       "templater-obsidian:Templater": false
     }
   },
-  "active": "9fe0820686550880",
+  "active": "46f3fe36e8c30e73",
   "lastOpenFiles": [
-    "Untitled 3.md",
-    "Untitled 4.md",
-    "Untitled 2.md",
+    "templates/case-study.md",
+    "templates/learning-note.md",
+    "templates/note-template.md",
+    "case-studies/frontend/ui/case 1.md",
+    "case-studies/frontend/ui",
+    "class-variance-authority (CVA).md",
+    "case-studies/frontend",
+    "Untitled",
+    "case-studies/Untitled.md",
+    "Article Template.md",
     "2025-10-21.md",
+    "_scripts.md",
+    "Untitled 3.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Untitled 4.md",
     "templates/test-template.md",
-    "templates/TEMPLATE_CaseStudy.md",
     "templates/TEMPLATE_BaseNote.md.md",
+    "templates/TEMPLATE_CaseStudy.md",
+    "Untitled 2.md",
     "frontend/note.md",
     "<% tp.date.now(\"YYYY-MM-DD\", -1) %>.md",
     "Portfolio/Building the Portolio.md",
-    "_scripts.md",
-    "Untitled 1.md",
     "frontend",
     "case-studies",
     "Obsidian.md",
-    "Untitled.md",
-    "Article Template.md",
     "templates",
     "Commitlint.md",
     "Husky.md",
     "Lint-Staged.md",
     "Vitest.md",
     "Workflows.md",
-    "Portfolio/Obsidian Style Graph.md",
-    "Next MDX Remote.md",
-    "Next Project Setup.md",
-    "VS Code Workspace Settings.md",
-    "README Badges.md",
-    "Dependabot.md",
     "Portfolio"
   ]
 }
