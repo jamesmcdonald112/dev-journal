@@ -335,12 +335,22 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/clsx.md",
+                "file": "learning-notes/Obsidian.md",
                 "mode": "source",
-                "source": false
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
               "icon": "lucide-file",
-              "title": "clsx"
+              "title": "Obsidian"
             }
           }
         ],
@@ -376,7 +386,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:<% tp.file.folder(true) .split('/') .map(f => f.toLowerCase().replace(/\\s+/g, '-')) .join('/') %>",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -445,7 +455,46 @@
             }
           },
           {
-            "id": "eece06ea5352beab",
+            "id": "9cd52009346fd558",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "learning-notes/Obsidian.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Obsidian"
+            }
+          },
+          {
+            "id": "010f9a61f000fb69",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          },
+          {
+            "id": "8a3a66855992048e",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "f7a96c8d89dcee50",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -458,34 +507,9 @@
               "icon": "lucide-tags",
               "title": "Tags"
             }
-          },
-          {
-            "id": "9cd52009346fd558",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "Biome.md",
-                "followCursor": false,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-list",
-              "title": "Outline of Biome"
-            }
-          },
-          {
-            "id": "010f9a61f000fb69",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {},
-              "icon": "git-pull-request",
-              "title": "Source Control"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -501,13 +525,23 @@
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
       "obsidian-git:Open Git source control": false,
-      "templater-obsidian:Templater": false
+      "templater-obsidian:Templater": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "templates:Insert template": false
     }
   },
   "active": "04b8763e11579bf2",
   "lastOpenFiles": [
-    "Screenshot 2025-10-20 at 15.17.04.png",
+    "templates/learning-note.md",
+    "templates/case-study.md",
+    "learning-notes/Obsidian.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "case-studies/portfolio/Obsidian Style Graph.md",
+    "learning-notes/Biome.md",
     "learning-notes/clsx.md",
+    "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
+    "Screenshot 2025-10-20 at 15.17.32.png",
+    "Screenshot 2025-10-20 at 15.17.04.png",
     "attatchments/diagrams",
     "attatchments/images",
     "README.md",
@@ -515,16 +549,12 @@
     "learning-notes/Next.md",
     "attatchments",
     "learning-notes/class-variance-authority (CVA).md",
-    "learning-notes/Biome.md",
     "learning-notes/Zod.md",
     "learning-notes",
     "learning.md",
-    "learning-notes/Obsidian.md",
     "learning-notes/Husky.md",
     "Example 2.md",
     "Example 3.md",
-    "templates/case-study.md",
-    "templates/learning-note.md",
     "templates/note-template.md",
     "case-studies/frontend/ui/case 1.md",
     "case-studies/frontend/ui",
@@ -537,7 +567,6 @@
     "Untitled 1.md",
     "Untitled 4.md",
     "templates/test-template.md",
-    "templates/TEMPLATE_BaseNote.md.md",
     "frontend",
     "case-studies",
     "templates",
