@@ -335,7 +335,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Obsidian.md",
+                "file": "learning-notes/Dependabot.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -350,7 +350,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "Dependabot"
             }
           }
         ],
@@ -460,13 +460,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/Obsidian.md",
+                "file": "learning-notes/Dependabot.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Obsidian"
+              "title": "Outline of Dependabot"
             }
           },
           {
@@ -532,10 +532,13 @@
   },
   "active": "04b8763e11579bf2",
   "lastOpenFiles": [
+    "learning-notes/Untitled.md",
+    "learning-notes/Dependabot.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
+    "learning-notes/Obsidian",
     "templates/learning-note.md",
     "templates/case-study.md",
-    "learning-notes/Obsidian.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "learning-notes/Biome.md",
     "learning-notes/clsx.md",
@@ -545,7 +548,6 @@
     "attatchments/diagrams",
     "attatchments/images",
     "README.md",
-    "learning-notes/Untitled.md",
     "learning-notes/Next.md",
     "attatchments",
     "learning-notes/class-variance-authority (CVA).md",
@@ -566,10 +568,8 @@
     "Untitled 3.md",
     "Untitled 1.md",
     "Untitled 4.md",
-    "templates/test-template.md",
     "frontend",
     "case-studies",
-    "templates",
-    "case-studies/portfolio"
+    "templates"
   ]
 }

@@ -1,5 +1,5 @@
 ## Setup
-- [[Obsidian]]
+- [[Setting Up Obsidian for Technical Note-Taking]]
 - [[Next]]
 - [[Biome]]
 - [[Husky]]
