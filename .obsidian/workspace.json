@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Commitlint.md",
+                "file": "Portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Commitlint"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -464,10 +464,10 @@
   },
   "active": "ccf9c7a186e7bc44",
   "lastOpenFiles": [
-    "Portfolio/Building the Portolio.md",
     "Commitlint.md",
-    "Lint-Staged.md",
+    "Portfolio/Building the Portolio.md",
     "Husky.md",
+    "Lint-Staged.md",
     "Vitest.md",
     "Workflows.md",
     "Portfolio/Obsidian Style Graph.md",

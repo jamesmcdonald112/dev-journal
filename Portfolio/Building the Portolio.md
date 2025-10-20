@@ -9,3 +9,15 @@
 - [[Commitlint]]
 - [[Workflows]]
 - [[Vitest]]
+
+
+
+
+## Commands 
+
+### Commiting
+To run [[Commitlint]] prompt generator. 
+```bash
+git add .
+npm run commit
+```
