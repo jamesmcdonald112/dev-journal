@@ -1,4 +1,5 @@
 ## Setup
+- [[Obsidian]]
 - [[Next]]
 - [[Biome]]
 - [[Husky]]

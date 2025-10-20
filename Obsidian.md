@@ -1,0 +1,1 @@
+Allow templates in settings
