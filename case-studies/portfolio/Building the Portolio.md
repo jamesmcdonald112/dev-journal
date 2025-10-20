@@ -8,7 +8,7 @@
 - [[README Badges]]
 - [[VS Code Workspace Settings]]
 - [[Commitlint]]
-- [[Workflows]]
+- [[Github Workflows]]
 - [[Testing Environment Setup]]
 - [[Vitest]]
 - [[Jsdom]]

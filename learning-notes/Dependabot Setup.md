@@ -47,7 +47,7 @@ This ensures your dependencies stay secure and modern without manual checking.
 Dependabot helps prevent vulnerabilities from leaking into production and keeps GitHub Actions workflows compatible with the latest versions.
 
 ## Related 
-- [[Workflows]]
+- [[Github Workflows]]
 - [[Commitlint]]
 - [[Husky]]
 - [[Lint-Staged]]

@@ -57,3 +57,4 @@ This setup mirrors real browser behaviour while staying lightweight and fast, en
 - https://testing-library.com/docs/react-testing-library/intro/
 - https://testing-library.com/docs/user-event/intro/
 - https://testing-library.com/docs/ecosystem-jest-dom/
+- https://github.com/jsdom/jsdom

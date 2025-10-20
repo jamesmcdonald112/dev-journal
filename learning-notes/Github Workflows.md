@@ -31,3 +31,6 @@ jobs:
 ## Resources
 - https://biomejs.dev/recipes/continuous-integration/
 - https://docs.github.com/en/actions/how-tos/write-workflows
+- https://github.com/marketplace?type=actions
+- https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs
+- https://stevekinney.com/courses/testing/continuous-integration

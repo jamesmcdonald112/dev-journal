@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Testing Environment Setup.md",
+                "file": "learning-notes/Github Workflows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Testing Environment Setup"
+              "title": "Github Workflows"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Testing Environment Setup.md",
+                "file": "learning-notes/Github Workflows.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Testing Environment Setup"
+              "title": "Outline of Github Workflows"
             }
           },
           {
@@ -209,10 +209,11 @@
   },
   "active": "18a11e90a87ad08d",
   "lastOpenFiles": [
+    "learning-notes/Jsdom.md",
+    "Testing Environment Setup.md",
     "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "[[Jest-Dom.md",
-    "Testing Environment Setup.md",
     "User-Event.md",
     "learning-notes/React Testing Library.md",
     "learning-notes/Vitest.md",
@@ -244,7 +245,6 @@
     "case-studies/frontend/ui/case 1.md",
     "case-studies/frontend/ui",
     "case-studies/frontend",
-    "case-studies/Untitled.md",
     "frontend",
     "case-studies",
     "templates"
