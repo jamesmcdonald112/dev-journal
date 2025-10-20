@@ -321,12 +321,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian.md",
+                "file": "templates/TEMPLATE_CaseStudy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Obsidian"
+              "title": "TEMPLATE_CaseStudy"
             }
           }
         ],
@@ -487,16 +487,18 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "bases:Create new base": false,
-      "obsidian-git:Open Git source control": false
+      "obsidian-git:Open Git source control": false,
+      "templater-obsidian:Templater": false
     }
   },
   "active": "46f3fe36e8c30e73",
   "lastOpenFiles": [
-    "templates/TEMPLATE_CaseStudy.md",
-    "Untitled.md",
     "templates/TEMPLATE_BaseNote.md.md",
-    "Article Template.md",
+    "case-studies",
+    "templates/TEMPLATE_CaseStudy.md",
     "Obsidian.md",
+    "Untitled.md",
+    "Article Template.md",
     "templates",
     "Portfolio/Building the Portolio.md",
     "Commitlint.md",
@@ -518,7 +520,6 @@
     "Lucide React.md",
     "class-variance-authority (CVA).md",
     "clsx.md",
-    "Zod.md",
-    "React Query.md"
+    "Zod.md"
   ]
 }
