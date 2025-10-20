@@ -10,8 +10,12 @@
 - [[Commitlint]]
 - [[Workflows]]
 - [[Vitest]]
+- [[Jsdom]]
 - [[React Testing Library]]
 - [[Zod]]
+- [[Jest-Dom]]
+- [[User-Event]]
+- [[Tailwind]]
 
 
 

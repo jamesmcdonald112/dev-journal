@@ -4,381 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "8f90a82eacbf2abe",
+        "id": "91f2dfc7b5c6c6a2",
         "type": "tabs",
         "children": [
           {
-            "id": "9f566673afc1fafb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Example 2.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Example 2"
-            }
-          },
-          {
-            "id": "6d0d53603cae881a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Example 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Example 3"
-            }
-          },
-          {
-            "id": "b11acf31f56853db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Biome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Biome"
-            }
-          },
-          {
-            "id": "455b9321282370f3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "React Query.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "React Query"
-            }
-          },
-          {
-            "id": "447dcae4dfbe6156",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Zod.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Zod"
-            }
-          },
-          {
-            "id": "6e1c99352516c6c3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next MDX Remote.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Next MDX Remote"
-            }
-          },
-          {
-            "id": "5b6a181b61fda360",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "clsx.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "clsx"
-            }
-          },
-          {
-            "id": "8ca9f1bc1daf5234",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "class-variance-authority (CVA).md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "class-variance-authority (CVA)"
-            }
-          },
-          {
-            "id": "060e3c0d39fcb34e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Biome.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Biome"
-            }
-          },
-          {
-            "id": "ad80dd6685746e55",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Example 3.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Example 3"
-            }
-          },
-          {
-            "id": "7c1d7d06201ea92b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Obsidian Style Graph.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Obsidian Style Graph"
-            }
-          },
-          {
-            "id": "131f9c0998134628",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Next Project Setup.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Next Project Setup"
-            }
-          },
-          {
-            "id": "5c574c9f9f2ae128",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Husky.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Husky"
-            }
-          },
-          {
-            "id": "9ac690a08dbc65a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "f099baeca00042c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "2b1ac248b7f8d629",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "51c965bcc8fbce4f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "64b27e4e31f66cb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "08880b27b9e718b8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "89d4fe6c78cc9a62",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "ccf9c7a186e7bc44",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "0d3c44981274601c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/TEMPLATE_BaseNote.md.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "TEMPLATE_BaseNote.md"
-            }
-          },
-          {
-            "id": "46f3fe36e8c30e73",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning-notes/Next.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Next"
-            }
-          },
-          {
-            "id": "04b8763e11579bf2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Building the Portolio"
-            }
-          },
-          {
-            "id": "ddef68fab2381b14",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "learning-notes/Vitest.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Vitest"
-            }
-          },
-          {
-            "id": "1d70e17d7fa579c2",
+            "id": "79830324ffe28365",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -401,8 +31,7 @@
               "title": "Building the Portolio"
             }
           }
-        ],
-        "currentTab": 25
+        ]
       }
     ],
     "direction": "vertical"
@@ -455,8 +84,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -579,11 +207,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "1d70e17d7fa579c2",
+  "active": "79830324ffe28365",
   "lastOpenFiles": [
-    "learning-notes/Vitest.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
+    "User-Event.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/React Testing Library.md",
+    "learning-notes/Vitest.md",
     "learning-notes/Biome.md",
     "learning-notes/Next Project Setup.md",
     "learning-notes/Dependabot Setup.md",
@@ -615,7 +245,6 @@
     "case-studies/Untitled.md",
     "Article Template.md",
     "2025-10-21.md",
-    "_scripts.md",
     "frontend",
     "case-studies",
     "templates"
