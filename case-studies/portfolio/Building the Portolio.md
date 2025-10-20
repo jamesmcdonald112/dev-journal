@@ -9,6 +9,7 @@
 - [[VS Code Workspace Settings]]
 - [[Commitlint]]
 - [[Workflows]]
+- [[Testing Environment Setup]]
 - [[Vitest]]
 - [[Jsdom]]
 - [[React Testing Library]]

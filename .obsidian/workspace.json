@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79830324ffe28365",
+            "id": "18a11e90a87ad08d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "Testing Environment Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Testing Environment Setup"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "Testing Environment Setup.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Building the Portolio"
+              "title": "Outline of Testing Environment Setup"
             }
           },
           {
@@ -207,11 +207,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "79830324ffe28365",
+  "active": "18a11e90a87ad08d",
   "lastOpenFiles": [
-    "case-studies/portfolio/Obsidian Style Graph.md",
-    "User-Event.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "case-studies/portfolio/Obsidian Style Graph.md",
+    "[[Jest-Dom.md",
+    "Testing Environment Setup.md",
+    "User-Event.md",
     "learning-notes/React Testing Library.md",
     "learning-notes/Vitest.md",
     "learning-notes/Biome.md",
@@ -243,8 +245,6 @@
     "case-studies/frontend/ui",
     "case-studies/frontend",
     "case-studies/Untitled.md",
-    "Article Template.md",
-    "2025-10-21.md",
     "frontend",
     "case-studies",
     "templates"
