@@ -10,6 +10,8 @@
 - [[Commitlint]]
 - [[Workflows]]
 - [[Vitest]]
+- [[React Testing Library]]
+- [[Zod]]
 
 
 

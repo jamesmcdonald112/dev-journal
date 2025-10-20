@@ -335,7 +335,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Dependabot Setup.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -350,11 +350,59 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dependabot Setup"
+              "title": "Building the Portolio"
+            }
+          },
+          {
+            "id": "ddef68fab2381b14",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning-notes/Vitest.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Vitest"
+            }
+          },
+          {
+            "id": "1d70e17d7fa579c2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "case-studies/portfolio/Building the Portolio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Building the Portolio"
             }
           }
         ],
-        "currentTab": 23
+        "currentTab": 25
       }
     ],
     "direction": "vertical"
@@ -407,7 +455,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -460,13 +509,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/Dependabot Setup.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Dependabot Setup"
+              "title": "Outline of Building the Portolio"
             }
           },
           {
@@ -530,17 +579,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "04b8763e11579bf2",
+  "active": "1d70e17d7fa579c2",
   "lastOpenFiles": [
-    "learning-notes/Untitled.md",
-    "learning-notes/Dependabot Setup.md",
+    "learning-notes/Vitest.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "case-studies/portfolio/Obsidian Style Graph.md",
+    "learning-notes/Biome.md",
+    "learning-notes/Next Project Setup.md",
+    "learning-notes/Dependabot Setup.md",
+    "learning-notes/Untitled.md",
     "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "learning-notes/Obsidian",
     "templates/learning-note.md",
     "templates/case-study.md",
-    "case-studies/portfolio/Obsidian Style Graph.md",
-    "learning-notes/Biome.md",
     "learning-notes/clsx.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
@@ -565,9 +616,6 @@
     "Article Template.md",
     "2025-10-21.md",
     "_scripts.md",
-    "Untitled 3.md",
-    "Untitled 1.md",
-    "Untitled 4.md",
     "frontend",
     "case-studies",
     "templates"
