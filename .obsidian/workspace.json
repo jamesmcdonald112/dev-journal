@@ -293,12 +293,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Portfolio/Building the Portolio.md",
+                "file": "Commitlint.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Commitlint"
             }
           }
         ],
@@ -462,17 +462,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "ccf9c7a186e7bc44",
   "lastOpenFiles": [
-    "Lint-Staged.md",
     "Portfolio/Building the Portolio.md",
+    "Commitlint.md",
+    "Lint-Staged.md",
     "Husky.md",
     "Vitest.md",
     "Workflows.md",
     "Portfolio/Obsidian Style Graph.md",
     "Next MDX Remote.md",
     "Next Project Setup.md",
-    "Commitlint.md",
     "VS Code Workspace Settings.md",
     "README Badges.md",
     "Dependabot.md",
