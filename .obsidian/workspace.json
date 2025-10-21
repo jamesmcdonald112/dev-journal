@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/README.md",
+                "file": "learning-notes/README Template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "README Template"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/README.md",
+                "file": "learning-notes/README Template.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of README Template"
             }
           },
           {
@@ -209,6 +209,8 @@
   },
   "active": "18a11e90a87ad08d",
   "lastOpenFiles": [
+    "learning-notes/README.md",
+    "learning-notes/README Template.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Jest-Dom.md",
     "learning-notes/Testing Environment Setup.md",
@@ -216,7 +218,6 @@
     "learning-notes/README Badges.md",
     "[[Jest-Dom.md",
     "learning-notes/Github Workflows.md",
-    "learning-notes/README.md",
     "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "learning-notes/Jsdom.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
@@ -242,7 +243,6 @@
     "learning-notes",
     "learning.md",
     "learning-notes/Husky.md",
-    "Example 2.md",
     "case-studies/frontend/ui",
     "case-studies/frontend",
     "frontend",
