@@ -15,5 +15,24 @@ The pre-commit file should look like this:
 npm test
 npx lint-staged
 ```
+
+Ensure you install husdky as a dev dependancy
+```bash
+npm install husky --save-dev
+```
+
+To avoid errors in the ci.yml workflow file, use the follwong code found on the husky offical docs - https://typicode.github.io/husky/how-to.html
+```js
+// Skip Husky install in production and CI
+if (process.env.NODE_ENV === 'production' || process.env.CI === 'true') {
+  process.exit(0);
+}
+
+const husky = (await import('husky')).default;
+console.log(husky());
+```
 ## Resources
 - https://typicode.github.io/husky/
+  
+  Related
+- [[Github Workflows]]

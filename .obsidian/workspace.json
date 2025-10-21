@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/README.md",
+                "file": "learning-notes/Husky.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README"
+              "title": "Husky"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/README.md",
+                "file": "learning-notes/Husky.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README"
+              "title": "Outline of Husky"
             }
           },
           {
@@ -209,9 +209,10 @@
   },
   "active": "18a11e90a87ad08d",
   "lastOpenFiles": [
-    "learning-notes/README Template.md",
-    "learning-notes/README.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/Vitest.md",
+    "learning-notes/README.md",
+    "learning-notes/README Template.md",
     "learning-notes/Jest-Dom.md",
     "learning-notes/Testing Environment Setup.md",
     "learning-notes/User-Event.md",
@@ -222,7 +223,6 @@
     "learning-notes/Jsdom.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "learning-notes/React Testing Library.md",
-    "learning-notes/Vitest.md",
     "learning-notes/Biome.md",
     "learning-notes/Next Project Setup.md",
     "learning-notes/Dependabot Setup.md",

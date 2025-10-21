@@ -38,6 +38,12 @@ npx create-next-app@latest --example with-vitest with-vitest-app
 this is making me think abot gettig a command that can set up multiple things at once. Lets look into it.
 
 Vitest and React Testing Library are frequently used together for **Unit Testing**.
+ make sure to install coverage 
+ ```bash
+ npm install -D @vitest/coverage-v8
+ ```
+otherwise the ci file will fail
+
 
 
 
