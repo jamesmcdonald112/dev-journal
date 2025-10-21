@@ -15,3 +15,12 @@ In your **globals.css** (or another imported stylesheet), you can write:
   --color-warning: #f59e0b;
 }
 ```
+
+
+if yo uget an error in layout.tsx due to imporitng globals.css, do this
+
+Add a declaration file to silence the TS warning (optional but clean):
+```ts
+// types/global.d.ts  (or css.d.ts)
+declare module '*.css';
+```
