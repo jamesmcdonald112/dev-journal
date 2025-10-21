@@ -1,7 +1,35 @@
-Must be added to a folder called `.github/workflows/`
+---
+title: Github Workflows
+type: case-study
+status: draft
+date: 2025-10-21
+updated: 2025-10-21
+summary: GitHub Actions automates testing, linting, builds, and deployments directly from your repository.Each .yml file inside .github/workflows/ defines when to run, what jobs to perform, and which steps to execute.These workflows ensure your code quality, automate repetitive tasks, and provide visual feedback on pull requests.
+tech_stack:
+  - GitHub Actions
+  - YAML
+  - Ubuntu Runner
+  - Node.js
+  - Biome
+  - Vitest
+keywords:
+  - ci/di
+  - yaml
+  - workflow
+  - jobs
+  - actions
+  - steps
+  - runners
+  - automation
+---
+# Github Workflows
 
-Example [[Biome]] workflow found on their site:
+## What I Learned
+Workflows in GitHub Actions are written in YAML and define automated tasks that run when triggered (e.g., on a push or pull request).
+Each workflow file contains jobs, and each job contains steps. Steps can either **run a command** or **use a predefined Action** from the GitHub Marketplace.
 
+## Example / Code Snippet
+Biome Workflow: 
 ```yaml
 name: Code quality
 
@@ -27,54 +55,59 @@ jobs:
         run: biome ci .
 ```
 
+| **Line**     | **Meaning**                                        |
+| ------------ | -------------------------------------------------- |
+| name:        | Appears in the Actions tab — any label you choose. |
+| on:          | Defines triggers (when to run).                    |
+| jobs:        | Required keyword — defines one or more jobs.       |
+| quality:     | Internal job ID (you choose).                      |
+| runs-on:     | Chooses OS runner (e.g., Ubuntu, Windows, macOS).  |
+| permissions: | Restricts access to repo contents (optional).      |
+| steps:       | List of tasks (either uses: or run:).              |
+## Why It Matters
+GitHub Actions automatically runs tests, linting, and builds — catching issues before merging to main.
+It ensures consistent project quality, automates boring tasks, and integrates tightly with your PR workflow.
 
-Every .yml file inside
-```
-.github/workflows/
-```
+## **Core Concepts (Simplified)**
 
-is a GitHub workflow definition.
+### name:
+Visible label in the GitHub Actions UI.
+Purely for readability — doesn’t affect logic.
 
-Each file describes:
-- When it should run (on:)
-- What jobs to run (jobs:)
-- What steps each job should perform (steps:)
+---
+### on: — Workflow Triggers
+[Docs → Workflow Syntax: on](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#on)
 
-### Name
-You can name it anything you want. This is what appears in the GitHub "Actions" tab.
-
-### On: - When the Workflow Runs
-[GitHub Docs → “Workflow syntax: on”](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#on) defines the triggers, i.e., what causes this workflow to run. [GitHub Docs → Event Trigger Workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows) gives a list of possible triggers to use such as: 
+Defines _when_ the workflow should run.
 ```yaml
 on:
-	push:
-	pull_request:
+  push:
+  pull_request:
 ```
 
-The docs go into detail about using triggers and their filters and schedules, allowing you to make it more specific:
+You can target specific branches or allow manual runs:
 ```yaml
 on:
   push:
     branches: [main]
   pull_request:
     branches: [main, dev]
-  workflow_dispatch:  # lets you run it manually from the Actions tab
+  workflow_dispatch: # manual trigger
 ```
 
-
-### Jobs: 
-[GitHub Docs → “Workflow syntax: job](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
+---
+### jobs:
+[Docs → Workflow Syntax: jobs](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs)
 
 Each workflow must have at least one job:
+
 ```yaml
 jobs:
   build-and-test:
+    name: Build and test project
 ```
-- jobs: keyword (required)
-- build-and-test: your chosen name (you can call it anything you like). It only needs to be unique in that file.
 
-If a part of the file requires the other another ob o the file to be complete you can sepcify that:
-
+You can control job order with dependencies:
 ```yaml
 jobs:
   job1:
@@ -84,44 +117,86 @@ jobs:
     needs: [job1, job2]
 ```
 
-### Runners:
+---
+### Runners
 
+Defines what machine executes the job.
 
-You must also select what machine to use to execute these commands. Commly used is:
-
+Common option:
 ```yaml
 runs-on: ubuntu-latest
 ```
+Other options: windows-latest, macos-latest
 
+---
 ### Steps
-👉 [GitHub Docs → “jobs.<job_id>.steps”](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps)
-There are two options. Use a predefined action:
+[Docs → jobs.<job_id>.steps](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps)
+
+Each job consists of **steps**, which are executed in order.
+
+You can:
+- Use a prebuilt **Action**
+- Or **run your own shell command**
+
 ```yaml
-uses: actions/checkout@v4
+steps:
+  - name: Checkout repository
+    uses: actions/checkout@v4
+
+  - name: Install dependencies
+    run: npm ci
 ```
 
-or run a custom command:
-```yaml
-run: npm ci
+---
+### uses: — Predefined Actions
+
+Runs existing Actions published on GitHub.
+
+Pattern: {owner}/{repo}@{version}
+
+| **Example**                | **Description**                  | **Docs**                                                      |
+| -------------------------- | -------------------------------- | ------------------------------------------------------------- |
+| actions/checkout@v4        | Clones your repo into the runner | [actions/checkout](https://github.com/actions/checkout)       |
+| actions/setup-node@v4      | Installs Node.js                 | [setup-node](https://github.com/actions/setup-node)           |
+| biomejs/setup-biome@v2     | Installs Biome for linting       | [biomejs/setup-biome](https://github.com/biomejs/setup-biome) |
+| actions/upload-artifact@v4 | Uploads test/build artifacts     | [upload-artifact](https://github.com/actions/upload-artifact) |
+
+---
+### run: — Custom Commands
+
+Executes shell commands (just like in your terminal):
+
+```yaml 
+run: npm run lint
+run: biome ci .
+run: npm run test
 ```
 
-you can mix both freely.
+---
 
+## **Finding Available Actions**
 
-### Uses
-- actions/checkout@v4 = clones your repo so you can access files
-- actions/setup-node@v4 = installs and configures Node.js
-- biomejs/setup-biome@v2 = installs Biome
-- actions/upload-artifact@v4 = uploads files from your job (e.g., test reports)
+Browse the **GitHub Marketplace** to find thousands of ready-to-use Actions:
 
-The pattern is always:
+👉 [GitHub Marketplace – Actions](https://github.com/marketplace?type=actions)
 
-{owner}/{repo}@{version}
+---
 
-## Resources
-- https://biomejs.dev/recipes/continuous-integration/
-- https://docs.github.com/en/actions/how-tos/write-workflows
-- https://github.com/marketplace?type=actions
-- https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs
-- https://stevekinney.com/courses/testing/continuous-integration
-- https://docs.github.com/en/actions/reference/workflows-and-actions/workflow-syntax#on
+## **Related**
+
+- [[Biome]]
+- [[Commitlint]]
+- [[Dependabot]]
+- [[Vitest]]
+
+---
+## **References**
+
+- [GitHub Workflow Syntax](https://docs.github.com/en/actions/how-tos/write-workflows)
+    
+- [Events That Trigger Workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
+
+- [GitHub Marketplace: Actions](https://github.com/marketplace?type=actions)
+- [Node.js Build & Test Example](https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs)
+- [Biome CI Example](https://biomejs.dev/recipes/continuous-integration/)
+- [Steve Kinney – CI with Vitest](https://stevekinney.com/courses/testing/continuous-integration)
