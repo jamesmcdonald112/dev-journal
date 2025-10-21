@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Tailwind.md",
+                "file": "learning-notes/express/Create a Node Project.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Tailwind"
+              "title": "Create a Node Project"
             }
           }
         ],
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tailwind.md",
+                "file": "learning-notes/express/Create a Node Project.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Tailwind"
+              "title": "Outline of Create a Node Project"
             }
           },
           {
@@ -282,10 +282,15 @@
   },
   "active": "9b4eaed0a256db83",
   "lastOpenFiles": [
+    "templates/learning-note.md",
+    "learning-notes/express/Create a Node Project.md",
+    "GitHub Projects.md",
+    "learning-notes/Express Vs Spring Vs.md",
+    "learning-notes/express vs spring boot vs nest",
     "Tailwind.md",
+    "learning-notes/express",
     "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
-    "GitHub Projects.md",
     "Vercel.md",
     "learning-notes/Husky.md",
     "learning-notes/Vitest.md",
@@ -297,15 +302,13 @@
     "learning-notes/README Badges.md",
     "[[Jest-Dom.md",
     "learning-notes/Github Workflows.md",
-    "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
+    "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "learning-notes/Jsdom.md",
     "learning-notes/React Testing Library.md",
     "learning-notes/Biome.md",
     "learning-notes/Next Project Setup.md",
     "learning-notes/Dependabot Setup.md",
-    "learning-notes/Untitled.md",
-    "learning-notes/Obsidian",
-    "templates/learning-note.md",
+    "learning-notes/obsidian",
     "templates/case-study.md",
     "learning-notes/clsx.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
@@ -313,13 +316,10 @@
     "Screenshot 2025-10-20 at 15.17.04.png",
     "attatchments/diagrams",
     "attatchments/images",
-    "learning-notes/Next.md",
     "attatchments",
     "learning-notes",
     "case-studies/frontend/ui",
     "case-studies/frontend",
-    "frontend",
-    "case-studies",
-    "templates"
+    "frontend"
   ]
 }

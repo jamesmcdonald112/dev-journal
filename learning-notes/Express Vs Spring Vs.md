@@ -1,14 +1,14 @@
 ---
-title: <% tp.file.title %>
-type: learning-note
+title: Untitled
+type: case-study
 status: draft
-date: <% tp.date.now("YYYY-MM-DD") %>
-updated: <% tp.file.last_modified_date("YYYY-MM-DD") %>
+date: 2025-10-21
+updated: 2025-10-21
 summary:
 tech_stack:
 keywords:
 ---
-# <% tp.file.title %>
+# Untitled
 
 ## What I Learned
 Briefly describe the concept or issue.
