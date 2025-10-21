@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/node.js/Create a Node Project.md",
+                "file": "learning-notes/node.js/express/Create Express App.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Create a Node Project"
+              "title": "Create Express App"
             }
           }
         ],
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/node.js/Create a Node Project.md",
+                "file": "learning-notes/node.js/express/Create Express App.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Create a Node Project"
+              "title": "Outline of Create Express App"
             }
           },
           {
@@ -280,11 +280,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "9b4eaed0a256db83",
   "lastOpenFiles": [
+    "learning-notes/node.js/Create a Node Project.md",
+    "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/node.js",
     "package-lock.json.md",
-    "learning-notes/node.js/Create a Node Project.md",
     "templates/learning-note.md",
     "GitHub Projects.md",
     "learning-notes/Express Vs Spring Vs.md",
@@ -319,7 +320,6 @@
     "attatchments",
     "learning-notes",
     "case-studies/frontend/ui",
-    "case-studies/frontend",
-    "frontend"
+    "case-studies/frontend"
   ]
 }
