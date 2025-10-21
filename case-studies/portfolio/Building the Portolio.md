@@ -18,6 +18,8 @@
 - [[User-Event]]
 - [[Tailwind]]
 - [[README]]
+- [[Vercel]]
+- [[GitHub Projects]]
 
 
 

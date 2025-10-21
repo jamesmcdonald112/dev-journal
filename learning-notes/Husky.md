@@ -31,6 +31,17 @@ if (process.env.NODE_ENV === 'production' || process.env.CI === 'true') {
 const husky = (await import('husky')).default;
 console.log(husky());
 ```
+
+This ensures Husky only installs _locally_ —
+
+it quietly skips on CI or production servers.
+
+Update package.json to use the fule instad of calling Husky directly
+```json
+"prepare": "node .husky/install.mjs"
+```
+
+This prevents CI from ever calling husky directly.
 ## Resources
 - https://typicode.github.io/husky/
   
