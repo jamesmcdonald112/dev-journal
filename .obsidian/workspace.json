@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/README Template.md",
+                "file": "learning-notes/README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "README Template"
+              "title": "README"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/README Template.md",
+                "file": "learning-notes/README.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of README Template"
+              "title": "Outline of README"
             }
           },
           {
@@ -209,8 +209,8 @@
   },
   "active": "18a11e90a87ad08d",
   "lastOpenFiles": [
-    "learning-notes/README.md",
     "learning-notes/README Template.md",
+    "learning-notes/README.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Jest-Dom.md",
     "learning-notes/Testing Environment Setup.md",
