@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Github Workflows.md",
+                "file": "learning-notes/Jest-Dom.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Github Workflows"
+              "title": "Jest-Dom"
             }
           }
         ]
@@ -137,13 +137,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/Github Workflows.md",
+                "file": "learning-notes/Jest-Dom.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Github Workflows"
+              "title": "Outline of Jest-Dom"
             }
           },
           {
@@ -207,21 +207,25 @@
       "templates:Insert template": false
     }
   },
-  "active": "18a11e90a87ad08d",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "learning-notes/Jsdom.md",
-    "Testing Environment Setup.md",
-    "case-studies/portfolio/Building the Portolio.md",
-    "case-studies/portfolio/Obsidian Style Graph.md",
+    "learning-notes/Testing Environment Setup.md",
+    "learning-notes/User-Event.md",
+    "learning-notes/README Badges.md",
     "[[Jest-Dom.md",
-    "User-Event.md",
+    "learning-notes/Github Workflows.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/README.md",
+    "learning-notes/Jest-Dom.md",
+    "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
+    "learning-notes/Jsdom.md",
+    "case-studies/portfolio/Obsidian Style Graph.md",
     "learning-notes/React Testing Library.md",
     "learning-notes/Vitest.md",
     "learning-notes/Biome.md",
     "learning-notes/Next Project Setup.md",
     "learning-notes/Dependabot Setup.md",
     "learning-notes/Untitled.md",
-    "learning-notes/Obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "learning-notes/Obsidian",
     "templates/learning-note.md",
     "templates/case-study.md",
@@ -231,7 +235,6 @@
     "Screenshot 2025-10-20 at 15.17.04.png",
     "attatchments/diagrams",
     "attatchments/images",
-    "README.md",
     "learning-notes/Next.md",
     "attatchments",
     "learning-notes/class-variance-authority (CVA).md",
@@ -240,9 +243,6 @@
     "learning.md",
     "learning-notes/Husky.md",
     "Example 2.md",
-    "Example 3.md",
-    "templates/note-template.md",
-    "case-studies/frontend/ui/case 1.md",
     "case-studies/frontend/ui",
     "case-studies/frontend",
     "frontend",

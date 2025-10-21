@@ -193,9 +193,7 @@ Browse the **GitHub Marketplace** to find thousands of ready-to-use Actions:
 ## **References**
 
 - [GitHub Workflow Syntax](https://docs.github.com/en/actions/how-tos/write-workflows)
-    
 - [Events That Trigger Workflows](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows)
-
 - [GitHub Marketplace: Actions](https://github.com/marketplace?type=actions)
 - [Node.js Build & Test Example](https://docs.github.com/en/actions/tutorials/build-and-test-code/nodejs)
 - [Biome CI Example](https://biomejs.dev/recipes/continuous-integration/)
