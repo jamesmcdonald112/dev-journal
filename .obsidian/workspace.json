@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GitHub Projects.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,11 +76,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "GitHub Projects"
+              "title": "Building the Portolio"
+            }
+          },
+          {
+            "id": "9b4eaed0a256db83",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -186,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GitHub Projects.md",
+                "file": "Tailwind.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of GitHub Projects"
+              "title": "Outline of Tailwind"
             }
           },
           {
@@ -256,12 +280,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "d4c359de8c159377",
+  "active": "9b4eaed0a256db83",
   "lastOpenFiles": [
-    "GitHub Projects.md",
+    "Tailwind.md",
     "case-studies/portfolio/Building the Portolio.md",
-    "Vercel.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
+    "GitHub Projects.md",
+    "Vercel.md",
     "learning-notes/Husky.md",
     "learning-notes/Vitest.md",
     "learning-notes/README.md",
@@ -290,7 +315,6 @@
     "attatchments/images",
     "learning-notes/Next.md",
     "attatchments",
-    "learning-notes/class-variance-authority (CVA).md",
     "learning-notes",
     "case-studies/frontend/ui",
     "case-studies/frontend",
