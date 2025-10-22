@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Gray-matter.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,11 +124,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Gray-matter"
+              "title": "Building the Portolio"
+            }
+          },
+          {
+            "id": "b8f79330f0c90c34",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Remark.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Remark"
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -234,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/Gray-matter.md",
+                "file": "Remark.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Gray-matter"
+              "title": "Outline of Remark"
             }
           },
           {
@@ -304,14 +328,14 @@
       "templates:Insert template": false
     }
   },
-  "active": "267afaec79b2fe2f",
+  "active": "b8f79330f0c90c34",
   "lastOpenFiles": [
-    "learning-notes/Tailwind’s Prose Classes.md",
-    "learning-notes/Gray-matter.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "Remark.md",
+    "learning-notes/Gray-matter.md",
+    "learning-notes/Tailwind’s Prose Classes.md",
     "rehype-highlight.md",
     "Tailwind-Typography.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/ISSUE_TEMPLATES.md",
     "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/node.js/Create a Node Project.md",
