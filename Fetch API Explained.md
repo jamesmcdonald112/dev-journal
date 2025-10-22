@@ -1,5 +1,5 @@
 ---
-title: GitHub REST API — Contents (Get repository content)
+title: Fetch API Explained
 type: learning-note
 status: draft
 date: 2025-10-22
@@ -8,7 +8,7 @@ summary:
 tech_stack:
 keywords:
 ---
-# GitHub REST API — Contents (Get repository content)
+# Fetch API Explained
 
 ## What I Learned
 Briefly describe the concept or issue.
@@ -22,5 +22,9 @@ Explain how this connects to your projects or knowledge.
 ## Related 
 
 ## References
-- [GitHub REST API Overview](https://docs.github.com/en/rest?apiVersion=2022-11-28)
-- 
+- [GitHub Repository](#)
+- [Live Demo](#)
+- [Official Docs](https://react.dev)
+- [Article](#)
+- [Video](#)
+- Obsidian link
