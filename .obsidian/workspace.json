@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Remark.md",
+                "file": "learning-notes/next/Creating a Page.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Remark"
+              "title": "Creating a Page"
             }
           }
         ],
@@ -258,13 +258,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Remark.md",
+                "file": "learning-notes/next/Creating a Page.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Remark"
+              "title": "Outline of Creating a Page"
             }
           },
           {
@@ -330,8 +330,10 @@
   },
   "active": "b8f79330f0c90c34",
   "lastOpenFiles": [
-    "case-studies/portfolio/Building the Portolio.md",
     "Remark.md",
+    "learning-notes/next/Creating a Page.md",
+    "learning-notes/next",
+    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Gray-matter.md",
     "learning-notes/Tailwind’s Prose Classes.md",
     "rehype-highlight.md",
@@ -358,7 +360,6 @@
     "learning-notes/User-Event.md",
     "learning-notes/README Badges.md",
     "[[Jest-Dom.md",
-    "learning-notes/Github Workflows.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
@@ -367,7 +368,6 @@
     "attatchments/images",
     "attatchments",
     "learning-notes",
-    "case-studies/frontend/ui",
-    "case-studies/frontend"
+    "case-studies/frontend/ui"
   ]
 }
