@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/node.js/express/Create Express App.md",
+                "file": "learning-notes/ISSUE_TEMPLATES.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Create Express App"
+              "title": "ISSUE_TEMPLATES"
             }
           }
         ],
@@ -210,13 +210,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/node.js/express/Create Express App.md",
+                "file": "learning-notes/ISSUE_TEMPLATES.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Create Express App"
+              "title": "Outline of ISSUE_TEMPLATES"
             }
           },
           {
@@ -282,8 +282,9 @@
   },
   "active": "9b4eaed0a256db83",
   "lastOpenFiles": [
-    "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js/express/Create Express App.md",
+    "learning-notes/ISSUE_TEMPLATES.md",
+    "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js",
     "package-lock.json.md",
     "templates/learning-note.md",
@@ -310,7 +311,6 @@
     "learning-notes/React Testing Library.md",
     "learning-notes/Biome.md",
     "learning-notes/Next Project Setup.md",
-    "learning-notes/Dependabot Setup.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
