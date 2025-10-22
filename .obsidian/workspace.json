@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/next/Creating a Page.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,11 +148,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Creating a Page"
+              "title": "Building the Portolio"
+            }
+          },
+          {
+            "id": "2fb5d2c6e6db29e3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tailwind.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Tailwind"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -258,13 +282,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/next/Creating a Page.md",
+                "file": "Tailwind.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Creating a Page"
+              "title": "Outline of Tailwind"
             }
           },
           {
@@ -328,12 +352,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "b8f79330f0c90c34",
+  "active": "2fb5d2c6e6db29e3",
   "lastOpenFiles": [
-    "Remark.md",
-    "learning-notes/next/Creating a Page.md",
-    "learning-notes/next",
+    "GitHub REST API — Contents (Get repository content).md",
     "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/next/Creating Pages in Next.js 14+.md",
+    "Remark.md",
+    "learning-notes/next",
     "learning-notes/Gray-matter.md",
     "learning-notes/Tailwind’s Prose Classes.md",
     "rehype-highlight.md",
@@ -359,7 +384,6 @@
     "learning-notes/Testing Environment Setup.md",
     "learning-notes/User-Event.md",
     "learning-notes/README Badges.md",
-    "[[Jest-Dom.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",

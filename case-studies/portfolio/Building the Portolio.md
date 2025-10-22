@@ -27,6 +27,10 @@
 - [[Gray-matter]]
 - [[Remark]]
 
+## Next Pages
+- Create a page for the notes. [[Creating Pages in Next.js 14+]]
+- [[GitHub REST API — Contents (Get repository content)]]
+
 ## Commands 
 
 ### Commiting
