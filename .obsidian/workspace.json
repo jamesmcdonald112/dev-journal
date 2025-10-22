@@ -304,9 +304,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "267afaec79b2fe2f",
   "lastOpenFiles": [
+    "learning-notes/Tailwind’s Prose Classes.md",
     "learning-notes/Gray-matter.md",
+    "Remark.md",
+    "rehype-highlight.md",
+    "Tailwind-Typography.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/ISSUE_TEMPLATES.md",
     "learning-notes/node.js/express/Create Express App.md",
@@ -331,10 +335,6 @@
     "learning-notes/README Badges.md",
     "[[Jest-Dom.md",
     "learning-notes/Github Workflows.md",
-    "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
-    "learning-notes/Jsdom.md",
-    "learning-notes/React Testing Library.md",
-    "learning-notes/Biome.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
