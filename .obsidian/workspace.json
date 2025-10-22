@@ -181,7 +181,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fetch API Explained.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -196,7 +196,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fetch API Explained"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -306,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Fetch API Explained.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Fetch API Explained"
+              "title": "Outline of Building the Portolio"
             }
           },
           {
@@ -378,8 +378,8 @@
   },
   "active": "8ff37c16dc77bd1a",
   "lastOpenFiles": [
-    "GitHub REST API — Contents (Get repository content).md",
     "Fetch API Explained.md",
+    "GitHub REST API — Contents (Get repository content).md",
     "Tailwind.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/next/Creating Pages in Next.js 14+.md",

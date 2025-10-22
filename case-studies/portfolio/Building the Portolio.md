@@ -31,6 +31,11 @@
 - Create a page for the notes. [[Creating Pages in Next.js 14+]]
 - [[GitHub REST API — Contents (Get repository content)]]
 
+
+## Issues
+
+### GitHub REST API
+- 
 ## Commands 
 
 ### Commiting
