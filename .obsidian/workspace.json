@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/ISSUE_TEMPLATES.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,11 +100,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ISSUE_TEMPLATES"
+              "title": "Building the Portolio"
+            }
+          },
+          {
+            "id": "267afaec79b2fe2f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning-notes/Gray-matter.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Gray-matter"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -210,13 +234,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "learning-notes/ISSUE_TEMPLATES.md",
+                "file": "learning-notes/Gray-matter.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ISSUE_TEMPLATES"
+              "title": "Outline of Gray-matter"
             }
           },
           {
@@ -280,10 +304,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "9b4eaed0a256db83",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "learning-notes/node.js/express/Create Express App.md",
+    "learning-notes/Gray-matter.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/ISSUE_TEMPLATES.md",
+    "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js",
     "package-lock.json.md",
@@ -293,7 +319,6 @@
     "learning-notes/express vs spring boot vs nest",
     "Tailwind.md",
     "learning-notes/node.js/express",
-    "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "Vercel.md",
     "learning-notes/Husky.md",
@@ -310,7 +335,6 @@
     "learning-notes/Jsdom.md",
     "learning-notes/React Testing Library.md",
     "learning-notes/Biome.md",
-    "learning-notes/Next Project Setup.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
