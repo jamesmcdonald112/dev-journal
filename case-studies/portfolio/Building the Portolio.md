@@ -77,12 +77,44 @@ const decode = (str: string):string => Buffer.from(str, 'base64').toString('bina
 
 With some minor adjustments we can use it in our code. All we need to do is change it form binary to utf8 and save it as a variable for now instead of a function.
 
+This doc https://adevait.com/nodejs/convert-node-js-buffer-to-string shows us we can convert it stright to utf8 which is exactlye what we want.
+
 ```ts
 const markdown = Buffer.from(file.content, "base64").toString("utf-8");
 ```
 
 
-This doc https://adevait.com/nodejs/convert-node-js-buffer-to-string shows us we can convert it stright to utf8 which is exactlye what we want.
+OKay so we have that, next is to be able to extact the meta data from the obsidian file that was created uing frontmatter. This is the section of the Obsidian file at the top that looks like this if you console.log the markdown we just parsed:
+```md
+content ---
+title: Fetch API Explained
+type: core-web
+status: draft
+date: 2025-10-22
+updated: 2025-10-22
+summary: The Fetch API is the modern, promise-based way to make HTTP requests in both browsers and Node.js. It replaces XMLHttpRequest and integrates with newer web standards like CORS, service workers, and streaming responses.
+tech_stack:
+  - JavaScript
+  - TypeScript
+  - Node.js
+  - Web APIs
+keywords:
+  - HTTP
+  - fetch
+  - promises
+  - JSON 
+  - aysnc/await
+  - error handling
+  - headers
+  - Node.js
+---
+```
+
+After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[Gray-matter]] and [[Remark]] to have best overall flexibility for my project. This is instead of next-mdx-remote, which seems 
+
+
+
+
 ## Commands 
 
 ### Commiting
