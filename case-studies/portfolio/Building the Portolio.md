@@ -68,7 +68,21 @@ Now the issue with this is i am just getting the raw text file and none of the m
 
 Revert back to `application/vnd.github+json` in the headers
 
-Our next step is to decode the content field as it is in base64-encoded, which is told in the return of the JSON file `encoding: "base64"` and in the docs at the top
+Our next step is to decode the content field as it is in base64-encoded, which is told in the return of the JSON file `encoding: "base64"`.
+
+After some googling, i found this response on [stack overflow](https://stackoverflow.com/questions/56952405/how-to-decode-encode-string-to-base64-in-typescript-express-server) and it has this line of code:
+```javascript
+const decode = (str: string):string => Buffer.from(str, 'base64').toString('binary');
+```
+
+With some minor adjustments we can use it in our code. All we need to do is change it form binary to utf8 and save it as a variable for now instead of a function.
+
+```ts
+const markdown = Buffer.from(file.content, "base64").toString("utf-8");
+```
+
+
+This doc https://adevait.com/nodejs/convert-node-js-buffer-to-string shows us we can convert it stright to utf8 which is exactlye what we want.
 ## Commands 
 
 ### Commiting
