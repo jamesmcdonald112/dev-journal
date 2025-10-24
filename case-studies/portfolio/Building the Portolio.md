@@ -165,8 +165,33 @@ So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I
 
 ```
 
-So my next goal is to render one note beautifully os i need [[Remark]] ecosystem. First i need [[Remark]] to parse the markdown into an abstract syntax tree (AST), meaning it identifies headings, list, bold text etc.
+So my next goal is to render one note beautifully os i need [[Remark]] ecosystem. First i need [[Remark]] to parse the markdown into an abstract syntax tree (AST), meaning it identifies headings, list, bold text etc. So accroding to the [docs](https://unifiedjs.com/explore/package/remark-rehype/) we need to install:
 
+```
+npm install unified remark-parse remark-rehype rehype-stringify
+```
+This will install [[Remark]] which works with markdown, and [[rehype]] which works with HTML. Going through thier example from the [docs](https://unifiedjs.com/explore/package/remark-rehype/):
+```js
+import rehypeDocument from 'rehype-document'
+import rehypeFormat from 'rehype-format'
+import rehypeStringify from 'rehype-stringify'
+import remarkParse from 'remark-parse'
+import remarkRehype from 'remark-rehype'
+import {read} from 'to-vfile'
+import {unified} from 'unified'
+import {reporter} from 'vfile-reporter'
+
+const file = await unified()
+  .use(remarkParse)
+  .use(remarkRehype)
+  .use(rehypeDocument)
+  .use(rehypeFormat)
+  .use(rehypeStringify)
+  .process(await read('example.md'))
+
+console.error(reporter(file))
+console.log(String(file))
+```
 
 
 
