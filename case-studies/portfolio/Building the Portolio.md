@@ -165,7 +165,7 @@ So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I
 
 ```
 
-
+So my next goal is to render one note beautifully os i need [[Remark]] ecosystem. First i need [[Remark]] to parse the markdown into an abstract syntax tree (AST), meaning it identifies headings, list, bold text etc.
 
 
 
