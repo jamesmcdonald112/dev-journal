@@ -106,6 +106,7 @@ The Fetch API is the foundation of almost every modern web data interaction, fro
 - [[Headers API]]
 - [[Fetching Data in Next.js (App Router)]]
 - [[Error Handling in JavaScript]]
+- [[]]
 
 ## References
 - [MDN – Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
