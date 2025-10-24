@@ -262,8 +262,10 @@ However, I got this rendered to the console:
 <h1>Fetch API Explained</h1> <h2>What I Learned</h2> <ul> <li>The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.</li> <li>It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.</li> <li>fetch(url) returns a Promise that resolves to a Response object.</li> <li>You can check request success using response.ok (true if status is 200–299).</li> <li>Always handle potential network or HTTP
 ```
 
-The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which 
-
+The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which lead me to the[ docs here ](https://react.dev/reference/react-dom/components/common#dangerously-setting-the-inner-html). This shoudl only be used when:
+- You have trusted HTML content (meaning not user submitted). Mine is coming from my own GitHub repo.
+- You need to render that HTML(e.g., Markdown - HTML, blog content, etc). I am converting it safely with remakr and rehype.
+- You cannot easily represent the same output using React components. I need to disply it styled using Tailwind Tyopography.
 ## Commands 
 
 ### Commiting
