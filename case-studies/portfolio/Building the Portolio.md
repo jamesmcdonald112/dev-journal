@@ -170,28 +170,21 @@ So my next goal is to render one note beautifully os i need [[Remark]] ecosystem
 ```
 npm install unified remark-parse remark-rehype rehype-stringify
 ```
-This will install [[Remark]] which works with markdown, and [[rehype]] which works with HTML. Going through thier example from the [docs](https://unifiedjs.com/explore/package/remark-rehype/):
-```js
-import rehypeDocument from 'rehype-document'
-import rehypeFormat from 'rehype-format'
-import rehypeStringify from 'rehype-stringify'
-import remarkParse from 'remark-parse'
-import remarkRehype from 'remark-rehype'
-import {read} from 'to-vfile'
-import {unified} from 'unified'
-import {reporter} from 'vfile-reporter'
+This setup installs [[Unified]], [[Remark]],  [[Rehype]], and [[Rehype-Stringify]] the tools we need to convert Markdown into HTML.
+- [[Unified]] connects [[Remark]] and [[Rehype]] together in a processing pipeline.
+- [[Remark]] converts or markdown into a ATS tree, basically a JSON file with the key as the md and the value as the text.
+- [[Rehype]] converts this ats tree into a HTML format.
+- [[Rehype-Stringify]] transforms this HTML structure into a readable string that can be safely rendered on the site.
 
-const file = await unified()
-  .use(remarkParse)
-  .use(remarkRehype)
-  .use(rehypeDocument)
-  .use(rehypeFormat)
-  .use(rehypeStringify)
-  .process(await read('example.md'))
+The [unified docs](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com) have a nice way of explain it:
+>`unified` is an interface for processing content with syntax trees. Syntax trees are a representation of content understandable to programs. Those programs, called _[plugins](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#plugin)_, take these trees and inspect and modify them. To get to the syntax tree from text, there is a _[parser](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#parser)_. To get from that back to text, there is a _[compiler](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#compiler)_. This is the _[process](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#processorprocessfile-done)_ of a _processor_.
 
-console.error(reporter(file))
-console.log(String(file))
+Taking the example from their docs and applying it to our code, we get a process like this:
+
+
+```ts
 ```
+
 
 
 
