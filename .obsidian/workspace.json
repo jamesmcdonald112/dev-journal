@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Headers API.md",
+                "file": "Fetch API Explained.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Headers API"
+              "title": "Fetch API Explained"
             }
           }
         ],
@@ -401,8 +401,8 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "Fetch API Explained.md",
     "Headers API.md",
+    "Fetch API Explained.md",
     "case-studies/portfolio/Building the Portolio.md",
     "Discriminated Unions in TypeScript.md",
     "learning-notes/Gray-matter.md",
