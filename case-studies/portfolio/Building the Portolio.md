@@ -356,6 +356,56 @@ rehype needs a theme in order to have the code looked styled. Install:
 npm install prismjs
 ```
 
+
+### **Second Approach — React Markdown (Current Setup)**
+
+- Switched to **react-markdown**, which renders Markdown directly as **React components**.
+    
+- This keeps everything **safe and dynamic** (no dangerouslySetInnerHTML).
+    
+- Added plugins:
+    
+    - remark-gfm — for GitHub-flavored Markdown (tables, checklists, etc.)
+        
+    - rehype-raw — allows safe inline HTML if needed
+        
+    - rehype-prism-plus — adds syntax highlighting for fenced code blocks
+        
+    
+- Installed theme:
+- ```js
+  import "prism-themes/themes/prism-vsc-dark-plus.css";
+  ```
+
+Code example:
+```tsx
+<article className="prose prose-emerald lg:prose-xl dark:prose-invert">
+  <Markdown
+    remarkPlugins={[remarkGfm]}
+    rehypePlugins={[rehypeRaw, rehypePrism]}
+  >
+    {note.markdown}
+  </Markdown>
+</article>
+```
+
+### **5. Styling — Tailwind Prose Classes**
+
+- Installed @tailwindcss/typography for elegant Markdown styling:
+```bash
+npm install -D @tailwindcss/typography
+```
+
+### **Cleanup**
+
+- Uninstalled no-longer-needed dependencies:
+
+```bash
+  npm uninstall unified remark-parse remark-rehype rehype-stringify vfile
+  ```
+- Removed prism-react-renderer in favor of simpler rehype-prism-plus + prismjs setup.
+
+
 ## Commands 
 
 ### Commiting
