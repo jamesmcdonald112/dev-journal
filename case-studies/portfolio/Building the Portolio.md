@@ -115,8 +115,53 @@ After doing some research and back and forth with chat gpt, it seems like the be
 
 As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [[Gray-matter]] and [[Remark]].
 
-So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I installed the dependancies and tried their simple code and it worked perfect:
-```ts
+So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I installed the dependancies and used it to get this returned:
+```json
+1. {content: '# Fetch API Explained\n\n## What I Learned\n- The Fet…eveloper.mozilla.org/en-US/docs/Web/HTTP/Caching)', data: {…}, isEmpty: false, excerpt: '', orig: {…}}
+
+2. content: "# Fetch API Explained\n\n## What I Learned\n- The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.\n- It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.\n- fetch(url) returns a Promise that resolves to a Response object.\n- You can check request success using response.ok (true if status is 200–299).\n- Always handle potential network or HTTP errors using try/catch.\n- Use response.json() to parse JSON data or response.text() for plain text.\n- The default HTTP method is **GET**, but you can specify others with the method option.\n- For POST/PUT requests, include a body and set appropriate headers (like Content-Type).\n\n## Example / Code Snippet\n1. Example from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):\n```js\nasync function getData() {\n const url = \"https://example.org/products.json\";\n try {\n const response = await fetch(url);\n if (!response.ok) {\n throw new Error(`Response status: ${response.status}`);\n }\n\n const result = await response.json();\n console.log(result);\n } catch (error) {\n console.error(error.message);\n }\n}\n```\n\n2. POST Request:\n```js\nconst response = await fetch(\"https://example.org/post\", {\n method: \"POST\",\n headers: {\n \"Content-Type\": \"application/json\",\n },\n body: JSON.stringify({ username: \"example\" }),\n});\n```\n\n3. **Reusable Utility Function (TypeScript best practice)**:\n```TypeScript\nexport async function fetchJSON<T>(url: string): Promise<T> {\n try {\n const res = await fetch(url, {\n headers: { Accept: \"application/json\" },\n });\n\n if (!res.ok) {\n throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);\n }\n\n return await res.json();\n } catch (err) {\n console.error(\"Fetch error:\", err);\n throw err;\n }\n}\n\n// Example usage:\nconst notes = await fetchJSON<Note[]>(\n \"https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/\"\n);\n```\n\n##  **Best Practices**\n- Always check response.ok, fetch does **not** throw on HTTP errors.\n- Wrap your requests in try/catch for network safety and clean error messages.\n- Include headers like Accept or Content-Type when sending or expecting JSON.\n- Prefer async/await over .then() for clarity and maintainability.\n- Avoid re-reading the same response; clone it first if needed (response.clone()).\n- Cache responses manually or use frameworks (like Next.js) that handle caching for you.\n## Why It Matters\nThe Fetch API is the foundation of almost every modern web data interaction, from REST calls in front-end apps to server-side fetching in Next.js. Understanding fetch deeply ensures you can:\n- Build robust API layers\n- Handle both browser and Node environments\n- Manage caching, credentials, and streaming efficiently\n- Integrate safely with third-party APIs like GitHub\n\n## Related \n- [[HTTP Caching (MDN)]]\n- [[Headers API]]\n- [[Fetching Data in Next.js (App Router)]]\n- [[Error Handling in JavaScript]]\n\n## References\n- [MDN – Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)\n- [Node.js Global Fetch Docs](https://nodejs.org/api/globals.html#fetch)\n- [HTTP Caching (MDN)](https://developer.mozilla.org/en-US/docs/Web/HTTP/Caching)"
+3. data:
+
+4. date: Wed Oct 22 2025 01:00:00 GMT+0100 (Irish Standard Time)
+
+5. [[Prototype]]: Object
+
+6. keywords: Array(8)
+
+7. 0: "HTTP"
+8. 1: "fetch"
+9. 2: "promises"
+10. 3: "JSON "
+11. 4: "aysnc/await"
+12. 5: "error handling"
+13. 6: "headers"
+14. 7: "Node.js"
+15. length: 8
+16. [[Prototype]]: Array(0)
+
+17. status: "draft"
+18. summary: "The Fetch API is the modern, promise-based way to make HTTP requests in both browsers and Node.js. It replaces XMLHttpRequest and integrates with newer web standards like CORS, service workers, and streaming responses."
+19. tech_stack: Array(4)
+
+20. 0: "JavaScript"
+21. 1: "TypeScript"
+22. 2: "Node.js"
+23. 3: "Web APIs"
+24. length: 4
+25. [[Prototype]]: Array(0)
+
+26. title: "Fetch API Explained"
+27. type: "core-web"
+28. updated: Wed Oct 22 2025 01:00:00 GMT+0100 (Irish Standard Time)
+
+29. [[Prototype]]: Object
+
+30. [[Prototype]]: Object
+
+31. excerpt: ""
+32. isEmpty: false
+33. orig: {type: 'Buffer', data: Array(3771)}
+34. [[Prototype]]: Object
 
 ```
 
