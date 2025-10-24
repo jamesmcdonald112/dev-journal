@@ -35,4 +35,6 @@ If I include code blocks in my notes, I can optionally use [[rehype-highlight]] 
 - [[Tailwind’s Prose Classes]]
 
 ## References
-- [Gray Matter Docs](https://github.com/jonschlinkert/gray-matter)
+- [Gray Matter Docs GitHub](https://github.com/jonschlinkert/gray-matter)
+- [Gray Matter Docs npmjs](https://www.npmjs.com/package/gray-matter)
+- 

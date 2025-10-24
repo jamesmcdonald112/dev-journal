@@ -110,7 +110,17 @@ keywords:
 ---
 ```
 
-After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[Gray-matter]] and [[Remark]] to have best overall flexibility for my project. This is instead of next-mdx-remote, which seems 
+After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[Gray-matter]] and [[Remark]] to have best overall flexibility for my project. This is instead of [next-mdx-remote](https://nextjs.org/docs/app/guides/mdx), which seems like it should be perfect but it comes with a warning on the site:
+> “Please proceed with caution. MDX compiles to JavaScript and is executed on the server. You should only fetch MDX content from a trusted source, otherwise this can lead to remote code execution (RCE).”
+
+As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [[Gray-matter]] and [[Remark]].
+
+So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I installed the dependancies and tried their simple code and it worked perfect:
+```ts
+
+```
+
+
 
 
 
