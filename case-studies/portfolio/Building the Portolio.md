@@ -265,7 +265,61 @@ However, I got this rendered to the console:
 The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which lead me to the[ docs here ](https://react.dev/reference/react-dom/components/common#dangerously-setting-the-inner-html). This shoudl only be used when:
 - You have trusted HTML content (meaning not user submitted). Mine is coming from my own GitHub repo.
 - You need to render that HTML(e.g., Markdown - HTML, blog content, etc). I am converting it safely with remakr and rehype.
-- You cannot easily represent the same output using React components. I need to disply it styled using Tailwind Tyopography.
+- You cannot easily represent the same output using React 
+
+
+Initially, the project used the **Unified + Remark + Rehype + Rehype-Stringify** pipeline to process Markdown.
+
+That approach parsed Markdown into an Abstract Syntax Tree (AST) using remark-parse, transformed it to HTML via remark-rehype, and then serialized it into an HTML string with rehype-stringify.
+
+### **⚠️ Problems with the Previous Setup**
+
+1. **dangerouslySetInnerHTML** bypasses React’s rendering layer — meaning React can’t efficiently diff or sanitize updates.
+    
+2. The output was just a **static string**, not a tree of React elements — making it impossible to:
+    
+    - Style or wrap specific Markdown nodes
+        
+    - Add interactivity or custom React components (like `<NoteLink>` or `<CopyButton>`).
+        
+    
+3. It was **less flexible** for integrating Obsidian-style note links ([[Note]]), syntax highlighting, or component injection.
+
+  
+
+This method worked — it produced clean HTML, ready to inject into the page.
+
+However, rendering required **dangerouslySetInnerHTML**, which, while safe for trusted Markdown sources, is still **an escape hatch** that bypasses React’s DOM diffing and introduces a potential security and maintenance risk.
+
+The **React Markdown** ecosystem provides a much more React-native way to render Markdown.
+
+  
+
+Instead of producing an HTML string, it **transforms Markdown directly into React elements**.
+
+Under the hood, it still uses the Remark/Rehype ecosystem — but it integrates with React’s rendering lifecycle and security model.
+
+  This switch unlocks the ability to:
+
+- **Render Obsidian-style** **[[Internal Links]]** dynamically (convert them to <Link href="/notes/...">).
+    
+- **Insert custom React components** (alerts, code blocks with copy buttons, etc.).
+    
+- **Style specific Markdown nodes** (e.g., bold headings, themed blockquotes).
+    
+- Maintain full safety — no dangerouslySetInnerHTML.
+    
+
+---
+
+We paired it with:
+
+- **remark-gfm** → Adds GitHub-style Markdown features (tables, task lists, strikethrough, etc.)
+    
+- **rehype-highlight** → Enables syntax highlighting for fenced code blocks
+    
+- **Tailwind Typography (****prose** **classes)** → Gives beautiful, readable styling for Markdown content
+
 ## Commands 
 
 ### Commiting
