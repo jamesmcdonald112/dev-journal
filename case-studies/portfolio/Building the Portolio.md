@@ -416,6 +416,9 @@ remarkWikiLink,
 ```
 
 allwoing us to turn out wiki style links in obsidian (`[[]]`) into clickable links. This brought on a new issue as we werre only fetching a single page so when we click on a page in our website, it will not exist as we have not fetached it. SO the next step is to mkae any page or link we want to get fetched
+
+## API Limits and effieienct note fetching
+so the issue we have  now is how to design getting all these notes so we dont hit githubs fetching limits forr thie api. I it owuld be ideal to fetch all notesat once and have them storee but that woudl be infringe on teh api rate limits and poissibly slow down the site (if there was 1000s of notes). So i think a comprimise would be to fetch the enitre file collection (just the file names adn paths) as this can be done in one request, and this can also be used for the mind map potentially, it can be used for simplate card layouts as well
 ## Commands 
 
 ### Commiting
