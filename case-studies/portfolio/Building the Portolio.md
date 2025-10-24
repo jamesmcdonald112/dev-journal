@@ -179,12 +179,70 @@ This setup installs [[Unified]], [[Remark]],  [[Rehype]], and [[Rehype-Stringify
 The [unified docs](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com) have a nice way of explain it:
 >`unified` is an interface for processing content with syntax trees. Syntax trees are a representation of content understandable to programs. Those programs, called _[plugins](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#plugin)_, take these trees and inspect and modify them. To get to the syntax tree from text, there is a _[parser](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#parser)_. To get from that back to text, there is a _[compiler](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#compiler)_. This is the _[process](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#processorprocessfile-done)_ of a _processor_.
 
+**Explanation:**
+
+[[Unified]] acts as the **pipeline** that manages how our Markdown content is processed.
+
+It uses **plugins** to interact with and modify a syntax tree, a structured representation of our text that code can understand.
+
+The process works like this:
+1. The **parser** converts raw text (like Markdown) into a syntax tree.
+2. We can then run **plugins** to inspect, transform, or enhance that tree.
+3. Finally, the **compiler** turns the updated tree back into text (for example, HTML).
+    
+
+  
+In short, **Unified** provides the framework for this flow, from reading Markdown, processing it through plugins, and compiling it back into readable output.
+
 Taking the example from their docs and applying it to our code, we get a process like this:
 
 
 ```ts
+const { data, content } = matter(decodedContent);
+
+  
+
+const html = await unified()
+
+.use(remarkParse)
+
+.use(remarkRehype)
+
+.use(rehypeStringify)
+
+.process(content);
 ```
 
+This outputs my html string:
+
+```sh
+VFile {
+  cwd: '/Users/jamesmcdonald/Desktop/github stuff/modern-portfolio',
+  data: {},
+  history: [],
+  messages: [],
+  value: '<h1>Fetch API Explained</h1>\n' +
+    '<h2>What I Learned</h2>\n' +
+    '<ul>\n' +
+    '<li>The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.</li>\n' +
+    '<li>It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.</li>\n' +
+    '<li>fetch(url) returns a Promise that resolves to a Response object.</li>\n' +
+    '<li>You can check request success using response.ok (true if status is 200–299).</li>\n' +
+    '<li>Always handle potential network or HTTP errors using try/catch.</li>\n' +
+    '<li>Use response.json() to parse JSON data or response.text() for plain text.</li>\n' +
+    '<li>The default HTTP method is <strong>GET</strong>, but you can specify others with the method option.</li>\n' +
+    '<li>For POST/PUT requests, include a body and set appropriate headers (like Content-Type).</li>\n' +
+    '</ul>\n' +
+    '<h2>Example / Code Snippet</h2>\n' +
+    '<ol>\n' +
+    '<li>Example from <a href="https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch">Mozilla</a>:</li>\n' +
+    '</ol>\n' +
+    '<pre><code class="language-js">a
+
+........
+```
+
+SO the Next step is to make the HTML look nice when render on the page, this will be done using [[Tailwind’s Prose Classes]]
 
 
 
