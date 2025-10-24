@@ -198,9 +198,33 @@
               "icon": "lucide-file",
               "title": "Building the Portolio"
             }
+          },
+          {
+            "id": "536d860745587550",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "case-studies/portfolio/Building the Portolio.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Building the Portolio"
+            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -376,10 +400,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "8ff37c16dc77bd1a",
+  "active": "536d860745587550",
   "lastOpenFiles": [
-    "learning-notes/Gray-matter.md",
+    "Discriminated Unions in TypeScript.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/Gray-matter.md",
     "Fetch API Explained.md",
     "GitHub Projects.md",
     "Tailwind.md",
@@ -407,7 +432,6 @@
     "learning-notes/README Template.md",
     "learning-notes/Jest-Dom.md",
     "learning-notes/Testing Environment Setup.md",
-    "learning-notes/User-Event.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",

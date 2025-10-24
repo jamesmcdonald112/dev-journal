@@ -320,6 +320,12 @@ We paired it with:
     
 - **Tailwind Typography (****prose** **classes)** → Gives beautiful, readable styling for Markdown content
 
+
+
+Uninstall the dependindes:
+```bash
+npm uninstall unified remark-parse remark-rehype rehype-stringify vfile
+```
 ## Commands 
 
 ### Commiting
