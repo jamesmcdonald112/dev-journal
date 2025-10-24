@@ -334,6 +334,27 @@ npm install remark-gfm
 ```
 
 
+Use this to unstall primjks themes:
+```bash
+npm install prismjs
+```
+
+Add plugins to the markdown
+```ts
+<article className="prose prose-emerald lg:prose-xl dark:prose-invert">
+
+<Markdown
+
+rehypePlugins={[rehypePrism]}
+
+>{note.markdown}</Markdown>
+
+</article>
+```
+rehype needs a theme in order to have the code looked styled. Install:
+```bash
+npm install prismjs
+```
 
 ## Commands 
 
