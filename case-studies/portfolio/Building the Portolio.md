@@ -247,8 +247,22 @@ SO the Next step is to make the HTML look nice when render on the page, this wil
 npm install -D @tailwindcss/typography
 ```
 
+I applied the example used in their docs to my code:
+```js
+<article className="prose lg:prose-xl">
 
+	{note.success && note.htmlString}
 
+</article>
+```
+
+However, I got this rendered to the console:
+
+```
+<h1>Fetch API Explained</h1> <h2>What I Learned</h2> <ul> <li>The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.</li> <li>It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.</li> <li>fetch(url) returns a Promise that resolves to a Response object.</li> <li>You can check request success using response.ok (true if status is 200–299).</li> <li>Always handle potential network or HTTP
+```
+
+The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which 
 
 ## Commands 
 
