@@ -242,7 +242,11 @@ VFile {
 ........
 ```
 
-SO the Next step is to make the HTML look nice when render on the page, this will be done using [[Tailwind’s Prose Classes]]
+SO the Next step is to make the HTML look nice when render on the page, this will be done using [[Tailwind’s Prose Classes]]. For the docs, [click here](https://github.com/tailwindlabs/tailwindcss-typography). Install:
+```sh
+npm install -D @tailwindcss/typography
+```
+
 
 
 
