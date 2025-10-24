@@ -406,6 +406,16 @@ npm install -D @tailwindcss/typography
 - Removed prism-react-renderer in favor of simpler rehype-prism-plus + prismjs setup.
 
 
+Add this code:
+```tsx
+remarkWikiLink,
+
+{ hrefTemplate: (permalink: string) => `/page/${permalink}` },
+
+],
+```
+
+allwoing us to turn out wiki style links in obsidian (`[[]]`) into clickable links. This brought on a new issue as we werre only fetching a single page so when we click on a page in our website, it will not exist as we have not fetached it. SO the next step is to mkae any page or link we want to get fetched
 ## Commands 
 
 ### Commiting

@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fetch API Explained.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fetch API Explained"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -383,7 +383,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 264.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -399,10 +400,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "536d860745587550",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "Headers API.md",
+    "case-studies/portfolio/Obsidian Style Graph.md",
     "Fetch API Explained.md",
+    "Headers API.md",
     "case-studies/portfolio/Building the Portolio.md",
     "Discriminated Unions in TypeScript.md",
     "learning-notes/Gray-matter.md",
@@ -424,7 +426,6 @@
     "learning-notes/Express Vs Spring Vs.md",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",
-    "case-studies/portfolio/Obsidian Style Graph.md",
     "Vercel.md",
     "learning-notes/Husky.md",
     "learning-notes/Vitest.md",
