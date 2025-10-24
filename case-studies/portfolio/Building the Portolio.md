@@ -418,7 +418,33 @@ remarkWikiLink,
 allwoing us to turn out wiki style links in obsidian (`[[]]`) into clickable links. This brought on a new issue as we werre only fetching a single page so when we click on a page in our website, it will not exist as we have not fetached it. SO the next step is to mkae any page or link we want to get fetched
 
 ## API Limits and effieienct note fetching
-so the issue we have  now is how to design getting all these notes so we dont hit githubs fetching limits forr thie api. I it owuld be ideal to fetch all notesat once and have them storee but that woudl be infringe on teh api rate limits and poissibly slow down the site (if there was 1000s of notes). So i think a comprimise would be to fetch the enitre file collection (just the file names adn paths) as this can be done in one request, and this can also be used for the mind map potentially, it can be used for simplate card layouts as well
+> The main challenge now is how to fetch and manage all my notes efficiently without hitting GitHub’s API rate limits.
+
+>   
+
+> Fetching every Markdown file individually would quickly exceed the rate limit and slow the site, especially with thousands of notes.
+
+>   
+
+> The best compromise is to use GitHub’s **Tree API endpoint**, which returns all file names and paths in a single request.
+
+>   
+
+> This gives me a full “map” of my note structure — perfect for building folder navigation, a mind map, or basic card listings — **without fetching any Markdown content**.
+
+>   
+
+> For case studies or special notes, I can fetch additional metadata (like title, summary, tags) separately or store them in a static JSON index.
+
+>   
+
+> An alternative approach is to **pre-generate a static JSON file** (via a local or CI build script) containing all file paths and metadata. This file could be rebuilt on a schedule or during deployment, avoiding any runtime GitHub API calls.
+
+>   
+
+> For now, I’ll start with the live API version (fetching the tree) and only add static indexing later if performance or rate limits become an issue.
+
+Another idea is to use proper storeing of files in correct folders and allow them to create the tags through their subfolders. Thsi couse negate the need to manually add tags into my files as well. also if i wanted ot search via tag, i know i can do it on obsidan, but owld thgat take 10k api calls the way we are doing it?
 ## Commands 
 
 ### Commiting
