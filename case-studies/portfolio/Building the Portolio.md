@@ -326,6 +326,15 @@ Uninstall the dependindes:
 ```bash
 npm uninstall unified remark-parse remark-rehype rehype-stringify vfile
 ```
+
+
+As obsidian uses GitHub-flavoured Markdown under the jhood, adding remark-gfm will make my site render excaetly like it does in Obsidian.
+```sh
+npm install remark-gfm
+```
+
+
+
 ## Commands 
 
 ### Commiting
