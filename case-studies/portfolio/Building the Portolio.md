@@ -587,6 +587,9 @@ At build time (during deployment or via a scheduled sync), a Node.js or Next.js 
 - Replace runtime GitHub API calls with local JSON imports.
     
 - Optionally integrate mind map or graph view using folder/tag data.
+
+## Getting the tree
+[Github docs](https://docs.github.com/en/rest/git/trees#get-a-tree) show how to get the tree we need for this structure. 
 ## Commands 
 
 ### Commiting
