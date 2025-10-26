@@ -595,11 +595,15 @@ curl -L \
   -H "Accept: application/vnd.github+json" \
   -H "Authorization: Bearer <YOUR-TOKEN>" \
   -H "X-GitHub-Api-Version: 2022-11-28" \
-  https://api.github.com/repos/jamesmcdonald112/dev-journal/git/trees/main?recursive=1
+  `https://api.github.com/repos/jamesmcdonald112/dev-journal/git/trees/main?recursive=1`
 ```
 
-I created an access token so it would incrase my rate limits from 60-5k per hour.
+I created an access token so it would incrase my rate limits from 60-5k per hour. I also needed to add single quotes around the url as the zsh was intrepreting the `?` incrroectly and getting an error. For stoirng the key, I put it in .env.local and created a git ignore file using:
+```sh
+npx gitignore node
+```
 
+Before we fo any further, I am going to refact my code so it is moer modular and tidy,
 
 
 ## Commands 
