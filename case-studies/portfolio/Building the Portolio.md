@@ -589,7 +589,19 @@ At build time (during deployment or via a scheduled sync), a Node.js or Next.js 
 - Optionally integrate mind map or graph view using folder/tag data.
 
 ## Getting the tree
-[Github docs](https://docs.github.com/en/rest/git/trees#get-a-tree) show how to get the tree we need for this structure. 
+[Github docs](https://docs.github.com/en/rest/git/trees#get-a-tree) show how to get the tree we need for this structure. We need to get the entire tree and the structure of the files that includes the SHA as that identiys the fiels and updates if the files have been updated, so we know to redownload that file. According to the docs, we need to add a parameter to view the subfolders. That is `recursive=1`. Using theri curl command on our project we get this command:
+```bash
+curl -L \
+  -H "Accept: application/vnd.github+json" \
+  -H "Authorization: Bearer <YOUR-TOKEN>" \
+  -H "X-GitHub-Api-Version: 2022-11-28" \
+  https://api.github.com/repos/jamesmcdonald112/dev-journal/git/trees/main?recursive=1
+```
+
+I created an access token so it would incrase my rate limits from 60-5k per hour.
+
+
+
 ## Commands 
 
 ### Commiting
