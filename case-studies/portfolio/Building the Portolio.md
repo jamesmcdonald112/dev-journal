@@ -619,6 +619,9 @@ Before we go any further, I am going to refactor my code so it is more modular a
 ```
 SO i need to account for these errors so i will make a type for github errors:
 
+
+I am following this guide for best practicies for API handling - [click here](https://dev.to/dmitrevnik/fetch-wrapper-for-nextjs-a-deep-dive-into-best-practices-53dh)
+
 ## Commands 
 
 ### Commiting
@@ -630,6 +633,3 @@ npm run commit
 
 
 
-
-
-"https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/Fetch%20API%20Explained.md"
