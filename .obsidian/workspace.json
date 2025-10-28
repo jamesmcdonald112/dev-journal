@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next Folder Structure.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Next Folder Structure"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -402,8 +402,8 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "case-studies/portfolio/Building the Portolio.md",
     "Next Folder Structure.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "Fetch API Explained.md",
     "Headers API.md",
