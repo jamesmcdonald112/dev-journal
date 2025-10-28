@@ -605,6 +605,19 @@ npx gitignore node
 
 Before we go any further, I am going to refactor my code so it is more modular and tidy, following the [BulletProof React](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) folder structure  and adopting it for [[Next Folder Structure]]. 
 
+## Error response - GITHUB
+```json
+{
+
+  "message": "Not Found",
+
+  "documentation_url": "https://docs.github.com/rest/repos/contents#get-repository-content",
+
+  "status": "404"
+
+}
+```
+SO i need to account for these errors so i will make a type for github errors:
 
 ## Commands 
 
