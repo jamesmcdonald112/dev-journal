@@ -603,7 +603,7 @@ I created an access token so it would incrase my rate limits from 60-5k per hour
 npx gitignore node
 ```
 
-Before we fo any further, I am going to refact my code so it is moer modular and tidy,
+Before we go any further, I am going to refactor my code so it is more modular and tidy, following the [BulletProof React](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) folder structure  and adopting it for [[Next Folder Structure]]. 
 
 
 ## Commands 

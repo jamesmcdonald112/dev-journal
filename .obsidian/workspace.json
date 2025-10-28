@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "Next Folder Structure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Next Folder Structure"
             }
           }
         ],
@@ -400,12 +400,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "536d860745587550",
   "lastOpenFiles": [
+    "case-studies/portfolio/Building the Portolio.md",
+    "Next Folder Structure.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
     "Fetch API Explained.md",
     "Headers API.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "Discriminated Unions in TypeScript.md",
     "learning-notes/Gray-matter.md",
     "GitHub Projects.md",
@@ -431,7 +432,6 @@
     "learning-notes/Vitest.md",
     "learning-notes/README.md",
     "learning-notes/README Template.md",
-    "learning-notes/Jest-Dom.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
