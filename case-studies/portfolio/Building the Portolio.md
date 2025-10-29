@@ -781,7 +781,7 @@ Means it will return a Promise resolving to { data, status, headers }(where you 
 For the next code that goes into make request as part of our API Client class.
 ```ts
 // Instance variable
-const url = this.buildUrl(endpoint);
+const url: string = this.buildUrl(endpoint);
 
 // Helper Method
  private buildUrl(endpoint: string): string {
@@ -798,7 +798,7 @@ It's responsible for joining the baseUrl (if any) with the endpint passed to mak
 
 ```ts
 // Instance variable
-const requestOptions = this.buildRequestOptions(options);
+const requestOptions: RequestInit = this.buildRequestOptions(options);
 
  private buildRequestOptions(options: RequestInit): RequestInit {
     return {
@@ -810,6 +810,73 @@ const requestOptions = this.buildRequestOptions(options);
     };
   }
 ```
+This builds and merges the request options, especially the headers, for each request made. Request Init is built into typeScript and it defines all possibel options you can pass to fetch(). Fro example:
+```ts
+fetch(url, {
+  method: "POST",
+  headers: { "Content-Type": "application/json" },
+  body: JSON.stringify(data),
+  signal: abortController.signal,
+  cache: "no-store",
+});
+```
+All of those - method, headers, body, signal, etc. - come from the RequestInit type. So out helper method will accept an object shaped just like that. Our function does the following.
+Function:
+```ts
+return {
+  ...options,
+  headers: {
+    ...this.config.defaultHeaders,
+    ...options.headers,
+  },
+};
+```
+- it start with whatever options you passed when calling makeRequest(). eg. { method: "POST", body: "..." }
+- It merges in default headers defined in the clinet config - (like "Content-Type": "application/json", "Accept": "application/vnd.github+json", etc.)
+- Then it merges custom headers provided for this specific request, letting themoverride the default if needed.
+
+So if your default header is:
+```ts
+{ "Content-Type": "application/json" }
+```
+
+and you call:
+```ts
+makeRequest("/notes", { headers: { "X-Auth": "123" } })
+```
+
+You end up with:
+```ts
+headers: {
+  "Content-Type": "application/json",
+  "X-Auth": "123"
+}
+```
+
+This ensures that:
+- every request automatically includes shared defaults (no repetition)
+- You can still customise headers per call (flexible)
+- You dont have to worry about overiting the default by accident
+
+
+For the next parrt will in inclucde a try catch block. THis ensure we catch any errors that may occur when fetchin.
+```ts
+try {
+
+    } catch (error: unknown) {
+      if (error.name === 'AbortError') {
+        throw new ApiError('Request timeout', 408);
+      }
+      throw error;
+    }
+```
+The only issue i am havin ghere is that the error is not provided with a type, what shoudl i give it?SO if an error happens it is sent to the catch block and saved in the variable error. Now tis is where id dont understand, we are hardcoding AbortError as the error name, is this becuase we created an instance of abort controller? does that have a name AbortError? should we not use anyohter way to check or is that the ebst way? so is this only checking for timeout requests? why is that? and ig it is anythig else we just throw it, meanign the calling method will ahve to handle it?
+
+
+
+
+
+
 ## Commands 
 
 ### Commiting
