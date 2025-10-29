@@ -859,22 +859,56 @@ This ensures that:
 - You dont have to worry about overiting the default by accident
 
 
-For the next parrt will in inclucde a try catch block. THis ensure we catch any errors that may occur when fetchin.
+For the next part, it will include a try-catch block. This ensures we catch any errors that may occur when fetching.
 ```ts
 try {
 
     } catch (error: unknown) {
-      if (error.name === 'AbortError') {
-        throw new ApiError('Request timeout', 408);
-      }
       throw error;
     }
 ```
-The only issue i am havin ghere is that the error is not provided with a type, what shoudl i give it?SO if an error happens it is sent to the catch block and saved in the variable error. Now tis is where id dont understand, we are hardcoding AbortError as the error name, is this becuase we created an instance of abort controller? does that have a name AbortError? should we not use anyohter way to check or is that the ebst way? so is this only checking for timeout requests? why is that? and ig it is anythig else we just throw it, meanign the calling method will ahve to handle it?
+So this is standard practice, to catch any error that might come in either as type Error, or string or whatever, that's why we have it as unknown and throw it so the callig method cna handle it.
 
 
 
+```ts
+try {
+  // Create an AbortController for timeout
+  const controller = new AbortController();
 
+  // Automatically abort the request after the configured timeout (e.g. 10 seconds)
+  const timeoutId = setTimeout(() => controller.abort(), this.config.timeout);
+
+  // Start the fetch request and attach the abort signal
+  const response = await fetch(url, {
+    ...requestOptions,
+    signal: controller.signal,
+  });
+
+  // If the request finished in time, clear the timeout
+  clearTimeout(timeoutId);
+
+  // ... process the response here later
+} catch (error: unknown) {
+  // Check if the error is an AbortError (fetch was cancelled due to timeout)
+  if (error instanceof Error && error.name === 'AbortError') {
+    throw new ApiError('Request timeout', 408);
+  }
+
+  // Re-throw any other kind of error (network issues, bad JSON, etc.)
+  throw error;
+}
+```
+
+### **🧠 Line-by-line breakdown**
+
+  - const controller = new AbortController(); - The **AbortController** is a built-in browser API that lets you cancel (abort) asynchronous tasks like fetch requests.
+  - const timeoutId = setTimeout(() => controller.abort(), this.config.timeout); - We tell the controller to **abort** the fetch after a certain amount of time (e.g., 10 000 ms). That means: if the API doesn’t respond in time → it triggers an abort.
+  - signal: controller.signal - This attaches the abort controller to the fetch call. It tells fetch: “If the controller aborts, cancel this request immediately.”
+  - clearTimeout(timeoutId); - If fetch finishes before the timeout expires, we clear it so it doesn’t accidentally abort later.
+  - The catch block - If the controller did abort → the fetch API **throws** an error with error.name === 'AbortError'. We catch that and translate it into our standardized ApiError with status 408 (“Request Timeout”). Any other type of error (network error, JSON parse failure, etc.) is simply rethrown for the outer caller to handle.
+
+We can extend this catch to include handling timeout usng the Abort contriller. The Abort contoleer will retur an error with the name `AbortError` when it is told to abort. We cna tell it to abort using the timoiut amoiunt but using the timem out method and seting it to an id (so we can clear the tiout id later).  If we get the reposne from out await fetch with out request ioptins and i am not sure what this does or where it came from - 		signal: controller.signal,- thern it will proceed to clear the timout as everyghn has worked. If it gets stucjk here for the allowed amount (defult as 10 dsweconds) thenit will abort and become an error, this error will be caught in the catch and we run our if statment. Then we can throw a apierror saying the request timed out.
 
 
 ## Commands 
