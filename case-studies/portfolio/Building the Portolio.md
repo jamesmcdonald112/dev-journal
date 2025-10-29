@@ -954,10 +954,21 @@ private async parseResponse<T>(response: Response): Promise<T> {
   }
 ```
 
-so we create a helper method to parse the response. praseResponse is a helper method that takes any type
+After verifying the response succeeded, we parse it using a helper method. The method inspects the Content-Type header, if it includes application/json, it parses as JSON; otherwise, it falls back to text.
+
+We use a generic `<T>` so the method can return any expected type (like User[] or { message: string }).
+
+The double cast (await response.text()) as unknown as T ensures TypeScript treats even plain text as the same generic type, keeping our return type consistent.
 
 
+Next, I am just going to add the get method form the code
+```ts
+  async get<T>(endpoint: string, options?: RequestInit): Promise<ApiResponse<T>> {
+    return this.makeRequest<T>(endpoint, { ...options, method: 'GET' });
+  }
+```
 
+This method takes the endpoint (does it mean full url?) and the optiosn we need for the header and we shoudl get an apiResonse in return. BY making the request we shoudl get everythign back
 ## Commands 
 
 ### Commiting
