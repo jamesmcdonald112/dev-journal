@@ -986,9 +986,95 @@ Return: a `Promise<ApiResponse<T>>`
 
 Next, we will add some Authentication config for token usage, as I will use this for my GitHub project. Firs we will add an interface for AuthConfig to descive what is needed in the auth config:
 
+```ts
+interface AuthConfig {
+  tokenProvider?: () => Promise<string | null> | string | null;
+  tokenHeader?: string;
+  tokenPrefix?: string;
+}
+```
+### Token Provider
+The token provider defines how to get the token. It can be:
+- a function that returns the token (synchronously or asynchronously), or
+- a direct string value (the token itself)
+This is usefula as in some apps, tokens are stored differently, for example:
+- in LocalStorage (browser)
+- in cookies (server)
+- fetch dynamically via another API
+
+BY allowing either a direct value or a function, your client can work in any contect, brower, server or api route.
+
+Example:
+```ts
+tokenProvider: () => localStorage.getItem("github_token")
+```
+
+or :
+```ts
+tokenProvider: async () => await getAuthTokenFromServer()
+```
+
+### Token Header
+This sets the HTTP header name used to send the token. Default is "Authorization", which is standard for most APIs (including GitHub).
+
+**Example**:
+```http
+Authorization: Bearer ghp_abc123
+```
+
+You could override it for APIs that use a custom scheme, e.g.:
+```ts
+tokenHeader: "X-API-Key"
+```
+
+Which would produce:
+```http
+X-API-Key: ghp_abc123
+```
+
+### Token Prefix
+This defines the word (or format) that comes before the token in the the header value.
+
+The most common is "Bearer", so your header becomes 
+```http
+Authorization: Bearer <token>
+```
+
+If the API uses a different style, you can customize it:
+```ts
+tokenPrefix: "Token"
+```
+
+which becomes:
+```http
+Authorization: Token <token>
+```
+
+Or remove it entirely by setting tokenPrefix: "".
 
 
+Next, we need to adjust our ApiClient class to include authConfig:
+```ts
+class ApiClient {
+  private authConfig: AuthConfig;
 
+  constructor(config: ApiConfig = {}, authConfig: AuthConfig = {}) {
+    // ... previous constructor code
+    this.authConfig = {
+      tokenHeader: 'Authorization',
+      tokenPrefix: 'Bearer',
+      ...authConfig,
+    };
+  }
+```
+
+This adds a new private property, authConfig, to the class. Inside the constructor, we merge default values (Authorisation for the header and Beater for the prefix) with any values the developer passes in.
+
+That means:
+- If no authConfig is provided, these defaults are used automatically.
+- If some fields are provided (like a custom token or header name), those will override the defaults.
+
+This ensures your API client _always_ has valid authentication settings ready to use, even if the caller doesn’t explicitly configure them.
 ## Commands 
 
 ### Commiting
