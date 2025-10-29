@@ -658,6 +658,107 @@ This defines what the wrapper will return
 	- Later, we will replace any with generics like T = Note to make it type-safe.
 - data = parsed JSON response.
 - status = the HTTP status code (eg. 200, 404, 500)
+- headers = sp you can inspect things like Content-Type or pagination headers later.
+
+```ts
+class ApiError extends Error {
+  constructor(
+    message: string,
+    public status: number,
+    public response?: Response
+  ) {
+    super(message);
+    this.name = 'ApiError';
+  }
+}
+```
+
+This defines out custom error type. Normally, if you `throw new Error()`, you just get a message string. Thats not enough for API errors, you often want the status and maybe the raw response. So:
+- message: a human-readable explanation (e.g. "Unaurhotised)
+- status: the HTTP status code (e.g. 401
+- response?: the actual Respose object(optional, beause sometimes you might throw without one, like on a timeout)
+
+Inside the constructor:
+```ts
+super(message);
+this.name = 'ApiError';
+```
+- super(message) - calls the base Error constructor so the standard JS error behaviour works.
+- this.name - ensures when you console.error, you see "ApiError" insterad of just "Error".
+
+Benefit:
+You can now catch and check:
+```ts
+if (error instanceof ApiError) {
+  console.log(error.status); // 404
+}
+```
+
+```ts
+class ApiClient {
+  private config: Required<ApiConfig>;
+
+  constructor(config: ApiConfig = {}) {
+    this.config = {
+      baseUrl: config.baseUrl || '',
+      defaultHeaders: {
+        'Content-Type': 'application/json',
+        ...config.defaultHeaders,
+      },
+      timeout: config.timeout || 10000,
+    };
+  }
+
+  private async makeRequest<T>(
+    endpoint: string,
+    options: RequestInit = {}
+  ): Promise<ApiResponse<T>> {
+    // We'll implement this next
+  }
+}
+```
+We'll spit this into two parts. First part:
+```ts
+class ApiClient {
+  private config: Required<ApiConfig>;
+
+  constructor(config: ApiConfig = {}) {
+    this.config = {
+      baseUrl: config.baseUrl || '',
+      defaultHeaders: {
+        'Content-Type': 'application/json',
+        ...config.defaultHeaders,
+      },
+      timeout: config.timeout || 10000,
+    };
+  }
+}
+```
+
+This is the heart of the wrapper.
+- private config: means this object is internal to the class only. 
+- `Required<ApiConfig>` - converts all ? fileds into required internally. So inside the class, you can satefyl use them without checking for undefined.
+- The constructor accepts your partial config and merges it with defaults:
+	- baseUrl: '' - fallback if none given.
+	- defaultHeaders: always includes Content-Type: application/json but merges anything extra (like Authorization)
+	- timeout is a defualt of 10 seconds.
+
+This pattern gives your wrapper sensib
+
+Second part:
+```ts
+class ApiClient {
+
+  private async makeRequest<T>(
+    endpoint: string,
+    options: RequestInit = {}
+  ): Promise<ApiResponse<T>> {
+    // We'll implement this next
+  }
+}
+```
+
+
 ## Commands 
 
 ### Commiting
