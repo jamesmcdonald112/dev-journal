@@ -963,12 +963,32 @@ The double cast (await response.text()) as unknown as T ensures TypeScript treat
 
 Next, I am just going to add the get method form the code
 ```ts
-  async get<T>(endpoint: string, options?: RequestInit): Promise<ApiResponse<T>> {
+public async get<T>(endpoint: string, options?: RequestInit): Promise<ApiResponse<T>> {
     return this.makeRequest<T>(endpoint, { ...options, method: 'GET' });
   }
 ```
 
-This method takes the endpoint (does it mean full url?) and the optiosn we need for the header and we shoudl get an apiResonse in return. BY making the request we shoudl get everythign back
+endpoint → this can be either: 
+- a relative path like '/users' or '/repos/jamesmcdonald112/notes'
+- a full URL like 'https://api.github.com/repos/...'
+- Your buildUrl() helper handles both.
+    
+options - any fetch configuration (headers, etc.).
+- It’s optional because you might not need to pass anything extra.
+
+Inside: it calls `this.makeRequest<T>()`
+- passes in the endpoint
+- merges the options but explicitly sets method: 'GET'
+
+Return: a `Promise<ApiResponse<T>>` 
+- meaning you’ll get { data, status, headers } back.
+
+
+Next, we will add some Authentication config for token usage, as I will use this for my GitHub project. Firs we will add an interface for AuthConfig to descive what is needed in the auth config:
+
+
+
+
 ## Commands 
 
 ### Commiting
