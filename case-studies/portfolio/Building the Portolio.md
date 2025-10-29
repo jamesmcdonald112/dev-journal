@@ -776,6 +776,40 @@ Promise<ApiResponse<T>>
 ```
 Means it will return a Promise resolving to { data, status, headers }(where you data will be your parsed JSON of type T).
 
+
+
+For the next code that goes into make request as part of our API Client class.
+```ts
+// Instance variable
+const url = this.buildUrl(endpoint);
+
+// Helper Method
+ private buildUrl(endpoint: string): string {
+    // Handle both absolute and relative URLs
+    if (endpoint.startsWith('http')) {
+      return endpoint; // already a full url
+    }
+    // Otherwise, combine baseUrl and endpoint safely
+    return `${this.config.baseUrl}${endpoint.startsWith('/') ? endpoint : `/${endpoint}`}`;
+  }
+```
+This helper method builds the final request url inside out API client.
+It's responsible for joining the baseUrl (if any) with the endpint passed to makeRequest().
+
+```ts
+// Instance variable
+const requestOptions = this.buildRequestOptions(options);
+
+ private buildRequestOptions(options: RequestInit): RequestInit {
+    return {
+      ...options,
+      headers: {
+        ...this.config.defaultHeaders,
+        ...options.headers,
+      },
+    };
+  }
+```
 ## Commands 
 
 ### Commiting
