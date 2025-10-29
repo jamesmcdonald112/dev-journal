@@ -908,7 +908,54 @@ try {
   - clearTimeout(timeoutId); - If fetch finishes before the timeout expires, we clear it so it doesn’t accidentally abort later.
   - The catch block - If the controller did abort → the fetch API **throws** an error with error.name === 'AbortError'. We catch that and translate it into our standardized ApiError with status 408 (“Request Timeout”). Any other type of error (network error, JSON parse failure, etc.) is simply rethrown for the outer caller to handle.
 
-We can extend this catch to include handling timeout usng the Abort contriller. The Abort contoleer will retur an error with the name `AbortError` when it is told to abort. We cna tell it to abort using the timoiut amoiunt but using the timem out method and seting it to an id (so we can clear the tiout id later).  If we get the reposne from out await fetch with out request ioptins and i am not sure what this does or where it came from - 		signal: controller.signal,- thern it will proceed to clear the timout as everyghn has worked. If it gets stucjk here for the allowed amount (defult as 10 dsweconds) thenit will abort and become an error, this error will be caught in the catch and we run our if statment. Then we can throw a apierror saying the request timed out.
+The next step is checking the status and throw for errors
+```ts
+// Here's the key: we check the status and throw for errors
+if (!response.ok) {
+	throw new ApiError(
+		`HTTP ${response.status}: ${response.statusText}`,
+		response.status,
+		response
+	);
+}
+```
+
+This line ensures that the request only continues if the HTTP status code indicates success (200–299).
+
+If it fails (like 404 or 500), it throws a custom ApiError that includes:
+- the numeric code (response.status),
+- the human-readable status text (response.statusText),
+- and the full Response object (for later inspection).
+
+This makes error handling consistent and gives you all the info you might need in one place.
+
+
+
+Next, after the make sure the response is a success, we must parse it:
+```ts
+// Parse JSON safely
+const data = await this.parseResponse<T>(response);
+      
+    
+// Helper Method
+private async parseResponse<T>(response: Response): Promise<T> {
+    const contentType = response.headers.get('content-type');
+
+    if (contentType?.includes('application/json')) {
+      try {
+        return await response.json();
+      } catch (error) {
+        throw new ApiError('Invalid JSON response', response.status, response);
+      }
+    }
+
+    // Handle text responses
+    return (await response.text()) as unknown as T;
+  }
+```
+
+so we create a helper method to parse the response. praseResponse is a helper method that takes any type
+
 
 
 ## Commands 
