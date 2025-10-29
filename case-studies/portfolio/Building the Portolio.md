@@ -622,6 +622,15 @@ SO i need to account for these errors so i will make a type for github errors:
 
 I am following this guide for best practicies for API handling - [click here](https://dev.to/dmitrevnik/fetch-wrapper-for-nextjs-a-deep-dive-into-best-practices-53dh)
 
+The idea from this site is to design a Fetch Wrapper Architecture that should provide:
+1. Automatic error handling for HTTP status codes
+2. Built-in JSON parsing with proper error handling
+3. Authentication token management
+4. TypeScript support with proper typing
+5. Next.js context awareness (server vs client)
+6. Extensible configuration for different envoirnments
+7. Consistent API 
+
 ## Commands 
 
 ### Commiting
