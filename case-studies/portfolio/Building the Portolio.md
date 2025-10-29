@@ -622,15 +622,42 @@ SO i need to account for these errors so i will make a type for github errors:
 
 I am following this guide for best practicies for API handling - [click here](https://dev.to/dmitrevnik/fetch-wrapper-for-nextjs-a-deep-dive-into-best-practices-53dh)
 
-The idea from this site is to design a Fetch Wrapper Architecture that should provide:
-1. Automatic error handling for HTTP status codes
-2. Built-in JSON parsing with proper error handling
-3. Authentication token management
-4. TypeScript support with proper typing
-5. Next.js context awareness (server vs client)
-6. Extensible configuration for different envoirnments
-7. Consistent API 
+The idea from this site is to design a Fetch Wrapper Architecture is a univeral client you build once to handle:
+- calling APIs
+- catching and formatting errors
+- parsing JSON safely
+- managing auth headers
+- ad keeping you app code clean and consistent,
 
+Instead of writing fetch() + try/catch everywhere, you ceate one wrapper that does it for you.
+
+The first step is to build a basic structure for apis that followes [[Next]] coventions. This means creating a Core Wrapper Structure that can be applied to all client APIs:
+
+```ts
+interface ApiConfig {
+  baseUrl?: string;
+  defaultHeaders?: Record<string, string>;
+  timeout?: number;
+}
+```
+This defines the configuration options your API client can take. Each field has a ?  as they are optional because:
+- Sometimes you may not need a base URL (e.g relative paths in Next.js)
+- Sometimes you want custom headers (like auth tokens)
+- sometimes you don't care about timeout.
+
+```ts
+interface ApiResponse<T = any> {
+  data: T;
+  status: number;
+  headers: Headers;
+}
+```
+This defines what the wrapper will return
+- T = any. This means "this can return any shape of data".
+	- Sometimes it's a user, sometimes its a list of notes, sometimes a string.
+	- Later, we will replace any with generics like T = Note to make it type-safe.
+- data = parsed JSON response.
+- status = the HTTP status code (eg. 200, 404, 500)
 ## Commands 
 
 ### Commiting
