@@ -656,7 +656,7 @@ This defines what the wrapper will return
 - T = any. This means "this can return any shape of data".
 	- Sometimes it's a user, sometimes its a list of notes, sometimes a string.
 	- Later, we will replace any with generics like T = Note to make it type-safe.
-- data = parsed JSON response.
+- data = parsed JSON response. Developers make sure data always exists (maybe as {} ) so that consuming code cna always safely expect response.data.
 - status = the HTTP status code (eg. 200, 404, 500)
 - headers = sp you can inspect things like Content-Type or pagination headers later.
 
@@ -738,12 +738,18 @@ class ApiClient {
 This is the heart of the wrapper.
 - private config: means this object is internal to the class only. 
 - `Required<ApiConfig>` - converts all ? fileds into required internally. So inside the class, you can satefyl use them without checking for undefined.
+	- They are made requied at this stage so that developers cna use them easily outside this class. For instance a develoepr can do this following
+```ts
+new ApiClient()                      // okay
+new ApiClient({ baseUrl: '/api' })   // also okay
+```
+- But inisde the class, you want to treat them as defined, to avoid having to di ig(config.baseUrl) checks everywhere.
 - The constructor accepts your partial config and merges it with defaults:
 	- baseUrl: '' - fallback if none given.
 	- defaultHeaders: always includes Content-Type: application/json but merges anything extra (like Authorization)
 	- timeout is a defualt of 10 seconds.
 
-This pattern gives your wrapper sensib
+This pattern gives your wrapper sensible defaults while letting you override them per instance.
 
 Second part:
 ```ts
@@ -757,7 +763,18 @@ class ApiClient {
   }
 }
 ```
+This is the core method where your real fetch logic will live later.
+It's private because you don't call it directly, the public methods (get, post, etc.) will use it internally.
+Parameters:
+- endpoint: like `/notes/123`
+- opitions: standard fetch() options, method headers, body
+- `<T>`: generic so you can type the expected the response(e.g. `makeRequest<User>`)
 
+Return type:
+```ts
+Promise<ApiResponse<T>>
+```
+Means it will return a Promise resolving to { data, status, headers }(where you data will be your parsed JSON of type T).
 
 ## Commands 
 
