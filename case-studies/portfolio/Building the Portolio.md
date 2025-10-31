@@ -1577,6 +1577,20 @@ export function deslugify(slug: string): string {
 
 
 
+ran into an issue with rate liit and figured out i forgot to do this 
+```ts
+return {
+  ...options,
+  headers: {
+    ...this.config.defaultHeaders,
+    ...headers,        // include token and any custom headers
+    ...options.headers,
+  },
+};
+```
+I didnt add the headers in so there was no autoizatio.
+
+
 ---
 
 ## Commands 

@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Biome.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Biome"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -402,9 +402,9 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
+    "learning-notes/Biome.md",
     "learning-notes/Dependabot Setup.md",
     "learning-notes/Commitlint.md",
-    "learning-notes/Biome.md",
     "case-studies/portfolio/Building the Portolio.md",
     "Fetch API Explained.md",
     "Next.js Slugs.md",
