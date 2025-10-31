@@ -1079,31 +1079,46 @@ This ensures your API client _always_ has valid authentication settings ready to
 
 Next we are going to add this:
 ```ts
- private async buildRequestOptions(options: RequestInit): Promise<RequestInit> {
-    const headers = { ...this.config.defaultHeaders };
+private async buildRequestOptions(
+	options: RequestInit
+): Promise<RequestInit> {
+	const headers = { ...this.config.defaultHeaders };
 
-    // Add authentication token if available
-    if (this.authConfig.tokenProvider) {
-      const token = await this.authConfig.tokenProvider();
-      if (token) {
-        headers[this.authConfig.tokenHeader!] = 
-          `${this.authConfig.tokenPrefix} ${token}`;
-      }
-    }
+// Add authentication token if available
+	if (this.authConfig.tokenProvider) {
 
-    return {
-      ...options,
-      headers: {
-        ...headers,
-        ...options.headers,
-      },
-    };
-  }
+		const token = await this.authConfig.tokenProvider();
+
+		if (token) {
+
+			// Safely add auth header, defaulting to "Authorization" if none is set.
+
+			headers[this.authConfig.tokenHeader ?? "Authorization"] = `${this.authConfig.tokenPrefix ?? "Bearer"
+
+			} ${token}`;
+
+		}
+
+	}
+
+	return {
+		...options,
+		headers: {
+			...this.config.defaultHeaders,
+			...options.headers,
+
+		},
+
+	};
+
+}
 ```
 
+We make it an async function as the token provider make be fetchign the info from a server. we save out default headers to a const headers so we can add them to the headers again later. First we check if authentication configuration exists ` (this.authConfig.tokenProvider)` as it make not be requred by the developer so it may not have been set. It is sayig dod the develoepr supplky a function that knows jow to get a token,. If they did, we call the function and await its results. Await is need as the result may be asynchronous, for example it may be read from cookies, localStorage, or a refresh endpoint. Even if it is not async, it still works fine. 
+If a token exists (`if (token)`), we inject it inot the headers undert the correct name. Instead of harcoding "Authorization" we use `this.authConfig.tokenHeader ?? "Authorization"` which means "use whatever tokenHeader is set in the congif, or default to 'Authorization' if none was provided. smae logic for Finally, we return all the merged headers — the defaults, any user-passed headers, and now the auth header if one was added.
 
 
-Also update this to include await:
+Also, update this to include await:
 ```ts
 // Update makeRequest to use async buildRequestOptions
   private async makeRequest<T>(
