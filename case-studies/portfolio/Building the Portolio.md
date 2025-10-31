@@ -1272,9 +1272,14 @@ Here’s what happens step-by-step:
 Next I want to create a dynamic notes page that loads any markdown file based on the URL slug (e.g./notes/learning-notes/Biome.md). For this we will use [[Next.js Slugs]]
 
 
-For this, in the [Next.js Slug Docs](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes), the show how they slugs work. As i will have nested paths, the best thign woudl be to use thier `[...slug]` which is their "catch all segments". This allows us to have nested routes. So a nice wau to see what is happenign is to type somethign liek this as the route in the url (assume we have out ...slug in notes folder) when the dev is running `http://localhost:3000/notes/test-note/learning/typescript`
+First, create a new page file at:
 
-if our code looks like this (stright from the next docs):
+```
+app/notes/[...slug]/page.tsx
+```
+
+Add the following code (based on the official Next.js docs):
+
 ```ts
 interface PageProps {
   params: Promise<{ slug: string[] }>;
@@ -1291,6 +1296,62 @@ export default async function Page({ params }: PageProps) {
   );
 }
 ```
+
+Now, run your dev server and visit a nested path such as:
+```
+http://localhost:3000/notes/test-note/learning/typescript
+```
+
+You should see this output rendered on the page:
+```ts
+Note Path
+test-note / learning / typescript
+```
+
+### **Why This Works**
+
+
+In the [Next.js Dynamic Routes documentation](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes)![Attachment.tiff](file:///Attachment.tiff), they explain that using [...slug] creates a **catch-all segment**.
+
+This means it automatically matches _any number of path segments_ after /notes,
+
+splitting them by / and passing them as an array.
+
+So, when your URL is /notes/test-note/learning/typescript,
+
+Next.js gives you:
+```ts
+params = { slug: ["test-note", "learning", "typescript"] }
+```
+
+From the docs:
+
+|**Route**|**Example URL**|params|
+|---|---|---|
+|app/shop/[...slug]/page.js|/shop/a|{ slug: ['a'] }|
+|app/shop/[...slug]/page.js|/shop/a/b|{ slug: ['a', 'b'] }|
+|app/shop/[...slug]/page.js|/shop/a/b/c|{ slug: ['a', 'b', 'c'] }|
+
+Each / creates a new entry in the array.
+
+If you need to turn this array into a valid file path for fetching notes from GitHub,
+
+you can join the segments again:
+```ts
+const filePath = slug.join("/") + ".md";
+```
+
+That will convert:
+```ts
+["test-note", "learning", "typescript"]
+```
+
+into:
+```ts
+"test-note/learning/typescript.md"
+```
+
+This joined path can then be passed to your fetchNoteFromGitHub() function to retrieve the corresponding Markdown file.
 ## Commands 
 
 ### Commiting
