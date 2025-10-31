@@ -9,5 +9,6 @@
   },
   "newFileLocation": "root",
   "newFileFolderPath": "",
-  "attachmentFolderPath": "attatchments/images"
+  "attachmentFolderPath": "attatchments/images",
+  "newLinkFormat": "absolute"
 }
