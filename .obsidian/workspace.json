@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "learning-notes/Dependabot Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,11 +220,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Dependabot Setup"
+            }
+          },
+          {
+            "id": "0a73f459abf0d9d6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "learning-notes/Commitlint.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Commitlint"
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -399,11 +423,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "536d860745587550",
+  "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/Commitlint.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Dependabot Setup.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/Commitlint.md",
     "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/next/Creating Pages in Next.js 14+.md",

@@ -25,7 +25,7 @@ npm install -D @commitlint/cli @commitlint/config-conventional
 ```
 
 And this creates the minimum required config file:
-```bah
+```bash
 echo "export default { extends: ['@commitlint/config-conventional'] };" > commitlint.config.js
 ```
 
