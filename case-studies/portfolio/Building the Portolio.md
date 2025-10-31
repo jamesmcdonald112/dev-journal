@@ -1175,6 +1175,60 @@ Next we create a feature level function in `features/notes/api/fetchNoteFromGitH
 - [[Fail Fast Principle]]
 
 
+
+Changed this to unknown to stop [[Biome]] complaining:
+```ts
+interface ApiResponse<T = unknown> {
+	data: T;
+	status: number;
+	headers: Headers;
+}
+```
+Any basically turns off typescript and disables all type checking, which is unsafe and hides bugs. In modern type script, unknown is better as Typescript forces you to narrow the type before using it:
+```ts
+let data: unknown;
+
+data = "hello";
+
+if (typeof data === "string") {
+  console.log(data.toUpperCase()); //  Safe, because you checked
+}
+```
+
+If you skip the check:
+```ts
+console.log(data.toUpperCase()); // Error: Object is of type 'unknown'
+```
+
+
+
+now, in out `src/app/notes/fetchNotesFromGitHub.ts` we can add this code:
+```ts
+import { githubApi } from "@/lib/client";
+import type { GitHubFileResponse } from "../types";
+
+const USER = "jamesmcdonald112";
+const REPO = "dev-journal";
+
+export default async function fetchNoteFromGitHub(
+	filePath: string,
+): Promise<GitHubFileResponse> {
+	const endpoint = `/repos/${USER}/${REPO}/contents/${encodeURIComponent(filePath)}`;
+	const response = await githubApi.get<GitHubFileResponse>(endpoint);
+	return response.data;
+}
+```
+This function takes a string for a file path and gets the note at that file path. Rememebr all error handinling is handled at a lower level. It returns this data which is then used here in this code:
+```ts
+import matter from "gray-matter";
+export function decodeMarkdown(base64Content: string): string {
+	const decoded = Buffer.from(base64Content, "base64").toString("utf8");
+	const { content: markdown } = matter(decoded);
+return markdown;
+}
+```
+Here, we create a function tothe content form the github file is in base64 so we decode it and return it as markdown,
+
 ## Commands 
 
 ### Commiting
