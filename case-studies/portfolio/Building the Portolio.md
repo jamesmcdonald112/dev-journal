@@ -1140,6 +1140,32 @@ Also, update this to include await:
     const requestOptions = await this.buildRequestOptions(options);
 ```
 
+
+
+In `lib/github/client.ts` create a GitHub Specific API instance
+```ts
+export const githubApi = new ApiClient(
+  { baseUrl: "https://api.github.com" },
+  { tokenProvider: () => process.env.GITHUB_TOKEN ?? null }
+);
+```
+
+This resuses the ApiClient logic, automatically attaches your github token to all requests
+sets, default base url to GitHub's REST API. Now we can make authenticated requests like:
+```ts
+githubApi.get("/repos/jamesmcdonald112/dev-journal/contents/file.md")
+```
+and it will include my token automatically.
+
+
+Next we create a feature level function in `features/notes/api/fetchNoteFromGitHub.ts` that combines our GitHub instance (githubApi) with out personal repo and file path to fetch a specific makdown file (or JSON metadata) from GitHub.
+
+
+## Architectural Principles used at this point 
+- [[Facade Pattern]]
+- [[Centralised Error Handling]]
+- [[Layered Architecture]]
+- [[Fail Fast Principle]]
 ## Commands 
 
 ### Commiting
