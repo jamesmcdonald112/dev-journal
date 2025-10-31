@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fail Fast Principle.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Fail Fast Principle"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -403,8 +403,8 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "case-studies/portfolio/Building the Portolio.md",
     "Fail Fast Principle.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "Layered Architecture.md",
     "Centralised Error Handling.md",
     "Facade Pattern.md",

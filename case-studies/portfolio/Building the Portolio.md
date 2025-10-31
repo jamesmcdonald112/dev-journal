@@ -1157,6 +1157,13 @@ githubApi.get("/repos/jamesmcdonald112/dev-journal/contents/file.md")
 ```
 and it will include my token automatically.
 
+Dont forget to export the ApiClient and ApiError:
+```ts
+export class ApiError extends Error{...}
+export class ApiClient{...}
+```
+
+
 
 Next we create a feature level function in `features/notes/api/fetchNoteFromGitHub.ts` that combines our GitHub instance (githubApi) with out personal repo and file path to fetch a specific makdown file (or JSON metadata) from GitHub.
 
@@ -1166,6 +1173,8 @@ Next we create a feature level function in `features/notes/api/fetchNoteFromGitH
 - [[Centralised Error Handling]]
 - [[Layered Architecture]]
 - [[Fail Fast Principle]]
+
+
 ## Commands 
 
 ### Commiting
