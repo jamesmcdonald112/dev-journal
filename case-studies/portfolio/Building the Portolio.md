@@ -1218,7 +1218,10 @@ export default async function fetchNoteFromGitHub(
 	return response.data;
 }
 ```
-This function takes a string for a file path and gets the note at that file path. Rememebr all error handinling is handled at a lower level. It returns this data which is then used here in this code:
+This function takes a filePath string and retrieves the corresponding note file from the GitHub repository.
+
+Because all error handling happens inside our ApiClient, this function stays clean and focused—it simply fetches the data and returns it.
+
 ```ts
 import matter from "gray-matter";
 export function decodeMarkdown(base64Content: string): string {
@@ -1227,8 +1230,46 @@ export function decodeMarkdown(base64Content: string): string {
 return markdown;
 }
 ```
-Here, we create a function tothe content form the github file is in base64 so we decode it and return it as markdown,
+GitHub’s API returns file content in Base64 format, so here we:
 
+1. Decode the Base64 string into plain text (utf8).
+    
+2. Use **gray-matter** to strip out any front matter (YAML metadata).
+    
+3. Return the markdown body ready for rendering
+
+Finally, we can use both functions inside our src/app/notes/page.tsx component:
+```ts
+export default async function Notes(): Promise<JSX.Element> {
+	try {
+		const fileData: GitHubFileResponse = await fetchNoteFromGitHub("Fetch API Explained.md");
+		const markdown: string = decodeMarkdown(fileData.content);
+
+		// ...Render markdown using react-markdown
+	} catch (error) {
+		return (
+			<h1>
+				Failed to load note:{" "}
+				{error instanceof Error ? error.message : "Unknown error"}
+			</h1>
+		);
+	}
+}
+```
+
+Here’s what happens step-by-step:
+
+1. We call fetchNoteFromGitHub() with a specific file name (e.g., "Fetch API Explained.md").
+    
+2. The GitHub API returns the file data in Base64 format.
+    
+3. We decode and parse it into markdown using decodeMarkdown().
+    
+4. The result is then rendered to the page (using react-markdown with syntax highlighting, GFM, etc.).
+
+
+
+Next I want to create a dynamic notes page that loads any markdown file based on the URL slug (e.g./notes/learning-notes/Biome.md). For this we will use [[Next.js Slugs]]
 ## Commands 
 
 ### Commiting

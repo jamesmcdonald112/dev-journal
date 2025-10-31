@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "Next.js Slugs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Next.js Slugs"
             }
           }
         ],
@@ -281,8 +281,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "right": {
     "id": "4e3e56dd8897e3e9",
@@ -403,9 +402,13 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "Fail Fast Principle.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "Next.js Slugs.md",
+    "Vercel.md",
+    "rehype-highlight.md",
     "Layered Architecture.md",
+    "learning-notes/Biome.md",
+    "Fail Fast Principle.md",
     "Centralised Error Handling.md",
     "Facade Pattern.md",
     "Next Folder Structure.md",
@@ -421,18 +424,14 @@
     "Remark.md",
     "learning-notes/next",
     "learning-notes/Tailwind’s Prose Classes.md",
-    "rehype-highlight.md",
     "Tailwind-Typography.md",
     "learning-notes/ISSUE_TEMPLATES.md",
     "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js",
     "package-lock.json.md",
-    "templates/learning-note.md",
-    "learning-notes/Express Vs Spring Vs.md",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",
-    "Vercel.md",
     "learning-notes/obsidian",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
