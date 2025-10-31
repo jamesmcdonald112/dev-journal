@@ -102,13 +102,13 @@ The Fetch API is the foundation of almost every modern web data interaction, fro
 - Integrate safely with third-party APIs like GitHub
 
 ## Related 
-- [HTTP Caching (MDN)](HTTP%20Caching%20(MDN))
-- [Headers API](Headers%20API.md)
-- [Fetching Data in Next.js (App Router)](Fetching%20Data%20in%20Next.js%20(App%20Router))
-- [Error Handling in JavaScript](Error%20Handling%20in%20JavaScript)
-- [Example](Example)
+- [[MDN)](MDN|HTTP Caching (MDN)]]))
+- [[Headers API]]
+- [[App Router)](App Router|Fetching Data in Next.js (App Router)]]))
+- [[Error Handling in JavaScript]]
+- [[Example]]
 
 ## References
 - [MDN – Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-- [](https://nodejs.org/api/globals.html#fetch)
-- [HTTP Caching (MDN)](MDN))
+- [[https://nodejs.org/api/globals.html#fetch]]
+- [[MDN)](MDN|HTTP Caching (MDN)]]))

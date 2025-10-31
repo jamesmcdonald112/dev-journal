@@ -30,8 +30,8 @@ This structure ensures correct routing and layout inheritance across your app.
 If you place pages under /pages or deviate from this pattern, Next.js will ignore them — leading to missing routes or unexpected errors.
 
 ## Related 
-- [Next.js Routing](Next.js%20Routing)
-- [App Router](App%20Router)
+- [[Next.js Routing]]
+- [[App Router]]
 
 ## References
-- - [](https://nextjs.org/docs/app/getting-started/layouts-and-pages#the-app-directory)
+- - [[https://nextjs.org/docs/app/getting-started/layouts-and-pages#the-app-directory]]

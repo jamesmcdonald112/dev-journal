@@ -47,10 +47,10 @@ Wrap it up with what you achieved and what you’d do differently next time.
 ## Related:
 
 ## References
-- [GitHub Repository](#)
-- [Live Demo](#)
+- [[#|GitHub Repository]]
+- [[#|Live Demo]]
 - [Official Docs](https://react.dev)
-- [Article](#)
-- [Video](#)
+- [[#|Article]]
+- [[#|Video]]
 - Obsidian link
 

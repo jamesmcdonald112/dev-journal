@@ -1,35 +1,35 @@
 ## Setup
-- [Setting Up Obsidian for Technical Note-Taking](learning-notes/obsidian/Setting%20Up%20Obsidian%20for%20Technical%20Note-Taking.md)
-- [Next](learning-notes/Next.md)
-- [Biome](learning-notes/Biome.md)
-- [Husky](learning-notes/Husky.md)
-- [Lint-Staged](learning-notes/Lint-Staged.md)
-- [Dependabot Setup](learning-notes/Dependabot%20Setup.md)
-- [README Badges](learning-notes/README%20Badges.md)
-- [VS Code Workspace Settings](learning-notes/VS%20Code%20Workspace%20Settings.md)
-- [Commitlint](learning-notes/Commitlint.md)
-- [Github Workflows](learning-notes/Github%20Workflows.md)
-- [Testing Environment Setup](learning-notes/Testing%20Environment%20Setup.md)
-- [Vitest](learning-notes/Vitest.md)
-- [Jsdom](learning-notes/Jsdom.md)
-- [React Testing Library](learning-notes/React%20Testing%20Library.md)
-- [Zod](learning-notes/Zod.md)
-- [Jest-Dom](learning-notes/Jest-Dom.md)
-- [User-Event](learning-notes/User-Event.md)
-- [Tailwind](Tailwind.md)
-- [README](learning-notes/README.md)
-- [Vercel](Vercel.md)
-- [GitHub Projects](GitHub%20Projects.md)
+- [[learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking]]
+- [[learning-notes/Next]]
+- [[learning-notes/Biome]]
+- [[learning-notes/Husky]]
+- [[learning-notes/Lint-Staged]]
+- [[learning-notes/Dependabot Setup]]
+- [[learning-notes/README Badges]]
+- [[learning-notes/VS Code Workspace Settings]]
+- [[learning-notes/Commitlint]]
+- [[learning-notes/Github Workflows]]
+- [[learning-notes/Testing Environment Setup]]
+- [[learning-notes/Vitest]]
+- [[learning-notes/Jsdom]]
+- [[learning-notes/React Testing Library]]
+- [[learning-notes/Zod]]
+- [[learning-notes/Jest-Dom]]
+- [[learning-notes/User-Event]]
+- [[Tailwind]]
+- [[learning-notes/README]]
+- [[Vercel]]
+- [[GitHub Projects]]
 
 
 
 ## Github notes
-- [Gray-matter](learning-notes/Gray-matter.md)
-- [Remark](Remark.md)
+- [[learning-notes/Gray-matter]]
+- [[Remark]]
 
 ## Next Pages
-- Create a page for the notes. [Creating Pages in Next.js 14+](learning-notes/next/Creating%20Pages%20in%20Next.js%2014+.md)
-- [GitHub REST API — Contents (Get repository content)](GitHub%20REST%20API%20—%20Contents%20(Get%20repository%20content).md)
+- Create a page for the notes. [[learning-notes/next/Creating Pages in Next.js 14+]]
+- [[Get repository content)](Get repository content|GitHub REST API — Contents (Get repository content)]]).md)
 
 
 ## Issues
@@ -49,13 +49,13 @@ Calling from the original GItHub REST API endpoint `https://api.github.com/repos
 10. type: "file"
 11. url: "https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/Tailwind.md?ref=main"
 12. _links: {self: 'https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/Tailwind.md?ref=main', git: 'https://api.github.com/repos/jamesmcdonald112/dev-…it/blobs/4a729b175407f69181d8aa40e90e6e117e8ec14a', html: 'https://github.com/jamesmcdonald112/dev-journal/blob/main/Tailwind.md'}
-13. [Prototype](Prototype): Object
+13. [[Prototype]]: Object
 ```
-With this infomation the content must be decoded first usinf a buffer and I cannot difectly transform it to markdown renders liek [Gray-matter](learning-notes/Gray-matter.md) or [Remark](Remark.md) without decoding it first. One of the parts of the JSON file include the downlouad_url which is the raw data. This give me the exact markdown string.
+With this infomation the content must be decoded first usinf a buffer and I cannot difectly transform it to markdown renders liek [[learning-notes/Gray-matter]] or [[Remark]] without decoding it first. One of the parts of the JSON file include the downlouad_url which is the raw data. This give me the exact markdown string.
 
 #### Why we are not using application/vnd.github.html+json
 It may seem convient to have or files converted to html from markdown  but it is restricted.
-- There is no control over rendering so they cannot be styled using [Tailwind’s Prose Classes](learning-notes/Tailwind’s%20Prose%20Classes.md)
+- There is no control over rendering so they cannot be styled using [[learning-notes/Tailwind’s Prose Classes]]
 - Github styled markdown only meaning it cannot be extened with custom markdown
 However, it is convienet for previews.
 
@@ -110,21 +110,21 @@ keywords:
 ---
 ```
 
-After doing some research and back and forth with chat gpt, it seems like the best approach is to use [Gray-matter](learning-notes/Gray-matter.md) and [Remark](Remark.md) to have best overall flexibility for my project. This is instead of [next-mdx-remote](https://nextjs.org/docs/app/guides/mdx), which seems like it should be perfect but it comes with a warning on the site:
+After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[learning-notes/Gray-matter]] and [[Remark]] to have best overall flexibility for my project. This is instead of [next-mdx-remote](https://nextjs.org/docs/app/guides/mdx), which seems like it should be perfect but it comes with a warning on the site:
 > “Please proceed with caution. MDX compiles to JavaScript and is executed on the server. You should only fetch MDX content from a trusted source, otherwise this can lead to remote code execution (RCE).”
 
-As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [Gray-matter](learning-notes/Gray-matter.md) and [Remark](Remark.md).
+As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [[learning-notes/Gray-matter]] and [[Remark]].
 
 So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I installed the dependancies and used it to get this returned:
 ```json
 1. {content: '# Fetch API Explained\n\n## What I Learned\n- The Fet…eveloper.mozilla.org/en-US/docs/Web/HTTP/Caching)', data: {…}, isEmpty: false, excerpt: '', orig: {…}}
 
-2. content: "# Fetch API Explained\n\n## What I Learned\n- The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.\n- It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.\n- fetch(url) returns a Promise that resolves to a Response object.\n- You can check request success using response.ok (true if status is 200–299).\n- Always handle potential network or HTTP errors using try/catch.\n- Use response.json() to parse JSON data or response.text() for plain text.\n- The default HTTP method is **GET**, but you can specify others with the method option.\n- For POST/PUT requests, include a body and set appropriate headers (like Content-Type).\n\n## Example / Code Snippet\n1. Example from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):\n```js\nasync function getData() {\n const url = \"https://example.org/products.json\";\n try {\n const response = await fetch(url);\n if (!response.ok) {\n throw new Error(`Response status: ${response.status}`);\n }\n\n const result = await response.json();\n console.log(result);\n } catch (error) {\n console.error(error.message);\n }\n}\n```\n\n2. POST Request:\n```js\nconst response = await fetch(\"https://example.org/post\", {\n method: \"POST\",\n headers: {\n \"Content-Type\": \"application/json\",\n },\n body: JSON.stringify({ username: \"example\" }),\n});\n```\n\n3. **Reusable Utility Function (TypeScript best practice)**:\n```TypeScript\nexport async function fetchJSON<T>(url: string): Promise<T> {\n try {\n const res = await fetch(url, {\n headers: { Accept: \"application/json\" },\n });\n\n if (!res.ok) {\n throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);\n }\n\n return await res.json();\n } catch (err) {\n console.error(\"Fetch error:\", err);\n throw err;\n }\n}\n\n// Example usage:\nconst notes = await fetchJSON<Note[](%5Cn%20%5C"https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/%5C"%5Cn);%5Cn```%5Cn%5Cn##%20 **Best%20Practices**%5Cn-%20Always%20check%20response.ok,%20fetch%20does%20**not**%20throw%20on%20HTTP%20errors.%5Cn-%20Wrap%20your%20requests%20in%20try/catch%20for%20network%20safety%20and%20clean%20error%20messages.%5Cn-%20Include%20headers%20like%20Accept%20or%20Content-Type%20when%20sending%20or%20expecting%20JSON.%5Cn-%20Prefer%20async/await%20over%20.then()%20for%20clarity%20and%20maintainability.%5Cn-%20Avoid%20re-reading%20the%20same%20response;%20clone%20it%20first%20if%20needed%20(response.clone()).%5Cn-%20Cache%20responses%20manually%20or%20use%20frameworks%20(like%20Next.js)%20that%20handle%20caching%20for%20you.%5Cn##%20Why%20It%20Matters%5CnThe%20Fetch%20API%20is%20the%20foundation%20of%20almost%20every%20modern%20web%20data%20interaction,%20from%20REST%20calls%20in%20front-end%20apps%20to%20server-side%20fetching%20in%20Next.js.%20Understanding%20fetch%20deeply%20ensures%20you%20can:%5Cn-%20Build%20robust%20API%20layers%5Cn-%20Handle%20both%20browser%20and%20Node%20environments%5Cn-%20Manage%20caching,%20credentials,%20and%20streaming%20efficiently%5Cn-%20Integrate%20safely%20with%20third-party%20APIs%20like%20GitHub%5Cn%5Cn###%20 **Best%20Practices**%5Cn-%20Always%20check%20response.ok,%20fetch%20does%20**not**%20throw%20on%20HTTP%20errors.%5Cn-%20Wrap%20your%20requests%20in%20try/catch%20for%20network%20safety%20and%20clean%20error%20messages.%5Cn-%20Include%20headers%20like%20Accept%20or%20Content-Type%20when%20sending%20or%20expecting%20JSON.%5Cn-%20Prefer%20async/await%20over%20.then()%20for%20clarity%20and%20maintainability.%5Cn-%20Avoid%20re-reading%20the%20same%20response;%20clone%20it%20first%20if%20needed%20(response.clone()).%5Cn-%20Cache%20responses%20manually%20or%20use%20frameworks%20(like%20Next.js)%20that%20handle%20caching%20for%20you.%5Cn##%20Why%20It%20Matters%5CnThe%20Fetch%20API%20is%20the%20foundation%20of%20almost%20every%20modern%20web%20data%20interaction,%20from%20REST%20calls%20in%20front-end%20apps%20to%20server-side%20fetching%20in%20Next.js.%20Understanding%20fetch%20deeply%20ensures%20you%20can:%5Cn-%20Build%20robust%20API%20layers%5Cn-%20Handle%20both%20browser%20and%20Node%20environments%5Cn-%20Manage%20caching,%20credentials,%20and%20streaming%20efficiently%5Cn-%20Integrate%20safely%20with%20third-party%20APIs%20like%20GitHub%5Cn%5Cn##%20Related%20%5Cn-%20[[HTTP%20Caching%20(MDN))\n- [Headers API](Headers%20API.md)\n- [Fetching Data in Next.js (App Router)](Fetching%20Data%20in%20Next.js%20(App%20Router))\n- [Error Handling in JavaScript](Error%20Handling%20in%20JavaScript)\n\n## References\n- [MDN – Using the Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch]]\n- [](https://nodejs.org/api/globals.html#fetch)\n- [HTTP Caching (MDN)](MDN))"
+2. content: "# Fetch API Explained\n\n## What I Learned\n- The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.\n- It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.\n- fetch(url) returns a Promise that resolves to a Response object.\n- You can check request success using response.ok (true if status is 200–299).\n- Always handle potential network or HTTP errors using try/catch.\n- Use response.json() to parse JSON data or response.text() for plain text.\n- The default HTTP method is **GET**, but you can specify others with the method option.\n- For POST/PUT requests, include a body and set appropriate headers (like Content-Type).\n\n## Example / Code Snippet\n1. Example from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch):\n```js\nasync function getData() {\n const url = \"https://example.org/products.json\";\n try {\n const response = await fetch(url);\n if (!response.ok) {\n throw new Error(`Response status: ${response.status}`);\n }\n\n const result = await response.json();\n console.log(result);\n } catch (error) {\n console.error(error.message);\n }\n}\n```\n\n2. POST Request:\n```js\nconst response = await fetch(\"https://example.org/post\", {\n method: \"POST\",\n headers: {\n \"Content-Type\": \"application/json\",\n },\n body: JSON.stringify({ username: \"example\" }),\n});\n```\n\n3. **Reusable Utility Function (TypeScript best practice)**:\n```TypeScript\nexport async function fetchJSON<T>(url: string): Promise<T> {\n try {\n const res = await fetch(url, {\n headers: { Accept: \"application/json\" },\n });\n\n if (!res.ok) {\n throw new Error(`Fetch failed: ${res.status} ${res.statusText}`);\n }\n\n return await res.json();\n } catch (err) {\n console.error(\"Fetch error:\", err);\n throw err;\n }\n}\n\n// Example usage:\nconst notes = await fetchJSON<Note[[\n \"https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/\"\n]];%5Cn```%5Cn%5Cn##%20 **Best%20Practices**%5Cn-%20Always%20check%20response.ok,%20fetch%20does%20**not**%20throw%20on%20HTTP%20errors.%5Cn-%20Wrap%20your%20requests%20in%20try/catch%20for%20network%20safety%20and%20clean%20error%20messages.%5Cn-%20Include%20headers%20like%20Accept%20or%20Content-Type%20when%20sending%20or%20expecting%20JSON.%5Cn-%20Prefer%20async/await%20over%20.then()%20for%20clarity%20and%20maintainability.%5Cn-%20Avoid%20re-reading%20the%20same%20response;%20clone%20it%20first%20if%20needed%20(response.clone()).%5Cn-%20Cache%20responses%20manually%20or%20use%20frameworks%20(like%20Next.js)%20that%20handle%20caching%20for%20you.%5Cn##%20Why%20It%20Matters%5CnThe%20Fetch%20API%20is%20the%20foundation%20of%20almost%20every%20modern%20web%20data%20interaction,%20from%20REST%20calls%20in%20front-end%20apps%20to%20server-side%20fetching%20in%20Next.js.%20Understanding%20fetch%20deeply%20ensures%20you%20can:%5Cn-%20Build%20robust%20API%20layers%5Cn-%20Handle%20both%20browser%20and%20Node%20environments%5Cn-%20Manage%20caching,%20credentials,%20and%20streaming%20efficiently%5Cn-%20Integrate%20safely%20with%20third-party%20APIs%20like%20GitHub%5Cn%5Cn###%20 **Best%20Practices**%5Cn-%20Always%20check%20response.ok,%20fetch%20does%20**not**%20throw%20on%20HTTP%20errors.%5Cn-%20Wrap%20your%20requests%20in%20try/catch%20for%20network%20safety%20and%20clean%20error%20messages.%5Cn-%20Include%20headers%20like%20Accept%20or%20Content-Type%20when%20sending%20or%20expecting%20JSON.%5Cn-%20Prefer%20async/await%20over%20.then()%20for%20clarity%20and%20maintainability.%5Cn-%20Avoid%20re-reading%20the%20same%20response;%20clone%20it%20first%20if%20needed%20(response.clone()).%5Cn-%20Cache%20responses%20manually%20or%20use%20frameworks%20(like%20Next.js)%20that%20handle%20caching%20for%20you.%5Cn##%20Why%20It%20Matters%5CnThe%20Fetch%20API%20is%20the%20foundation%20of%20almost%20every%20modern%20web%20data%20interaction,%20from%20REST%20calls%20in%20front-end%20apps%20to%20server-side%20fetching%20in%20Next.js.%20Understanding%20fetch%20deeply%20ensures%20you%20can:%5Cn-%20Build%20robust%20API%20layers%5Cn-%20Handle%20both%20browser%20and%20Node%20environments%5Cn-%20Manage%20caching,%20credentials,%20and%20streaming%20efficiently%5Cn-%20Integrate%20safely%20with%20third-party%20APIs%20like%20GitHub%5Cn%5Cn##%20Related%20%5Cn-%20[[MDN))\n- [Headers API](MDN|[HTTP%20Caching%20(MDN))\n- [Headers API]])%5Cn-%20[[App Router)](App Router|Headers%20API)\n- [Fetching Data in Next.js (App Router)]]))\n- [[Error Handling in JavaScript]]\n\n## References\n- [[https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch]]\n- [](https://nodejs.org/api/globals.html#fetch]]](MDN)))"
 3. data:
 
 4. date: Wed Oct 22 2025 01:00:00 GMT+0100 (Irish Standard Time)
 
-5. [Prototype](Prototype): Object
+5. [[Prototype]]: Object
 
 6. keywords: Array(8)
 
@@ -137,7 +137,7 @@ So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I
 13. 6: "headers"
 14. 7: "Node.js"
 15. length: 8
-16. [Prototype](Prototype): Array(0)
+16. [[Prototype]]: Array(0)
 
 17. status: "draft"
 18. summary: "The Fetch API is the modern, promise-based way to make HTTP requests in both browsers and Node.js. It replaces XMLHttpRequest and integrates with newer web standards like CORS, service workers, and streaming responses."
@@ -148,40 +148,40 @@ So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I
 22. 2: "Node.js"
 23. 3: "Web APIs"
 24. length: 4
-25. [Prototype](Prototype): Array(0)
+25. [[Prototype]]: Array(0)
 
 26. title: "Fetch API Explained"
 27. type: "core-web"
 28. updated: Wed Oct 22 2025 01:00:00 GMT+0100 (Irish Standard Time)
 
-29. [Prototype](Prototype): Object
+29. [[Prototype]]: Object
 
-30. [Prototype](Prototype): Object
+30. [[Prototype]]: Object
 
 31. excerpt: ""
 32. isEmpty: false
 33. orig: {type: 'Buffer', data: Array(3771)}
-34. [Prototype](Prototype): Object
+34. [[Prototype]]: Object
 
 ```
 
-So my next goal is to render one note beautifully os i need [[Remark](AST),%20meaning%20it%20identifies%20headings,%20list,%20bold%20text%20etc.%20So%20accroding%20to%20the%20[docs) we need to install:
+So my next goal is to render one note beautifully os i need [[AST|[Remark]],%20meaning%20it%20identifies%20headings,%20list,%20bold%20text%20etc.%20So%20accroding%20to%20the%20[docs) we need to install:
 
 ```
 npm install unified remark-parse remark-rehype rehype-stringify
 ```
-This setup installs [Unified](Unified), [Remark](Remark.md),  [Rehype](Rehype), and [Rehype-Stringify](Rehype-Stringify) the tools we need to convert Markdown into HTML.
-- [Unified](Unified) connects [Remark](Remark.md) and [Rehype](Rehype) together in a processing pipeline.
-- [Remark](Remark.md) converts or markdown into a ATS tree, basically a JSON file with the key as the md and the value as the text.
-- [Rehype](Rehype) converts this ats tree into a HTML format.
-- [Rehype-Stringify](Rehype-Stringify) transforms this HTML structure into a readable string that can be safely rendered on the site.
+This setup installs [[Unified]], [[Remark]],  [[Rehype]], and [[Rehype-Stringify]] the tools we need to convert Markdown into HTML.
+- [[Unified]] connects [[Remark]] and [[Rehype]] together in a processing pipeline.
+- [[Remark]] converts or markdown into a ATS tree, basically a JSON file with the key as the md and the value as the text.
+- [[Rehype]] converts this ats tree into a HTML format.
+- [[Rehype-Stringify]] transforms this HTML structure into a readable string that can be safely rendered on the site.
 
 The [unified docs](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com) have a nice way of explain it:
->`unified` is an interface for processing content with syntax trees. Syntax trees are a representation of content understandable to programs. Those programs, called _[](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#plugin)_, take these trees and inspect and modify them. To get to the syntax tree from text, there is a _[](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#parser)_. To get from that back to text, there is a _[](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#compiler)_. This is the _[](https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#processorprocessfile-done)_ of a _processor_.
+>`unified` is an interface for processing content with syntax trees. Syntax trees are a representation of content understandable to programs. Those programs, called _[[https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#plugin]]_, take these trees and inspect and modify them. To get to the syntax tree from text, there is a _[[https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#parser]]_. To get from that back to text, there is a _[[https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#compiler]]_. This is the _[[https://unifiedjs.com/explore/package/unified/?utm_source=chatgpt.com#processorprocessfile-done]]_ of a _processor_.
 
 **Explanation:**
 
-[Unified](Unified) acts as the **pipeline** that manages how our Markdown content is processed.
+[[Unified]] acts as the **pipeline** that manages how our Markdown content is processed.
 
 It uses **plugins** to interact with and modify a syntax tree, a structured representation of our text that code can understand.
 
@@ -242,7 +242,7 @@ VFile {
 ........
 ```
 
-SO the Next step is to make the HTML look nice when render on the page, this will be done using [Tailwind’s Prose Classes](learning-notes/Tailwind’s%20Prose%20Classes.md). For the docs, [click here](https://github.com/tailwindlabs/tailwindcss-typography). Install:
+SO the Next step is to make the HTML look nice when render on the page, this will be done using [[learning-notes/Tailwind’s Prose Classes]]. For the docs, [click here](https://github.com/tailwindlabs/tailwindcss-typography). Install:
 ```sh
 npm install -D @tailwindcss/typography
 ```
@@ -262,7 +262,7 @@ However, I got this rendered to the console:
 <h1>Fetch API Explained</h1> <h2>What I Learned</h2> <ul> <li>The Fetch API provides a JavaScript interface for making HTTP requests and handling responses.</li> <li>It replaces XMLHttpRequest and is promise-based, making it easier to use with async/await.</li> <li>fetch(url) returns a Promise that resolves to a Response object.</li> <li>You can check request success using response.ok (true if status is 200–299).</li> <li>Always handle potential network or HTTP
 ```
 
-The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which lead me to the[](https://react.dev/reference/react-dom/components/common#dangerously-setting-the-inner-html). This shoudl only be used when:
+The issue is that i was not injecting it as a JSX element, but as a HTML string. On [Stack Overflow](https://stackoverflow.com/questions/39758136/how-to-render-html-string-as-real-html) I found an answer to use `dangerouslySetInnerHTML` , which lead me to the[[https://react.dev/reference/react-dom/components/common#dangerously-setting-the-inner-html]]. This shoudl only be used when:
 - You have trusted HTML content (meaning not user submitted). Mine is coming from my own GitHub repo.
 - You need to render that HTML(e.g., Markdown - HTML, blog content, etc). I am converting it safely with remakr and rehype.
 - You cannot easily represent the same output using React 
@@ -283,7 +283,7 @@ That approach parsed Markdown into an Abstract Syntax Tree (AST) using remark-pa
     - Add interactivity or custom React components (like `<NoteLink>` or `<CopyButton>`).
         
     
-3. It was **less flexible** for integrating Obsidian-style note links ([Note](Note)), syntax highlighting, or component injection.
+3. It was **less flexible** for integrating Obsidian-style note links ([[Note]]), syntax highlighting, or component injection.
 
   
 
@@ -301,7 +301,7 @@ Under the hood, it still uses the Remark/Rehype ecosystem — but it integrates 
 
   This switch unlocks the ability to:
 
-- **Render Obsidian-style** **[Internal Links](Internal%20Links)** dynamically (convert them to <Link href="/notes/...">).
+- **Render Obsidian-style** **[[Internal Links]]** dynamically (convert them to <Link href="/notes/...">).
     
 - **Insert custom React components** (alerts, code blocks with copy buttons, etc.).
     
@@ -415,7 +415,7 @@ remarkWikiLink,
 ],
 ```
 
-allwoing us to turn out wiki style links in obsidian (`[Building the Portolio](case-studies/portfolio/Building%20the%20Portolio.md)`) into clickable links. This brought on a new issue as we werre only fetching a single page so when we click on a page in our website, it will not exist as we have not fetached it. SO the next step is to mkae any page or link we want to get fetched
+allwoing us to turn out wiki style links in obsidian (`[[case-studies/portfolio/Building the Portolio]]`) into clickable links. This brought on a new issue as we werre only fetching a single page so when we click on a page in our website, it will not exist as we have not fetached it. SO the next step is to mkae any page or link we want to get fetched
 
 ## **🧱 Static Build & Incremental Sync Strategy**
 
@@ -589,7 +589,7 @@ At build time (during deployment or via a scheduled sync), a Node.js or Next.js 
 - Optionally integrate mind map or graph view using folder/tag data.
 
 ## Getting the tree
-[](https://docs.github.com/en/rest/git/trees#get-a-tree) show how to get the tree we need for this structure. We need to get the entire tree and the structure of the files that includes the SHA as that identiys the fiels and updates if the files have been updated, so we know to redownload that file. According to the docs, we need to add a parameter to view the subfolders. That is `recursive=1`. Using theri curl command on our project we get this command:
+[[https://docs.github.com/en/rest/git/trees#get-a-tree]] show how to get the tree we need for this structure. We need to get the entire tree and the structure of the files that includes the SHA as that identiys the fiels and updates if the files have been updated, so we know to redownload that file. According to the docs, we need to add a parameter to view the subfolders. That is `recursive=1`. Using theri curl command on our project we get this command:
 ```bash
 curl -L \
   -H "Accept: application/vnd.github+json" \
@@ -603,7 +603,7 @@ I created an access token so it would incrase my rate limits from 60-5k per hour
 npx gitignore node
 ```
 
-Before we go any further, I am going to refactor my code so it is more modular and tidy, following the [BulletProof React](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) folder structure  and adopting it for [Next Folder Structure](Next%20Folder%20Structure.md). 
+Before we go any further, I am going to refactor my code so it is more modular and tidy, following the [BulletProof React](https://github.com/alan2207/bulletproof-react/blob/master/docs/project-structure.md) folder structure  and adopting it for [[Next Folder Structure]]. 
 
 ## Error response - GITHUB
 ```json
@@ -631,7 +631,7 @@ The idea from this site is to design a Fetch Wrapper Architecture is a univeral 
 
 Instead of writing fetch() + try/catch everywhere, you ceate one wrapper that does it for you.
 
-The first step is to build a basic structure for apis that followes [Next](learning-notes/Next.md) coventions. This means creating a Core Wrapper Structure that can be applied to all client APIs:
+The first step is to build a basic structure for apis that followes [[learning-notes/Next]] coventions. This means creating a Core Wrapper Structure that can be applied to all client APIs:
 
 ```ts
 interface ApiConfig {
@@ -1169,14 +1169,14 @@ Next we create a feature level function in `features/notes/api/fetchNoteFromGitH
 
 
 ## Architectural Principles used at this point 
-- [Facade Pattern](Facade%20Pattern.md)
-- [Centralised Error Handling](Centralised%20Error%20Handling.md)
-- [Layered Architecture](Layered%20Architecture.md)
-- [Fail Fast Principle](Fail%20Fast%20Principle.md)
+- [[Facade Pattern]]
+- [[Centralised Error Handling]]
+- [[Layered Architecture]]
+- [[Fail Fast Principle]]
 
 
 
-Changed this to unknown to stop [Biome](learning-notes/Biome.md) complaining:
+Changed this to unknown to stop [[learning-notes/Biome]] complaining:
 ```ts
 interface ApiResponse<T = unknown> {
 	data: T;
@@ -1269,7 +1269,7 @@ Here’s what happens step-by-step:
 
 
 
-Next I want to create a dynamic notes page that loads any markdown file based on the URL slug (e.g./notes/learning-notes/Biome.md). For this we will use [Next.js Slugs](Next.js%20Slugs.md)
+Next I want to create a dynamic notes page that loads any markdown file based on the URL slug (e.g./notes/learning-notes/Biome.md). For this we will use [[Next.js Slugs]]
 
 
 First, create a new page file at:
@@ -1311,7 +1311,7 @@ test-note / learning / typescript
 ### **Why This Works**
 
 
-In the [Next.js Dynamic Routes documentation](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes)![Attachment.tiff](file:///Attachment.tiff), they explain that using [...slug] creates a **catch-all segment**.
+In the [Next.js Dynamic Routes documentation](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes)![[file:///Attachment.tiff|Attachment.tiff]], they explain that using [...slug] creates a **catch-all segment**.
 
 This means it automatically matches _any number of path segments_ after /notes,
 
@@ -1596,7 +1596,7 @@ I didnt add the headers in so there was no autoizatio.
 ## Commands 
 
 ### Commiting
-To run [Commitlint](learning-notes/Commitlint.md) prompt generator. 
+To run [[learning-notes/Commitlint]] prompt generator. 
 ```bash
 git add .
 npm run commit

@@ -76,7 +76,7 @@ Purely for readability — doesn’t affect logic.
 
 ---
 ### on: — Workflow Triggers
-[](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#on)
+[[https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#on]]
 
 Defines _when_ the workflow should run.
 ```yaml
@@ -97,7 +97,7 @@ on:
 
 ---
 ### jobs:
-[](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs)
+[[https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobs]]
 
 Each workflow must have at least one job:
 
@@ -130,7 +130,7 @@ Other options: windows-latest, macos-latest
 
 ---
 ### Steps
-[](https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps)
+[[https://docs.github.com/en/actions/writing-workflows/workflow-syntax-for-github-actions#jobsjob_idsteps]]
 
 Each job consists of **steps**, which are executed in order.
 
@@ -184,10 +184,10 @@ Browse the **GitHub Marketplace** to find thousands of ready-to-use Actions:
 
 ## **Related**
 
-- [Biome](learning-notes/Biome.md)
-- [Commitlint](learning-notes/Commitlint.md)
-- [Dependabot](Dependabot)
-- [Vitest](learning-notes/Vitest.md)
+- [[learning-notes/Biome]]
+- [[learning-notes/Commitlint]]
+- [[Dependabot]]
+- [[learning-notes/Vitest]]
 
 ---
 ## **References**

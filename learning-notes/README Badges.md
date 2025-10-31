@@ -73,12 +73,12 @@ They also help recruiters, collaborators, and other developers trust that your c
 5. _(Optional)_ Add branch protection rules so failing badges block merges.
 
 ## Related 
-- [Github Workflows](learning-notes/Github%20Workflows.md)    
-- [Biome](learning-notes/Biome.md)
-- [Commitlint](learning-notes/Commitlint.md)
-- [Dependabot](Dependabot)
-- [Vitest](learning-notes/Vitest.md)
-- [README Template](learning-notes/README%20Template.md)
+- [[learning-notes/Github Workflows]]    
+- [[learning-notes/Biome]]
+- [[learning-notes/Commitlint]]
+- [[Dependabot]]
+- [[learning-notes/Vitest]]
+- [[learning-notes/README Template]]
 
 ## References
 - [GitHub Actions – Workflow Status Badges](https://docs.github.com/en/actions/monitoring-and-troubleshooting-workflows/adding-a-workflow-status-badge)

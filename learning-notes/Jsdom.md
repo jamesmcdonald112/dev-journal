@@ -27,9 +27,9 @@ doesnt explicitly say but must be install with
 npm install -D jsdom
 
 ## References
-- [GitHub Repository](#)
-- [Live Demo](#)
+- [[#|GitHub Repository]]
+- [[#|Live Demo]]
 - [Official Docs](https://react.dev)
-- [Article](#)
-- [Video](#)
+- [[#|Article]]
+- [[#|Video]]
 - Obsidian link

@@ -56,7 +56,7 @@ Think of it as a conversation with a tired developer who just discovered your re
 
   
 
-📖 [Readme Driven Development (2010)](2010))
+📖 [[2010)](2010|Readme Driven Development (2010)]]))
 
 |**Principle**|**Action**|
 |---|---|
@@ -70,7 +70,7 @@ Think of it as a conversation with a tired developer who just discovered your re
 
   
 
-📖 [Elegant READMEs (2019)](2019))
+📖 [[2019)](2019|Elegant READMEs (2019)]]))
 
 |**✅ Do**|**❌ Don’t**|
 |---|---|
@@ -90,7 +90,7 @@ Think of it as a conversation with a tired developer who just discovered your re
 
   
 
-📖 [](https://github.com/hackergrrl/art-of-readme#readme)
+📖 [[https://github.com/hackergrrl/art-of-readme#readme]]
 
   
 
@@ -256,7 +256,7 @@ npm start
 
   
 
-See [CONTRIBUTING.md](CONTRIBUTING.md)
+See [[CONTRIBUTING.md]]
 
   
 
@@ -286,7 +286,7 @@ Distributed under the MIT License. See LICENSE for details.
 |--------|---------------|------|
 | **Readme Driven Development** | Tom Preston-Werner | [Link](https://tom.preston-werner.com/2010/08/23/readme-driven-development.html) |
 | **Elegant READMEs** | Yegor Bugayenko | [Link](https://www.yegor256.com/2019/04/23/elegant-readme.html) |
-| **The Art of README** | Kira McLean | [](https://github.com/hackergrrl/art-of-readme#readme) |
+| **The Art of README** | Kira McLean | [[https://github.com/hackergrrl/art-of-readme#readme]] |
 | **How to Write a Great README** | Thoughtbot | [Link](https://thoughtbot.com/blog/how-to-write-a-great-readme) |
 | **Why You Need an ARCHITECTURE.md** | Matklad | [Link](https://matklad.github.io/2021/02/06/ARCHITECTURE.md.html) |
 | **Great Docs: Redis & esbuild** | John Jago | [Link](https://johnjago.com/great-docs/) |
@@ -331,7 +331,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **References:** Spec: spec.md · Repo README · Generator repo
     
-- **Use With / Backlinks:** [README Template](learning-notes/README%20Template.md) · [Contributing.md](Contributing.md) · [Awesome README](Awesome%20README)
+- **Use With / Backlinks:** [[learning-notes/README Template]] · [[Contributing.md]] · [[Awesome README]]
     
 
 ---
@@ -348,7 +348,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** Badges section, citation/funding blocks (great for research), encourages splitting deep docs into dedicated files.
     
-- **Use With / Backlinks:** [Architecture Docs](Architecture%20Docs) · [Contributing.md](Contributing.md) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[Architecture Docs]] · [[Contributing.md]] · [[learning-notes/README Template]]
     
 
 ---
@@ -363,7 +363,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** Sections (Name, Description, Badges, Visuals, Installation, Usage, Support, Roadmap, Contributing, Acknowledgments, License, Status).
     
-- **Use With / Backlinks:** [Shields.io Badges](Shields.io%20Badges) · [README Template](learning-notes/README%20Template.md) · [Awesome README](Awesome%20README)
+- **Use With / Backlinks:** [[Shields.io Badges]] · [[learning-notes/README Template]] · [[Awesome README]]
     
 
 ---
@@ -378,7 +378,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** curlable default template; prompts for core sections; cites other top templates.
     
-- **Use With / Backlinks:** [Make a README](Make%20a%20README) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[Make a README]] · [[learning-notes/README Template]]
     
 
 ---
@@ -406,7 +406,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Reusable custom templates; aesthetic defaults; zero Markdown wrestling.
         
     
-- **Use With / Backlinks:** [README Template](learning-notes/README%20Template.md) · [Make a README](Make%20a%20README) · [Github Workflows](learning-notes/Github%20Workflows.md)
+- **Use With / Backlinks:** [[learning-notes/README Template]] · [[Make a README]] · [[learning-notes/Github Workflows]]
     
 
 ---
@@ -421,7 +421,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** 15+ UI languages; download/copy to clipboard; beginner-friendly.
     
-- **Use With / Backlinks:** [README Forge](README%20Forge) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[README Forge]] · [[learning-notes/README Template]]
     
 
 ---
@@ -436,7 +436,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** Integrates GitHub Readme Stats, streaks, top languages, visitors counter, 300+ tech icons.
     
-- **Use With / Backlinks:** [GitHub Readme Stats](GitHub%20Readme%20Stats) · [Shields.io Badges](Shields.io%20Badges)
+- **Use With / Backlinks:** [[GitHub Readme Stats]] · [[Shields.io Badges]]
     
 
 ---
@@ -462,7 +462,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Auto-fills title, badges, license, install, usage, contributing, author.
         
     
-- **Use With / Backlinks:** [README Template](learning-notes/README%20Template.md) · [Github Workflows](learning-notes/Github%20Workflows.md) · [Make a README](Make%20a%20README)
+- **Use With / Backlinks:** [[learning-notes/README Template]] · [[learning-notes/Github Workflows]] · [[Make a README]]
     
 
 ---
@@ -492,7 +492,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Works with protected branches via separate stats branch.
         
     
-- **Use With / Backlinks:** [Github Workflows](learning-notes/Github%20Workflows.md) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[learning-notes/Github Workflows]] · [[learning-notes/README Template]]
     
 
 ---
@@ -505,7 +505,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Best for:** Quick drop-in visuals; can self-host on Vercel if you hit rate limits.
     
-- **Use With / Backlinks:** [GPRM](GPRM) · [Shields.io Badges](Shields.io%20Badges)
+- **Use With / Backlinks:** [[GPRM]] · [[Shields.io Badges]]
     
 
 ---
@@ -518,7 +518,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Usage:** Paste generated avatar grid snippet; updates hourly via Sourcerer.
     
-- **Use With / Backlinks:** [Contributing.md](Contributing.md) · [Github Workflows](learning-notes/Github%20Workflows.md)
+- **Use With / Backlinks:** [[Contributing.md]] · [[learning-notes/Github Workflows]]
     
 
 ---
@@ -538,7 +538,7 @@ standard-readme-spec        # prints spec.md in terminal
 
 -   
     
-- **Use With / Backlinks:** [README Forge](README%20Forge) · [GPRM](GPRM)
+- **Use With / Backlinks:** [[README Forge]] · [[GPRM]]
     
 
 ---
@@ -558,7 +558,7 @@ standard-readme-spec        # prints spec.md in terminal
 
 -   
     
-- **Use With / Backlinks:** [Github Workflows](learning-notes/Github%20Workflows.md) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[learning-notes/Github Workflows]] · [[learning-notes/README Template]]
     
 
 ---
@@ -577,7 +577,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** GFM/CommonMark/Markdown Extra, LaTeX, UML, ABC notation, emojis; Scroll Sync; Handlebars export templates.
     
-- **Use With / Backlinks:** [README Forge](README%20Forge) · [README.so](README.so) · [README Template](learning-notes/README%20Template.md)
+- **Use With / Backlinks:** [[README Forge]] · [[README.so]] · [[learning-notes/README Template]]
     
 
 ---
@@ -629,7 +629,7 @@ standard-readme-spec        # prints spec.md in terminal
 
   
 
-**Backlinks:** [Architecture Docs](Architecture%20Docs) · [README Template](learning-notes/README%20Template.md) · [Awesome README](Awesome%20README)
+**Backlinks:** [[Architecture Docs]] · [[learning-notes/README Template]] · [[Awesome README]]
 
 ---
 
@@ -647,13 +647,13 @@ standard-readme-spec        # prints spec.md in terminal
 
 ## **🔗 Cross-Section Backlinks**
 
-- **Core authoring:** [README Template](learning-notes/README%20Template.md) · [Make a README](Make%20a%20README) · [README Best Practices](README%20Best%20Practices)
+- **Core authoring:** [[learning-notes/README Template]] · [[Make a README]] · [[README Best Practices]]
     
-- **Automation:** [Github Workflows](learning-notes/Github%20Workflows.md) · [Contributing.md](Contributing.md)
+- **Automation:** [[learning-notes/Github Workflows]] · [[Contributing.md]]
     
-- **Visuals:** [Shields.io Badges](Shields.io%20Badges) · [GitHub Readme Stats](GitHub%20Readme%20Stats)
+- **Visuals:** [[Shields.io Badges]] · [[GitHub Readme Stats]]
     
-- **Docs structure:** [Architecture Docs](Architecture%20Docs) · [Awesome README](Awesome%20README)
+- **Docs structure:** [[Architecture Docs]] · [[Awesome README]]
     
 
 ---
@@ -691,4 +691,4 @@ standard-readme-spec        # prints spec.md in terminal
 
 ---
 
-If you want, I can also produce a **single, printable Obsidian page** that embeds your existing note links (e.g., [README Template](learning-notes/README%20Template.md)) and includes drop-in code blocks/snippets for each tool (badge markdown, action YAML, NPX commands).
+If you want, I can also produce a **single, printable Obsidian page** that embeds your existing note links (e.g., [[learning-notes/README Template]]) and includes drop-in code blocks/snippets for each tool (badge markdown, action YAML, NPX commands).

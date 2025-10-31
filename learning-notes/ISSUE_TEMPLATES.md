@@ -131,6 +131,6 @@ This consistency keeps contributors focused, helps maintainers **quickly underst
 ## Related 
 
 ## References
-- [GitHub](GitHub)
+- [[GitHub]]
 - [Creating a pull request template for your repository — GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/creating-a-pull-request-template-for-your-repository)
 - [Using templates to encourage useful issues and pull requests — GitHub Docs](https://docs.github.com/en/communities/using-templates-to-encourage-useful-issues-and-pull-requests/about-issue-and-pull-request-templates)

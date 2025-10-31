@@ -7,7 +7,7 @@ npm install --save-dev lint-staged # requires further setup
 ```
 
 
-Add this line to the [Husky](learning-notes/Husky.md) / pre-commit file
+Add this line to the [[learning-notes/Husky]] / pre-commit file
 
 ```bash
 npx lint-staged

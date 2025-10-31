@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Commitlint.md",
+                "file": "learning-notes/Github Workflows.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Commitlint"
+              "title": "Github Workflows"
             }
           }
         ],
@@ -425,9 +425,10 @@
   },
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/Dependabot Setup.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Commitlint.md",
+    "learning-notes/Github Workflows.md",
+    "case-studies/portfolio/Building the Portolio.md",
+    "learning-notes/Dependabot Setup.md",
     "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/next/Creating Pages in Next.js 14+.md",
@@ -451,7 +452,6 @@
     "Remark.md",
     "learning-notes/next",
     "learning-notes/Tailwind’s Prose Classes.md",
-    "Tailwind-Typography.md",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",

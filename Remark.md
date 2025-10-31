@@ -13,7 +13,7 @@ keywords:
 ## What I Learned
 It parses a Markdown file and builds an **Abstract Syntax Tree (AST)** representation of it, making the content understandable and transformable by the JavaScript ecosystem.  
 
-This structure allows plugins (like [remark-html](remark-html)) to modify, analyse, or convert Markdown in powerful ways before rendering.
+This structure allows plugins (like [[remark-html]]) to modify, analyse, or convert Markdown in powerful ways before rendering.
 
 ## Example / Code Snippet
 Install with:
@@ -65,11 +65,11 @@ Pluto is a dwarf planet in the Kuiper belt.
 
 ## Contents
 
-* [History](#history)
-  * [Discovery](#discovery)
-  * [Name and symbol](#name-and-symbol)
-  * [Planet X disproved](#planet-x-disproved)
-* [Orbit](#orbit)
+* [[#history|History]]
+  * [[#discovery|Discovery]]
+  * [[#name-and-symbol|Name and symbol]]
+  * [[#planet-x-disproved|Planet X disproved]]
+* [[#orbit|Orbit]]
 
 ## History
 
@@ -94,9 +94,9 @@ By separating the parsing and transformation stages, remark gives developers ful
 
 For example, you can add custom plugins to handle things like tables, footnotes, or syntax highlighting before sending the content to the browser.
 ## Related 
-- [remark-html](remark-html)
-- [remark-toc](remark-toc)
+- [[remark-html]]
+- [[remark-toc]]
 
 ## References
-- [Unified.js (Remark) Docs](Remark)%20Docs)
+- [[Remark) Docs](Remark|Unified.js (Remark) Docs]]%20Docs)%20Docs)
 - [Remark GitHub Repository](https://github.com/remarkjs/remark)

@@ -6,7 +6,7 @@ This version reads naturally like a personal build plan you can follow from star
 
 ## **🧭 PHASE 1 — Foundation: Understand the Moving Parts**
 
-1. Learn how Obsidian’s graph view actually works — how it links notes using [Note Names](Note%20Names), how backlinks are handled, and how filenames correspond to nodes.
+1. Learn how Obsidian’s graph view actually works — how it links notes using [[Note Names]], how backlinks are handled, and how filenames correspond to nodes.
     
 2. Understand GitHub as a remote “vault.” You’ll be pulling Markdown files from a public (or private) GitHub repo.
     
@@ -27,7 +27,7 @@ This version reads naturally like a personal build plan you can follow from star
     
 8. Read about GitHub’s **rate limits** and caching — you may need an API token or caching strategy for larger vaults.
     
-9. Learn to parse Markdown files and extract links that look like [Linked Note](Linked%20Note) using regular expressions.
+9. Learn to parse Markdown files and extract links that look like [[Linked Note]] using regular expressions.
     
 10. Understand how to build a **graph data structure** — an array of nodes and an array of links — and how to avoid duplicates.
     
@@ -57,7 +57,7 @@ This version reads naturally like a personal build plan you can follow from star
     
 18. Set up and learn the Tailwind CSS Typography plugin (@tailwindcss/typography) to style Markdown automatically.
     
-19. Learn how to transform internal links like [Note Name](Note%20Name) into real clickable links that point to /dev-journal/note-name.
+19. Learn how to transform internal links like [[Note Name]] into real clickable links that point to /dev-journal/note-name.
     
 20. Handle missing notes gracefully — show a “Note not found” message if a link points to a file that doesn’t exist.
     
