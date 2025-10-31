@@ -402,8 +402,9 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "Next.js Slugs.md",
+    "Fetch API Explained.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "Next.js Slugs.md",
     "Vercel.md",
     "rehype-highlight.md",
     "Layered Architecture.md",
@@ -413,7 +414,6 @@
     "Facade Pattern.md",
     "Next Folder Structure.md",
     "case-studies/portfolio/Obsidian Style Graph.md",
-    "Fetch API Explained.md",
     "Headers API.md",
     "Discriminated Unions in TypeScript.md",
     "learning-notes/Gray-matter.md",

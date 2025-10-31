@@ -1352,6 +1352,97 @@ into:
 ```
 
 This joined path can then be passed to your fetchNoteFromGitHub() function to retrieve the corresponding Markdown file.
+
+
+We need to take the logic in out orignal `notes/page.tsx` and put int into out `[...slug]` file. now our `[...slug]` file looks liek this:
+```ts
+// Dynamic slug page for GitHub-backed notes
+// Based on: https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes
+
+import Markdown from "react-markdown";
+import fetchNoteFromGitHub from "../api/fetchNoteFromGitHub";
+import { decodeMarkdown } from "../utils/decodeBase64";
+import remarkGfm from "remark-gfm";
+import rehypeRaw from "rehype-raw";
+import rehypePrism from "rehype-prism-plus";
+import remarkWikiLink from "remark-wiki-link";
+
+interface PageProps {
+  params: Promise<{
+    slug: string[];
+  }>;
+}
+
+export default async function Page({ params }: PageProps) {
+  try {
+    const { slug } = await params;
+
+    // Join nested segments (e.g., ['learning', 'Biome'] -> 'learning/Biome')
+    // Ensure .md extension is present
+    const filePath =
+      decodedSlug.join("/") +
+      (decodedSlug.at(-1)?.endsWith(".md") ? "" : ".md");
+
+    // Fetch note content from GitHub
+    const fileData = await fetchNoteFromGitHub(filePath);
+
+    // Decode Base64 + frontmatter to Markdown
+    const markdown = decodeMarkdown(fileData.content);
+
+    // Render the Markdown content
+    return (
+      <article className="prose prose-emerald lg:prose-xl dark:prose-invert">
+        <Markdown
+          remarkPlugins={[
+            remarkGfm,
+            [
+              remarkWikiLink,
+              { hrefTemplate: (permalink: string) => `/page/${permalink}` },
+            ],
+          ]}
+          rehypePlugins={[rehypeRaw, rehypePrism]}
+        >
+          {markdown}
+        </Markdown>
+      </article>
+    );
+  } catch (error) {
+    return (
+      <h1>
+        Failed to load note:{" "}
+        {error instanceof Error ? error.message : "Unknown error"}
+      </h1>
+    );
+  }
+}
+```
+
+### **Key fixes and improvements**
+
+1. **Decodes URL components**
+    
+    → Handles %20 correctly so “Fetch API Explained.md” loads without 404s.
+    
+2. **Adds** **.md** **automatically** if missing.
+    
+    → /notes/Fetch API Explained and /notes/Fetch API Explained.md both work.
+    
+1. **Fully formatted + commented** so it’s readable and self-documenting.
+    
+2. **Safe** **try/catch** **error handling** remains in place.
+    
+
+
+Next, I want to fix the urls so that they look like this:
+```
+/notes/fetch-api-explained
+```
+
+Instead of:
+
+
+---
+
 ## Commands 
 
 ### Commiting
