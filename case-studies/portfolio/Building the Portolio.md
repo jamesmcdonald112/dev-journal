@@ -1075,6 +1075,45 @@ That means:
 - If some fields are provided (like a custom token or header name), those will override the defaults.
 
 This ensures your API client _always_ has valid authentication settings ready to use, even if the caller doesn’t explicitly configure them.
+
+
+Next we are going to add this:
+```ts
+ private async buildRequestOptions(options: RequestInit): Promise<RequestInit> {
+    const headers = { ...this.config.defaultHeaders };
+
+    // Add authentication token if available
+    if (this.authConfig.tokenProvider) {
+      const token = await this.authConfig.tokenProvider();
+      if (token) {
+        headers[this.authConfig.tokenHeader!] = 
+          `${this.authConfig.tokenPrefix} ${token}`;
+      }
+    }
+
+    return {
+      ...options,
+      headers: {
+        ...headers,
+        ...options.headers,
+      },
+    };
+  }
+```
+
+
+
+Also update this to include await:
+```ts
+// Update makeRequest to use async buildRequestOptions
+  private async makeRequest<T>(
+    endpoint: string,
+    options: RequestInit = {}
+  ): Promise<ApiResponse<T>> {
+    const url = this.buildUrl(endpoint);
+    const requestOptions = await this.buildRequestOptions(options);
+```
+
 ## Commands 
 
 ### Commiting
