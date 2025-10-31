@@ -45,11 +45,11 @@ A proper test environment ensures that every UI component behaves correctly befo
 This setup mirrors real browser behaviour while staying lightweight and fast, enabling Test-Driven Development (TDD) across your Next.js projects.
 
 ## Related 
-- [[Vitest]]
-- [[Jsdom]]
-- [[React Testing Library]]
-- [[User-Event]]
-- [[Jest-Dom]]
+- [Vitest](learning-notes/Vitest.md)
+- [Jsdom](learning-notes/Jsdom.md)
+- [React Testing Library](learning-notes/React%20Testing%20Library.md)
+- [User-Event](learning-notes/User-Event.md)
+- [Jest-Dom](learning-notes/Jest-Dom.md)
 
 ## References
 - https://nextjs.org/docs/app/guides/testing/vitest

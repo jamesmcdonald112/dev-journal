@@ -13,7 +13,7 @@ keywords:
 ## What I Learned
 It parses a Markdown file and builds an **Abstract Syntax Tree (AST)** representation of it, making the content understandable and transformable by the JavaScript ecosystem.  
 
-This structure allows plugins (like [[remark-html]]) to modify, analyse, or convert Markdown in powerful ways before rendering.
+This structure allows plugins (like [remark-html](remark-html)) to modify, analyse, or convert Markdown in powerful ways before rendering.
 
 ## Example / Code Snippet
 Install with:
@@ -94,9 +94,9 @@ By separating the parsing and transformation stages, remark gives developers ful
 
 For example, you can add custom plugins to handle things like tables, footnotes, or syntax highlighting before sending the content to the browser.
 ## Related 
-- [[remark-html]]
-- [[remark-toc]]
+- [remark-html](remark-html)
+- [remark-toc](remark-toc)
 
 ## References
-- [Unified.js (Remark) Docs](https://unifiedjs.com/)
+- [Unified.js (Remark) Docs](Remark)%20Docs)
 - [Remark GitHub Repository](https://github.com/remarkjs/remark)

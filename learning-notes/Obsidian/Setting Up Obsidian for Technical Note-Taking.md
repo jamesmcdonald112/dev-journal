@@ -36,8 +36,8 @@ Enabled and configured key plugins:
 Keeping notes structured, automated, and linked improves consistency, readability, and reuse. This setup lets me turn learning notes and case studies into website-ready content, complete with metadata, tags, and visual relationships.
 
 ## Related
-- [[case-study]]
-- [[learning-note]]
+- [case-study](templates/case-study.md)
+- [learning-note](templates/learning-note.md)
 ## References
 - https://silentvoid13.github.io/Templater/
 - https://blacksmithgu.github.io/obsidian-dataview/

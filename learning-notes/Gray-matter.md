@@ -26,13 +26,13 @@ const { data, content } = matter(markdownFile);
 This parses the frontmatter (data) and get the markdown body (content).
 ## Why It Matters
 This setup is efficient because it lets me extract metadata from the frontmatter (like title, tags, and date) to display on cards or lists, while the Markdown content itself renders beautifully on the page.  
-To achieve this, I combine [[gray-matter]] for parsing, [[remark]] and [[remark-html]] for converting Markdown to HTML, and [[Tailwind’s Prose Classes]] for styling.  
-If I include code blocks in my notes, I can optionally use [[rehype-highlight]] for syntax highlighting.
+To achieve this, I combine [Gray-matter](learning-notes/Gray-matter.md) for parsing, [Remark](Remark.md) and [remark-html](remark-html) for converting Markdown to HTML, and [Tailwind’s Prose Classes](learning-notes/Tailwind’s%20Prose%20Classes.md) for styling.  
+If I include code blocks in my notes, I can optionally use [rehype-highlight](rehype-highlight.md) for syntax highlighting.
 
 ## Related 
-- [[remark]]
-- [[remark-html]]
-- [[Tailwind’s Prose Classes]]
+- [Remark](Remark.md)
+- [remark-html](remark-html)
+- [Tailwind’s Prose Classes](learning-notes/Tailwind’s%20Prose%20Classes.md)
 
 ## References
 - [Gray Matter Docs GitHub](https://github.com/jonschlinkert/gray-matter)
