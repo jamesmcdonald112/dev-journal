@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "learning-notes/Biome.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Biome"
             }
           }
         ],
@@ -402,13 +402,15 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "Fetch API Explained.md",
+    "learning-notes/Dependabot Setup.md",
+    "learning-notes/Commitlint.md",
+    "learning-notes/Biome.md",
     "case-studies/portfolio/Building the Portolio.md",
+    "Fetch API Explained.md",
     "Next.js Slugs.md",
     "Vercel.md",
     "rehype-highlight.md",
     "Layered Architecture.md",
-    "learning-notes/Biome.md",
     "Fail Fast Principle.md",
     "Centralised Error Handling.md",
     "Facade Pattern.md",
@@ -427,9 +429,7 @@
     "Tailwind-Typography.md",
     "learning-notes/ISSUE_TEMPLATES.md",
     "learning-notes/node.js/express/Create Express App.md",
-    "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js",
-    "package-lock.json.md",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",
     "learning-notes/obsidian",
