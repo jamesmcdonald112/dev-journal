@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Dependabot Setup.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Dependabot Setup"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -402,12 +402,12 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
+    "learning-notes/Dependabot Setup.md",
     "learning-notes/node.js/Create a Node Project.md",
     "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/next/Creating Pages in Next.js 14+.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Biome.md",
-    "learning-notes/Dependabot Setup.md",
     "learning-notes/Commitlint.md",
     "Fetch API Explained.md",
     "Next.js Slugs.md",
