@@ -1448,6 +1448,132 @@ but under the hood they still fetch:
 Fetch API Explained.md
 ```
 
+I found docs some [code here](https://github.com/Code-Parth/Typescript-Slugify/blob/master/index.ts) to slugify my code
+```ts
+const slugify = (str: string): string =>
+    str
+        .toLowerCase()
+        .trim()
+        .replace(/[^\w\s-]/g, '')
+        .replace(/[\s_-]+/g, '-')
+        .replace(/^-+|-+$/g, '');
+
+export default slugify;
+```
+
+
+So i modified it to work for my code:
+```ts
+export function slugify(title: string): string {
+  const base = title
+    .replace(/\.md$/i, "") // remove .md
+    .trim()
+    .replace(/[^\w\s-]/g, "") // drop punctuation except _ and -
+    .replace(/[\s_]+/g, "-"); // spaces/underscores -> single dash
+  return encodeURIComponent(base);
+}
+```
+
+### **replace(/\.md$/i, "")**
+
+- **Regex:** /\.md$/i
+    
+- **Meaning:**
+    
+    - \. — matches a literal dot (.)
+        
+    - md — matches the letters “md”
+        
+    - $ — asserts end of the string (so we only remove “.md” if it’s at the end)
+        
+    - i — case-insensitive flag (so .MD, .Md, .mD also match)
+        
+    
+- **Effect:** Removes the .md file extension from the end of the filename, e.g.
+    
+    "Fetch API Explained.md" → "Fetch API Explained"
+
+### **replace(/[^\w\s-]/g, "")**
+
+- **Regex:** /[^\w\s-]/g
+    
+- \w = any word character (letters, digits, underscore)
+    
+- \s = any whitespace (spaces, tabs, etc.)
+    
+- - = literal dash
+    
+- ^ = negates the character class → “anything _not_ a word, whitespace, or dash”
+    
+- g = global flag (replace all matches)
+    
+- **Effect:** Removes punctuation or symbols like !@#$%^&*()=+[]{};:'",<>?/|\\ etc.
+    
+    "Fetch API: Explained!" → "Fetch API Explained"
+
+### **.replace(/[\s_]+/g, "-")**
+
+- **Regex:** /[\s_]+/g
+    
+- [\s_] = match either a space or an underscore
+    
+- + = one or more consecutive occurrences
+    
+- **Effect:** Collapses groups of spaces or underscores into a single dash
+    
+    "Fetch_API Explained" → "Fetch-API-Explained"
+### **encodeURIComponent(base)**
+
+- Converts the cleaned text into a **URL-safe string**:
+    
+    - Replaces special characters (like #, %, ?, &, etc.) with encoded equivalents.
+        
+    - Example: "my file name" → "my%20file%20name"
+        
+    
+- Ensures your slug can safely appear in a browser URL path.
+
+
+Then we created a deslugify method to dashes back to spaces and reappend the .md
+```ts
+export function deslugify(slug: string): string {
+  const decoded = decodeURIComponent(slug);
+  // Turn dashes back into spaces (your convention); then re-append ".md"
+  return `${decoded.replace(/-/g, " ")}`;
+}
+```
+### **1️⃣** 
+
+### **decodeURIComponent(slug)**
+
+- Reverses what encodeURIComponent did.
+    
+- Example: "my%20file%20name" → "my file name"
+    
+
+---
+
+### **2️⃣** 
+
+### **.replace(/-/g, " ")**
+
+- **Regex:** /-/g
+    
+- Matches every dash and replaces it with a space.
+    
+- "fetch-api-explained" → "fetch api explained"
+    
+
+---
+
+### **3️⃣** 
+
+### **return**
+
+- Wraps it all up and returns the restored readable title.
+    
+    (You could add + ".md" at the end if you want to restore the full filename.)
+
 
 
 
