@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "learning-notes/Dependabot Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Dependabot Setup"
             }
           }
         ],
@@ -402,10 +402,13 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
+    "learning-notes/node.js/Create a Node Project.md",
+    "learning-notes/node.js/express/Create Express App.md",
+    "learning-notes/next/Creating Pages in Next.js 14+.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Biome.md",
     "learning-notes/Dependabot Setup.md",
     "learning-notes/Commitlint.md",
-    "case-studies/portfolio/Building the Portolio.md",
     "Fetch API Explained.md",
     "Next.js Slugs.md",
     "Vercel.md",
@@ -422,13 +425,10 @@
     "GitHub Projects.md",
     "Tailwind.md",
     "GitHub REST API — Contents (Get repository content).md",
-    "learning-notes/next/Creating Pages in Next.js 14+.md",
     "Remark.md",
     "learning-notes/next",
     "learning-notes/Tailwind’s Prose Classes.md",
     "Tailwind-Typography.md",
-    "learning-notes/ISSUE_TEMPLATES.md",
-    "learning-notes/node.js/express/Create Express App.md",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",
