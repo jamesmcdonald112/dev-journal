@@ -205,7 +205,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Next.js Slugs.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -220,7 +220,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Next.js Slugs"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -402,8 +402,8 @@
   },
   "active": "536d860745587550",
   "lastOpenFiles": [
-    "case-studies/portfolio/Building the Portolio.md",
     "Next.js Slugs.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "Vercel.md",
     "rehype-highlight.md",
     "Layered Architecture.md",

@@ -1270,6 +1270,27 @@ Here’s what happens step-by-step:
 
 
 Next I want to create a dynamic notes page that loads any markdown file based on the URL slug (e.g./notes/learning-notes/Biome.md). For this we will use [[Next.js Slugs]]
+
+
+For this, in the [Next.js Slug Docs](https://nextjs.org/docs/app/api-reference/file-conventions/dynamic-routes), the show how they slugs work. As i will have nested paths, the best thign woudl be to use thier `[...slug]` which is their "catch all segments". This allows us to have nested routes. So a nice wau to see what is happenign is to type somethign liek this as the route in the url (assume we have out ...slug in notes folder) when the dev is running `http://localhost:3000/notes/test-note/learning/typescript`
+
+if our code looks like this (stright from the next docs):
+```ts
+interface PageProps {
+  params: Promise<{ slug: string[] }>;
+}
+
+export default async function Page({ params }: PageProps) {
+  const { slug } = await params;
+
+  return (
+    <div>
+      <h1>Note Path</h1>
+      <p>{slug.join(" / ")}</p>
+    </div>
+  );
+}
+```
 ## Commands 
 
 ### Commiting
