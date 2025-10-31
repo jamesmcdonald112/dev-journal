@@ -1114,8 +1114,19 @@ private async buildRequestOptions(
 }
 ```
 
-We make it an async function as the token provider make be fetchign the info from a server. we save out default headers to a const headers so we can add them to the headers again later. First we check if authentication configuration exists ` (this.authConfig.tokenProvider)` as it make not be requred by the developer so it may not have been set. It is sayig dod the develoepr supplky a function that knows jow to get a token,. If they did, we call the function and await its results. Await is need as the result may be asynchronous, for example it may be read from cookies, localStorage, or a refresh endpoint. Even if it is not async, it still works fine. 
-If a token exists (`if (token)`), we inject it inot the headers undert the correct name. Instead of harcoding "Authorization" we use `this.authConfig.tokenHeader ?? "Authorization"` which means "use whatever tokenHeader is set in the congif, or default to 'Authorization' if none was provided. smae logic for Finally, we return all the merged headers — the defaults, any user-passed headers, and now the auth header if one was added.
+We make this function async because the token provider may need to fetch a token from a server or another async source.
+
+We first store the default headers in a const headers variable so we can modify and merge them later.
+
+Next, we check if an authentication configuration exists (this.authConfig.tokenProvider) — since it’s optional, the developer may not have provided one.
+
+If a token provider function exists, we call it and await its result. The await is necessary because the token might come from an asynchronous source (e.g. cookies, localStorage, or a refresh API). Even if it’s synchronous, it will still work correctly.
+
+If a token is returned (if (token)), we inject it into the headers under the correct name.
+
+Instead of hardcoding "Authorization", we use this.authConfig.tokenHeader ?? "Authorization", meaning “use the configured header name or fall back to ‘Authorization’ if none was provided.”
+
+Finally, we return all merged headers — the defaults, any user-provided headers, and the new auth header if one was added.
 
 
 Also, update this to include await:
