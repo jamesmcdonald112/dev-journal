@@ -1,0 +1,1 @@
+- You only pay for what you use. This can increase or decrease by your choice immediately. 

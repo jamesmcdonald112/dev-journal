@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/Github Workflows.md",
+                "file": "learning-notes/cloud/aws/Notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Github Workflows"
+              "title": "Notes"
             }
           }
         ],
@@ -425,8 +425,11 @@
   },
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/Commitlint.md",
     "learning-notes/Github Workflows.md",
+    "learning-notes/cloud/aws/Notes.md",
+    "learning-notes/cloud/aws",
+    "learning-notes/cloud",
+    "learning-notes/Commitlint.md",
     "case-studies/portfolio/Building the Portolio.md",
     "learning-notes/Dependabot Setup.md",
     "learning-notes/node.js/Create a Node Project.md",
@@ -451,7 +454,6 @@
     "GitHub REST API — Contents (Get repository content).md",
     "Remark.md",
     "learning-notes/next",
-    "learning-notes/Tailwind’s Prose Classes.md",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
     "learning-notes/node.js/express",
@@ -461,8 +463,6 @@
     "Screenshot 2025-10-20 at 15.17.04.png",
     "attatchments/diagrams",
     "attatchments/images",
-    "attatchments",
-    "learning-notes",
-    "case-studies/frontend/ui"
+    "attatchments"
   ]
 }
