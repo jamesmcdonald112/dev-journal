@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/cloud/aws/Notes.md",
+                "file": "learning-notes/cloud/aws/EC2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Notes"
+              "title": "EC2"
             }
           }
         ],
@@ -425,8 +425,9 @@
   },
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/Github Workflows.md",
     "learning-notes/cloud/aws/Notes.md",
+    "learning-notes/cloud/aws/EC2.md",
+    "learning-notes/Github Workflows.md",
     "learning-notes/cloud/aws",
     "learning-notes/cloud",
     "learning-notes/Commitlint.md",
@@ -452,7 +453,6 @@
     "GitHub Projects.md",
     "Tailwind.md",
     "GitHub REST API — Contents (Get repository content).md",
-    "Remark.md",
     "learning-notes/next",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
