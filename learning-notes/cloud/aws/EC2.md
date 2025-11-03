@@ -4,31 +4,30 @@ type: learning-note
 status: draft
 date: 2025-11-03
 updated: 2025-11-03
-summary: EC2 (Elastic Compute Cloud) is Amazon’s virtual server service that provides resizable computing power in the cloud. It lets you launch and manage virtual machines (instances) running Linux or Windows, without needing to buy or maintain physical servers.
+summary: Elastic Compute Cloud provides on-demand virtual servers (instances) to run applications in AWS. You choose the OS, instance type, and scale capacity as needed.
 tech_stack:
-  - AWS EC2
-  - badges
-  - AMI
-  - AWS VPC
-  - Linux
-  - Windows
 keywords:
-  - EC2
-  - Virtual Machine
-  - Instance
-  - Hypervisor
-  - Multitenancy
-  - AMI
 ---
 # EC2
 
 ## What I Learned
+Elastic Compute Cloud provides on-demand virtual servers (instances) to run applications in AWS. You choose the OS, instance type, and scale capacity as needed.
 
+## Key Questions
+- What does “elastic” mean in EC2?
+- How does a hypervisor isolate EC2 instances?
+- What’s the difference between vertical and horizontal scaling?
+- How does an AMI define an instance’s configuration?
+- What’s the relationship between EC2, VPC, and Security Groups?
+- When should I use On-Demand vs Reserved vs Spot instances?
 
-
-## Why It Matters
-Explain how this connects to your projects or knowledge.
+## **Apply It**
+- Deploy a simple API or website on an EC2 Free-Tier instance.
+- SSH into it and install dependencies manually.
+- Monitor CPU and memory with CloudWatch.
 
 ## Related 
+- [[learning-notes/cloud/aws/Virtual Machines (VMs)|Virtual Machines (VMs)]]
+- 
 
 ## References

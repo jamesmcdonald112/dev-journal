@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/cloud/aws/EC2.md",
+                "file": "learning-notes/cloud/aws/Auto Scaling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EC2"
+              "title": "Auto Scaling"
             }
           }
         ],
@@ -426,8 +426,17 @@
   },
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/cloud/aws/Notes.md",
+    "learning-notes/cloud/aws/VPC (Virtual Private Cloud).md",
+    "learning-notes/cloud/aws/Auto Scaling.md",
+    "learning-notes/cloud/aws/AMI (Amazon Machine Image).md",
+    "learning-notes/cloud/aws/Multitenancy.md",
+    "learning-notes/cloud/aws/Hypervisor.md",
     "learning-notes/cloud/aws/EC2.md",
+    "learning-notes/cloud/aws/Virtual Machines (VMs).md",
+    "learning-notes/ISSUE_TEMPLATES.md",
+    "learning-notes/Husky.md",
+    "learning-notes/Gray-matter.md",
+    "learning-notes/cloud/aws/Notes.md",
     "learning-notes/Github Workflows.md",
     "learning-notes/cloud/aws",
     "learning-notes/cloud",
@@ -445,15 +454,6 @@
     "Layered Architecture.md",
     "Fail Fast Principle.md",
     "Centralised Error Handling.md",
-    "Facade Pattern.md",
-    "Next Folder Structure.md",
-    "case-studies/portfolio/Obsidian Style Graph.md",
-    "Headers API.md",
-    "Discriminated Unions in TypeScript.md",
-    "learning-notes/Gray-matter.md",
-    "GitHub Projects.md",
-    "Tailwind.md",
-    "GitHub REST API — Contents (Get repository content).md",
     "learning-notes/next",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
