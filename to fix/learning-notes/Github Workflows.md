@@ -184,8 +184,8 @@ Browse the **GitHub Marketplace** to find thousands of ready-to-use Actions:
 
 ## **Related**
 
-- [[learning-notes/Biome]]
-- [[learning-notes/Commitlint]]
+- [[to fix/learning-notes/Biome]]
+- [[to fix/learning-notes/Commitlint]]
 - [[Dependabot]]
 - [[learning-notes/Vitest]]
 

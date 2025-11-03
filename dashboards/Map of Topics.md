@@ -28,3 +28,9 @@ LIMIT 10
 ```
 
 
+```dataview
+TABLE file.name AS "Project File", file.folder AS "Path", updated
+FROM "projects"
+WHERE type = "project-log"
+SORT file.folder ASC, file.name ASC
+```

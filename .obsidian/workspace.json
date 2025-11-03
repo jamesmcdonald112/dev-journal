@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Fetch API Explained.md",
+                "file": "to fix/Fetch API Explained.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "case-studies/portfolio/Building the Portolio.md",
+                "file": "dashboards/Map of Topics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,11 +268,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Map of Topics"
+            }
+          },
+          {
+            "id": "254d2bfb8714c629",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "dashboards/Map of Topics.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Map of Topics"
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -448,44 +472,44 @@
       "templates:Insert template": false
     }
   },
-  "active": "2ef4e4b513c7e181",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "case-studies/portfolio/Obsidian Style Graph.md",
-    "learning-notes/cloud/aws/Auto Scaling.md",
-    "case-studies/portfolio/Building the Portolio.md",
+    "dashboards/Map of Knowledge.md",
     "dashboards/Map of Topics.md",
+    "README.md",
+    "templates/shared-note.md",
+    "templates/project-log.md",
+    "templates/project-note.md",
+    "projects/portfolio/1-setup.md",
+    "Untitled",
+    "projects/portfolio/notes",
+    "to fix/Fetch API Explained.md",
+    "projects/portfolio",
+    "to fix/case-studies/portfolio/Building the Portolio.md",
+    "to fix",
+    "shared-notes",
+    "proper folder",
+    "to fix/case-studies/portfolio/Obsidian Style Graph.md",
+    "to fix/learning-notes/cloud/aws/Auto Scaling.md",
     "Dashboard.md",
     "dashboards",
-    "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
+    "to fix/learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "connections",
     "ideas",
     "resources",
-    "guides",
-    "learning-notes/Biome.md",
-    "learning-notes/Commitlint.md",
+    "to fix/learning-notes/Biome.md",
+    "to fix/learning-notes/Commitlint.md",
     "learning-notes/class-variance-authority (CVA).md",
     "learning-notes/clsx.md",
-    "learning-notes/Dependabot Setup.md",
-    "learning-notes/Github Workflows.md",
+    "to fix/learning-notes/Dependabot Setup.md",
+    "to fix/learning-notes/Github Workflows.md",
     "learning-notes/Express Vs Spring Vs.md",
-    "learning-notes/Gray-matter.md",
-    "learning-notes/Husky.md",
-    "learning-notes/ISSUE_TEMPLATES.md",
-    "learning-notes/Lint-Staged.md",
+    "to fix/learning-notes/Gray-matter.md",
+    "to fix/learning-notes/Husky.md",
+    "to fix/learning-notes/ISSUE_TEMPLATES.md",
+    "to fix/learning-notes/Lint-Staged.md",
     "learning-notes/Jest-Dom.md",
     "learning-notes/Jsdom.md",
-    "learning-notes/Next Project Setup.md",
-    "learning-notes/Lucide React.md",
-    "learning-notes/Next.md",
-    "learning-notes/Next MDX Remote.md",
-    "learning-notes/README.md",
-    "learning-notes/React Query.md",
-    "learning-notes/React Testing Library.md",
-    "projects",
-    "learning-notes/cloud/aws",
-    "learning-notes/cloud",
-    "learning-notes/next",
-    "learning-notes/node.js",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"

@@ -46,4 +46,4 @@ This prevents CI from ever calling husky directly.
 - https://typicode.github.io/husky/
   
   Related
-- [[learning-notes/Github Workflows]]
+- [[to fix/learning-notes/Github Workflows]]

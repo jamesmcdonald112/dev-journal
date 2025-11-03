@@ -47,11 +47,11 @@ This ensures your dependencies stay secure and modern without manual checking.
 Dependabot helps prevent vulnerabilities from leaking into production and keeps GitHub Actions workflows compatible with the latest versions.
 
 ## Related 
-- [[learning-notes/Github Workflows]]
-- [[learning-notes/Commitlint]]
-- [[learning-notes/Husky]]
-- [[learning-notes/Lint-Staged]]
-- [[learning-notes/Biome]]
+- [[to fix/learning-notes/Github Workflows]]
+- [[to fix/learning-notes/Commitlint]]
+- [[to fix/learning-notes/Husky]]
+- [[to fix/learning-notes/Lint-Staged]]
+- [[to fix/learning-notes/Biome]]
 
 ## References
 - https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference

@@ -331,7 +331,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **References:** Spec: spec.md · Repo README · Generator repo
     
-- **Use With / Backlinks:** [[learning-notes/README Template]] · [[Contributing.md]] · [[Awesome README]]
+- **Use With / Backlinks:** [[to fix/learning-notes/README Template]] · [[Contributing.md]] · [[Awesome README]]
     
 
 ---
@@ -348,7 +348,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** Badges section, citation/funding blocks (great for research), encourages splitting deep docs into dedicated files.
     
-- **Use With / Backlinks:** [[Architecture Docs]] · [[Contributing.md]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[Architecture Docs]] · [[Contributing.md]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -363,7 +363,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** Sections (Name, Description, Badges, Visuals, Installation, Usage, Support, Roadmap, Contributing, Acknowledgments, License, Status).
     
-- **Use With / Backlinks:** [[Shields.io Badges]] · [[learning-notes/README Template]] · [[Awesome README]]
+- **Use With / Backlinks:** [[Shields.io Badges]] · [[to fix/learning-notes/README Template]] · [[Awesome README]]
     
 
 ---
@@ -378,7 +378,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** curlable default template; prompts for core sections; cites other top templates.
     
-- **Use With / Backlinks:** [[Make a README]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[Make a README]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -406,7 +406,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Reusable custom templates; aesthetic defaults; zero Markdown wrestling.
         
     
-- **Use With / Backlinks:** [[learning-notes/README Template]] · [[Make a README]] · [[learning-notes/Github Workflows]]
+- **Use With / Backlinks:** [[to fix/learning-notes/README Template]] · [[Make a README]] · [[to fix/learning-notes/Github Workflows]]
     
 
 ---
@@ -421,7 +421,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** 15+ UI languages; download/copy to clipboard; beginner-friendly.
     
-- **Use With / Backlinks:** [[README Forge]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[README Forge]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -462,7 +462,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Auto-fills title, badges, license, install, usage, contributing, author.
         
     
-- **Use With / Backlinks:** [[learning-notes/README Template]] · [[learning-notes/Github Workflows]] · [[Make a README]]
+- **Use With / Backlinks:** [[to fix/learning-notes/README Template]] · [[to fix/learning-notes/Github Workflows]] · [[Make a README]]
     
 
 ---
@@ -492,7 +492,7 @@ standard-readme-spec        # prints spec.md in terminal
     - Works with protected branches via separate stats branch.
         
     
-- **Use With / Backlinks:** [[learning-notes/Github Workflows]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[to fix/learning-notes/Github Workflows]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -518,7 +518,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Usage:** Paste generated avatar grid snippet; updates hourly via Sourcerer.
     
-- **Use With / Backlinks:** [[Contributing.md]] · [[learning-notes/Github Workflows]]
+- **Use With / Backlinks:** [[Contributing.md]] · [[to fix/learning-notes/Github Workflows]]
     
 
 ---
@@ -558,7 +558,7 @@ standard-readme-spec        # prints spec.md in terminal
 
 -   
     
-- **Use With / Backlinks:** [[learning-notes/Github Workflows]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[to fix/learning-notes/Github Workflows]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -577,7 +577,7 @@ standard-readme-spec        # prints spec.md in terminal
     
 - **Highlights:** GFM/CommonMark/Markdown Extra, LaTeX, UML, ABC notation, emojis; Scroll Sync; Handlebars export templates.
     
-- **Use With / Backlinks:** [[README Forge]] · [[README.so]] · [[learning-notes/README Template]]
+- **Use With / Backlinks:** [[README Forge]] · [[README.so]] · [[to fix/learning-notes/README Template]]
     
 
 ---
@@ -629,7 +629,7 @@ standard-readme-spec        # prints spec.md in terminal
 
   
 
-**Backlinks:** [[Architecture Docs]] · [[learning-notes/README Template]] · [[Awesome README]]
+**Backlinks:** [[Architecture Docs]] · [[to fix/learning-notes/README Template]] · [[Awesome README]]
 
 ---
 
@@ -647,9 +647,9 @@ standard-readme-spec        # prints spec.md in terminal
 
 ## **🔗 Cross-Section Backlinks**
 
-- **Core authoring:** [[learning-notes/README Template]] · [[Make a README]] · [[README Best Practices]]
+- **Core authoring:** [[to fix/learning-notes/README Template]] · [[Make a README]] · [[README Best Practices]]
     
-- **Automation:** [[learning-notes/Github Workflows]] · [[Contributing.md]]
+- **Automation:** [[to fix/learning-notes/Github Workflows]] · [[Contributing.md]]
     
 - **Visuals:** [[Shields.io Badges]] · [[GitHub Readme Stats]]
     
@@ -691,4 +691,4 @@ standard-readme-spec        # prints spec.md in terminal
 
 ---
 
-If you want, I can also produce a **single, printable Obsidian page** that embeds your existing note links (e.g., [[learning-notes/README Template]]) and includes drop-in code blocks/snippets for each tool (badge markdown, action YAML, NPX commands).
+If you want, I can also produce a **single, printable Obsidian page** that embeds your existing note links (e.g., [[to fix/learning-notes/README Template]]) and includes drop-in code blocks/snippets for each tool (badge markdown, action YAML, NPX commands).

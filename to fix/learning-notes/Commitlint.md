@@ -5,9 +5,9 @@ fix: handle markdown parsing bug
 chore: update dependencies
 ```
 
-This feature is not covered by [[learning-notes/Biome]], as Biome only cares about your code, not your [[Git]] history.
+This feature is not covered by [[to fix/learning-notes/Biome]], as Biome only cares about your code, not your [[Git]] history.
 
-Commitlint is a [[learning-notes/Husky]] hook, and the structure will be like this:
+Commitlint is a [[to fix/learning-notes/Husky]] hook, and the structure will be like this:
 
 ```
 git commit -m "something"
@@ -30,7 +30,7 @@ echo "export default { extends: ['@commitlint/config-conventional'] };" > commit
 ```
 
 ### Git Hook
-To add the git hook, ensure [[learning-notes/Husky]] is installed and run the following to run Commitlint each time you make a commit:
+To add the git hook, ensure [[to fix/learning-notes/Husky]] is installed and run the following to run Commitlint each time you make a commit:
 ```bash
 echo "npx --no -- commitlint --edit \$1" > .husky/commit-msg
 ```

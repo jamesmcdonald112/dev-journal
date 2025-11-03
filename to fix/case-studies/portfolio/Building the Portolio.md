@@ -1,34 +1,34 @@
 ## Setup
-- [[learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking]]
+- [[to fix/learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking]]
 - [[learning-notes/Next]]
-- [[learning-notes/Biome]]
-- [[learning-notes/Husky]]
-- [[learning-notes/Lint-Staged]]
-- [[learning-notes/Dependabot Setup]]
-- [[learning-notes/README Badges]]
-- [[learning-notes/VS Code Workspace Settings]]
-- [[learning-notes/Commitlint]]
-- [[learning-notes/Github Workflows]]
-- [[learning-notes/Testing Environment Setup]]
+- [[to fix/learning-notes/Biome]]
+- [[to fix/learning-notes/Husky]]
+- [[to fix/learning-notes/Lint-Staged]]
+- [[to fix/learning-notes/Dependabot Setup]]
+- [[to fix/learning-notes/README Badges]]
+- [[to fix/learning-notes/VS Code Workspace Settings]]
+- [[to fix/learning-notes/Commitlint]]
+- [[to fix/learning-notes/Github Workflows]]
+- [[to fix/learning-notes/Testing Environment Setup]]
 - [[learning-notes/Vitest]]
 - [[learning-notes/Jsdom]]
 - [[learning-notes/React Testing Library]]
 - [[learning-notes/Zod]]
 - [[learning-notes/Jest-Dom]]
 - [[learning-notes/User-Event]]
-- [[Tailwind]]
-- [[learning-notes/README]]
+- [[to fix/Tailwind]]
+- [[to fix/learning-notes/README]]
 - [[Vercel]]
 - [[GitHub Projects]]
 
 
 
 ## Github notes
-- [[learning-notes/Gray-matter]]
-- [[Remark]]
+- [[to fix/learning-notes/Gray-matter]]
+- [[to fix/Remark]]
 
 ## Next Pages
-- Create a page for the notes. [[learning-notes/next/Creating Pages in Next.js 14+]]
+- Create a page for the notes. [[to fix/learning-notes/next/Creating Pages in Next.js 14+]]
 - [[Get repository content)](Get repository content|GitHub REST API — Contents (Get repository content)]]).md)
 
 
@@ -51,7 +51,7 @@ Calling from the original GItHub REST API endpoint `https://api.github.com/repos
 12. _links: {self: 'https://api.github.com/repos/jamesmcdonald112/dev-journal/contents/Tailwind.md?ref=main', git: 'https://api.github.com/repos/jamesmcdonald112/dev-…it/blobs/4a729b175407f69181d8aa40e90e6e117e8ec14a', html: 'https://github.com/jamesmcdonald112/dev-journal/blob/main/Tailwind.md'}
 13. [[Prototype]]: Object
 ```
-With this infomation the content must be decoded first usinf a buffer and I cannot difectly transform it to markdown renders liek [[learning-notes/Gray-matter]] or [[Remark]] without decoding it first. One of the parts of the JSON file include the downlouad_url which is the raw data. This give me the exact markdown string.
+With this infomation the content must be decoded first usinf a buffer and I cannot difectly transform it to markdown renders liek [[to fix/learning-notes/Gray-matter]] or [[to fix/Remark]] without decoding it first. One of the parts of the JSON file include the downlouad_url which is the raw data. This give me the exact markdown string.
 
 #### Why we are not using application/vnd.github.html+json
 It may seem convient to have or files converted to html from markdown  but it is restricted.
@@ -110,10 +110,10 @@ keywords:
 ---
 ```
 
-After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[learning-notes/Gray-matter]] and [[Remark]] to have best overall flexibility for my project. This is instead of [next-mdx-remote](https://nextjs.org/docs/app/guides/mdx), which seems like it should be perfect but it comes with a warning on the site:
+After doing some research and back and forth with chat gpt, it seems like the best approach is to use [[to fix/learning-notes/Gray-matter]] and [[to fix/Remark]] to have best overall flexibility for my project. This is instead of [next-mdx-remote](https://nextjs.org/docs/app/guides/mdx), which seems like it should be perfect but it comes with a warning on the site:
 > “Please proceed with caution. MDX compiles to JavaScript and is executed on the server. You should only fetch MDX content from a trusted source, otherwise this can lead to remote code execution (RCE).”
 
-As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [[learning-notes/Gray-matter]] and [[Remark]].
+As I have thouhgt about intregrating chat gpt to some extenet for reading my vault and pissibly interracting with it, I think i will fo with the chat gpt recommended [[to fix/learning-notes/Gray-matter]] and [[to fix/Remark]].
 
 So folliwng the [Gray-Matter Docs](https://www.npmjs.com/package/gray-matter), I installed the dependancies and used it to get this returned:
 ```json
@@ -170,9 +170,9 @@ So my next goal is to render one note beautifully os i need [[AST|[Remark]],%20m
 ```
 npm install unified remark-parse remark-rehype rehype-stringify
 ```
-This setup installs [[Unified]], [[Remark]],  [[Rehype]], and [[Rehype-Stringify]] the tools we need to convert Markdown into HTML.
-- [[Unified]] connects [[Remark]] and [[Rehype]] together in a processing pipeline.
-- [[Remark]] converts or markdown into a ATS tree, basically a JSON file with the key as the md and the value as the text.
+This setup installs [[Unified]], [[to fix/Remark]],  [[Rehype]], and [[Rehype-Stringify]] the tools we need to convert Markdown into HTML.
+- [[Unified]] connects [[to fix/Remark]] and [[Rehype]] together in a processing pipeline.
+- [[to fix/Remark]] converts or markdown into a ATS tree, basically a JSON file with the key as the md and the value as the text.
 - [[Rehype]] converts this ats tree into a HTML format.
 - [[Rehype-Stringify]] transforms this HTML structure into a readable string that can be safely rendered on the site.
 
@@ -1176,7 +1176,7 @@ Next we create a feature level function in `features/notes/api/fetchNoteFromGitH
 
 
 
-Changed this to unknown to stop [[learning-notes/Biome]] complaining:
+Changed this to unknown to stop [[to fix/learning-notes/Biome]] complaining:
 ```ts
 interface ApiResponse<T = unknown> {
 	data: T;
@@ -1596,7 +1596,7 @@ I didnt add the headers in so there was no autoizatio.
 ## Commands 
 
 ### Commiting
-To run [[learning-notes/Commitlint]] prompt generator. 
+To run [[to fix/learning-notes/Commitlint]] prompt generator. 
 ```bash
 git add .
 npm run commit

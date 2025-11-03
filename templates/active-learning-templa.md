@@ -47,6 +47,6 @@ tags:
 - 
 
 ## 🧠 Concept Links Summary
-> Related to [[learning-notes/cloud/aws/Virtual Machines (VMs)|Virtual Machines]], [[learning-notes/cloud/aws/Hypervisor|Hypervisor]], and [[learning-notes/cloud/aws/Auto Scaling|Auto Scaling]].
+> Related to [[to fix/learning-notes/cloud/aws/Virtual Machines (VMs)|Virtual Machines]], [[to fix/learning-notes/cloud/aws/Hypervisor|Hypervisor]], and [[to fix/learning-notes/cloud/aws/Auto Scaling|Auto Scaling]].
 
 ## 🔍 References

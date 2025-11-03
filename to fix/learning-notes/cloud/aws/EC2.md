@@ -27,7 +27,7 @@ Elastic Compute Cloud provides on-demand virtual servers (instances) to run appl
 - Monitor CPU and memory with CloudWatch.
 
 ## Related 
-- [[learning-notes/cloud/aws/Virtual Machines (VMs)|Virtual Machines (VMs)]]
+- [[to fix/learning-notes/cloud/aws/Virtual Machines (VMs)|Virtual Machines (VMs)]]
 - 
 
 ## References
