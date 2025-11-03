@@ -7,6 +7,8 @@ updated: 2025-11-03
 summary: Auto Scaling adjusts the number of EC2 instances automatically based on demand or schedule.
 tech_stack:
 keywords:
+  - aws
+  - autoscaling
 ---
 # Auto Scaling
 

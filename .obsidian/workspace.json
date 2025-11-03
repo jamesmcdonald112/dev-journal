@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/cloud/aws/Auto Scaling.md",
+                "file": "templates/active-learning-template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Auto Scaling"
+              "title": "active-learning-template"
             }
           }
         ],
@@ -426,12 +426,19 @@
   },
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
-    "learning-notes/cloud/aws/VPC (Virtual Private Cloud).md",
+    "templates/case-study.md",
+    "templates/active-learning-template.md",
+    "templates/learning-note.md",
+    "templates/active-learning-template.md",
+    "projects/Hello.md",
+    "projects/hello.md",
+    "projects",
+    "learning-notes/cloud/aws/EC2.md",
     "learning-notes/cloud/aws/Auto Scaling.md",
+    "learning-notes/cloud/aws/VPC (Virtual Private Cloud).md",
     "learning-notes/cloud/aws/AMI (Amazon Machine Image).md",
     "learning-notes/cloud/aws/Multitenancy.md",
     "learning-notes/cloud/aws/Hypervisor.md",
-    "learning-notes/cloud/aws/EC2.md",
     "learning-notes/cloud/aws/Virtual Machines (VMs).md",
     "learning-notes/ISSUE_TEMPLATES.md",
     "learning-notes/Husky.md",
@@ -448,12 +455,6 @@
     "learning-notes/next/Creating Pages in Next.js 14+.md",
     "learning-notes/Biome.md",
     "Fetch API Explained.md",
-    "Next.js Slugs.md",
-    "Vercel.md",
-    "rehype-highlight.md",
-    "Layered Architecture.md",
-    "Fail Fast Principle.md",
-    "Centralised Error Handling.md",
     "learning-notes/next",
     "learning-notes/node.js",
     "learning-notes/express vs spring boot vs nest",
@@ -463,7 +464,6 @@
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png",
     "attatchments/diagrams",
-    "attatchments/images",
-    "attatchments"
+    "attatchments/images"
   ]
 }
