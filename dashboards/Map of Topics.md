@@ -28,10 +28,3 @@ LIMIT 10
 ```
 
 
-
-```dataview
-
-LIST FROM "learning-notes"
-
-SORT updated DESC
-```

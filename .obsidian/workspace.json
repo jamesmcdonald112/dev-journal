@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dashboards/Map of Topics.md",
+                "file": "learning-notes/cloud/aws/Auto Scaling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -263,12 +263,12 @@
                   "sortOrder": "alphabetical",
                   "showSearch": false,
                   "searchQuery": "",
-                  "backlinkCollapsed": false,
+                  "backlinkCollapsed": true,
                   "unlinkedCollapsed": true
                 }
               },
               "icon": "lucide-file",
-              "title": "Map of Topics"
+              "title": "Auto Scaling"
             }
           }
         ],
@@ -450,14 +450,15 @@
   },
   "active": "2ef4e4b513c7e181",
   "lastOpenFiles": [
-    "Dashboard.md",
+    "case-studies/portfolio/Building the Portolio.md",
     "dashboards/Map of Topics.md",
+    "Dashboard.md",
     "dashboards",
     "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "connections",
     "ideas",
     "resources",
-    "insights",
+    "guides",
     "learning-notes/Biome.md",
     "learning-notes/Commitlint.md",
     "learning-notes/class-variance-authority (CVA).md",
@@ -480,7 +481,6 @@
     "learning-notes/React Testing Library.md",
     "learning-notes/README Badges.md",
     "learning-notes/README Template.md",
-    "learning-notes/Testing Environment Setup.md",
     "projects",
     "learning-notes/cloud/aws",
     "learning-notes/cloud",
