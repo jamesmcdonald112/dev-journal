@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dashboards/Map of Topics.md",
+                "file": "projects/portfolio/1-setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Map of Topics"
+              "title": "1-setup"
             }
           },
           {
@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "dashboards/Map of Topics.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Map of Topics"
+              "title": "README"
             }
           }
         ],
@@ -472,7 +472,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "254d2bfb8714c629",
   "lastOpenFiles": [
     "dashboards/Map of Knowledge.md",
     "dashboards/Map of Topics.md",
