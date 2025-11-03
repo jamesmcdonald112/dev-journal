@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
+                "file": "dashboards/Map of Topics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setting Up Obsidian for Technical Note-Taking"
+              "title": "Map of Topics"
             }
           }
         ],
@@ -448,8 +448,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "2ef4e4b513c7e181",
   "lastOpenFiles": [
+    "Dashboard.md",
+    "dashboards/Map of Topics.md",
+    "dashboards",
+    "learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "connections",
     "ideas",
     "resources",
@@ -477,15 +481,11 @@
     "learning-notes/README Badges.md",
     "learning-notes/README Template.md",
     "learning-notes/Testing Environment Setup.md",
-    "learning-notes/Tailwind’s Prose Classes.md",
-    "learning-notes/VS Code Workspace Settings.md",
     "projects",
     "learning-notes/cloud/aws",
     "learning-notes/cloud",
     "learning-notes/next",
     "learning-notes/node.js",
-    "learning-notes/express vs spring boot vs nest",
-    "learning-notes/node.js/express",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
