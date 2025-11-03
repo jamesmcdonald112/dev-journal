@@ -1,1 +1,0 @@
-All errors are thrown as ApiError, so upper layers only handle one type of failure

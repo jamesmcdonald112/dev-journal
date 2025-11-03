@@ -1,1 +1,0 @@
-lib/api.ts = infrastructure layer, lib/github/client.ts = configuration, features/notes/... = business logic

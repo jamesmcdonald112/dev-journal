@@ -1,1 +1,0 @@
-Hides complex logic (timeouts, JSON parsing, tokens) behind simple methods like api.get()

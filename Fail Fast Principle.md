@@ -1,1 +1,0 @@
-Invalid or failed responses are rejected early, preventing bad data from spreading through the app
