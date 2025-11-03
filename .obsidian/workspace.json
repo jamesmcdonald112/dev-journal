@@ -253,7 +253,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "learning-notes/cloud/aws/Auto Scaling.md",
+                "file": "case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -268,7 +268,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Auto Scaling"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -450,6 +450,8 @@
   },
   "active": "2ef4e4b513c7e181",
   "lastOpenFiles": [
+    "case-studies/portfolio/Obsidian Style Graph.md",
+    "learning-notes/cloud/aws/Auto Scaling.md",
     "case-studies/portfolio/Building the Portolio.md",
     "dashboards/Map of Topics.md",
     "Dashboard.md",
@@ -479,8 +481,6 @@
     "learning-notes/README.md",
     "learning-notes/React Query.md",
     "learning-notes/React Testing Library.md",
-    "learning-notes/README Badges.md",
-    "learning-notes/README Template.md",
     "projects",
     "learning-notes/cloud/aws",
     "learning-notes/cloud",
