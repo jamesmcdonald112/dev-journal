@@ -229,7 +229,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "templates/active-learning-template.md",
+                "file": "templates/active-learning-templa.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -244,7 +244,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "active-learning-template"
+              "title": "active-learning-templa"
             }
           }
         ],
@@ -427,9 +427,9 @@
   "active": "0a73f459abf0d9d6",
   "lastOpenFiles": [
     "templates/case-study.md",
-    "templates/active-learning-template.md",
+    "templates/active-learning-templa.md",
     "templates/learning-note.md",
-    "templates/active-learning-template.md",
+    "templates/active-learning-templa.md",
     "projects/Hello.md",
     "projects/hello.md",
     "projects",

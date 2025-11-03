@@ -3,11 +3,13 @@ title: <% tp.file.title %>
 type: concept
 status: in-progress
 summary: ""
-keywords: [aws, <% tp.file.title %>]
+keywords:
+  - aws
+  - <% tp.file.title %>
 created: <% tp.file.creation_date("YYYY-MM-DD") %>
 updated: <% tp.date.now("YYYY-MM-DD") %>
 project: ""
-tags: [learning, aws]
+tags:
 ---
 
 # <% tp.file.title %>
