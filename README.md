@@ -252,3 +252,13 @@ SORT topic ASC
 | /shared-notes       | Knowledge reusable across multiple projects |
 | /templates          | Core structure for consistency              |
 | /dashboards         | Your map and summary of everything          |
+
+
+
+I completed the IBM Coding Assessment for completion James McDonald - 57052 - Software Developer Intern 2026 (6 - 9 months)  on hackerrank on Friday and received an error message upon submission stating that something went wrong. Could you please confirm if my test was received successfully, or if I should resubmit?  
+  
+This is the link provided in the previous email from IBM
+
+  
+
+Click on [this URL](http://ibmglobal.avature.net/ltrk/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzY0OTU1NTUsImhhc2giOiI2ODc0YTg1ZjI2YjRkMDg4OGMxMjEwZmI0ODU3ZjQ2ODc3Njc2OWQ3OTQwMjZjNmMwMmNiY2U1NzQxMjM0ZGZmIn0.aAcGwHgDnNeiYKwf1Yy98MxdPhJppvZXibsX-ABR3TU "http://ibmglobal.avature.net/ltrk/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6MzY0OTU1NTUsImhhc2giOiI2ODc0YTg1ZjI2YjRkMDg4OGMxMjEwZmI0ODU3ZjQ2ODc3Njc2OWQ3OTQwMjZjNmMwMmNiY2U1NzQxMjM0ZGZmIn0.aAcGwHgDnNeiYKwf1Yy98MxdPhJppvZXibsX-ABR3TU") to start the assessment.
