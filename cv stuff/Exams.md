@@ -3,3 +3,5 @@
 
 
 outcome of actions
+
+projecxts and the details of the proejct should be targeted ot the job
