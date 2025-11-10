@@ -139,77 +139,36 @@ You should see either:
 - or a list of style fixes (run with --write to apply).
 ---
 
-
-
-
-
-
-
-
-
-
-Excellent — let’s continue your setup notes cleanly from there, keeping the same format and crediting sources where relevant.
-
----
-
-## **Phase 0 – MongoDB Setup + React Rules Integration**
-
-  
-
 ### **10. Set Up MongoDB Atlas (Cloud Database)**
 
-  
-
-📘 Source: [MongoDB Atlas Docs](https://www.mongodb.com/docs/atlas/getting-started/)![Attachment.tiff](file:///Attachment.tiff)
-
-1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)![Attachment.tiff](file:///Attachment.tiff) → Create a Free Cluster (M0).
-    
+1. Go to [MongoDB Atlas](https://www.mongodb.com/cloud/atlas) → Create a Free Cluster (M0).
 2. Choose provider **AWS**, region eu-west-1 (Ireland or closest).
-    
 3. Add IP Access:
-    
     - Current IP (auto-added)
-        
-    - Optionally 0.0.0.0/0 for dev access from any device.
-        
-    
 4. Create a database user:
-    
     - Username ecommerce_user
-        
     - Password (copy and store securely).
-        
-    
 5. Wait for cluster to deploy → **Connect → Drivers → Node.js**.
-    
 6. Copy connection URI:
-    
-
 ```
 mongodb+srv://ecommerce_user:<password>@ecommerce-cluster.xxxxx.mongodb.net/ecommerce
 ```
-
-6.   
     
 7. In your project root, create .env.local:
-    
 
 ```
 MONGODB_URI=mongodb+srv://ecommerce_user:<password>@ecommerce-cluster.xxxxx.mongodb.net/ecommerce
 ```
 
-  
 
 ---
 
 ### **11. Install Mongoose and Configure Connection**
 
+Following an example for Next.js and MongoDB CRUD.
+
+Source: [Medium Tutorial (Next.js + MongoDB CRUD)](https://medium.com/@turingvang/next-js-beginner-mongodb-crud-example-tutorial-db2afdb68e25)
   
-
-📘 Source: [Mongoose Docs](https://mongoosejs.com/docs/connections.html)![Attachment.tiff](file:///Attachment.tiff) + [Medium Tutorial (Next.js + MongoDB CRUD)](https://medium.com/@turingvang/next-js-beginner-mongodb-crud-example-tutorial-db2afdb68e25)![Attachment.tiff](file:///Attachment.tiff)
-
-  
-
 Install:
 
 ```
@@ -222,7 +181,7 @@ Create a folder and connection file:
 lib/mongodb.js
 ```
 
-```
+```ts
 import mongoose from "mongoose";
 
 const MONGODB_URI = process.env.MONGODB_URI;
@@ -242,13 +201,7 @@ export default async function dbConnect() {
 
 ---
 
-### **12. Create Your First Model**
-
-  
-
-📘 Source: Mongoose Schemas – [Docs](https://mongoosejs.com/docs/models.html)![Attachment.tiff](file:///Attachment.tiff)
-
-  
+### **12. Define Mongoose Model**
 
 Create a folder:
 
