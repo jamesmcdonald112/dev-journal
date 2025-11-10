@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv stuff/Exams.md",
+                "file": "projects/ecommerce/Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Exams"
+              "title": "Setup"
             }
           }
         ],
@@ -474,8 +474,10 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
-    "README.md",
     "cv stuff/Exams.md",
+    "projects/ecommerce/Setup.md",
+    "projects/ecommerce",
+    "README.md",
     "cv stuff",
     "dashboards/Map of Knowledge.md",
     "dashboards/Map of Topics.md",
@@ -497,7 +499,6 @@
     "to fix/learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "connections",
     "ideas",
-    "resources",
     "to fix/learning-notes/Biome.md",
     "to fix/learning-notes/Commitlint.md",
     "learning-notes/class-variance-authority (CVA).md",
@@ -509,7 +510,6 @@
     "to fix/learning-notes/Husky.md",
     "to fix/learning-notes/ISSUE_TEMPLATES.md",
     "to fix/learning-notes/Lint-Staged.md",
-    "learning-notes/Jest-Dom.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
