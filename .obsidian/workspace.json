@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Setup.md",
+                "file": "to fix/case-studies/portfolio/Building the Portolio.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "Building the Portolio"
             }
           }
         ],
@@ -474,8 +474,9 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
-    "projects/ecommerce/Todo.md",
+    "projects/portfolio/1-setup.md",
     "projects/ecommerce/Setup.md",
+    "projects/ecommerce/Todo.md",
     "cv stuff/Exams.md",
     "projects/ecommerce",
     "README.md",
@@ -485,7 +486,6 @@
     "templates/shared-note.md",
     "templates/project-log.md",
     "templates/project-note.md",
-    "projects/portfolio/1-setup.md",
     "projects/portfolio/notes",
     "to fix/Fetch API Explained.md",
     "projects/portfolio",
