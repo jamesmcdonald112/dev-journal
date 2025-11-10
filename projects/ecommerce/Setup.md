@@ -181,22 +181,64 @@ Create a folder and connection file:
 lib/mongodb.js
 ```
 
+[Next.js + MongoDB CRUD Example (Medium)](https://medium.com/@turingvang/next-js-beginner-mongodb-crud-example-tutorial-db2afdb68e25)
+- That version used:
+
+```js
+global.mongoose = { conn: null, promise: null };
+```
+
+- But it was JavaScript-only, not TypeScript-friendly.
+
+#### **Improved reference**
+
+- Switched to official **Next.js example**:
+	- [with-mongodb-mongoose on GitHub (Vercel)](https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/lib/dbConnect.ts)
+- Adjusted the code to TypeScript and renamed the global variable to avoid shadowing.
+
+### **Final Working lib/mongodb.js**
+
 ```ts
 import mongoose from "mongoose";
 
-const MONGODB_URI = process.env.MONGODB_URI;
-if (!MONGODB_URI) throw new Error("Please define the MONGODB_URI environment variable");
+declare global {
+  // biome-ignore lint/suspicious/noRedeclare: must use var for global scope
+  var mongooseCache: any; // cache object for hot reloads
+}
 
-let cached = global.mongoose || { conn: null, promise: null };
+let cached = global.mongooseCache;
 
-global.mongoose = cached;
+if (!cached) {
+  cached = global.mongooseCache = { conn: null, promise: null };
+}
 
-export default async function dbConnect() {
+async function dbConnect() {
+  const MONGODB_URI = process.env.MONGODB_URI!;
+
+  if (!MONGODB_URI) {
+    throw new Error(
+      "Please define the MONGODB_URI environment variable inside .env.local",
+    );
+  }
+
   if (cached.conn) return cached.conn;
-  if (!cached.promise) cached.promise = mongoose.connect(MONGODB_URI).then((m) => m);
-  cached.conn = await cached.promise;
+
+  if (!cached.promise) {
+    const opts = { bufferCommands: false };
+    cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => mongoose);
+  }
+
+  try {
+    cached.conn = await cached.promise;
+  } catch (e) {
+    cached.promise = null;
+    throw e;
+  }
+
   return cached.conn;
 }
+
+export default dbConnect;
 ```
 
 ---
