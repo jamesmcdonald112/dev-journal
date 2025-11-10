@@ -181,64 +181,69 @@ Create a folder and connection file:
 lib/mongodb.js
 ```
 
-[Next.js + MongoDB CRUD Example (Medium)](https://medium.com/@turingvang/next-js-beginner-mongodb-crud-example-tutorial-db2afdb68e25)
-- That version used:
-
-```js
+- Basic **JavaScript** version in the original source that used:
+```
 global.mongoose = { conn: null, promise: null };
 ```
 
-- But it was JavaScript-only, not TypeScript-friendly.
+- ❌ Works but not TypeScript-safe.
 
-#### **Improved reference**
+### **Improved Reference**
 
-- Switched to official **Next.js example**:
-	- [with-mongodb-mongoose on GitHub (Vercel)](https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/lib/dbConnect.ts)
-- Adjusted the code to TypeScript and renamed the global variable to avoid shadowing.
+- Based on official Vercel example:
+    🔗 [with-mongodb-mongoose on GitHub](https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/lib/dbConnect.ts)
+- Adapted for **TypeScript** with explicit types and renamed global variable (mongooseCache) to avoid name collisions.
 
-### **Final Working lib/mongodb.js**
+### **Final Working Version — lib/mongodb.ts**
 
 ```ts
-import mongoose from "mongoose";
+import mongoose, { type Mongoose } from "mongoose";
 
+interface MongooseCache {
+  conn: Mongoose | null;
+  promise: Promise<Mongoose> | null;
+}
+
+// Declare a global variable to persist the connection cache between hot reloads
 declare global {
-  // biome-ignore lint/suspicious/noRedeclare: must use var for global scope
-  var mongooseCache: any; // cache object for hot reloads
+  // Must use `var` for global augmentation
+  var mongooseCache: MongooseCache | undefined;
 }
 
-let cached = global.mongooseCache;
+// Reuse existing cache or initialize a new one
+const cached: MongooseCache = global.mongooseCache ?? {
+  conn: null,
+  promise: null,
+};
+global.mongooseCache = cached;
 
-if (!cached) {
-  cached = global.mongooseCache = { conn: null, promise: null };
-}
-
-async function dbConnect() {
-  const MONGODB_URI = process.env.MONGODB_URI!;
+export default async function dbConnect(): Promise<Mongoose> {
+  const MONGODB_URI: string | undefined = process.env.MONGODB_URI;
 
   if (!MONGODB_URI) {
     throw new Error(
-      "Please define the MONGODB_URI environment variable inside .env.local",
+      "Please define the MONGODB_URI environment variable inside .env.local"
     );
   }
 
+  // Return existing connection if available
   if (cached.conn) return cached.conn;
 
+  // Otherwise, create a new connection
   if (!cached.promise) {
-    const opts = { bufferCommands: false };
-    cached.promise = mongoose.connect(MONGODB_URI, opts).then((mongoose) => mongoose);
+    const opts = { bufferCommands: false }; // disables query buffering
+    cached.promise = mongoose.connect(MONGODB_URI, opts);
   }
 
   try {
     cached.conn = await cached.promise;
-  } catch (e) {
-    cached.promise = null;
+  } catch (e: unknown) {
+    cached.promise = null; // reset promise on failure
     throw e;
   }
 
   return cached.conn;
 }
-
-export default dbConnect;
 ```
 
 ---
@@ -251,7 +256,7 @@ Create a folder:
 models/Item.js
 ```
 
-```
+```ts
 import mongoose from "mongoose";
 
 const ItemSchema = new mongoose.Schema({
