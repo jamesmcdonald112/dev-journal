@@ -248,7 +248,12 @@ export default async function dbConnect(): Promise<Mongoose> {
 
 ---
 
-### **12. Define Mongoose Model**
+### **12. Define Mongoose Model** - Test
+### **Docs Used**
+
+- [Next.js + MongoDB Example (Vercel)](https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/models/Pet.ts)
+- [Mongoose Models — Official Docs](https://mongoosejs.com/docs/models.html)
+- [Mongoose TypeScript Guide](https://mongoosejs.com/docs/typescript.html)
 
 Create a folder:
 
@@ -257,41 +262,15 @@ models/Item.js
 ```
 
 Create a **Mongoose model**, which acts like a **table definition** in SQL. It describes the structure (fields, types, and validation rules) for documents stored in a MongoDB collection.
-### **🧩** 
-
-### **Docs Used**
-
-- [Mongoose Models — Official Docs](https://mongoosejs.com/docs/models.html)![Attachment.tiff](file:///Attachment.tiff)
-    
-- [Next.js + MongoDB Example (Vercel)](https://github.com/vercel/next.js/blob/canary/examples/with-mongodb-mongoose/lib/dbConnect.ts)![Attachment.tiff](file:///Attachment.tiff)
-    
-- [Mongoose TypeScript Guide](https://mongoosejs.com/docs/typescript.html)![Attachment.tiff](file:///Attachment.tiff)
-    
-
----
-
-### **🧠** 
-
-### **Summary**
-
 - A **model** defines what each MongoDB document looks like and enforces validation.
-    
-- We used **TypeScript** for type safety.
-    
-- The Item interface extends mongoose.Document, so each item automatically gets all built-in Mongoose methods (save, delete, populate, etc.).
-    
+- The Item interface extends `mongoose.Document`, so each item automatically gets all built-in Mongoose methods (save, delete, populate, etc.).
 - The mongoose.model() call **compiles** the schema into a model (or reuses it if it already exists via mongoose.models).
-    
-- The first argument "Item" becomes the **collection name** items in MongoDB (Mongoose pluralizes it automatically).
-    
-
----
-
-### **✅** 
+- The first argument "Item" becomes the **collection name** items in MongoDB (Mongoose pluralises it automatically).
+- `mongoose.models.Item` prevents model recompilation during hot reloads in Next.js.
 
 ### **Final Code**
 
-```
+```ts
 import mongoose from "mongoose";
 
 interface Item extends mongoose.Document {
@@ -317,30 +296,7 @@ export default mongoose.models.Item || mongoose.model<Item>("Item", ItemSchema);
 
 ---
 
-### **🧾** 
-
-### **Key Notes**
-
-- mongoose.models.Item prevents model recompilation during hot reloads in Next.js.
-    
-- "Item" (singular) → MongoDB collection name becomes items (plural).
-    
-- Each field inside the schema supports many built-in **SchemaType options** such as:
-    
-    - type, required, maxLength, default, enum, unique, etc.
-        
-        (see [Mongoose SchemaType Options](https://mongoosejs.com/docs/schematypes.html)![Attachment.tiff](file:///Attachment.tiff))
-        
-    
-
----
-
-Would you like me to write the **next section (Step 13: Testing the Database with curl and verifying in Atlas)** in the same format?
----
-
 ### **13. Test Your Connection**
-
-  
 
 Create API route:
 
