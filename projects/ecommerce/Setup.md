@@ -337,6 +337,8 @@ export default mongoose.models.Item || mongoose.model<Item>("Item", ItemSchema);
 ---
 ### **16. Create and Test Initial API Route**
 
+Based on the official [Next.js 16 App Route Handlers documentation](https://nextjs.org/docs/app/getting-started/route-handlers) and Initially inspired by the [Medium tutorial on Next.js + MongoDB CRUD](https://medium.com/@turingvang/next-js-beginner-mongodb-crud-example-tutorial-db2afdb68e25)!, but rewritten for TypeScript and the App Router structure following **Vercel’s with-mongodb-mongoose example**.
+
 Before building the main `/api/products` endpoint, a temporary route was created for testing MongoDB connectivity.
 
 **File:** `app/api/items/route.ts`
@@ -371,4 +373,17 @@ function handleError(error: unknown, status = 500): NextResponse {
 - Test API response format using Postman or browser
 
 #### **Result:**
-A GET request to [http://localhost:3000/api/items](http://localhost:3000/api/items)![Attachment.tiff]returned data from MongoDB.
+A GET request to [http://localhost:3000/api/items](http://localhost:3000/api/items)returned data from MongoDB. This will be changed to products later to match the brief.
+
+---
+### **17. Upload Project to GitHub and Create Project Tracking**
+
+After verifying that Biome, Commitlint, and MongoDB were working, the entire project was pushed to GitHub.
+- Repository: [github.com/jamesmcdonald112/ecommerce-project](https://github.com/jamesmcdonald112/ecommerce-project)!
+- Created detailed [GitHub Issues](https://github.com/jamesmcdonald112/ecommerce-project/issues)! based on the project brief
+- Grouped all issues under the [Phase 1 – Core E-Commerce Pages Milestone](https://github.com/jamesmcdonald112/ecommerce-project/milestones)!
+- Added the main epic issue: **AI-Powered E-Commerce Website**
+- Each major task (admin pages, catalogue, cart, etc.) is tracked as a linked sub-issue for structured progress monitoring
+
+---
+
