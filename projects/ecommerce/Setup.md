@@ -386,3 +386,161 @@ After verifying that Biome, Commitlint, and MongoDB were working, the entire pro
 - Each major task (admin pages, catalogue, cart, etc.) is tracked as a linked sub-issue for structured progress monitoring
 
 ---
+
+### **18. Product Schema (TypeScript + Mongoose)**
+
+📘 **Reference:** [Mongoose TypeScript Guide](https://mongoosejs.com/docs/typescript.html)!
+
+📘 **Timestamps Option:** [Mongoose Guide – timestamps](https://mongoosejs.com/docs/guide.html#timestamps)!
+
+#### Final code
+```ts
+import { model, Schema } from "mongoose";
+
+interface Product {
+	title: string;
+	shortDescription: string;
+	longDescription: string;
+	specs?: Record<string, string>;
+	reviews?: string[];
+	price: number;
+	images: string[];
+	slug: string;
+}
+
+const ProductSchema = new Schema<Product>(
+	{
+		title: {
+			type: String,
+			required: [true, "Please provide a title for this product"],
+			maxLength: [100, "Title cannot exceed 100 characters"],
+		},
+		shortDescription: {
+			type: String,
+			required: [true, "Please provide a short description"],
+			maxLength: [300, "Short description cannot exceed 300 characters"],
+		},
+		longDescription: {
+			type: String,
+			required: [true, "Please provide a detailed description"],
+			maxLength: [3000, "Long description cannot exceed 3000 characters"],
+		},
+		specs: {
+			type: Map,
+			of: String,
+			default: {},
+		},
+		reviews: {
+			type: [String],
+			default: [],
+		},
+		price: {
+			type: Number,
+			required: [true, "Please provide a price"],
+			min: [0, "Price cannot be negative"],
+		},
+		images: {
+			type: [String],
+			required: [true, "Please provide at least one image URL"],
+		},
+		slug: {
+			type: String,
+			required: [true, "Please provide a slug (unique identifier)"],
+			unique: true,
+		},
+	},
+	{ timestamps: true },
+);
+
+// Creates (or reuses) a MongoDB collection named "products"
+export const Product = model<Product>("Product", ProductSchema);
+```
+
+According to the official [Mongoose + TypeScript documentation](https://mongoosejs.com/docs/typescript.html), the correct pattern for defining a typed model is to:
+
+1. **Define an interface** describing the structure of the document (in this case, Product), which represents what a product object looks like in MongoDB.
+    
+2. **Create a** **Schema** **instance** using `new Schema<Product>(...)` where the generic type parameter` <Product>` ensures TypeScript type-safety.
+    
+3. **Specify field properties** inside the schema object, including:
+    
+    - type: the data type (String, Number, Map, etc.)
+        
+    - required: true or `[true, "error message"`] to make the field mandatory
+        
+    - maxLength / min: validation limits with messages
+        
+    - unique: true to create a MongoDB unique index
+        
+    - default values to avoid undefined data later
+        
+    
+4. **Handle key–value data** with Map, since Mongoose doesn’t have a native Record type. Here specs: `{ type: Map, of: String }` means the map will store string → string pairs.
+    
+5. **Add timestamps** with { timestamps: true }, which automatically adds and maintains createdAt and updatedAt fields in the document.
+    
+6. **Export the model** using:
+    
+
+```ts
+export const Product = model<Product>("Product", ProductSchema);
+```
+
+- `model<Product> `is the Mongoose factory function for creating a model typed as Product. It gives intellisense.
+
+- The first argument ("Product") becomes the **collection name** (products) in MongoDB (Mongoose pluralises it automatically).
+
+- The second argument (ProductSchema) defines the rules and validation that the collection must follow.
+
+- Assigning and exporting it in one line (export const Product = ...) makes the model immediately available wherever you import it.
+
+---
+
+### **19. Correct MongoDB URI Structure**
+
+  
+
+> 🧩 **Docs reference:** [MongoDB Connection String Format](https://www.mongodb.com/docs/manual/reference/connection-string/)![Attachment.tiff](file:///Attachment.tiff)
+
+
+When connecting Mongoose to MongoDB, the **database name** must be specified **before the question mark (?)** in your connection URI.
+
+  
+
+If you omit it, MongoDB defaults to the **test** database.
+
+  
+
+**✅ Correct format:**
+
+```
+MONGODB_URI=mongodb+srv://ecommerce_user:fbbmMxfGQDQ5LzHH@ecommerce-cluster.yee2woi.mongodb.net/ecommerce?appName=ecommerce-cluster
+```
+
+**Explanation:**
+
+- ecommerce → is the **database name** where all your collections (like products) will live.
+    
+- MongoDB will **not** automatically use your collection name to choose a database — that was a misunderstanding.
+    
+- Mongoose handles collections (e.g., Product → products) **inside** the selected database.
+    
+
+  
+
+**Example structure inside MongoDB Atlas:**
+
+```
+📦 ecommerce               ← database
+ ┣ 📂 products             ← collection created by model("Product", schema)
+ ┣ 📂 users
+ ┗ 📂 orders
+```
+
+---
+
+You can safely note:
+
+  
+
+> “I initially thought the database name in the URI referred to the table (collection), but it actually refers to the **database** where collections are stored.”
