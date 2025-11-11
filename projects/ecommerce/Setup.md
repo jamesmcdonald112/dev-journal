@@ -387,3 +387,143 @@ After verifying that Biome, Commitlint, and MongoDB were working, the entire pro
 
 ---
 
+### **18. Understanding Product Schema Design**
+
+The `models/Product.ts` file defines the structure and rules for how products are stored in MongoDB using **Mongoose**.  
+This schema was created directly from the project brief’s product specification.
+#### **Interface Definition**
+
+We define an interface because we already know the shape of the data (`Product`).  
+If the structure were flexible or dynamically generated, a `type` might be used instead.  
+
+```ts
+interface Product extends mongoose.Document {
+  title: string;
+  shortDescription: string;
+  longDescription: string;
+  specs?: Record<string, string>;
+  reviews?: string[];
+  price: number;
+  images: string[];
+  slug: string;
+}
+````
+
+- extends mongoose.Document allows each product instance to inherit Mongoose’s built-in document methods (e.g., .save(), .deleteOne(), .populate()) and metadata fields like _id.
+    🔗 [Docs: Mongoose Documents](https://mongoosejs.com/docs/documents.html)!
+
+#### **Schema Structure**
+
+We create a new schema with the same fields as the interface and apply validation rules:
+
+- type → defines data type (String, Number, Map, etc.)
+    
+- required → ensures the field must be provided
+    
+- maxLength / min → adds validation constraints
+    
+- timestamps: true → automatically adds and updates createdAt and updatedAt whenever a record is created or modified
+    
+
+#### Example:
+
+```ts
+const ProductSchema = new mongoose.Schema<Product>(
+  {
+    title: {
+      type: String,
+      required: [true, "Please provide a product title"],
+      maxLength: [100, "Title cannot exceed 100 characters"],
+    },
+    shortDescription: {
+      type: String,
+      required: [true, "Please provide a short description"],
+      maxLength: [300, "Short description cannot exceed 300 characters"],
+    },
+    longDescription: {
+      type: String,
+      required: [true, "Please provide a long description"],
+      maxLength: [3000, "Long description cannot exceed 3000 characters"],
+    },
+    specs: {
+      type: Map,
+      of: String, // equivalent to Record<string, string>
+      default: {},
+    },
+    reviews: {
+      type: [String],
+      default: [],
+    },
+    price: {
+      type: Number,
+      required: [true, "Please provide a price"],
+      min: [0, "Price must be positive"],
+    },
+    images: {
+      type: [String],
+      required: [true, "Please provide at least one image URL"],
+    },
+    slug: {
+      type: String,
+      required: [true, "Please provide a slug"],
+      unique: true, // ensures each product slug is distinct
+    },
+  },
+  { timestamps: true },
+);
+```
+
+[Link to docs here - ](https://mongoosejs.com/docs/guide.html#definition)
+---
+
+#### **Uniqueness of Slug**
+
+Setting unique: true in Mongoose tells MongoDB to create a **unique index** on that field.
+
+That means the database itself enforces uniqueness, not your application code.
+
+- If a duplicate slug is inserted, MongoDB will throw an error.
+    
+- You can catch and handle that in your API layer to display a friendly message.
+    
+
+🔗 [Docs: Mongoose Indexes](https://mongoosejs.com/docs/guide.html#indexes)!
+
+---
+
+#### **Export Logic**
+
+At the bottom of the file:
+
+```ts
+export default mongoose.models.Product || mongoose.model<Product>("Product", ProductSchema);
+```
+
+This checks whether the model already exists (e.g., during Next.js hot reloads).
+
+If it does, it reuses the existing model; if not, it creates a new one.
+
+This prevents the common OverwriteModelError that can occur in development.
+
+  
+
+🔗 [Docs: Mongoose Models](https://mongoosejs.com/docs/models.html)!
+
+---
+
+#### **Relevant Documentation**
+
+- [Mongoose Schemas](https://mongoosejs.com/docs/guide.html)![Attachment.tiff](file:///Attachment.tiff)
+    
+- [Mongoose SchemaTypes](https://mongoosejs.com/docs/schematypes.html)![Attachment.tiff](file:///Attachment.tiff)
+    
+- [Mongoose Maps](https://mongoosejs.com/docs/schematypes.html#maps)![Attachment.tiff](file:///Attachment.tiff)
+    
+- [Mongoose Models](https://mongoosejs.com/docs/models.html)![Attachment.tiff](file:///Attachment.tiff)
+    
+- [Mongoose Timestamps](https://mongoosejs.com/docs/timestamps.html)![Attachment.tiff](file:///Attachment.tiff)
+    
+- [Mongoose Indexes and Uniqueness](https://mongoosejs.com/docs/guide.html#indexes)![Attachment.tiff](file:///Attachment.tiff)
+    
+
+---
