@@ -533,9 +533,122 @@ MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-name>.<randomid>.mongod
 - Mongoose handles **collections** (e.g., Product → products) **inside** the database you specify in the URI.
     
 
----
-
 **Note:**
 
 
 > I initially thought the database name in the URI referred to the table (collection), but it actually refers to the **database** that holds all the collections.
+
+
+---
+### **20. Product Schema and Initial GET Route**
+
+
+> 🧩 **Docs reference:**
+    
+- > [Next.js Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/router-handlers)!
+
+#### **Goal**
+
+Create and verify an API route (/api/products) that connects to MongoDB, fetches all products, and returns them as JSON.
+
+---
+
+#### **Files Created/Modified**
+
+- models/Product.ts → defines the Product schema
+    
+- app/api/products/route.ts → defines the GET route
+    
+- lib/mongodb.ts → handles database connection (already existed)
+    
+
+---
+
+#### **✅ Final Code (GET route)**
+
+app/api/products/route.ts
+
+```ts
+import { NextResponse } from "next/server";
+import { Product } from "@/models/Product";
+import dbConnect from "../../lib/mongodb";
+
+export async function GET(): Promise<NextResponse> {
+  try {
+    await dbConnect();
+    const items = await Product.find({});
+    return NextResponse.json({ success: true, data: items });
+  } catch (error: unknown) {
+    return handleError(error);
+  }
+}
+
+function handleError(error: unknown, status = 500): NextResponse {
+  const message = error instanceof Error ? error.message : "Unknown error";
+  return NextResponse.json({ success: false, error: message }, { status });
+}
+```
+
+---
+
+#### **How It Works**
+
+- Connects to MongoDB via dbConnect() before querying.
+    
+- Uses the Mongoose Product model to fetch all documents from the products collection.
+    
+- Returns a standardised JSON response with either:
+    
+    - success: true and the list of products, or
+        
+    - success: false and an error message.
+        
+    
+- The helper handleError() ensures consistent error formatting.
+    
+
+---
+
+#### **Verification**
+A test product was **manually inserted** into the MongoDB Atlas ecommerce database under the products collection:
+
+| **Field**        | **Value**                            |
+| ---------------- | ------------------------------------ |
+| _id              | 691349b812a81bf26f780ae1             |
+| title            | "Test Product"                       |
+| shortDescription | "Short description"                  |
+| longDescription  | "Longer description of the product." |
+| price            | 19.99                                |
+| images           | ["https://example.com/img.png"]      |
+| slug             | "test-product"                       |
+
+Tested the route using a GET request from Postman to:
+
+```
+http://localhost:3000/api/products
+```
+
+Result confirmed successful database connection and returned inserted product data.
+
+  
+
+Example response:
+
+```json
+{
+  "success": true,
+  "data": [
+    {
+      "_id": "691349b812a81bf26f780ae1",
+      "title": "Test Product",
+      "shortDescription": "Short description",
+      "longDescription": "Longer description of the product.",
+      "price": 19.99,
+      "images": ["https://example.com/img.png"],
+      "slug": "test-product",
+      "specs": {},
+      "reviews": []
+    }
+  ]
+}
+```
