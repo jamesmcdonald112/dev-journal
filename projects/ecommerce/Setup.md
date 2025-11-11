@@ -66,7 +66,47 @@ npx @biomejs/biome init
 This creates a biome.json configuration file at your project root.
 
 ---
+### **6. Set up Commitlint for Conventional Commits**
 
+Follow the official [Commitlint setup guide](https://commitlint.js.org/guides/use-prompt.html):
+
+To enforce clear, consistent commit messages:
+1. **Install Commitlint + Prompt CLI**
+
+```zsh
+npm install -D @commitlint/cli @commitlint/config-conventional @commitlint/prompt-cli
+```
+
+2. **Create the config file**
+
+```zsh
+echo "export default { extends: ['@commitlint/config-conventional'] };" > commitlint.config.mjs
+```
+
+> (Use .mjs to avoid Node module warnings.)
+
+3. **Add commit script to package.json**
+
+```json
+"scripts": {
+  "commit": "commit"
+}
+```
+
+4. **Use it for commits**
+
+```zsh
+git add .
+npm run commit
+```
+
+You’ll be prompted to enter a structured message, e.g.:
+
+```zsh
+chore(setup): initialise Next.js project
+```
+
+---
 ### **6. Enable Tailwind Support**
 
 Open your new biome.json and add:

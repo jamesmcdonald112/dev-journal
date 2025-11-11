@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "to fix/case-studies/portfolio/Building the Portolio.md",
+                "file": "projects/ecommerce/Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Building the Portolio"
+              "title": "Setup"
             }
           }
         ],
@@ -474,6 +474,7 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
+    "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
     "projects/ecommerce/Setup.md",
     "projects/ecommerce/Todo.md",
@@ -489,7 +490,6 @@
     "projects/portfolio/notes",
     "to fix/Fetch API Explained.md",
     "projects/portfolio",
-    "to fix/case-studies/portfolio/Building the Portolio.md",
     "to fix",
     "shared-notes",
     "proper folder",
