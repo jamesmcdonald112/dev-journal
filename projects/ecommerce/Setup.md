@@ -496,51 +496,46 @@ export const Product = model<Product>("Product", ProductSchema);
 
 ---
 
+Here’s the corrected and finalized version of your note with the proper **MongoDB doc link** and an accurate citation to the section you found:
+
+---
+
 ### **19. Correct MongoDB URI Structure**
 
   
 
-> 🧩 **Docs reference:** [MongoDB Connection String Format](https://www.mongodb.com/docs/manual/reference/connection-string/)![Attachment.tiff](file:///Attachment.tiff)
+> 🧩 **Docs reference:** [MongoDB Connection String Formats](https://www.mongodb.com/docs/manual/reference/connection-string-formats/)!
+
+> “You can specify a default database in the [/defaultauthdb] field of the connection string. The client uses the specified [/defaultauthdb] database as the default database.
+
+> **If unspecified by the connection string, MongoDB uses the test database as the default.**”
 
 
 When connecting Mongoose to MongoDB, the **database name** must be specified **before the question mark (?)** in your connection URI.
 
-  
 
 If you omit it, MongoDB defaults to the **test** database.
 
-  
+---
 
 **✅ Correct format:**
 
-```
-MONGODB_URI=mongodb+srv://ecommerce_user:fbbmMxfGQDQ5LzHH@ecommerce-cluster.yee2woi.mongodb.net/ecommerce?appName=ecommerce-cluster
+```bash
+MONGODB_URI=mongodb+srv://<username>:<password>@<cluster-name>.<randomid>.mongodb.net/<database-name>?appName=<app-name>
 ```
 
 **Explanation:**
 
 - ecommerce → is the **database name** where all your collections (like products) will live.
     
-- MongoDB will **not** automatically use your collection name to choose a database — that was a misunderstanding.
+- MongoDB will **not** automatically use your collection name to select a database — that was a misunderstanding.
     
-- Mongoose handles collections (e.g., Product → products) **inside** the selected database.
+- Mongoose handles **collections** (e.g., Product → products) **inside** the database you specify in the URI.
     
-
-  
-
-**Example structure inside MongoDB Atlas:**
-
-```
-📦 ecommerce               ← database
- ┣ 📂 products             ← collection created by model("Product", schema)
- ┣ 📂 users
- ┗ 📂 orders
-```
 
 ---
 
-You can safely note:
+**Note:**
 
-  
 
-> “I initially thought the database name in the URI referred to the table (collection), but it actually refers to the **database** where collections are stored.”
+> I initially thought the database name in the URI referred to the table (collection), but it actually refers to the **database** that holds all the collections.
