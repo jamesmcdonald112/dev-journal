@@ -335,93 +335,40 @@ export default mongoose.models.Item || mongoose.model<Item>("Item", ItemSchema);
 ```
 
 ---
+### **16. Create and Test Initial API Route**
 
-### **13. Test Your Connection**
+Before building the main `/api/products` endpoint, a temporary route was created for testing MongoDB connectivity.
 
-Create API route:
+**File:** `app/api/items/route.ts`
 
-```
-app/api/test-db/route.js
-```
-
-```
-import dbConnect from "@/lib/mongodb";
-import Item from "@/models/Item";
+```ts
 import { NextResponse } from "next/server";
+import Item from "@/models/Item";
+import dbConnect from "../../lib/mongodb";
 
-export async function GET() {
-  try {
-    await dbConnect();
-    const item = await Item.create({ name: "Sample Product", description: "Test entry" });
-    return NextResponse.json({ success: true, item });
-  } catch (err) {
-    console.error(err);
-    return NextResponse.json({ success: false, error: err.message });
-  }
+export async function GET(): Promise<NextResponse> {
+	try {
+		await dbConnect();
+		const items = await Item.find({});
+		return NextResponse.json({ success: true, data: items });
+	} catch (error: unknown) {
+		return handleError(error);
+	}
+}
+
+function handleError(error: unknown, status = 500): NextResponse {
+	return NextResponse.json(
+		{ success: false, error: (error as Error).message },
+		{ status },
+	);
 }
 ```
 
-Run:
+#### **Purpose:**
 
-```
-npm run dev
-```
+- Verify successful MongoDB Atlas connection
+- Confirm Mongoose model integration with Next.js API routes
+- Test API response format using Postman or browser
 
-Visit [http://localhost:3000/api/test-db](http://localhost:3000/api/test-db)![Attachment.tiff](file:///Attachment.tiff) → ✅ should return Sample Product.
-
----
-
-### **14. Fix React Hook Dependency Warnings**
-
-  
-
-📘 Source: [React Official Docs – Rules of Hooks](https://react.dev/reference/rules)![Attachment.tiff](file:///Attachment.tiff)
-
-  
-
-Problem:
-
-```
-useEffect(() => {
-  fetchItems();
-}, []); // ❌ warning: missing dependency
-```
-
-Solution (React-approved):
-
-```
-import { useState, useEffect, useCallback } from "react";
-
-export default function Home() {
-  const [items, setItems] = useState([]);
-
-  const fetchItems = useCallback(async () => {
-    const res = await fetch("/api/items");
-    const data = await res.json();
-    setItems(data.data);
-  }, []); // ✅ stable dependency
-
-  useEffect(() => {
-    fetchItems();
-  }, [fetchItems]); // ✅ satisfies React & Biome
-}
-```
-
-This follows React’s **Rules of Hooks** and Biome’s useExhaustiveDependencies rule, ensuring predictable and pure component behavior.
-
----
-
-### **15. Confirm Your Setup So Far**
-
-|**Component**|**Tool**|**Status**|
-|---|---|---|
-|GitHub repo|✅ created & cloned||
-|Next.js + Tailwind|✅ initialized||
-|Biome|✅ configured||
-|MongoDB Atlas|✅ connected||
-|Mongoose|✅ installed & tested||
-|React Hooks|✅ following official rules||
-
----
-
-Would you like me to continue with the next phase — **building the /api/items CRUD routes and connecting them to your Home component form** — and write that in the same documentation style?
+#### **Result:**
+A GET request to [http://localhost:3000/api/items](http://localhost:3000/api/items)![Attachment.tiff]returned data from MongoDB.
