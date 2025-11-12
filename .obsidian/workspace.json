@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Setup.md",
+                "file": "projects/ecommerce/to read.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "to read"
             }
           }
         ],
@@ -474,11 +474,11 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
-    "projects/ecommerce/to read.md",
+    "projects/ecommerce/Todo.md",
     "projects/ecommerce/Setup.md",
+    "projects/ecommerce/to read.md",
     "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
-    "projects/ecommerce/Todo.md",
     "cv stuff/Exams.md",
     "projects/ecommerce",
     "README.md",

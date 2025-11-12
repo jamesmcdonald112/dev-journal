@@ -652,3 +652,149 @@ Example response:
   ]
 }
 ```
+
+---
+### **21. Add POST Route for Creating Products**
+
+> **Docs Reference:**
+
+- > [Next.js — Route Handlers (App Router)](https://nextjs.org/docs/app/getting-started/route-handlers)!
+
+    > _Explains how to define_ _GET__,_ _POST__, and other HTTP methods inside_ _route.ts_ _files using the Web Request and Response APIs._
+    
+- > [Next.js — Backend for Frontend Guide](https://nextjs.org/docs/app/guides/backend-for-frontend)!
+    
+    > _Covers consuming request payloads with_ _request.json()_ _and_ _request.formData()__, and using_ _NextRequest_ _/_ _NextResponse_ _for structured responses and error handling._
+    
+- > [Next.js — Route File API Reference](https://nextjs.org/docs/app/api-reference/file-conventions/route)!
+    
+    > _Provides full reference for route configuration, supported methods, parameters, and examples._
+
+### **Goal**
+
+Allow new products to be added to the MongoDB database via a POST request to /api/products.
+
+### **Changes Made**
+
+1. **Added a POST method** to /app/api/products/route.ts.
+    
+2. **Moved the Product interface** to /app/types/product.ts to make it reusable across backend and frontend.
+    
+3. **Renamed Product model** → ProductModel to avoid naming conflicts between the model and type.
+    
+
+
+
+### **Final Code**
+
+```ts
+import type { HydratedDocument } from "mongoose";
+import { type NextRequest, NextResponse } from "next/server";
+import type { Product } from "@/app/types/product";
+import { ProductModel } from "@/models/Product";
+import dbConnect from "../../lib/mongodb";
+
+export async function GET(): Promise<NextResponse> {
+	try {
+		await dbConnect();
+		const items = await ProductModel.find({});
+		return NextResponse.json({ success: true, data: items });
+	} catch (error: unknown) {
+		return handleError(error);
+	}
+}
+
+export async function POST(request: NextRequest): Promise<NextResponse> {
+	try {
+		const body: Product = await request.json();
+		await dbConnect();
+
+		const product: HydratedDocument<Product> = await ProductModel.create(body);
+		return NextResponse.json({ success: true, data: product }, { status: 201 });
+	} catch (error: unknown) {
+		return handleError(error);
+	}
+}
+
+function handleError(error: unknown, status = 500): NextResponse {
+	const message = error instanceof Error ? error.message : "Unknown error";
+	return NextResponse.json({ success: false, error: message }, { status });
+}
+```
+
+---
+
+### **How It Works**
+
+1. **NextRequest** **&** **NextResponse**
+    
+    - Both are **Next.js wrappers** around Node’s native Request and Response objects.
+        
+    - They provide extra utilities such as cookies, headers, and typed responses (see [Next.js docs](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)!).
+    
+2. **Request Handling**
+    
+    - The POST method accepts a NextRequest, representing the incoming HTTP request.
+        
+    
+3. **Database Connection**
+    
+    - await dbConnect() ensures an active Mongoose connection before interacting with the database.
+        
+    - You **don’t manually close** the connection, Next.js’s API routes are short-lived, and dbConnect() caches connections automatically to reuse them efficiently.
+        
+    
+4. **Saving the Product**
+    
+    - ProductModel.create(body) inserts a new document into the products collection.
+        
+    - The return type HydratedDocument`<Product>` means:
+        
+        > A Mongoose document enriched with schema-based methods like .save(), .deleteOne(), etc.
+        
+    
+5. **Response**
+    
+    - On success → returns 201 Created with the inserted product as JSON.
+        
+    - On failure → handleError() catches it and responds with { success: false, error: message }.
+        
+    
+
+---
+
+### **Example Request (Postman)**
+
+  
+**POST** → http://localhost:3000/api/products
+
+**Body (JSON):**
+
+```json
+{
+  "title": "Test Product 2",
+  "shortDescription": "A short summary",
+  "longDescription": "Detailed product description",
+  "price": 49.99,
+  "images": ["https://example.com/image.png"],
+  "slug": "test-product-2"
+}
+```
+
+**Response:**
+
+```json
+{
+  "success": true,
+  "data": {
+    "_id": "69148bef350f4b5de7ddc076",
+    "title": "Test Product 2",
+    "price": 49.99,
+    "slug": "test-product-2",
+    "createdAt": "2025-11-12T13:30:23.726Z",
+    "updatedAt": "2025-11-12T13:30:23.726Z"
+  }
+}
+```
+
+---
