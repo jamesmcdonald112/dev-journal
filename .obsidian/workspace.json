@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Setup.md",
+                "file": "projects/ecommerce/api archecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "api archecture"
             }
           }
         ],
@@ -474,8 +474,9 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
-    "projects/ecommerce/to read.md",
     "projects/ecommerce/Todo.md",
+    "projects/ecommerce/api archecture.md",
+    "projects/ecommerce/to read.md",
     "projects/ecommerce/Setup.md",
     "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
@@ -509,7 +510,6 @@
     "to fix/learning-notes/Github Workflows.md",
     "learning-notes/Express Vs Spring Vs.md",
     "to fix/learning-notes/Gray-matter.md",
-    "to fix/learning-notes/Husky.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
