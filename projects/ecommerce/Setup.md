@@ -828,3 +828,197 @@ with a single unified Biome command: `biome check . --write`.
 - One unified cleanup command: `npm run tidy`
 
 - Consistent and faster developer workflow.
+
+---
+
+## 23 **Product Schema (app/features/products/schemas/product.schema.ts)**
+
+> **Official docs:** [https://zod.dev](https://zod.dev)
+> **Docs:** [Zod Error Formatting](https://zod.dev/error-formatting)
+> **Docs:** [Next.js Route Handlers (App Router)](https://nextjs.org/docs/app/building-your-application/routing/route-handlers)
+  
+This file defines the **validation rules** and **TypeScript typing** for all product data in the app.
+
+It ensures data sent to the API is structured, valid, and safe before being written to MongoDB.
+
+### **Code**
+
+```ts
+import { z } from "zod";
+
+export const productSchema = z.object({
+	title: z
+		.string()
+		.min(1, "Title is required")
+		.max(100, "Max 100 characters for title"),
+
+	shortDescription: z
+		.string()
+		.min(1, "Short description is required")
+		.max(300, "max 300 characters for short description"),
+
+	longDescription: z
+		.string()
+		.min(1, "Long description is required")
+		.max(3000, "max 3'000 characters for long descriptions"),
+
+	specs: z.record(z.string(), z.string()).default({}), // maps of key: string
+	reviews: z.array(z.string()).default([]),
+
+	price: z.coerce.number().positive("Price must be positive"),
+
+	images: z
+		.array(z.string().url("Invalid image URL"))
+		.min(1, "At least one image is required"),
+
+	slug: z.string().min(1, "Slug is required"),
+});
+
+// 👇 Automatically infer a TypeScript type from the schema
+export type Product = z.infer<typeof productSchema>;
+```
+
+#### **2. Define the schema**
+
+```
+export const productSchema = z.object({...});
+```
+
+This creates an **object schema** describing what a valid product looks like.
+
+Each key defines a field, its type, and validation rules.
+
+
+#### **3. Field-by-field rules**
+
+|**Field**|**Type / Rule**|**Description**|
+|---|---|---|
+|title|string, required, max 100 chars|Product title displayed in listings|
+|shortDescription|string, required, max 300 chars|Short summary for previews/cards|
+|longDescription|string, required, max 3000 chars|Full description for product page|
+|specs|Record<string, string>, default {}|Key/value map for specs like "color": "red"|
+|reviews|string[], default []|List of review strings or IDs|
+|price|number, positive, coercion enabled|Accepts "19.99" as input and converts to 19.99|
+|images|string[], URLs only, at least one required|Ensures products always have images|
+|slug|string, required|URL-safe identifier, e.g., "iphone-15-pro"|
+
+---
+
+#### **4. Defaults**
+
+Zod’s .default() ensures missing optional fields (specs, reviews) are safely initialized:
+
+```ts
+specs: z.record(z.string(), z.string()).default({}),
+reviews: z.array(z.string()).default([]),
+```
+
+---
+
+#### **5. Exporting the inferred type**
+
+You can re-export the inferred type from a dedicated types file
+
+so that all other parts of the app can import Product cleanly:
+
+```ts
+// app/types/product.ts
+export type { Product } from "@/app/features/products/schemas/product.schema";
+```
+
+This keeps your **schema definition** and **type imports** modular —
+
+frontend components, API routes, and models can all share the same type.
+
+  
+
+Example of the inferred type:
+
+```ts
+type Product = {
+	title: string;
+	shortDescription: string;
+	longDescription: string;
+	specs: Record<string, string>;
+	reviews: string[];
+	price: number;
+	images: string[];
+	slug: string;
+};
+```
+
+### **Why This Matters**
+
+- **Single source of truth:** You define your product structure once; TypeScript and runtime validation both use it.
+    
+- **Runtime safety:** Prevents invalid or malicious data from being stored in MongoDB.
+    
+- **Type safety:** Eliminates mismatches between backend validation and frontend expectations.
+    
+- **Scalability:** Adding new fields in the future automatically updates both schema and type system.
+
+---
+### **How it’s used in your API route**
+
+Below is the server route where productSchema and the inferred Product type are used together to ensure data integrity end-to-end
+
+```ts
+import type { HydratedDocument } from "mongoose";
+import { type NextRequest, NextResponse } from "next/server";
+import z, { ZodError } from "zod";
+import { productSchema } from "@/app/features/products/schemas/product.schema";
+import type { Product } from "@/app/types/product";
+import { ProductModel } from "@/models/Product";
+import dbConnect from "../../lib/mongodb";
+
+export async function GET(): Promise<NextResponse> {
+	try {
+		await dbConnect();
+		const items = await ProductModel.find({});
+		return NextResponse.json({ success: true, data: items });
+	} catch (error: unknown) {
+		return handleError(error);
+	}
+}
+
+export async function POST(request: NextRequest): Promise<NextResponse> {
+	try {
+		// Parse and validate incoming JSON
+		const json: unknown = await request.json();
+		const parsedBody: Product = productSchema.parse(json);
+
+		// Connect to DB and create a new product
+		await dbConnect();
+		const product: HydratedDocument<Product> =
+			await ProductModel.create(parsedBody);
+
+		return NextResponse.json({ success: true, data: product }, { status: 201 });
+	} catch (error: unknown) {
+		return handleError(error);
+	}
+}
+
+function handleError(error: unknown, status = 500): NextResponse {
+	if (error instanceof ZodError) {
+		const tree = z.treeifyError(error);
+		return NextResponse.json({ success: false, errors: tree }, { status: 400 });
+	}
+	const message = error instanceof Error ? error.message : "Unknown error";
+	return NextResponse.json({ success: false, error: message }, { status });
+}
+```
+
+### **Explanation**
+
+- **Zod schema enforces validation** at runtime (rejects invalid API data).
+    
+- **z.infer** **gives the exact same structure as your schema**, preventing drift between your runtime and compile-time definitions.
+    
+- **Type-safe integration with Mongoose:**
+```ts
+const product: HydratedDocument<Product> = await ProductModel.create(parsedBody);
+```
+
+- **Error handling:**
+    
+    Uses z.treeifyError(error) (from Zod v4) to return a structured, human-readable error tree.
