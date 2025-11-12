@@ -798,3 +798,33 @@ function handleError(error: unknown, status = 500): NextResponse {
 ```
 
 ---
+## 22 Simplify Tidy Script 
+
+**File Updated:**  
+
+- `package.json`
+
+
+**Summary:**  
+
+Replaced the chained tidy command (`npm run format && npm run lint && npm run check`)  
+
+with a single unified Biome command: `biome check . --write`.
+
+  
+
+**Reasoning:**  
+
+- `biome check` already includes linting and formatting.
+
+- The `--write` flag automatically applies safe fixes.
+
+- Simplifies maintenance and saves time during pre-commit cleanup.
+
+  
+
+**Outcome:**  
+
+- One unified cleanup command: `npm run tidy`
+
+- Consistent and faster developer workflow.
