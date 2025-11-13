@@ -262,3 +262,20 @@ If you want, I can now show you how to set up your **Product Form** using:
   
 
 Let me know and I’ll build the exact starter code.
+
+
+---
+
+docs - https://ui.shadcn.com/docs/forms/react-hook-form#input
+
+the docs tell us to download these to things
+
+```bash
+npm install react-hook-form
+```
+
+Installs React Hook Form
+
+```bash
+npx shadcn@latest add field
+```
