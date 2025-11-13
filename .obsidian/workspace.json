@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Form.md",
+                "file": "projects/ecommerce/Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Form"
+              "title": "Setup"
             }
           }
         ],
@@ -474,10 +474,10 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
-    "projects/ecommerce/Todo.md",
     "projects/ecommerce/to read.md",
-    "projects/ecommerce/Setup.md",
     "projects/ecommerce/Form.md",
+    "projects/ecommerce/Todo.md",
+    "projects/ecommerce/Setup.md",
     "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
     "cv stuff/Exams.md",
