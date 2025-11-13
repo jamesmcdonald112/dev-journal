@@ -279,3 +279,13 @@ Installs React Hook Form
 ```bash
 npx shadcn@latest add field
 ```
+
+```bash
+npm install @hookform/resolvers zod
+```
+-  this is the bridge between the two
+
+```bash
+npm install sonner
+```
+- This for the toast pop up
