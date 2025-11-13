@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/api archecture.md",
+                "file": "projects/ecommerce/Setup.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "api archecture"
+              "title": "Setup"
             }
           }
         ],

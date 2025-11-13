@@ -22,3 +22,30 @@ export async function GET() {
 }
 ```
 - THe caller or handler loolks liek this, it calles the servcie and handles any erros
+
+
+```ts
+export async function POST(request: NextRequest): Promise<NextResponse> {
+  try {
+    const json: unknown = await request.json();
+    const parsedBody: Product = productSchema.parse(json);
+
+    const product: HydratedDocument<Product> = await createProduct(parsedBody);
+
+    return NextResponse.json({ success: true, data: product }, { status: 201 });
+  } catch (error: unknown) {
+    return handleError(error);
+  }
+}
+```
+- THis is our handler for the post metod now, it jsut deals wil calinng mehitd, 
+
+```ts
+export async function createProduct(
+  product: Product
+): Promise<HydratedDocument<Product>> {
+  await dbConnect();
+  return await ProductModel.create(product);
+}
+```
+- This is our service layer

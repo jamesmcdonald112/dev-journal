@@ -1022,3 +1022,324 @@ const product: HydratedDocument<Product> = await ProductModel.create(parsedBody)
 - **Error handling:**
     
     Uses z.treeifyError(error) (from Zod v4) to return a structured, human-readable error tree.
+
+---
+# **24. Introduce Service Layer Pattern for API Architecture**
+
+
+> Docs: [Scalable Next.js Architecture – DEV article](https://dev.to/melvinprince/the-complete-guide-to-scalable-nextjs-architecture-39o0)
+
+> (Specifically section **“3. Optimizing API Routes for Performance and Maintainability”** — external-facing controllers + separate internal API logic.)
+
+### **Goal**
+
+Separate your backend logic into clear layers so the API becomes easier to scale, maintain, and extend.
+
+This introduces three layers:
+
+- **Route Handlers** → Handle HTTP requests and responses
+    
+- **Service Functions** → Contain business logic and database operations
+    
+- **Models** → Define the database structure (Mongoose schema)
+
+
+This is the recommended architecture for large Next.js apps.
+
+# **24.1 Route Handler Layer**
+
+  
+
+**Location:**
+
+app/api/products/route.ts
+
+  
+
+**Role:**
+
+- Accept incoming requests
+    
+- Validate input
+    
+- Call a service function
+    
+- Catch errors
+    
+- Return JSON responses
+    
+
+  
+
+**No business logic here.**
+
+**No database operations here.**
+
+  
+
+### **Final Route Handler Code**
+
+```ts
+import type { HydratedDocument } from "mongoose";
+import { type NextRequest, NextResponse } from "next/server";
+import z, { ZodError } from "zod";
+
+import { productSchema } from "@/app/features/products/schemas/product.schema";
+import type { Product } from "@/app/features/products/types/product";
+
+import { getAllProducts } from "@/app/features/products/api/getProducts";
+import { createProduct } from "@/app/features/products/api/createProduct";
+
+import dbConnect from "../../lib/mongodb";
+
+export async function GET(): Promise<NextResponse> {
+  try {
+    const products: Product[] = await getAllProducts();
+    return NextResponse.json({ success: true, data: products });
+  } catch (error: unknown) {
+    return handleError(error);
+  }
+}
+
+export async function POST(request: NextRequest): Promise<NextResponse> {
+  try {
+    const json: unknown = await request.json();
+    const parsedBody: Product = productSchema.parse(json);
+
+    const product: HydratedDocument<Product> =
+      await createProduct(parsedBody);
+
+    return NextResponse.json({ success: true, data: product }, { status: 201 });
+  } catch (error: unknown) {
+    return handleError(error);
+  }
+}
+
+function handleError(error: unknown, status = 500): NextResponse {
+  if (error instanceof ZodError) {
+    const tree = z.treeifyError(error);
+    return NextResponse.json({ success: false, errors: tree }, { status: 400 });
+  }
+
+  const message =
+    error instanceof Error ? error.message : "Unknown error";
+
+  return NextResponse.json({ success: false, error: message }, { status });
+}
+```
+
+---
+
+# **24.2 Service Layer**
+
+  
+
+### **Purpose**
+
+  
+
+Service functions:
+
+- Execute business logic
+    
+- Query the database
+    
+- Throw errors automatically
+    
+- Never catch errors (errors bubble into the route handler)
+    
+
+  
+
+This makes service functions **lightweight, reusable, and testable**.
+
+---
+
+### **24.2.1 Get Products Service**
+
+  
+
+**File:**
+
+app/features/products/api/getProducts.ts
+
+```ts
+import dbConnect from "@/app/lib/mongodb";
+import { ProductModel } from "../models/Product";
+import type { Product } from "../schemas/product.schema";
+
+export async function getAllProducts(): Promise<Product[]> {
+  await dbConnect();
+  return await ProductModel.find({});
+}
+```
+
+#### **Key Details**
+
+- No try/catch — errors are thrown and caught by the route handler.
+    
+- Uses the inferred `Product[]` type directly (always consistent with your Zod schema).
+    
+- Clean and reusable.
+    
+
+---
+
+### **24.2.2 Create Product Service**
+
+  
+
+**File:**
+
+app/features/products/api/createProduct.ts
+
+```ts
+import dbConnect from "@/app/lib/mongodb";
+import { ProductModel } from "../models/Product";
+import type { Product } from "../schemas/product.schema";
+import type { HydratedDocument } from "mongoose";
+
+export async function createProduct(
+  product: Product
+): Promise<HydratedDocument<Product>> {
+  await dbConnect();
+  return await ProductModel.create(product);
+}
+```
+
+#### **Key Details**
+
+- Also, no try/catch — same reasoning.
+    
+- HydratedDocument gives correct typing for a real Mongo document.
+    
+- Reusable anywhere (route handler, cron job, admin panel, etc.).
+    
+
+---
+
+# **24.3 Model Layer**
+
+  
+
+**Location:**
+
+app/features/products/models/Product.ts
+
+  
+
+This remains unchanged — it defines the MongoDB structure.
+
+  
+
+This is the database layer only.
+
+---
+
+# **24.4 Why Service Layer?**
+
+  
+
+### **Benefits**
+
+- **Cleaner route handlers**
+    
+    Your API routes focus only on HTTP input/output.
+    
+- **Reusable logic**
+    
+    Service functions can be used by:
+    
+    - admin dashboards
+        
+    - background tasks
+        
+    - CLI scripts
+        
+    - batch jobs
+        
+    
+- **Centralised business logic**
+    
+    All CRUD operations are in one place.
+    
+- **Fewer bugs**
+    
+    All DB code lives in one predictable layer.
+    
+- **Easier to scale**
+    
+    Adding PUT, DELETE, filtering, pagination, etc. becomes trivial.
+    
+
+---
+
+# **24.5 Error Handling Explanation**
+
+  
+
+You asked:
+
+  
+
+> “Where do errors get thrown?”
+
+  
+
+If a service function fails:
+
+- Mongoose throws
+    
+- Zod throws
+    
+- dbConnect throws
+    
+
+  
+
+This automatically bubbles up to the **closest try/catch**, which is the route handler.
+
+  
+
+That’s why service functions _should not_ swallow errors — they allow the handler to respond properly.
+
+---
+
+# **24.6 Full Folder Structure After Applying the Pattern**
+
+```
+app/
+  api/
+    products/
+      route.ts                # route handler (HTTP)
+  lib/
+    mongodb.ts               # database connection
+
+features/
+  products/
+    api/
+      getProducts.ts         # service
+      createProduct.ts       # service
+    models/
+      Product.ts             # mongoose model
+    schemas/
+      product.schema.ts      # zod schema + types
+    types/
+      product.ts             # re-export of inferred type
+```
+
+---
+
+# **24.7 Summary
+- Route handler = receives request, validates, catches errors.
+    
+- Service = executes logic, queries DB, throws errors upward.
+    
+- Model = defines MongoDB collection.
+    
+- Zod schema = runtime validation + generates the Product type.
+    
+- This pattern is scalable, predictable, and easy to maintain.
+    
+
+---
