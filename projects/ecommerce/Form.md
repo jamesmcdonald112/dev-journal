@@ -292,16 +292,32 @@ npm install sonner
   
   
   
-  whenn  creating the form using zod this caught me:
+using the code form here - https://ui.shadcn.com/docs/forms/react-hook-form
+
+the first issue was getting the use form correct:
 
 ```ts
-useForm<z.infer<typeof productSchema>>
+const form = useForm<
+  z.input<typeof productSchema>,
+  any,
+  z.output<typeof productSchema>
+>({
+  resolver: zodResolver(productSchema),
+  defaultValues: {
+    title: "",
+    shortDescription: "",
+    longDescription: "",
+    specs: {},
+    reviews: [],
+    price: 0, // coerced later
+    images: [],
+    slug: ""
+  }
+});
 ```
+we needed to include input and output for the form as it recived diffent ones due to the product schema:
+- Since your schema uses:
 
-I cannt use
-
-```ts
-const form = useForm<Product>({
-```
-
-My understanding is that for useForm to use used succeffult, it requiees the exact instance of the product schema, not a copy as they are stored differently in memory, so evenr though they are identical, z needs the original instnace
+- .coerce.number()
+    
+- .default()
