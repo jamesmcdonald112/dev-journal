@@ -292,4 +292,16 @@ npm install sonner
   
   
   
-  
+  whenn  creating the form using zod this caught me:
+
+```ts
+useForm<z.infer<typeof productSchema>>
+```
+
+I cannt use
+
+```ts
+const form = useForm<Product>({
+```
+
+My understanding is that for useForm to use used succeffult, it requiees the exact instance of the product schema, not a copy as they are stored differently in memory, so evenr though they are identical, z needs the original instnace
