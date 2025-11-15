@@ -1816,3 +1816,55 @@ Submit
 
 </Button>
 ```
+
+=
+# **NOTE FOR YOUR DOCUMENTS (copy this)**
+
+  
+
+### **Native HTML Inputs vs Custom UI Components**
+
+  
+
+**Native inputs** `(<input>, <textarea>, <select>):`
+
+- Can directly use register()
+    
+- Example:
+    
+
+```ts
+<input {...register("title")} />
+```
+
+  
+
+  
+
+**Custom UI components** (shadcn Input, Select, Checkbox, RadioGroup, etc.):
+
+- CANNOT use register() directly
+    
+- They don’t expose standard onChange, onBlur, value props
+    
+- Therefore they must use:
+    
+
+```
+<Controller name="title" control={form.control} render={({ field }) => <Input {...field} />} />
+```
+
+  
+
+  
+
+**Controller** connects custom components to RHF, so they can:
+
+- Update form state
+    
+- Trigger validation
+    
+- Receive errors
+    
+
+---
