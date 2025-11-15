@@ -294,9 +294,21 @@
               "icon": "lucide-file",
               "title": "Form"
             }
+          },
+          {
+            "id": "49a5aa4c8c65e4e2",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.3"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.3"
+            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 12
       }
     ],
     "direction": "vertical"
@@ -472,7 +484,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "254d2bfb8714c629",
+  "active": "49a5aa4c8c65e4e2",
   "lastOpenFiles": [
     "projects/ecommerce/Setup.md",
     "projects/ecommerce/to read.md",
