@@ -908,3 +908,34 @@ Just tell me **“show the conversion”** or **“show full form integration.�
 
 
 
+## THE FIX BY CLAUDE
+You had two schema files trying to do the same job:
+  - productSchema - the main validation rules
+  - productFormSchema - a copy that tried to fix type issues
+
+  This created a mismatch: the form had optional fields (could be undefined), but components expected required fields (no undefined). TypeScript complained about this.
+
+  The Solution
+
+  Use ONE schema instead of two:
+
+  1. Removed .default() from productSchema
+    - .default() makes fields optional in TypeScript's eyes
+    - Instead, React Hook Form's defaultValues handles the defaults
+    - This keeps the schema clean and types strict
+  2. Added specRows to productSchema
+    - Moved it from the separate form schema into the main schema
+    - Now everything is in one place
+  3. Updated components to use productSchema directly
+    - Deleted the unnecessary productFormSchema file
+    - All components now import and use productSchema
+    - All components get the exact same type - no mismatches
+
+  Why It Works
+
+  - Single source of truth - One schema, one type definition
+  - No duplicated code - Don't maintain two schemas
+  - Type safety - All components agree on what the form looks like
+  - React Hook Form best practice - Defaults go in defaultValues, not the schema
+
+  That's it! Much simpler and cleaner.
