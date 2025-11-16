@@ -563,3 +563,348 @@ useForm<z.input<typeof schema>, any, z.output<typeof schema>>()
 ---
 
 If you want, I can rewrite your README explanation in a **short clean paragraph** suitable for GitHub.
+
+
+
+https://react.dev/learn/updating-objects-in-state
+
+https://react.dev/learn/rendering-lists
+
+https://react.dev/reference/react-dom/components/input
+
+
+
+// `specRows` is added because React Hook Form cannot directly manage a Zod
+// `z.record()` value. A record is an object with dynamic string keys, which
+// RHF does not treat as a controllable field structure.
+//
+// To support dynamic “key/value” specification inputs (add/remove rows,
+// validate each entry, track field state, etc.), the form exposes an array:
+//
+//   specRows: Array<{ key: string; value: string }>
+//
+// Users interact with this array in the UI. On submission, the array is
+// transformed into the `specs` record expected by the base `productSchema`
+// and by the database:
+//
+//   [{ key: "color", value: "red" }]
+//   → { color: "red" }
+//
+// `productSchema` retains `specs` as `z.record(z.string())` for validation
+// and persistence, while `productFormSchema` extends it with `specRows` to
+// support a dynamic form interface. This is the standard pattern for managing
+// key/value inputs in React Hook Form.
+
+
+
+Here’s the **clean, professional, complete write-up** of how you arrived at the final architecture — exactly the kind of explanation a senior engineer would document.
+
+  
+
+Copy/paste this into your notes.
+
+---
+
+# **✅** 
+
+# **Dynamic Specs Architecture — Full Explanation & Final Code**
+
+  
+
+## **Why this was needed**
+
+  
+
+The product model includes a specs field:
+
+```
+specs: z.record(z.string(), z.string()).default({})
+```
+
+A z.record() represents **an object with dynamic string keys**, e.g.:
+
+```
+{
+  color: "blue",
+  weight: "200g",
+  material: "cotton"
+}
+```
+
+React Hook Form **cannot** directly manage a record because:
+
+- it has no fixed field names
+    
+- keys can be added/removed dynamically
+    
+- RHF requires predictable field paths like fieldA.0.key, fieldA.0.value
+    
+
+  
+
+So you **cannot** do:
+
+```
+name="specs.color"
+name="specs.weight"
+```
+
+because keys don’t exist until the user types them.
+
+  
+
+This is why dynamic key/value UIs require a **parallel array**, not a record.
+
+---
+
+# **✅** 
+
+# **Solution: introduce specRows (UI representation)**
+
+  
+
+We add a UI-friendly array:
+
+```
+specRows: Array<{ key: string; value: string }>
+```
+
+Example:
+
+```
+[
+  { key: "color", value: "blue" },
+  { key: "weight", value: "200g" }
+]
+```
+
+This structure works with React Hook Form:
+
+- each row has a predictable index
+    
+- fields map cleanly:
+    
+    - specRows.0.key
+        
+    - specRows.0.value
+        
+    
+
+  
+
+On form submit, we convert:
+
+```
+specRows → specs
+```
+
+---
+
+# **✅** 
+
+# **Final form schema**
+
+  
+
+productFormSchema extends the _real_ product schema with UI-only fields:
+
+```
+import { z } from "zod";
+import { productSchema } from "./product.schema";
+
+// UI helper schema for React Hook Form
+export const productFormSchema = productSchema.extend({
+  specRows: z
+    .array(
+      z.object({
+        key: z.string().min(1),
+        value: z.string().min(1),
+      })
+    )
+    .default([]),
+});
+
+export type ProductFormValues = z.infer<typeof productFormSchema>;
+```
+
+Notes:
+
+- productSchema stays clean → used for DB & API validators
+    
+- productFormSchema = only for React Hook Form (client-side form)
+    
+
+---
+
+# **✅** 
+
+# **KeyValueRow Component (UI for one row)**
+
+  
+
+This component renders **one row** containing:
+
+- key input
+    
+- value input
+    
+- remove button
+    
+
+```
+import { Controller, type UseFormReturn } from "react-hook-form";
+import type { ProductFormValues } from "@/app/features/products/schemas/product-form.schema";
+import { Button } from "./ui/button";
+import { Field, FieldError, FieldLabel } from "./ui/field";
+import { Input } from "./ui/input";
+
+interface KeyValueRowProps {
+  form: UseFormReturn<ProductFormValues>;
+  index: number;
+  onRemove: () => void;
+}
+
+export default function KeyValueRow({
+  form,
+  index,
+  onRemove,
+}: KeyValueRowProps) {
+  return (
+    <div className="flex gap-4 items-end">
+      {/* KEY */}
+      <Controller
+        name={`specRows.${index}.key`}
+        control={form.control}
+        render={({ field, fieldState }) => (
+          <Field data-invalid={fieldState.invalid} className="flex-1">
+            <FieldLabel htmlFor={`spec-key-${index}`}>Key</FieldLabel>
+            <Input
+              {...field}
+              id={`spec-key-${index}`}
+              aria-invalid={fieldState.invalid}
+              placeholder="Colour"
+              autoComplete="off"
+            />
+            {fieldState.invalid && <FieldError errors={[fieldState.error]} />}
+          </Field>
+        )}
+      />
+
+      {/* VALUE */}
+      <Controller
+        name={`specRows.${index}.value`}
+        control={form.control}
+        render={({ field, fieldState }) => (
+          <Field data-invalid={fieldState.invalid} className="flex-1">
+            <FieldLabel htmlFor={`spec-value-${index}`}>Value</FieldLabel>
+            <Input
+              {...field}
+              id={`spec-value-${index}`}
+              aria-invalid={fieldState.invalid}
+              placeholder="Blue"
+              autoComplete="off"
+            />
+            {fieldState.invalid && <FieldError errors={[fieldState.error]} />}
+          </Field>
+        )}
+      />
+
+      {/* REMOVE BUTTON */}
+      <Button type="button" variant="destructive" size="sm" onClick={onRemove}>
+        Remove
+      </Button>
+    </div>
+  );
+}
+```
+
+---
+
+# **✅** 
+
+# **How the whole system works**
+
+  
+
+### **1. User interacts with specRows**
+
+  
+
+Example in UI:
+
+|**Key**|**Value**|
+|---|---|
+|“color”|“blue”|
+|“size”|“XL”|
+
+This populates:
+
+```
+specRows: [
+  { key: "color", value: "blue" },
+  { key: "size", value: "XL" }
+]
+```
+
+### **2. On form submit → convert specRows → specs**
+
+```
+[
+  { key: "color", value: "blue" }
+  { key: "size", value: "XL" }
+]
+
+→
+
+{
+  color: "blue",
+  size: "XL"
+}
+```
+
+### **3. Then send specs to backend**
+
+  
+
+specRows stays on the frontend only.
+
+---
+
+# **📌** 
+
+# **Summary (the note you wanted)**
+
+  
+
+> **React Hook Form cannot manage z.record() directly because records use dynamic keys.**
+
+> **To support add/remove key/value fields, the form introduces a parallel UI-only array called specRows.**
+
+> **Each row contains { key, value } so RHF can register predictable field paths.**
+
+> **productFormSchema extends the real productSchema with this array.**
+
+> **On submit, specRows is transformed into the real specs object expected by the API and database.**
+
+> **This pattern is the standard, recommended approach for dynamic key/value inputs in React Hook Form.**
+
+---
+
+If you want, I can generate:
+
+  
+
+✅ the conversion function
+
+✅ where to put it
+
+✅ how to integrate KeyValueRow inside your form
+
+✅ the entire /admin/product page including add/remove rows
+
+  
+
+Just tell me **“show the conversion”** or **“show full form integration.”**
+
+
+
