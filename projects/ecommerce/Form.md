@@ -939,3 +939,31 @@ You had two schema files trying to do the same job:
   - React Hook Form best practice - Defaults go in defaultValues, not the schema
 
   That's it! Much simpler and cleaner.
+
+
+
+
+
+  1. Helper Methods for Toast Notifications
+    - showSuccessToast() - displays success message when product is created
+    - showErrorToast() - displays error message if something fails
+  2. Data Transformation
+    - convertSpecRowsToSpecs() - converts the specRows array into a specs object (e.g., [{key: "color", value: "red"}] → {color: "red"})
+  3. API Integration
+    - Updated onSubmit() to be async
+    - Posts the product data to /api/products endpoint (which you already have)
+    - Converts specRows to specs before sending
+    - Handles errors gracefully with toast notifications
+    - Resets the form after successful submission
+
+  How It Works:
+
+  When you submit the form:
+  4. The form data is validated by Zod
+  5. specRows array is converted to specs object
+  6. Data is sent to /api/products via POST
+  7. On success: green toast shows "Product created successfully"
+  8. On error: red toast shows what went wrong
+  9. Form resets automatically after success
+
+  The implementation integrates seamlessly with your existing backend API and uses the helper methods to keep the toast logic separate and reusable.
