@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Setup.md",
+                "file": "projects/ecommerce/To Know.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Setup"
+              "title": "To Know"
             }
           }
         ],
@@ -498,6 +498,7 @@
   },
   "active": "49a5aa4c8c65e4e2",
   "lastOpenFiles": [
+    "projects/ecommerce/Setup.md",
     "projects/ecommerce/To Know.md",
     "projects/ecommerce/Untitled.md",
     "projects/ecommerce/issue 2.md",
@@ -505,7 +506,6 @@
     "projects/ecommerce/Form.md",
     "projects/ecommerce/to read.md",
     "projects/ecommerce/Todo.md",
-    "projects/ecommerce/Setup.md",
     "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
     "cv stuff/Exams.md",
