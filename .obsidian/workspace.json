@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/To Know.md",
+                "file": "projects/ecommerce/focus.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To Know"
+              "title": "focus"
             }
           }
         ],
@@ -498,8 +498,9 @@
   },
   "active": "49a5aa4c8c65e4e2",
   "lastOpenFiles": [
-    "projects/ecommerce/Form.md",
     "projects/ecommerce/To Know.md",
+    "projects/ecommerce/focus.md",
+    "projects/ecommerce/Form.md",
     "projects/ecommerce/to read.md",
     "projects/ecommerce/Todo.md",
     "projects/ecommerce/Setup.md",
@@ -533,7 +534,6 @@
     "learning-notes/clsx.md",
     "to fix/learning-notes/Dependabot Setup.md",
     "to fix/learning-notes/Github Workflows.md",
-    "learning-notes/Express Vs Spring Vs.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
