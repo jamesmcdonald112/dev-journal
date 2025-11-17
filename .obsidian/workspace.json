@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/focus.md",
+                "file": "projects/ecommerce/issue 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "focus"
+              "title": "issue 2"
             }
           }
         ],
@@ -498,8 +498,9 @@
   },
   "active": "49a5aa4c8c65e4e2",
   "lastOpenFiles": [
-    "projects/ecommerce/To Know.md",
     "projects/ecommerce/focus.md",
+    "projects/ecommerce/issue 2.md",
+    "projects/ecommerce/To Know.md",
     "projects/ecommerce/Form.md",
     "projects/ecommerce/to read.md",
     "projects/ecommerce/Todo.md",
@@ -533,7 +534,6 @@
     "learning-notes/class-variance-authority (CVA).md",
     "learning-notes/clsx.md",
     "to fix/learning-notes/Dependabot Setup.md",
-    "to fix/learning-notes/Github Workflows.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
