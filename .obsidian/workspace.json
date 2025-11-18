@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/To Know.md",
+                "file": "cv stuff/Me.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "To Know"
+              "title": "Me"
             }
           }
         ],
@@ -498,8 +498,10 @@
   },
   "active": "49a5aa4c8c65e4e2",
   "lastOpenFiles": [
-    "projects/ecommerce/Setup.md",
+    "cv stuff/Exams.md",
+    "cv stuff/Me.md",
     "projects/ecommerce/To Know.md",
+    "projects/ecommerce/Setup.md",
     "projects/ecommerce/Untitled.md",
     "projects/ecommerce/issue 2.md",
     "projects/ecommerce/focus.md",
@@ -508,7 +510,6 @@
     "projects/ecommerce/Todo.md",
     "to fix/case-studies/portfolio/Building the Portolio.md",
     "projects/portfolio/1-setup.md",
-    "cv stuff/Exams.md",
     "projects/ecommerce",
     "README.md",
     "cv stuff",
@@ -533,7 +534,6 @@
     "to fix/learning-notes/Biome.md",
     "to fix/learning-notes/Commitlint.md",
     "learning-notes/class-variance-authority (CVA).md",
-    "learning-notes/clsx.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
