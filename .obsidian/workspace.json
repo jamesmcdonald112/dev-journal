@@ -277,7 +277,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/Notes/2. Frontend.md",
+                "file": "projects/ecommerce/Notes/3. Fetching from Database.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -292,7 +292,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Frontend"
+              "title": "3. Fetching from Database"
             }
           }
         ],
@@ -474,8 +474,9 @@
   },
   "active": "254d2bfb8714c629",
   "lastOpenFiles": [
+    "projects/ecommerce/Notes/2. Products Page – Building the List UI (Empty → Card → Grid → Page).md",
+    "projects/ecommerce/Notes/3. Fetching from Database.md",
     "projects/ecommerce/Notes/1. Product Search – Backend Implementation (Next.js + MongoDB).md",
-    "projects/ecommerce/Notes/2. Frontend.md",
     "projects/ecommerce/Untitled.md",
     "projects/ecommerce/Untitled 1.md",
     "projects/ecommerce/Notes",
@@ -508,7 +509,6 @@
     "to fix/learning-notes/cloud/aws/Auto Scaling.md",
     "Dashboard.md",
     "dashboards",
-    "to fix/learning-notes/obsidian/Setting Up Obsidian for Technical Note-Taking.md",
     "connections",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
