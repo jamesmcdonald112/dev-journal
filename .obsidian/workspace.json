@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jobs/Resources.md",
+                "file": "jobs/JetBrains.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Resources"
+              "title": "JetBrains"
             }
           }
         ],
@@ -498,8 +498,9 @@
   },
   "active": "6fa8dfe3e7fe2ed9",
   "lastOpenFiles": [
-    "jobs/Malta - Gambling.md",
     "jobs/Resources.md",
+    "jobs/JetBrains.md",
+    "jobs/Malta - Gambling.md",
     "jobs/Resources",
     "jobs",
     "projects/ecommerce/Notes/3. Fetching from Database.md",
@@ -533,7 +534,6 @@
     "to fix",
     "shared-notes",
     "proper folder",
-    "to fix/case-studies/portfolio/Obsidian Style Graph.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
