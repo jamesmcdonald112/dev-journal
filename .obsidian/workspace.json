@@ -301,7 +301,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "jobs.md",
+                "file": "jobs/Resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -316,7 +316,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "jobs"
+              "title": "Resources"
             }
           }
         ],
@@ -498,8 +498,11 @@
   },
   "active": "6fa8dfe3e7fe2ed9",
   "lastOpenFiles": [
+    "jobs/Malta - Gambling.md",
+    "jobs/Resources.md",
+    "jobs/Resources",
+    "jobs",
     "projects/ecommerce/Notes/3. Fetching from Database.md",
-    "jobs.md",
     "projects/ecommerce/Notes/2. Products Page – Building the List UI (Empty → Card → Grid → Page).md",
     "projects/ecommerce/Notes/1. Product Search – Backend Implementation (Next.js + MongoDB).md",
     "projects/ecommerce/Untitled.md",
@@ -531,9 +534,6 @@
     "shared-notes",
     "proper folder",
     "to fix/case-studies/portfolio/Obsidian Style Graph.md",
-    "to fix/learning-notes/cloud/aws/Auto Scaling.md",
-    "dashboards",
-    "connections",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
