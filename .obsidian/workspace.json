@@ -318,9 +318,33 @@
               "icon": "lucide-file",
               "title": "JetBrains"
             }
+          },
+          {
+            "id": "6c9d98e86ba92bb3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Open Source Projects.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Open Source Projects"
+            }
           }
         ],
-        "currentTab": 12
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -496,10 +520,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "6fa8dfe3e7fe2ed9",
+  "active": "6c9d98e86ba92bb3",
   "lastOpenFiles": [
-    "jobs/Resources.md",
     "jobs/JetBrains.md",
+    "Open Source Projects.md",
+    "jobs/Resources.md",
     "jobs/Malta - Gambling.md",
     "jobs/Resources",
     "jobs",
@@ -529,7 +554,6 @@
     "templates/project-log.md",
     "templates/project-note.md",
     "projects/portfolio/notes",
-    "to fix/Fetch API Explained.md",
     "projects/portfolio",
     "to fix",
     "shared-notes",
