@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/11. Folder Structure.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,11 +340,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "11. Folder Structure"
+              "title": "00. Overview"
+            }
+          },
+          {
+            "id": "ba05e8821598eadd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "12. Zod"
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -520,9 +544,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "6c9d98e86ba92bb3",
+  "active": "ba05e8821598eadd",
   "lastOpenFiles": [
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/11. Folder Structure.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/10. Vitest.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/09. Biome.md",
@@ -557,7 +582,6 @@
     "projects/music-school/change/design-principles/Fundamentals/resources.md",
     "projects/music-school/change/react",
     "projects/music-school/change/tailwind/resources.md",
-    "projects/music-school/change/design-principles/Design systems/resources.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
