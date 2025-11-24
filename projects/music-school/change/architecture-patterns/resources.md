@@ -1,0 +1,2 @@
+- https://frontend.devarchy.com - Frontend architecture guide 
+- https://github.com/alan2207/bulletproof-react - Bulletproof React (folder structure)
