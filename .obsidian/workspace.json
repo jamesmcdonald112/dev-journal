@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00. Overview"
+              "title": "14. Sonner (Toast Notifications)"
             }
           }
         ],
@@ -546,11 +546,13 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/13. React.md",
+    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+    "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
+    "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
     "projects/music-school/topics/zod/use case/API Validation.md",
     "projects/music-school/topics/zod/use case/TypeScript Type Inference.md",
     "projects/music-school/topics/zod/use case/Content Collections.md",
-    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
-    "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
     "projects/music-school/topics/zod/use case/Form Validation.md",
     "projects/music-school/topics/zod/use case",
     "projects/music-school/topics/zod/Untitled.md",
@@ -580,8 +582,6 @@
     "projects/music-school/01-daily-builds/01 Setup/03. Tailwind Css Animate.md",
     "to fix/Tailwind.md",
     "projects/music-school/01-daily-builds/01 Setup",
-    "projects/music-school/architecture.md",
-    "projects/music-school/change/landing-page/client-brief.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
