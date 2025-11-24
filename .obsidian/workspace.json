@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "14. Sonner (Toast Notifications)"
+              "title": "00. Overview"
             }
           }
         ],
@@ -546,9 +546,9 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
     "projects/music-school/01-daily-builds/01 Setup/13. React.md",
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
-    "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
     "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
     "projects/music-school/topics/zod/use case/API Validation.md",
     "projects/music-school/topics/zod/use case/TypeScript Type Inference.md",
