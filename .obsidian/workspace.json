@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/07. Biome.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/07. Prettier.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "07. Biome"
+              "title": "07. Prettier"
             }
           }
         ],
@@ -527,7 +527,7 @@
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Astro.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/02. Tailwind.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/08. GSAP + Astro Setup.md",
-    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/07. Biome.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/07. Prettier.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/06. Tailwind CSS Tyopography.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/05. Tailwind CSS Heroicons.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/04. Tailwind CSS Forms.md",
