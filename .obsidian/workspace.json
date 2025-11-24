@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/03. Tailwind.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/04. Biome.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03. Tailwind"
+              "title": "04. Biome"
             }
           }
         ],
@@ -523,9 +523,10 @@
   "active": "6c9d98e86ba92bb3",
   "lastOpenFiles": [
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
-    "to fix/Tailwind.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/04. Biome.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/03. Tailwind.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/02. Astro.md",
+    "to fix/Tailwind.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup",
     "projects/music-school/00-project-brief.md",
     "projects/music-school/reference",
@@ -557,7 +558,6 @@
     "jobs/JetBrains.md",
     "jobs/Resources.md",
     "jobs/Malta - Gambling.md",
-    "projects/ecommerce/Notes/3. Fetching from Database.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
