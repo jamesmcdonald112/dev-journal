@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod - Form Validation.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. Zod - Form Validation"
+              "title": "00. Overview"
             }
           }
         ],
@@ -546,8 +546,8 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod - Form Validation.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
     "projects/music-school/topics/zod/debugging/node.md",
     "projects/music-school/topics/node/debugging/TSX.md",
     "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
