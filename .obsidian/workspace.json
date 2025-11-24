@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod.md",
+                "file": "projects/music-school/debug/node/TSX.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. Zod"
+              "title": "TSX"
             }
           }
         ],
@@ -546,8 +546,14 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
+    "projects/music-school/questions/Node.md",
+    "projects/music-school/debug/node/TSX.md",
+    "projects/music-school/debug/node",
+    "projects/music-school/debug/zod",
+    "projects/music-school/debug",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/12. Zod.md",
+    "projects/music-school/questions",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/11. Folder Structure.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/10. Vitest.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/09. Biome.md",
@@ -562,26 +568,20 @@
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/03. Tailwind Css Animate.md",
     "to fix/Tailwind.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup",
-    "projects/music-school/00-project-brief.md",
+    "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
     "projects/music-school/reference",
     "projects/music-school/resources",
     "projects/music-school/architecture.md",
     "projects/music-school/architecture",
     "projects/music-school/best-practices",
     "projects/music-school/patterns",
-    "projects/music-school/01-daily-builds/01-hero-section",
-    "projects/music-school/01-daily-builds",
     "projects/music-school/change/landing-page/client-brief.md",
     "projects/music-school/change/architecture-patterns/resources.md",
     "projects/music-school/change/checklist/Hero Section.md",
-    "projects/music-school/change",
     "projects/music-school/change/checklist/Components.md",
     "projects/music-school/change/react/resources.md",
     "projects/music-school/change/architecture-patterns/List.md",
     "projects/music-school/change/design-principles/Untitled.md",
-    "projects/music-school/change/design-principles/Fundamentals/resources.md",
-    "projects/music-school/change/react",
-    "projects/music-school/change/tailwind/resources.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
