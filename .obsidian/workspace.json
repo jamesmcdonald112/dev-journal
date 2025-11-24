@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/03.Tailwind.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. Overview"
+              "title": "03.Tailwind"
             }
           }
         ],
@@ -520,8 +520,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "6c9d98e86ba92bb3",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/02. Astro.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/03.Tailwind.md",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup",
     "projects/music-school/00-project-brief.md",
     "projects/music-school/reference",
@@ -530,7 +533,6 @@
     "projects/music-school/architecture",
     "projects/music-school/best-practices",
     "projects/music-school/patterns",
-    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
     "projects/music-school/01-daily-builds/01-hero-section",
     "projects/music-school/01-daily-builds",
     "projects/music-school/change/landing-page/client-brief.md",
@@ -545,7 +547,6 @@
     "projects/music-school/change/react",
     "projects/music-school/change/tailwind/resources.md",
     "projects/music-school/change/design-principles/Design systems/resources.md",
-    "projects/music-school/change/tailwind",
     "projects/music-school/change/landing-page/resources.md",
     "projects/music-school/change/principles/SOLID.md",
     "projects/music-school/change/speed-test/resources.md",
@@ -557,7 +558,6 @@
     "jobs/Malta - Gambling.md",
     "projects/ecommerce/Notes/3. Fetching from Database.md",
     "projects/ecommerce/Notes/2. Products Page – Building the List UI (Empty → Card → Grid → Page).md",
-    "projects/ecommerce/Notes/1. Product Search – Backend Implementation (Next.js + MongoDB).md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
