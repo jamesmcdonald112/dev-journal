@@ -1,0 +1,5 @@
+- Single Responsibility
+- Open/Closed (Extensible, Not Modifiable)
+- Liskov Substitution
+- Interface Segregation
+- Dependency Inversion
