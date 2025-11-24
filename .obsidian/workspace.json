@@ -325,7 +325,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/change/landing-page/client-brief.md",
+                "file": "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -340,7 +340,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "client-brief"
+              "title": "01. Overview"
             }
           }
         ],
@@ -520,9 +520,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "6c9d98e86ba92bb3",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup",
     "projects/music-school/00-project-brief.md",
+    "projects/music-school/reference",
+    "projects/music-school/resources",
+    "projects/music-school/architecture.md",
+    "projects/music-school/architecture",
+    "projects/music-school/best-practices",
+    "projects/music-school/patterns",
+    "projects/music-school/01-daily-builds/01-hero-section/01 Setup/01. Overview.md",
+    "projects/music-school/01-daily-builds/01-hero-section",
+    "projects/music-school/01-daily-builds",
+    "projects/music-school/change/landing-page/client-brief.md",
     "projects/music-school/change/architecture-patterns/resources.md",
     "projects/music-school/change/checklist/Hero Section.md",
     "projects/music-school/change",
@@ -535,17 +546,9 @@
     "projects/music-school/change/tailwind/resources.md",
     "projects/music-school/change/design-principles/Design systems/resources.md",
     "projects/music-school/change/tailwind",
-    "projects/music-school/change/design-principles/Design systems",
-    "projects/music-school/change/design-principles/Fundamentals",
     "projects/music-school/change/landing-page/resources.md",
-    "projects/music-school/change/design-principles",
-    "projects/music-school/change/landing-page/client-brief.md",
-    "projects/music-school/client-brief",
     "projects/music-school/change/principles/SOLID.md",
-    "projects/music-school/change/architecture-patterns",
     "projects/music-school/change/speed-test/resources.md",
-    "projects/music-school/change/principles",
-    "projects/music-school/change/speed-test",
     "projects/music-school/change/images/resources.md",
     "projects/music-school/change/accessibility/resources.md",
     "Open Source Projects.md",
@@ -555,8 +558,6 @@
     "projects/ecommerce/Notes/3. Fetching from Database.md",
     "projects/ecommerce/Notes/2. Products Page – Building the List UI (Empty → Card → Grid → Page).md",
     "projects/ecommerce/Notes/1. Product Search – Backend Implementation (Next.js + MongoDB).md",
-    "projects/ecommerce/Untitled.md",
-    "projects/ecommerce/Untitled 1.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"

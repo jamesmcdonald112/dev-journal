@@ -1,3 +1,0 @@
-- Component Composition
-- Props vs Children
-- Container/Presentational Pattern

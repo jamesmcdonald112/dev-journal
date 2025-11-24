@@ -1,3 +1,0 @@
-- [https://atlassian.design](https://atlassian.design) (comprehensive)
-- [https://primer.style](https://primer.style) (GitHub's system)
-- [https://www.radix-ui.com/themes/docs/overview/getting-started](https://www.radix-ui.com/themes/docs/overview/getting-started) (beautiful)
