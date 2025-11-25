@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/20. SEO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "ToDo"
+              "title": "20. SEO"
             }
           }
         ],
@@ -546,18 +546,21 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+    "projects/music-school/01-daily-builds/01 Setup/20. SEO.md",
+    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
+    "projects/music-school/01-daily-builds/03. SEO/astro.md",
+    "projects/music-school/01-daily-builds/03. SEO/essentials.md",
+    "projects/music-school/01-daily-builds/03. SEO/Untitled.md",
     "projects/music-school/01-daily-builds/04. Performance Testing/Astro Performance.md",
     "projects/music-school/01-daily-builds/01 Setup/20. Astro Image Optimisation.md",
-    "projects/music-school/01-daily-builds/03. SEO/astro.md",
     "projects/music-school/01-daily-builds/04. Performance Testing/Web Vitals.md",
     "projects/music-school/01-daily-builds/04. Performance Testing/Lighthouse.md",
     "projects/music-school/01-daily-builds/04. Performance Testing",
     "projects/music-school/01-daily-builds/01 Setup/19. Husky Commands.md",
     "projects/music-school/01-daily-builds/02-Deployment/Server.md",
     "projects/music-school/01-daily-builds/03. SEO",
-    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/02-Deployment",
-    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/01 Setup/18. Husky.md",
     "projects/music-school/01-daily-builds/01 Setup/17. Commitizen + Commitlint Setup.md",
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
@@ -572,9 +575,6 @@
     "projects/music-school/01-daily-builds/01 Setup/06. Tailwind CSS Tyopography.md",
     "projects/music-school/01-daily-builds/01 Setup/05. Tailwind CSS Heroicons.md",
     "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
-    "projects/music-school/01-daily-builds/01 Setup/03. Tailwind Css Animate.md",
-    "projects/music-school/01-daily-builds/01 Setup/02. Tailwind.md",
-    "projects/music-school/01-daily-builds/01 Setup/01. Astro.md",
     "projects/music-school/01-daily-builds/Readme",
     "projects/music-school/topics/frontend",
     "projects/music-school/topics/astro/build and deployment",
