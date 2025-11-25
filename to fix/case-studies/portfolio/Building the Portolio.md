@@ -283,7 +283,7 @@ That approach parsed Markdown into an Abstract Syntax Tree (AST) using remark-pa
     - Add interactivity or custom React components (like `<NoteLink>` or `<CopyButton>`).
         
     
-3. It was **less flexible** for integrating Obsidian-style note links ([[Note]]), syntax highlighting, or component injection.
+3. It was **less flexible** for integrating Obsidian-style note links ([[projects/music-school/topics/astro/build and deployment/build-process]]), syntax highlighting, or component injection.
 
   
 
