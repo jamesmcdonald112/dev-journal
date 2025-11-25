@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/16. Commit Lint.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15. Sentry (Error Logging)"
+              "title": "16. Commit Lint"
             }
           }
         ],
@@ -546,8 +546,8 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/16. Commit Lint.md",
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
+    "projects/music-school/01-daily-builds/01 Setup/16. Commit Lint.md",
     "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
     "projects/music-school/01-daily-builds/01 Setup/13. React.md",
     "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
