@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
+                "file": "projects/music-school/topics/frontend/debugging and logging.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "15. Sentry (Error Logging)"
+              "title": "debugging and logging"
             }
           }
         ],
@@ -546,8 +546,12 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/delete note.md",
+    "projects/music-school/01-daily-builds/01-hero-section/00 - Readme.md",
+    "projects/music-school/topics/frontend/debugging and logging.md",
+    "projects/music-school/topics/frontend",
+    "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
+    "projects/music-school/01-daily-builds/01 Setup/delete note.md",
     "projects/music-school/topics/astro/build and deployment/build-process.md",
     "projects/music-school/topics/astro/build and deployment",
     "projects/music-school/topics/node/debugging/TSX.md",
@@ -564,7 +568,6 @@
     "projects/music-school/topics/zod/use case",
     "projects/music-school/topics/zod/Untitled.md",
     "projects/music-school/topics/zod/debugging/node.md",
-    "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
     "projects/music-school/topics/zod/debugging",
     "projects/music-school/topics/zod",
     "projects/music-school/topics/node/debugging",
@@ -572,7 +575,6 @@
     "projects/music-school/questions/Node.md",
     "projects/music-school/topics/node",
     "projects/music-school/debug/zod",
-    "projects/music-school/debug",
     "projects/music-school/01-daily-builds/01 Setup/11. Folder Structure.md",
     "projects/music-school/01-daily-builds/01 Setup/10. Vitest.md",
     "projects/music-school/01-daily-builds/01 Setup/09. Biome.md",
@@ -580,7 +582,6 @@
     "projects/music-school/01-daily-builds/01 Setup/01. Astro.md",
     "projects/music-school/01-daily-builds/01 Setup/07. Prettier.md",
     "projects/music-school/01-daily-builds/01-hero-section/01 Setup/09. Prettier.md",
-    "projects/music-school/01-daily-builds/01 Setup/02. Tailwind.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
