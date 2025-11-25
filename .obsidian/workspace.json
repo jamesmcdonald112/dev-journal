@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/17. Husky.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/10. Vitest.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17. Husky"
+              "title": "10. Vitest"
             }
           }
         ],
@@ -546,8 +546,8 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/16. Commit Lint.md",
     "projects/music-school/01-daily-builds/01 Setup/17. Husky.md",
+    "projects/music-school/01-daily-builds/01 Setup/16. Commit Lint.md",
     "projects/ecommerce/Setup.md",
     "projects/ecommerce/focus.md",
     "projects/ecommerce/Notes/3. Fetching from Database.md",
