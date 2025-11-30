@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/04. Performance Testing/Web Vitals.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/01. Prompts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Web Vitals"
+              "title": "01. Prompts"
             }
           }
         ],
@@ -568,13 +568,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/04. Performance Testing/Lighthouse.md",
-    "projects/music-school/01-daily-builds/04. Performance Testing/Astro Performance.md",
-    "projects/music-school/01-daily-builds/03. SEO/astro.md",
-    "projects/music-school/01-daily-builds/03. SEO/essentials.md",
-    "projects/music-school/01-daily-builds/02-Deployment/Server.md",
+    "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
+    "projects/music-school/01-daily-builds/03. Questions for School/Questions.md",
+    "projects/music-school/01-daily-builds/Readme/00. Overview.md",
+    "projects/music-school/01-daily-builds/Readme/01. Sentry.md",
+    "projects/music-school/01-daily-builds/01 Setup/01. Astro.md",
+    "projects/music-school/01-daily-builds/06. Performance Testing/Web Vitals.md",
+    "projects/music-school/01-daily-builds/03. Questions for School",
+    "projects/music-school/01-daily-builds/06. Performance Testing/Lighthouse.md",
+    "projects/music-school/01-daily-builds/06. Performance Testing/Astro Performance.md",
+    "projects/music-school/01-daily-builds/04. SEO/astro.md",
+    "projects/music-school/01-daily-builds/04. SEO/essentials.md",
+    "projects/music-school/01-daily-builds/05 Deployment/Server.md",
     "projects/music-school/01-daily-builds/03. SEO/Untitled.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/00. Overview.md",
     "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
@@ -590,22 +597,15 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/09. Social Proof Requirements.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/07. Navigation Best Practices.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/06. CTA Best Practices.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/05. Copywriting Rules.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/04. Visual Rules.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/03. High-Converting Page Structure.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/02. Parent Psychology.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/01. Core Objectives.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices",
     "projects/music-school/01-daily-builds/05. Design/Untitled",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/01. Prompts.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume",
     "projects/music-school/01-daily-builds/02. Design",
-    "projects/music-school/01-daily-builds/04. Performance Testing",
-    "projects/music-school/01-daily-builds/03. SEO",
-    "projects/music-school/01-daily-builds/02-Deployment",
+    "projects/music-school/01-daily-builds/06. Performance Testing",
+    "projects/music-school/01-daily-builds/04. SEO",
+    "projects/music-school/01-daily-builds/05 Deployment",
     "projects/music-school/01-daily-builds/Readme",
-    "projects/music-school/topics/frontend",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
