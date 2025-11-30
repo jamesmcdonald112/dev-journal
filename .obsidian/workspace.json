@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/02. Web design best practices.md",
+                "file": "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/00. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02. Web design best practices"
+              "title": "00. Overview"
             }
           }
         ],
@@ -449,7 +449,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 296.5
   },
   "right": {
     "id": "4e3e56dd8897e3e9",
@@ -570,8 +570,27 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/16. Critical Mistakes to Avoid.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/Best Practices.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/15. Pages Ranked by Conversion Impact.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/14. Funnel Psychology.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/13. SEO for Local Music Schools.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/12. Performance Best Practices.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/11. Mobile-First Design.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/10. Trust Signals.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/08. Forms (Critical Conversion Elements).md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/09. Social Proof Requirements.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/07. Navigation Best Practices.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/06. CTA Best Practices.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/05. Copywriting Rules.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/04. Visual Rules.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/00. Overview.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/03. High-Converting Page Structure.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/02. Parent Psychology.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/01. Core Objectives.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices",
+    "projects/music-school/01-daily-builds/05. Design/Untitled",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/01. Prompts.md",
-    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/02. Web design best practices.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/00. Overview.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School",
     "projects/music-school/01-daily-builds/01 Setup/21. Relume.md",
@@ -582,30 +601,11 @@
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/03. SEO/astro.md",
-    "projects/music-school/01-daily-builds/03. SEO/essentials.md",
-    "projects/music-school/01-daily-builds/03. SEO/Untitled.md",
-    "projects/music-school/01-daily-builds/04. Performance Testing/Astro Performance.md",
-    "projects/music-school/01-daily-builds/01 Setup/20. Astro Image Optimisation.md",
-    "projects/music-school/01-daily-builds/04. Performance Testing/Web Vitals.md",
-    "projects/music-school/01-daily-builds/04. Performance Testing/Lighthouse.md",
     "projects/music-school/01-daily-builds/04. Performance Testing",
-    "projects/music-school/01-daily-builds/01 Setup/19. Husky Commands.md",
-    "projects/music-school/01-daily-builds/02-Deployment/Server.md",
     "projects/music-school/01-daily-builds/03. SEO",
     "projects/music-school/01-daily-builds/02-Deployment",
-    "projects/music-school/01-daily-builds/01 Setup/18. Husky.md",
-    "projects/music-school/01-daily-builds/01 Setup/17. Commitizen + Commitlint Setup.md",
-    "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
-    "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
-    "projects/music-school/01-daily-builds/01 Setup/13. React.md",
-    "projects/music-school/01-daily-builds/01 Setup/11. Folder Structure.md",
-    "projects/music-school/01-daily-builds/01 Setup/10. Vitest.md",
-    "projects/music-school/01-daily-builds/01 Setup/09. Biome.md",
-    "projects/music-school/01-daily-builds/01 Setup/08. GSAP + Astro Setup.md",
     "projects/music-school/01-daily-builds/Readme",
     "projects/music-school/topics/frontend",
-    "projects/music-school/topics/astro/build and deployment",
-    "projects/music-school/topics/astro",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
