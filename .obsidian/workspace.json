@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/trust badge strip/01. Trust Badge Strip (Global Section) Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "08. CTA Section"
+              "title": "01. Trust Badge Strip (Global Section) Prompt"
             }
           }
         ],
@@ -570,8 +570,12 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/07. CTA Form Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/Navbar.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/trust badge strip/01. Trust Badge Strip (Global Section) Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/trust badge strip",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/Footer.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/07. CTA Form Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/06. About.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/05. Testimonial Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/04. Benefits Section.md",
@@ -597,15 +601,11 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/01. Sitemap.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/teachers",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/sections",
     "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
     "projects/music-school/01-daily-builds/03. Questions for School/Questions.md",
     "projects/music-school/01-daily-builds/Readme/00. Overview.md",
     "projects/music-school/01-daily-builds/Readme/01. Sentry.md",
     "projects/music-school/01-daily-builds/01 Setup/01. Astro.md",
-    "projects/music-school/01-daily-builds/06. Performance Testing/Web Vitals.md",
-    "projects/music-school/01-daily-builds/06. Performance Testing/Lighthouse.md",
-    "projects/music-school/01-daily-builds/06. Performance Testing/Astro Performance.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
