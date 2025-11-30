@@ -366,9 +366,33 @@
               "icon": "lucide-file",
               "title": "00. Overview"
             }
+          },
+          {
+            "id": "5f39d453453413a6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/02. Web design best practices.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "02. Web design best practices"
+            }
           }
         ],
-        "currentTab": 14
+        "currentTab": 15
       }
     ],
     "direction": "vertical"
@@ -544,9 +568,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "ba05e8821598eadd",
+  "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/01. Propmts.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/01. Prompts.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/02. Web design best practices.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/00. Overview.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School",
     "projects/music-school/01-daily-builds/01 Setup/21. Relume.md",
