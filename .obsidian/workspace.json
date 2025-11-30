@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/teachers/01. Teachers Page Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. About Page Prompt"
+              "title": "01. Teachers Page Prompt"
             }
           }
         ],
@@ -568,11 +568,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "5f39d453453413a6",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/01. Lesson Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/01. Home Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events/01. Events Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policy/01. Policy Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact/01. Contact Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policy",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/sections",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/pricing/01. Pricing Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/01. Timetable Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/pricing",
@@ -581,13 +589,7 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/01. Sitemap.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/teachers",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/01. Lesson Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/sections",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/01. Home Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages",
     "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
     "projects/music-school/01-daily-builds/03. Questions for School/Questions.md",
     "projects/music-school/01-daily-builds/Readme/00. Overview.md",
@@ -604,8 +606,6 @@
     "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/16. Critical Mistakes to Avoid.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/Best Practices.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/15. Pages Ranked by Conversion Impact.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/14. Funnel Psychology.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
