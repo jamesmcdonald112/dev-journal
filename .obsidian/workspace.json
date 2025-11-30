@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events/01. Events Page Prompt.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. Events Page Prompt"
+              "title": "08. CTA Section"
             }
           }
         ],
@@ -412,7 +412,7 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": true
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -570,6 +570,15 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/07. CTA Form Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/06. About.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/05. Testimonial Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/04. Benefits Section.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/03. Pricing Preview Section..md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/02. Age Groups Overview — Section Prompt (Features List Section).md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/01. Hero.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events/01. Events Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies/01. Policies Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact/01. Contact Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
@@ -578,7 +587,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/teachers/01. Teachers Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/01. Lesson Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/01. Home Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events/01. Events Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",
@@ -598,14 +606,6 @@
     "projects/music-school/01-daily-builds/06. Performance Testing/Web Vitals.md",
     "projects/music-school/01-daily-builds/06. Performance Testing/Lighthouse.md",
     "projects/music-school/01-daily-builds/06. Performance Testing/Astro Performance.md",
-    "projects/music-school/01-daily-builds/04. SEO/astro.md",
-    "projects/music-school/01-daily-builds/04. SEO/essentials.md",
-    "projects/music-school/01-daily-builds/05 Deployment/Server.md",
-    "projects/music-school/01-daily-builds/03. SEO/Untitled.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/00. Overview.md",
-    "projects/music-school/01-daily-builds/01-hero-section/00-project-brief.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/16. Critical Mistakes to Avoid.md",
-    "projects/music-school/01-daily-builds/05. Design/Kids School/Website Design Best Practices/Best Practices.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
