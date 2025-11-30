@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/01. Propmts.md",
+                "file": "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/00. Overview.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. Propmts"
+              "title": "00. Overview"
             }
           }
         ],
@@ -544,11 +544,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/05. Design/Kids School",
-    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/00. Overview.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/01. Propmts.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School/Relume/00. Overview.md",
+    "projects/music-school/01-daily-builds/05. Design/Kids School",
     "projects/music-school/01-daily-builds/01 Setup/21. Relume.md",
     "projects/music-school/01-daily-builds/05. Design/Kids School/Relume",
     "projects/music-school/01-daily-builds/05. Design",
@@ -581,7 +581,6 @@
     "projects/music-school/topics/frontend",
     "projects/music-school/topics/astro/build and deployment",
     "projects/music-school/topics/astro",
-    "projects/music-school/topics/zod/use case",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
