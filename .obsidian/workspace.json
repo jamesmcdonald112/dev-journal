@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/01. Prompts.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/02. Home Page Prompt.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. Prompts"
+              "title": "02. Home Page Prompt"
             }
           }
         ],
@@ -449,7 +449,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 200
   },
   "right": {
     "id": "4e3e56dd8897e3e9",
@@ -570,6 +570,9 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/01. Sitemap.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/02. Home Page Prompt.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts",
     "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
     "projects/music-school/01-daily-builds/03. Questions for School/Questions.md",
     "projects/music-school/01-daily-builds/Readme/00. Overview.md",
@@ -595,8 +598,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/10. Trust Signals.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/08. Forms (Critical Conversion Elements).md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/09. Social Proof Requirements.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/07. Navigation Best Practices.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/06. CTA Best Practices.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices",
     "projects/music-school/01-daily-builds/05. Design/Untitled",
     "projects/music-school/01-daily-builds/02. Design/Kids School",
@@ -605,7 +606,6 @@
     "projects/music-school/01-daily-builds/06. Performance Testing",
     "projects/music-school/01-daily-builds/04. SEO",
     "projects/music-school/01-daily-builds/05 Deployment",
-    "projects/music-school/01-daily-builds/Readme",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
