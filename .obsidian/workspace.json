@@ -349,7 +349,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/21. Relume.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -364,7 +364,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00. Overview"
+              "title": "21. Relume"
             }
           }
         ],
@@ -546,9 +546,11 @@
   },
   "active": "ba05e8821598eadd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/01 Setup/20. SEO.md",
+    "projects/music-school/01-daily-builds/01 Setup/21. Relume.md",
+    "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/03. SEO/astro.md",
     "projects/music-school/01-daily-builds/03. SEO/essentials.md",
     "projects/music-school/01-daily-builds/03. SEO/Untitled.md",
@@ -566,7 +568,6 @@
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
     "projects/music-school/01-daily-builds/01 Setup/14. Sonner (Toast Notifications).md",
     "projects/music-school/01-daily-builds/01 Setup/13. React.md",
-    "projects/music-school/01-daily-builds/01 Setup/12. Zod - Form Validation.md",
     "projects/music-school/01-daily-builds/01 Setup/11. Folder Structure.md",
     "projects/music-school/01-daily-builds/01 Setup/10. Vitest.md",
     "projects/music-school/01-daily-builds/01 Setup/09. Biome.md",
@@ -574,7 +575,6 @@
     "projects/music-school/01-daily-builds/01 Setup/07. Prettier.md",
     "projects/music-school/01-daily-builds/01 Setup/06. Tailwind CSS Tyopography.md",
     "projects/music-school/01-daily-builds/01 Setup/05. Tailwind CSS Heroicons.md",
-    "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
     "projects/music-school/01-daily-builds/Readme",
     "projects/music-school/topics/frontend",
     "projects/music-school/topics/astro/build and deployment",
