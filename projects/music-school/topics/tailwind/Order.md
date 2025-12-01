@@ -1,7 +1,7 @@
 
 DOCS - [How Classes are Sorted (Tailwind)](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier#how-classes-are-sorted)
-### Helpful Mnemonics
-- Lazy Students Touch Very Erotic Teachers In Secret.
+### Helpful Mnemonics by Chat GPT
+- Limp Sluts Spread Tight Wet Vaginas Toward Idiot Sailors
 - Local Students Trash Villages Every Tuesday In September
 - Lost Sailors Tell Villagers Every Terrible Incident Soberly
 
