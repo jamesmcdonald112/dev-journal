@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/Design System.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Design System"
+              "title": "04. Tailwind CSS Forms"
             }
           }
         ],
@@ -570,8 +570,8 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/02. Design/Style Guide.md",
     "projects/music-school/01-daily-builds/02. Design/Design System.md",
+    "projects/music-school/01-daily-builds/02. Design/Style Guide.md",
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/09. Home-Only Info Pack Form (Hero Variant).md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/Trust Badge Strip (Global Section) Prompt.md",
