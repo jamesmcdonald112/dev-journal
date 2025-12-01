@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/topics/tailwind/Order.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Order"
+              "title": "22. Prettier for Tailwind Class Sorting"
             }
           }
         ],
@@ -570,8 +570,9 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
     "projects/music-school/topics/tailwind/Order.md",
+    "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
+    "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
     "projects/music-school/topics/tailwind",
     "projects/music-school/01-daily-builds/02. Design/Design System.md",
     "projects/music-school/01-daily-builds/02. Design/Style Guide.md",
@@ -597,7 +598,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/01. Timetable Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/teachers/01. Teachers Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/lessons/01. Lesson Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/01. Home Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",

@@ -1,23 +1,17 @@
-### **HIGH-LEVEL ORDER**
 
-1. **Layout** (display, position, flex, grid)
-    
-2. **Box model** (margin, padding, width, height)
-    
-3. **Typography**
-    
-4. **Backgrounds**
-    
-5. **Borders**
-    
-6. **Effects** (shadow, opacity)
-    
-7. **Transforms & transitions**
-    
-8. **Animations**
-    
-9. **Interactivity** (cursor, ring, focus)
-    
-10. **States** (hover:, active:, disabled:)
-    
-11. **Misc**
+DOCS - [How Classes are Sorted (Tailwind)](https://tailwindcss.com/blog/automatic-class-sorting-with-prettier#how-classes-are-sorted)
+### Helpful Mnemonics
+- Lazy Students Touch Very Erotic Teachers In Secret.
+- Local Students Trash Villages Every Tuesday In September
+- Lost Sailors Tell Villagers Every Terrible Incident Soberly
+
+| **Order** | **Category**     | **Examples**                                  |
+| --------- | ---------------- | --------------------------------------------- |
+| 1         | **Layout**       | flex, grid, w-_, h-_, overflow, position      |
+| 2         | **Spacing**      | p-_, m-_, gap-*                               |
+| 3         | **Typography**   | text-_, font-_, leading-*                     |
+| 4         | **Visual**       | bg-_, border-_, rounded-_, shadow-_           |
+| 5         | **Effects**      | ring-_, ring-offset-_, drop-shadow-*          |
+| 6         | **Transforms**   | scale-_, translate-_, rotate-*, transform-gpu |
+| 7         | **Interactions** | hover:_, focus:_, active:_, disabled:_        |
+| 8         | **State/Other**  | aria-_, data-_, dark:_, print:_               |
