@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/topics/tailwind/Order.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Order"
+              "title": "22. Prettier for Tailwind Class Sorting"
             }
           }
         ],
@@ -570,8 +570,8 @@
   },
   "active": "5f39d453453413a6",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
     "projects/music-school/topics/tailwind/Order.md",
+    "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
     "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
     "projects/music-school/topics/tailwind",
     "projects/music-school/01-daily-builds/02. Design/Design System.md",
