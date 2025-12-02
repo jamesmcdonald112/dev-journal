@@ -373,7 +373,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/questions/Node.md",
+                "file": "projects/music-school/debug/vite/local-testing/Phone.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -388,7 +388,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Node"
+              "title": "Phone"
             }
           }
         ],
@@ -570,7 +570,10 @@
   },
   "active": "005002f697b386b7",
   "lastOpenFiles": [
-    "projects/music-school/debug/local-testing",
+    "projects/music-school/debug/vite",
+    "projects/music-school/questions/Node.md",
+    "projects/music-school/debug/vite/local-testing/Phone.md",
+    "projects/music-school/debug/vite/local-testing",
     "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
     "projects/music-school/topics/tailwind/Order.md",
     "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
@@ -596,8 +599,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies/01. Policies Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact/01. Contact Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/pricing/01. Pricing Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/01. Timetable Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",
@@ -605,7 +606,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/pricing",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/sections",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
