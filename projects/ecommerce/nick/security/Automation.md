@@ -373,7 +373,7 @@ Running automatically, but interpreting results still requires a human.
 
 For an Astro site:
 
-- Occasional dependency updates (once every 6–12 months)
+- Occasional dependency updates (once every 6–12 months) - Dependabot
     
 - Update business info if they change office/number
     
@@ -509,20 +509,3 @@ Maintenance for the site becomes:
     
 - plus optional SEO/GBP help if they pay for it
     
-
----
-
-If you want, I can help you design:
-
-- A full automation plan
-    
-- A maintenance package
-    
-- A proposal for the client
-    
-- A pricing model that makes you money with minimal work
-    
-
-  
-
-Just say the word.

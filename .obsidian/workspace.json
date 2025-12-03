@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/nick/security/Automation.md",
+                "file": "projects/ecommerce/nick/Proposal.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Automation"
+              "title": "Proposal"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/ecommerce/nick/Proposal.md",
     "projects/ecommerce/nick/security/Automation.md",
+    "projects/ecommerce/nick/Proposal.md",
     "projects/ecommerce/nick/security/Resend.md",
     "projects/ecommerce/nick/security/Local SEO.md",
     "projects/ecommerce/nick/security/Astro Maintenance.md",
