@@ -491,3 +491,90 @@ A GBP that has:
   
 
 Google always ranks **active** local businesses higher.
+
+
+
+# **✅** 
+
+# **3. Local Schema Markup (JSON-LD)**
+
+#  **— More detail**
+
+  
+
+### **What it is**
+
+  
+
+A small block of structured data that tells Google exactly what the business is.
+
+  
+
+### **Where it goes**
+
+  
+
+Inside the <head> section of your website.
+
+  
+
+In Astro this is trivial — you can place it in:
+
+src/layouts/BaseLayout.astro
+
+or
+
+src/pages/index.astro
+
+  
+
+Example:
+<head>
+  ...
+  <script type="application/ld+json">
+    {JSON.stringify(schemaData)}
+  </script>
+</head>
+
+### **Is it automatically generated?**
+
+  
+
+You can set it up to be **semi-automatic**.
+
+  
+
+For example:
+
+- Create a business.json file with all the details.
+    
+- Import it into the layout.
+    
+- Generate JSON-LD dynamically.
+    
+
+  
+
+So if the address or phone number changes, you only update **one single file**.
+
+  
+
+### **Does Google require it?**
+
+  
+
+No.
+
+But it **helps Google understand exactly what the site is**.
+
+  
+
+For solicitors, the correct schema type is:
+
+  
+
+@type: "LegalService"
+
+  
+
+It improves ranking clarity.

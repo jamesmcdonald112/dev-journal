@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/nick/security/Local SEO.md",
+                "file": "projects/ecommerce/nick/security/Automation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Local SEO"
+              "title": "Automation"
             }
           }
         ]
@@ -207,13 +207,14 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "786d847461b1b7cd",
   "lastOpenFiles": [
     "projects/ecommerce/nick/Proposal.md",
-    "projects/ecommerce/nick/security/Local SEO.md",
+    "projects/ecommerce/nick/security/Automation.md",
     "projects/ecommerce/nick/security/Resend.md",
-    "projects/ecommerce/nick/security/Security.md",
+    "projects/ecommerce/nick/security/Local SEO.md",
     "projects/ecommerce/nick/security/Astro Maintenance.md",
+    "projects/ecommerce/nick/security/Security.md",
     "projects/ecommerce/nick/security/Wordpress Maintenance.md",
     "projects/ecommerce/nick/security",
     "projects/music-school/debug/vite/local-testing/Phone.md",
@@ -240,7 +241,6 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/05. Testimonial Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/04. Benefits Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/03. Pricing Preview Section..md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/02. Age Groups Overview — Section Prompt (Features List Section).md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",

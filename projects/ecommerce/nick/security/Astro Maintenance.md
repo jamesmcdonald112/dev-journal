@@ -90,3 +90,110 @@ Avoid by using environment variables.
 If you upload a secret to GitHub accidentally.
 
 Don’t do that.
+
+
+
+
+
+
+
+# **So do they actually need you for maintenance?**
+
+  
+
+### **If it’s Astro:**
+
+  
+
+**Website maintenance is minimal.**
+
+  
+
+Realistically:
+
+- Maybe update business info once per year
+    
+- Maybe fix a small thing rarely
+    
+- Maybe update dependencies every 6–12 months
+    
+
+  
+
+That’s it.
+
+  
+
+### **If THEY manage their GBP:**
+
+  
+
+They do:
+
+- photos
+    
+- review replies
+    
+- questions
+    
+- profile changes
+    
+
+  
+
+Then they don’t need you monthly.
+
+  
+
+### **If THEY DON’T want to manage GBP:**
+
+  
+
+You can offer:
+
+  
+
+**€30–€70/month**
+
+for:
+
+- replying to reviews
+    
+- adding photos
+    
+- keeping citations updated
+    
+- checking SEO health
+    
+- dealing with GBP issues
+    
+
+  
+
+This is OPTIONAL.
+
+You’re offering it as a convenience **only if they want to outsource it**.
+
+  
+
+### **Honest summary:**
+
+  
+
+If they want to do nothing themselves → offer maintenance.
+
+If they’re happy to update GBP themselves → they only need you occasionally.
+
+
+# **Clean message you can say to the client**
+
+  
+
+> “The website itself won’t need much maintenance because it’s static and secure. The only thing Google looks for activity on is your Google Business Profile — updates like photos, reviews, and answering questions. You can do all that yourself easily.
+
+>   
+
+> If you prefer me to handle that and keep your local SEO strong, I can do it for €30–€70/month. If not, you’ll only need occasional updates once or twice a year.”
+
+---
+---
