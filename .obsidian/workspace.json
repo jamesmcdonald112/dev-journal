@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/debug/vite/local-testing/Phone.md",
+                "file": "projects/ecommerce/nick/security/Local SEO.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Phone"
+              "title": "Local SEO"
             }
           }
         ]
@@ -207,11 +207,19 @@
       "templates:Insert template": false
     }
   },
-  "active": "786d847461b1b7cd",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "projects/ecommerce/nick/Proposal.md",
+    "projects/ecommerce/nick/security/Local SEO.md",
+    "projects/ecommerce/nick/security/Resend.md",
+    "projects/ecommerce/nick/security/Security.md",
+    "projects/ecommerce/nick/security/Astro Maintenance.md",
+    "projects/ecommerce/nick/security/Wordpress Maintenance.md",
+    "projects/ecommerce/nick/security",
+    "projects/music-school/debug/vite/local-testing/Phone.md",
+    "projects/ecommerce/nick",
     "projects/music-school/debug/vite",
     "projects/music-school/questions/Node.md",
-    "projects/music-school/debug/vite/local-testing/Phone.md",
     "projects/music-school/debug/vite/local-testing",
     "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
     "projects/music-school/topics/tailwind/Order.md",
@@ -233,18 +241,10 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/04. Benefits Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/03. Pricing Preview Section..md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/02. Age Groups Overview — Section Prompt (Features List Section).md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/01. Hero.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events/01. Events Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies/01. Policies Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact/01. Contact Page Prompt.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/01. About Page Prompt.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about/sections",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/about",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/pricing",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/sections",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
