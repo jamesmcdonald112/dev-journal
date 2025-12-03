@@ -390,9 +390,21 @@
               "icon": "lucide-file",
               "title": "Phone"
             }
+          },
+          {
+            "id": "161f283a047fedcc",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.10.6"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.10.6"
+            }
           }
         ],
-        "currentTab": 15
+        "currentTab": 16
       }
     ],
     "direction": "vertical"
@@ -568,7 +580,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "005002f697b386b7",
+  "active": "161f283a047fedcc",
   "lastOpenFiles": [
     "projects/music-school/debug/vite",
     "projects/music-school/questions/Node.md",
