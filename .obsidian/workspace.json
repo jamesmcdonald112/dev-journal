@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
+                "file": "projects/ecommerce/Product Example.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Form"
+              "title": "Product Example"
             }
           }
         ]
@@ -209,8 +209,10 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
+    "projects/ecommerce/Product Example.md",
+    "projects/ecommerce/Product Example",
+    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/01 Setup/todo",
     "projects/nick/Proposals/Mock Ups.md",
     "projects/nick/Todo.md",
@@ -242,9 +244,7 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/trust badge strip",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/Footer.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/07. CTA Form Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
