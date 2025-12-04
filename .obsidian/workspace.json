@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/nick/Proposals/Mock Ups.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Mock Ups"
+              "title": "Form"
             }
           }
         ]
@@ -209,19 +209,22 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/ecommerce/nick/Todo.md",
-    "projects/ecommerce/nick/Proposals/Mock Ups.md",
-    "projects/ecommerce/nick/Proposals/Approaching other Law Firms.md",
-    "projects/ecommerce/nick/Proposals",
-    "projects/ecommerce/nick/security/Automation.md",
-    "projects/ecommerce/nick/security/Resend.md",
-    "projects/ecommerce/nick/security/Local SEO.md",
-    "projects/ecommerce/nick/security/Astro Maintenance.md",
+    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo",
+    "projects/nick/Proposals/Mock Ups.md",
+    "projects/nick/Todo.md",
+    "projects/nick/Proposals/Approaching other Law Firms.md",
+    "projects/nick/Proposals",
+    "projects/nick/security/Automation.md",
+    "projects/nick/security/Resend.md",
+    "projects/nick/security/Local SEO.md",
+    "projects/nick/security/Astro Maintenance.md",
     "projects/ecommerce/nick/security/Security.md",
-    "projects/ecommerce/nick/security/Wordpress Maintenance.md",
-    "projects/ecommerce/nick/security",
+    "projects/nick/security/Wordpress Maintenance.md",
+    "projects/nick/security",
     "projects/music-school/debug/vite/local-testing/Phone.md",
-    "projects/ecommerce/nick",
+    "projects/nick",
     "projects/music-school/debug/vite",
     "projects/music-school/questions/Node.md",
     "projects/music-school/debug/vite/local-testing",
@@ -240,11 +243,8 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/Footer.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/08. CTA Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/07. CTA Form Section.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/06. About.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/05. Testimonial Section.md",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/events",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/policies",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/contact",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
