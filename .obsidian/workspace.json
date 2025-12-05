@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/cv.md",
+                "file": "projects/ecommerce/cv/All notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "cv"
+              "title": "All notes"
             }
           }
         ],
@@ -234,10 +234,13 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/ecommerce/Readme.md",
     "projects/ecommerce/cv.md",
-    "projects/automation/Notes.md",
+    "projects/ecommerce/cv/All notes.md",
+    "projects/ecommerce/cv",
+    "projects/ecommerce/Readme.md",
     "projects/ecommerce/Product Example.md",
+    "projects/ecommerce/Setup.md",
+    "projects/automation/Notes.md",
     "projects/automation",
     "projects/Untitled.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
@@ -267,9 +270,6 @@
     "projects/music-school/topics/tailwind",
     "projects/music-school/01-daily-builds/02. Design/Design System.md",
     "projects/music-school/01-daily-builds/02. Design/Style Guide.md",
-    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/home/sections/09. Home-Only Info Pack Form (Hero Variant).md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Relume/Propmts/pages/timetable/trust badge strip",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
