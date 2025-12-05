@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/cv/All notes.md",
+                "file": "projects/ecommerce/readme/All notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -234,10 +234,12 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/ecommerce/cv.md",
     "projects/ecommerce/cv/All notes.md",
-    "projects/ecommerce/cv",
+    "projects/ecommerce/readme/All notes.md",
     "projects/ecommerce/Readme.md",
+    "projects/ecommerce/cv.md",
+    "projects/ecommerce/readme",
+    "projects/ecommerce/cv",
     "projects/ecommerce/Product Example.md",
     "projects/ecommerce/Setup.md",
     "projects/automation/Notes.md",
@@ -267,9 +269,7 @@
     "projects/music-school/topics/tailwind/Order.md",
     "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
     "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
-    "projects/music-school/topics/tailwind",
     "projects/music-school/01-daily-builds/02. Design/Design System.md",
-    "projects/music-school/01-daily-builds/02. Design/Style Guide.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
