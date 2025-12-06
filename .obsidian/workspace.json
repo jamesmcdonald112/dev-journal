@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/ecommerce/readme/All notes.md",
+                "file": "cv stuff/technical skills/All.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "All notes"
+              "title": "All"
             }
           }
         ],
@@ -234,8 +234,14 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/ecommerce/cv/All notes.md",
+    "cv stuff/Exams.md",
+    "cv stuff/technical skills/All.md",
+    "cv stuff/technical skills",
+    "cv stuff/projects/Ecommerce",
+    "cv stuff/projects",
+    "cv stuff/Me.md",
     "projects/ecommerce/readme/All notes.md",
+    "cv stuff/projects/Ecommerce/All notes.md",
     "projects/ecommerce/Readme.md",
     "projects/ecommerce/cv.md",
     "projects/ecommerce/readme",
@@ -261,15 +267,9 @@
     "projects/nick/security/Wordpress Maintenance.md",
     "projects/nick/security",
     "projects/music-school/debug/vite/local-testing/Phone.md",
-    "projects/nick",
-    "projects/music-school/debug/vite",
     "projects/music-school/questions/Node.md",
-    "projects/music-school/debug/vite/local-testing",
     "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
     "projects/music-school/topics/tailwind/Order.md",
-    "projects/music-school/01-daily-builds/01 Setup/22. Prettier for Tailwind Class Sorting.md",
-    "projects/music-school/01-daily-builds/01 Setup/04. Tailwind CSS Forms.md",
-    "projects/music-school/01-daily-builds/02. Design/Design System.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
