@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv stuff/technical skills/All.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "All"
+              "title": "23. Form Server Actions"
             }
           }
         ],
@@ -234,8 +234,8 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "cv stuff/Exams.md",
     "cv stuff/technical skills/All.md",
+    "cv stuff/Exams.md",
     "cv stuff/technical skills",
     "cv stuff/projects/Ecommerce",
     "cv stuff/projects",
