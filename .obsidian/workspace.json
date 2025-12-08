@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
+                "file": "shared-notes/patterns/List.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "23. Form Server Actions"
+              "title": "List"
             }
           }
         ],
@@ -234,6 +234,10 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
+    "shared-notes/patterns/List.md",
+    "shared-notes/patterns/Untitled",
+    "shared-notes/patterns",
     "cv stuff/technical skills/All.md",
     "cv stuff/Exams.md",
     "cv stuff/technical skills",
@@ -258,18 +262,14 @@
     "projects/nick/Proposals/Mock Ups.md",
     "projects/nick/Todo.md",
     "projects/nick/Proposals/Approaching other Law Firms.md",
-    "projects/nick/Proposals",
     "projects/nick/security/Automation.md",
     "projects/nick/security/Resend.md",
     "projects/nick/security/Local SEO.md",
     "projects/nick/security/Astro Maintenance.md",
     "projects/ecommerce/nick/security/Security.md",
     "projects/nick/security/Wordpress Maintenance.md",
-    "projects/nick/security",
     "projects/music-school/debug/vite/local-testing/Phone.md",
     "projects/music-school/questions/Node.md",
-    "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
-    "projects/music-school/topics/tailwind/Order.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
