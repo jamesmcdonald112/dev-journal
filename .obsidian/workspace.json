@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "shared-notes/patterns/List.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/Components/form/Manuel Tests.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "List"
+              "title": "Manuel Tests"
             }
           }
         ],
@@ -234,8 +234,12 @@
   },
   "active": "786d847461b1b7cd",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
     "shared-notes/patterns/List.md",
+    "projects/music-school/01-daily-builds/01 Setup/Components/form/Manuel Tests.md",
+    "projects/music-school/01-daily-builds/01 Setup/Components/form",
+    "projects/music-school/01-daily-builds/01 Setup/Components/form.md",
+    "projects/music-school/01-daily-builds/01 Setup/Components",
+    "projects/music-school/01-daily-builds/01 Setup/23. Form Server Actions.md",
     "shared-notes/patterns/Untitled",
     "shared-notes/patterns",
     "cv stuff/technical skills/All.md",
@@ -256,9 +260,7 @@
     "projects/automation",
     "projects/Untitled.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
-    "projects/ecommerce/Product Example",
     "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo",
     "projects/nick/Proposals/Mock Ups.md",
     "projects/nick/Todo.md",
     "projects/nick/Proposals/Approaching other Law Firms.md",
@@ -268,8 +270,6 @@
     "projects/nick/security/Astro Maintenance.md",
     "projects/ecommerce/nick/security/Security.md",
     "projects/nick/security/Wordpress Maintenance.md",
-    "projects/music-school/debug/vite/local-testing/Phone.md",
-    "projects/music-school/questions/Node.md",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
