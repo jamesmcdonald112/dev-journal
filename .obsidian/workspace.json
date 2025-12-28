@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/17.  czg + Commitlint.md",
+                "file": "projects/music-school/01-daily-builds/Readme/04. Admin  Test Routes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "17.  czg + Commitlint"
+              "title": "04. Admin  Test Routes"
             }
           }
         ]
@@ -209,6 +209,12 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/Readme/03.  Architecture Notes.md",
+    "projects/music-school/01-daily-builds/Readme/04. Admin  Test Routes.md",
+    "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
+    "projects/music-school/01-daily-builds/Readme/01. Sentry.md",
+    "projects/music-school/01-daily-builds/Readme/00. Overview.md",
+    "projects/music-school/01-daily-builds/01 Setup/17.  czg + Commitlint.md",
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
     "projects/music-school/01-daily-builds/01 Setup/31. API Security test-email.md",
     "projects/music-school/01-daily-builds/01 Setup/29. OWASP REST Security.md",
@@ -232,14 +238,8 @@
     "projects/music-school/01-daily-builds/01 Setup/25. DNS - Vercel Setup.md",
     "projects/music-school/01-daily-builds/06. Performance Testing/Contrast Checker.md",
     "projects/music-school/01-daily-builds/01 Setup/24. Style Guide — Shadcn + Tailwind (v4).md",
-    "projects/music-school/01-daily-builds/01 Setup/02. Tailwind.md",
-    "projects/music-school/01-daily-builds/05 Deployment/Vercel.md",
-    "projects/music-school/01-daily-builds/05 Deployment/Server.md",
-    "projects/nick/Hosting/Nicks Current Server.md",
     "projects/nick/Hosting",
-    "README.md",
     "ai/resources",
-    "projects/music-school/01-daily-builds/01 Setup/Components/form/Manuel Tests.md",
     "Untitled 2",
     "Untitled 1",
     "ai",
