@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/Readme/04. Admin  Test Routes.md",
+                "file": "projects/music-school/01-daily-builds/Readme/04. Admin - Test Routes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "04. Admin  Test Routes"
+              "title": "04. Admin - Test Routes"
             }
           }
         ]
@@ -210,7 +210,7 @@
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
     "projects/music-school/01-daily-builds/Readme/03.  Architecture Notes.md",
-    "projects/music-school/01-daily-builds/Readme/04. Admin  Test Routes.md",
+    "projects/music-school/01-daily-builds/Readme/04. Admin - Test Routes.md",
     "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
     "projects/music-school/01-daily-builds/Readme/01. Sentry.md",
     "projects/music-school/01-daily-builds/Readme/00. Overview.md",
