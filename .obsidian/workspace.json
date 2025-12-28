@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "motion design/resources.md",
+                "file": "css/resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -209,8 +209,8 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/resources.md",
     "motion design/resources.md",
+    "css/resources.md",
     "motion design",
     "projects/music-school/01-daily-builds/Readme/04. Admin - Test Routes.md",
     "css",
