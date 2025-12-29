@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/1. CSS Reset.md",
+                "file": "css/best-practices/2. Utility Classes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. CSS Reset"
+              "title": "2. Utility Classes"
             }
           }
         ]
@@ -209,8 +209,9 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/resources.md",
     "css/best-practices/1. CSS Reset.md",
+    "css/best-practices/2. Utility Classes.md",
+    "css/resources.md",
     "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
     "css/classes",
