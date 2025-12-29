@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/debug/vercel/local-testing.md",
+                "file": "css/resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "local-testing"
+              "title": "resources"
             }
           }
         ]
@@ -209,12 +209,15 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "projects/music-school/debug/vite/local-testing/Phone.md",
+    "css/best-practices/1. Css Reset.md",
+    "css/best-practices",
+    "css/resources.md",
     "projects/music-school/debug/vercel/local-testing.md",
+    "css/classes",
+    "projects/music-school/debug/vite/local-testing/Phone.md",
     "projects/music-school/debug/vercel",
     "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
     "projects/music-school/debug/Untitled.md",
-    "css/resources.md",
     "motion design/resources.md",
     "motion design",
     "projects/music-school/01-daily-builds/Readme/04. Admin - Test Routes.md",
@@ -239,12 +242,8 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/02. Resend.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/01. Zoho.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
-    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
-    "projects/music-school/01-daily-builds/01 Setup/26. Zoho Mail.md",
     "projects/nick/Hosting",
     "ai/resources",
-    "Untitled 2",
-    "Untitled 1",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
