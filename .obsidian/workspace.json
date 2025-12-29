@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/resources.md",
+                "file": "css/best-practices/1. CSS Reset.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "1. CSS Reset"
             }
           }
         ]
@@ -209,9 +209,9 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/best-practices/1. Css Reset.md",
-    "css/best-practices",
     "css/resources.md",
+    "css/best-practices/1. CSS Reset.md",
+    "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
     "css/classes",
     "projects/music-school/debug/vite/local-testing/Phone.md",

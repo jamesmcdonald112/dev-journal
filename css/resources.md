@@ -4,3 +4,4 @@
 - https://every-layout.dev/
 - https://css-for-js.dev/
 - https://meyerweb.com/
+- https://piccalil.li/courses/
