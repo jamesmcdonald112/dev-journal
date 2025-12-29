@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/CUBE.md",
+                "file": "css/best-practices/6. Tokens.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CUBE"
+              "title": "6. Tokens"
             }
           }
         ]
@@ -209,10 +209,14 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/todo.md",
-    "css/CUBE.md",
-    "css/best-practices/2. Utility Classes.md",
+    "css/best-practices/5. Exceptions.md",
+    "css/best-practices/6. Tokens.md",
+    "css/best-practices/4. Block.md",
+    "css/best-practices/2. Composition.md",
+    "css/best-practices/3. Utility Classes.md",
     "css/best-practices/1. CSS Reset.md",
+    "css/CUBE.md",
+    "css/todo.md",
     "css/resources.md",
     "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
@@ -236,13 +240,9 @@
     "projects/music-school/01-daily-builds/01 Setup/28. Resend.md",
     "ai/resources/List.md",
     "design/resources.md",
-    "ai/resources/list.md",
-    "fonts/resources.md",
-    "animation/resources.md",
     "fonts",
     "design",
     "animation",
-    "projects/music-school/01-daily-builds/01 Setup/todo/02. Resend.md",
     "projects/nick/Hosting",
     "ai/resources",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
