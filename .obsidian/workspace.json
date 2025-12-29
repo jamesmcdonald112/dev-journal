@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/2. Utility Classes.md",
+                "file": "css/CUBE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Utility Classes"
+              "title": "CUBE"
             }
           }
         ]
@@ -209,8 +209,10 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/best-practices/1. CSS Reset.md",
+    "css/todo.md",
+    "css/CUBE.md",
     "css/best-practices/2. Utility Classes.md",
+    "css/best-practices/1. CSS Reset.md",
     "css/resources.md",
     "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
@@ -241,8 +243,6 @@
     "design",
     "animation",
     "projects/music-school/01-daily-builds/01 Setup/todo/02. Resend.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/01. Zoho.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/Form.md",
     "projects/nick/Hosting",
     "ai/resources",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
