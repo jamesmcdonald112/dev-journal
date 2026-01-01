@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/resources.md",
+                "file": "css/CUBE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "resources"
+              "title": "CUBE"
             }
           }
         ]
@@ -207,8 +207,9 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d591f3a8b52d65d",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "css/resources.md",
     "css/best-practices/3. Utility Classes.md",
     "css/best-practices/6. Tokens.md",
     "css/best-practices/5. Exceptions.md",
@@ -217,7 +218,6 @@
     "css/best-practices/1. CSS Reset.md",
     "css/CUBE.md",
     "css/todo.md",
-    "css/resources.md",
     "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
     "css/classes",
