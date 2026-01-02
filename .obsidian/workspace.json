@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
+                "file": "css/best-practices/2. Composition.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "32. CSS files"
+              "title": "2. Composition"
             }
           }
         ]
@@ -209,16 +209,16 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/best-practices/1. CSS Reset.md",
-    "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
     "css/best-practices/3. Utility Classes.md",
-    "css/CUBE.md",
-    "css/todo.md",
-    "css/resources.md",
+    "css/best-practices/2. Composition.md",
     "css/best-practices/6. Tokens.md",
+    "css/CUBE.md",
+    "css/resources.md",
+    "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
+    "css/best-practices/1. CSS Reset.md",
+    "css/todo.md",
     "css/best-practices/5. Exceptions.md",
     "css/best-practices/4. Block.md",
-    "css/best-practices/2. Composition.md",
     "css/best-practices",
     "projects/music-school/debug/vercel/local-testing.md",
     "css/classes",
