@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/2. Composition.md",
+                "file": "css/best-practices/6. Tokens.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Composition"
+              "title": "6. Tokens"
             }
           }
         ]
@@ -209,8 +209,10 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "css/best-practices/3. Utility Classes.md",
+    "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
     "css/best-practices/2. Composition.md",
+    "css/to know",
+    "css/best-practices/3. Utility Classes.md",
     "animation/resources.md",
     "css/best-practices/6. Tokens.md",
     "css/CUBE.md",
@@ -239,12 +241,10 @@
     "projects/music-school/01-daily-builds/01 Setup/31. API Security test-email.md",
     "projects/music-school/01-daily-builds/01 Setup/29. OWASP REST Security.md",
     "projects/music-school/01-daily-builds/01 Setup/30. Generate Token.md",
-    "projects/music-school/01-daily-builds/01 Setup/28. Resend.md",
     "fonts",
     "design",
     "animation",
     "projects/nick/Hosting",
-    "ai/resources",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
