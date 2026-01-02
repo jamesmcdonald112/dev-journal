@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/CUBE.md",
+                "file": "css/best-practices/1. CSS Reset.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CUBE"
+              "title": "1. CSS Reset"
             }
           }
         ]
@@ -209,6 +209,7 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "css/CUBE.md",
     "css/best-practices/6. Tokens.md",
     "css/to know/HSL.md",
     "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
@@ -216,7 +217,6 @@
     "css/to know",
     "css/best-practices/3. Utility Classes.md",
     "animation/resources.md",
-    "css/CUBE.md",
     "css/resources.md",
     "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
     "css/best-practices/1. CSS Reset.md",
