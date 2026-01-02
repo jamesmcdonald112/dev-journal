@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/6. Tokens.md",
+                "file": "css/CUBE.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "6. Tokens"
+              "title": "CUBE"
             }
           }
         ]
@@ -209,9 +209,9 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "css/best-practices/6. Tokens.md",
     "css/to know/HSL.md",
     "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
-    "css/best-practices/6. Tokens.md",
     "css/best-practices/2. Composition.md",
     "css/to know",
     "css/best-practices/3. Utility Classes.md",
