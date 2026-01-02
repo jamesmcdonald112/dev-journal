@@ -9,6 +9,14 @@
     **Why:** professional control for hover, scroll, timelines.
     
     **Use cases:** guide attention, emphasize CTAs, smooth reveals.
+
+- [**madewithgsap**](https://madewithgsap.com/get-started) **(PAID)**
+    
+    **Why:** professional control for hover, scroll, timelines.
+    
+    **Use cases:** guide attention, emphasize CTAs, smooth reveals.
+
+
     
 
   
