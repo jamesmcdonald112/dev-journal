@@ -512,3 +512,201 @@ if (input.website.trim()) ...
 If you want, I can also write a short note for the _action handler_ tests (human path vs honeypot path vs error path) so your notes cover the whole flow end-to-end.
 
 
+
+
+Here’s a **clean, Obsidian-ready note** explaining this file, **what it tests, and why it exists** — short, direct, no fluff.
+
+---
+
+## **🧪** 
+
+## **sendInfoPack.test.ts**
+
+##  **— Action Handler Tests**
+
+  
+
+### **Purpose**
+
+  
+
+This file tests the **server-side logic** of the sendInfoPackHandler (the Astro Action handler), **not the UI and not real APIs**.
+
+  
+
+It verifies:
+
+- Human submissions are processed
+    
+- Bot submissions are silently ignored
+    
+- Errors are handled and reported correctly
+    
+
+---
+
+## **What is being tested**
+
+  
+
+### **1. Human submission (happy path)**
+
+```
+deliverInfoPackMock.mockResolvedValueOnce(undefined);
+```
+
+- Simulates a successful email/send operation
+    
+- Confirms:
+    
+    - deliverInfoPack is called once
+        
+    - Correct input is passed
+        
+    - Success response is returned
+        
+    - Sentry is **not** triggered
+        
+    
+
+  
+
+**Why:** proves real users get the info pack.
+
+---
+
+### **2. Honeypot bot submission**
+
+```
+await sendInfoPackHandler({ ...baseInput, website: "x" });
+```
+
+- Simulates a bot filling the hidden website field
+    
+- Confirms:
+    
+    - deliverInfoPack is **not called**
+        
+    - Response is still 200 OK
+        
+    - No Sentry logging
+        
+    
+
+  
+
+**Why:** bots are blocked **silently**, so they don’t retry.
+
+---
+
+### **3. Error handling path**
+
+```
+deliverInfoPackMock.mockRejectedValueOnce(new Error("fail"));
+```
+
+- Simulates a failure inside the delivery service
+    
+- Confirms:
+    
+    - Error is captured by Sentry
+        
+    - Error is wrapped in an ActionError
+        
+    - Correct error code is returned
+        
+    
+
+  
+
+**Why:** guarantees production-safe error handling.
+
+---
+
+## **Why mocks are used**
+
+```
+vi.mock("../../../../src/features/InfoPack/service/deliverInfoPack", () => ({
+  deliverInfoPack: deliverInfoPackMock,
+}));
+```
+
+- Replaces real implementations with **fake test doubles**
+    
+- Prevents:
+    
+    - Sending real emails
+        
+    - Writing to Google Sheets
+        
+    - Triggering Sentry
+        
+    
+
+  
+
+This lets us test **logic only**, fast and safely.
+
+---
+
+## **Why** 
+
+## **vi.hoisted(...)**
+
+##  **is used**
+
+```
+vi.hoisted(() => ({
+  captureExceptionMock: vi.fn(),
+  deliverInfoPackMock: vi.fn(),
+}));
+```
+
+- Ensures mocks exist **before imports run**
+    
+- Required because vi.mock() is hoisted to the top by Vitest
+    
+- Prevents undefined mock errors
+    
+
+---
+
+## **What this file does** 
+
+## **not**
+
+##  **test**
+
+- Zod schema validation (handled elsewhere)
+    
+- UI or form rendering
+    
+- Real email or database integrations
+    
+
+---
+
+## **Why this structure matters**
+
+- Handler logic is isolated and testable
+    
+- External systems are abstracted behind services
+    
+- Bot protection is enforced server-side
+    
+- Error paths are guaranteed to be safe
+    
+
+  
+
+This makes the feature **maintainable, secure, and production-ready**.
+
+---
+
+If you want, next we can:
+
+- Add rate-limit tests
+    
+- Add integration tests later
+    
+- Or write a “testing philosophy” note to tie this all together

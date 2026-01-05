@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/todo/Current.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/37..md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Current"
+              "title": "37."
             }
           }
         ]
@@ -209,8 +209,12 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/33. Spam.md",
+    "projects/music-school/01-daily-builds/01 Setup/35. infoPack.schema.test.ts — Schema tests (Vitest).md",
+    "projects/music-school/01-daily-builds/01 Setup/37..md",
+    "projects/music-school/01-daily-builds/01 Setup/34. Info Pack — Delivery Service (deliverInfoPack).md",
+    "projects/music-school/01-daily-builds/01 Setup/36. InfoPack Delivery Service — why it exists (and what it does).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Current.md",
+    "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "css/resources.md",
     "cv stuff/projects/Ecommerce/All notes.md",
     "cv stuff/projects/Assembly Endgame/All Notes.md",
@@ -235,12 +239,8 @@
     "css/best-practices/5. Exceptions.md",
     "css/best-practices/4. Block.md",
     "css/best-practices",
-    "projects/music-school/debug/vercel/local-testing.md",
     "css/classes",
-    "projects/music-school/debug/vite/local-testing/Phone.md",
     "projects/music-school/debug/vercel",
-    "projects/music-school/01-daily-builds/01 Setup/15. Sentry (Error Logging).md",
-    "projects/music-school/debug/Untitled.md",
     "motion design",
     "css",
     "fonts",
