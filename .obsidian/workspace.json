@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv stuff/technical skills/All.md",
+                "file": "cv stuff/projects/Ecommerce/All notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "All"
+              "title": "All notes"
             }
           }
         ]
@@ -209,6 +209,8 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "cv stuff/technical skills/All.md",
+    "cv stuff/projects/Ecommerce/All notes.md",
     "projects/music-school/01-daily-builds/01 Setup/33. Spam.md",
     "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/03. Sentry.md",
@@ -239,8 +241,6 @@
     "projects/music-school/01-daily-builds/Readme/04. Admin - Test Routes.md",
     "css",
     "projects/music-school/01-daily-builds/Readme/03.  Architecture Notes.md",
-    "projects/music-school/01-daily-builds/Readme/02. Hotjar - Clarity — Analytics & GDPR.md",
-    "projects/music-school/01-daily-builds/Readme/01. Sentry.md",
     "fonts",
     "design",
     "animation",

@@ -687,7 +687,3 @@ You can expand these into full STAR answers later.
     
 15. Which parts of this project best demonstrate your suitability for a junior full-stack or frontend role, and why?
     
-
----
-
-If you want next: I can extract **a smaller “short list” of 6–8 bullets** specifically optimised for **Google NORP / networking CV** or for **pure frontend roles**, reusing this same project.
