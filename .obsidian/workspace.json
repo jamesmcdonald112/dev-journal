@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/37..md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/todo/10.  Tests for rate limit + origin validation.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "37."
+              "title": "10.  Tests for rate limit + origin validation"
             }
           }
         ]
@@ -209,11 +209,19 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/todo/09. Sentry Test Route Hardening.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/10.  Tests for rate limit + origin validation.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/Monitoring.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/08. Logging and Privacy.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/07. Security Checks.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/06. Email.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/05. Storage.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/04. Spam.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/Current.md",
+    "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "projects/music-school/01-daily-builds/01 Setup/35. infoPack.schema.test.ts — Schema tests (Vitest).md",
-    "projects/music-school/01-daily-builds/01 Setup/37..md",
     "projects/music-school/01-daily-builds/01 Setup/34. Info Pack — Delivery Service (deliverInfoPack).md",
     "projects/music-school/01-daily-builds/01 Setup/36. InfoPack Delivery Service — why it exists (and what it does).md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/Current.md",
     "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "css/resources.md",
     "cv stuff/projects/Ecommerce/All notes.md",
@@ -229,15 +237,7 @@
     "css/best-practices/1. CSS Reset.md",
     "css/CUBE.md",
     "css/best-practices/6. Tokens.md",
-    "css/to know/HSL.md",
-    "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
-    "css/best-practices/2. Composition.md",
     "css/to know",
-    "css/best-practices/3. Utility Classes.md",
-    "animation/resources.md",
-    "css/todo.md",
-    "css/best-practices/5. Exceptions.md",
-    "css/best-practices/4. Block.md",
     "css/best-practices",
     "css/classes",
     "projects/music-school/debug/vercel",
