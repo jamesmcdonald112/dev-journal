@@ -232,3 +232,283 @@ handler: sendInfoPackHandler,
 
 });
 ```
+
+
+Here are clean Obsidian notes for that test file. Copy/paste as-is.
+
+---
+
+# **InfoPack Zod Schema Tests (Vitest)**
+
+  
+
+**File:** test/features/InfoPack/schemas/infoPack.schema.test.ts
+
+**Goal:** Lock down infoPackSchema behaviour so validation + transforms can’t silently regress.
+
+  
+
+## **Imports (what/why)**
+
+- vitest (describe/test/expect) → unit test framework.
+    
+- zod type import → used only for typing test inputs.
+    
+- FORM_LIMITS → reuse real min/max limits (no hardcoded numbers in tests).
+    
+- infoPackSchema → the schema under test.
+    
+
+  
+
+## **Input typing:** 
+
+## `**z.input<typeof infoPackSchema>`**
+
+```
+type InfoPackInput = z.input<typeof infoPackSchema>;
+```
+
+- z.input = the _raw_ shape the schema accepts **before** transforms/coercion.
+    
+- Important because studentAge can arrive as "8" (string) from a form, even though output becomes number.
+    
+
+  
+
+## **Helper factory:** 
+
+## **makeValidInput(...)**
+
+```
+function makeValidInput(overrides: `Partial<InfoPackInput> `= {}): InfoPackInput {
+  return { ...defaults, ...overrides };
+}
+```
+
+Purpose:
+
+- Creates a known-good baseline object.
+    
+- Each test overrides only the field it cares about.
+    
+
+  
+
+Key details:
+
+- `Partial<InfoPackInput>` means overrides can contain _only some_ fields.
+    
+- = {} means “if you pass nothing, default to empty object” (it does **not** auto-fill strings to ""; it’s just a default param value).
+    
+
+  
+
+## **Pulling limits from config**
+
+```
+const { fullName: FULL_NAME_LIMITS, ... } = FORM_LIMITS;
+```
+
+Why:
+
+- Tests stay correct if limits change (single source of truth).
+    
+- Variable names end with _LIMITS to be explicit.
+    
+
+---
+
+# **Test groups (what each block guarantees)**
+
+  
+
+## **1) Happy path (full valid input)**
+
+  
+
+Asserts:
+
+- .trim() works on fullName + message.
+    
+- .toLowerCase() works on email.
+    
+- website whitespace becomes "" (your honeypot transform behaviour).
+    
+- The final parsed object matches expected normalized output.
+    
+
+  
+
+## **2)** 
+
+## **fullName**
+
+  
+
+Tests:
+
+- trims whitespace
+    
+- throws if length < min
+    
+- throws if length > max
+    
+
+  
+
+Technique used:
+
+```
+"a".repeat(FULL_NAME_LIMITS.min - 1)
+```
+
+- Generates a string that’s **exactly 1 char too short/long**, so the failure is guaranteed.
+    
+
+  
+
+## **3)** 
+
+## **email**
+
+  
+
+Tests:
+
+- trims + lowercases
+    
+- rejects invalid email
+    
+- rejects when longer than max
+    
+
+  
+
+Max-length test uses a domain constant:
+
+```
+const domain = "@example.com";
+const longEmail = `${"a".repeat(EMAIL_LIMITS.max - domain.length + 1)}${domain}`;
+```
+
+- Ensures the full string length exceeds max.
+    
+
+  
+
+## **4)** 
+
+## **phone**
+
+  
+
+Tests:
+
+- accepts known-good phone string (whatever your regex allows)
+    
+- rejects invalid phone
+    
+
+  
+
+Note:
+
+- input.phone.trim() expectation verifies trimming is applied (if .trim() is in the schema).
+    
+
+  
+
+## **5)** 
+
+## **studentAge**
+
+  
+
+Tests:
+
+- accepts valid number
+    
+- accepts numeric string input ("8") **because Zod coercion** (z.coerce.number())
+    
+- rejects decimals (8.5) and decimal strings ("8.5")
+    
+- rejects `< min, rejects >` max
+    
+- accepts missing studentAge (optional)
+    
+
+  
+
+Why rawInput as unknown?
+
+- Because the typed makeValidInput() returns studentAge: number.
+    
+- For the "8" case, you’re simulating what the browser actually sends.
+    
+
+  
+
+## **6)** 
+
+## **message**
+
+  
+
+Tests:
+
+- missing message allowed (optional)
+    
+- whitespace-only message becomes "" after trim
+    
+- rejects message longer than max
+    
+
+  
+
+## **7)** 
+
+## **website**
+
+##  **transform (honeypot field)**
+
+  
+
+Tests:
+
+- missing → ""
+    
+- null → ""
+    
+- whitespace → ""
+    
+- non-empty → trimmed value remains
+    
+
+  
+
+This guarantees:
+
+- input.website is always a string after parse, so honeypot logic can safely do:
+    
+
+```
+if (input.website.trim()) ...
+```
+
+  
+
+---
+
+# **Why this test file matters**
+
+- Validates **both**: validation rules (min/max/regex/email) and normalization (trim/lowercase/coerce/transform).
+    
+- Makes spam protection safer: website is always normalized to a string, avoiding runtime surprises like null.
+    
+
+---
+
+If you want, I can also write a short note for the _action handler_ tests (human path vs honeypot path vs error path) so your notes cover the whole flow end-to-end.
+
+
