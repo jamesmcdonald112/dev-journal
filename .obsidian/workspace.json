@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv stuff/projects/Assembly Endgame/All Notes.md",
+                "file": "cv stuff/projects/Ecommerce/All notes.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "All Notes"
+              "title": "All notes"
             }
           }
         ]
@@ -209,8 +209,8 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "cv stuff/projects/Movie Search App/All notes.md",
     "cv stuff/projects/Assembly Endgame/All Notes.md",
+    "cv stuff/projects/Movie Search App/All notes.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/technical skills/All.md",
     "cv stuff/projects/Ecommerce/All notes.md",
