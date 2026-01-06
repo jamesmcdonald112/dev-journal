@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/38. Allowed Origins.md",
+                "file": "projects/music-school/01-daily-builds/Readme/05. Allowed Origins.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "38. Allowed Origins"
+              "title": "05. Allowed Origins"
             }
           }
         ]
@@ -209,8 +209,9 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "projects/music-school/01-daily-builds/01 Setup/38. Allowed Origins.md",
+    "projects/music-school/01-daily-builds/Readme/05. Allowed Origins.md",
+    "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/11. Origin validation.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/10. Rate Limiting (Deferred Decision).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/09. Sentry Test Route Hardening.md",
@@ -236,7 +237,6 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/03. Sentry.md",
     "projects/music-school/01-daily-builds/01 Setup/31. API Security test-email.md",
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
-    "css/best-practices/1. CSS Reset.md",
     "css/to know",
     "css/best-practices",
     "css/classes",
