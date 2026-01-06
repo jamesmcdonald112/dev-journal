@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/todo/10.  Rate limit + origin validation and tests.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "10.  Rate limit + origin validation and tests"
+              "title": "37. sendInfoPack.test.ts — Action handler unit tests (with mocks)"
             }
           }
         ]
@@ -207,12 +207,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d591f3a8b52d65d",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/01 Setup/todo/11. Origin validation.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/10. Rate Limiting (Deferred Decision).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/09. Sentry Test Route Hardening.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/08. Logging and Privacy.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/07. Security Checks.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/10.  Rate limit + origin validation and tests.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Monitoring.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/06. Email.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/05. Storage.md",
@@ -236,7 +237,6 @@
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "css/best-practices/1. CSS Reset.md",
     "css/CUBE.md",
-    "css/best-practices/6. Tokens.md",
     "css/to know",
     "css/best-practices",
     "css/classes",
