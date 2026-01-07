@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/02. Design/01. Sections.md",
+                "file": "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy/01. Hero.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. Sections"
+              "title": "01. Hero"
             }
           }
         ]
@@ -207,10 +207,16 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d591f3a8b52d65d",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/02. Parent Psychology.md",
+    "projects/music-school/01-daily-builds/02. Design/solicitor firm",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/03. High-Converting Page Structure.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/01. Core Objectives.md",
+    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/00. Overview.md",
+    "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy/01. Hero.md",
     "projects/music-school/01-daily-builds/Readme/06. Resend.md",
-    "projects/music-school/01-daily-builds/02. Design/01. Sections.md",
     "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
     "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
@@ -230,11 +236,6 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/06. Email.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/05. Storage.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/04. Spam.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/Current.md",
-    "projects/music-school/01-daily-builds/01 Setup/35. infoPack.schema.test.ts — Schema tests (Vitest).md",
-    "projects/music-school/01-daily-builds/01 Setup/34. Info Pack — Delivery Service (deliverInfoPack).md",
-    "projects/music-school/01-daily-builds/01 Setup/36. InfoPack Delivery Service — why it exists (and what it does).md",
-    "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
@@ -244,7 +245,6 @@
     "motion design",
     "css",
     "fonts",
-    "design",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
