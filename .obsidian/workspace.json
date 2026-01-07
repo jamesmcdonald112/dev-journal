@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/1..md",
-                "mode": "source",
+                "file": "css/Questions/0. All questions.md",
+                "mode": "preview",
                 "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1."
+              "title": "0. All questions"
             }
           }
         ]
@@ -209,8 +209,11 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
+    "css/Questions/2. Line boxes vs line-height.md",
+    "css/Questions/0. All questions.md",
+    "css/Questions/1. Text layout vs box layout.md",
+    "css/Questions/3. Paint vs layout.md",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy/01. Hero.md",
-    "css/Questions/1..md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/02. Parent Psychology.md",
@@ -235,9 +238,6 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/08. Logging and Privacy.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/07. Security Checks.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/Monitoring.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/06. Email.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/05. Storage.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/04. Spam.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
