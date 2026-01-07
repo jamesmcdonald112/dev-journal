@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/music-school/01-daily-builds/01 Setup/todo/12. Client Confirmation Email.md",
+                "file": "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. Client Confirmation Email"
+              "title": "39. Resend Part 2"
             }
           }
         ]
@@ -209,8 +209,14 @@
   },
   "active": "8d591f3a8b52d65d",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/Readme/05. Allowed Origins.md",
+    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
+    "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
+    "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
+    "projects/music-school/01-daily-builds/01 Setup/19. Husky Commands.md",
+    "projects/music-school/01-daily-builds/01 Setup/28. Resend.md",
+    "projects/music-school/01-daily-builds/01 Setup/todo/01. Zoho.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/12. Client Confirmation Email.md",
+    "projects/music-school/01-daily-builds/Readme/05. Allowed Origins.md",
     "projects/music-school/01-daily-builds/01 Setup/38. Allowed Origins.md",
     "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/11. Origin validation.md",
@@ -229,14 +235,8 @@
     "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "css/resources.md",
     "cv stuff/projects/Ecommerce/All notes.md",
-    "cv stuff/projects/Assembly Endgame/All Notes.md",
-    "cv stuff/projects/Movie Search App/All notes.md",
     "cv stuff/projects/Assembly Endgame",
-    "cv stuff/technical skills/All.md",
     "cv stuff/projects/Movie Search App",
-    "projects/music-school/01-daily-builds/01 Setup/32. CSS files.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/03. Sentry.md",
-    "projects/music-school/01-daily-builds/01 Setup/31. API Security test-email.md",
     "css/to know",
     "css/best-practices",
     "css/classes",
