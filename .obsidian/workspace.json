@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "0. All questions"
             }
+          },
+          {
+            "id": "57cf383903d01d8f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "css/Questions/0. All questions.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "0. All questions"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,10 +232,11 @@
       "templates:Insert template": false
     }
   },
-  "active": "8d591f3a8b52d65d",
+  "active": "57cf383903d01d8f",
   "lastOpenFiles": [
-    "css/Questions/2. Line boxes vs line-height.md",
+    "css/Questions/4. Logical Properties.md",
     "css/Questions/0. All questions.md",
+    "css/Questions/2. Line boxes vs line-height.md",
     "css/Questions/1. Text layout vs box layout.md",
     "css/Questions/3. Paint vs layout.md",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy/01. Hero.md",
@@ -237,7 +263,6 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/09. Sentry Test Route Hardening.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/08. Logging and Privacy.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/07. Security Checks.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/Monitoring.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
