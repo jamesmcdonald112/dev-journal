@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/5. Flexbox.md",
+                "file": "css/resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. Flexbox"
+              "title": "resources"
             }
           }
         ],
@@ -234,10 +234,11 @@
   },
   "active": "57cf383903d01d8f",
   "lastOpenFiles": [
-    "css/Questions/6. Intrinsic sizing and min-width.md",
-    "css/Questions/5. Flexbox.md",
-    "css/Questions/1. Text layout vs box layout.md",
     "css/Questions/0. All questions.md",
+    "css/Questions/7. Tuple.md",
+    "css/Questions/5. Flexbox.md",
+    "css/Questions/6. Intrinsic sizing and min-width.md",
+    "css/Questions/1. Text layout vs box layout.md",
     "css/Questions/4. Logical Properties.md",
     "css/Questions/2. Line boxes vs line-height.md",
     "css/Questions/3. Paint vs layout.md",
@@ -262,7 +263,6 @@
     "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "projects/music-school/01-daily-builds/01 Setup/todo/11. Origin validation.md",
     "projects/music-school/01-daily-builds/01 Setup/todo/10. Rate Limiting (Deferred Decision).md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/09. Sentry Test Route Hardening.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
