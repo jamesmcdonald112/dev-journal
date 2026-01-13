@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/8. CSS Custom Properties (Variables).md",
+                "file": "css/Questions/5. Flexbox.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. CSS Custom Properties (Variables)"
+              "title": "5. Flexbox"
             }
           }
         ],
@@ -234,8 +234,8 @@
   },
   "active": "57cf383903d01d8f",
   "lastOpenFiles": [
-    "css/Questions/0. All questions.md",
     "css/Questions/8. CSS Custom Properties (Variables).md",
+    "css/Questions/0. All questions.md",
     "css/Questions/5. Flexbox.md",
     "css/best-practices/1. CSS Reset.md",
     "css/resources.md",
