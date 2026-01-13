@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/5. Flexbox.md",
+                "file": "css/Questions/8. CSS Custom Properties (Variables).md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,7 +52,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. Flexbox"
+              "title": "8. CSS Custom Properties (Variables)"
             }
           }
         ],
@@ -234,11 +234,12 @@
   },
   "active": "57cf383903d01d8f",
   "lastOpenFiles": [
+    "css/Questions/0. All questions.md",
+    "css/Questions/8. CSS Custom Properties (Variables).md",
+    "css/Questions/5. Flexbox.md",
     "css/best-practices/1. CSS Reset.md",
     "css/resources.md",
-    "css/Questions/0. All questions.md",
     "css/Questions/7. Tuple.md",
-    "css/Questions/5. Flexbox.md",
     "css/Questions/6. Intrinsic sizing and min-width.md",
     "css/Questions/1. Text layout vs box layout.md",
     "css/Questions/4. Logical Properties.md",
@@ -262,7 +263,6 @@
     "projects/music-school/01-daily-builds/01 Setup/todo/12. Client Confirmation Email.md",
     "projects/music-school/01-daily-builds/Readme/05. Allowed Origins.md",
     "projects/music-school/01-daily-builds/01 Setup/38. Allowed Origins.md",
-    "projects/music-school/01-daily-builds/01 Setup/37. sendInfoPack.test.ts — Action handler unit tests (with mocks).md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
