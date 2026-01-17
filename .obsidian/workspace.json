@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/9. Grid.md",
+                "file": "css/Questions/10. Images.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9. Grid"
+              "title": "10. Images"
             }
           }
         ],
@@ -259,6 +259,7 @@
   "active": "b45d982ff08b5401",
   "lastOpenFiles": [
     "css/Questions/0. All questions.md",
+    "css/Questions/10. Images.md",
     "css/Questions/9. Grid.md",
     "css/Questions/1. Text layout vs box layout.md",
     "css/best-practices/Untitled.md",
@@ -286,7 +287,6 @@
     "projects/music-school/01-daily-builds/01 Setup/ToDo.md",
     "projects/music-school/01-daily-builds/01 Setup/19. Husky Commands.md",
     "projects/music-school/01-daily-builds/01 Setup/28. Resend.md",
-    "projects/music-school/01-daily-builds/01 Setup/todo/01. Zoho.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
