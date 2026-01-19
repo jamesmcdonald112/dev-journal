@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inspiration/Law Sites.md",
+                "file": "css/resources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -76,7 +76,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Law Sites"
+              "title": "resources"
             }
           }
         ],
@@ -258,8 +258,8 @@
   },
   "active": "b45d982ff08b5401",
   "lastOpenFiles": [
-    "css/Questions/10. Images.md",
     "Inspiration/Law Sites.md",
+    "css/Questions/10. Images.md",
     "Inspiration",
     "css/Questions/0. All questions.md",
     "css/Questions/9. Grid.md",
