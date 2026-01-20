@@ -78,9 +78,21 @@
               "icon": "lucide-file",
               "title": "resources"
             }
+          },
+          {
+            "id": "428503aefc84081b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.5"
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -256,7 +268,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "b45d982ff08b5401",
+  "active": "428503aefc84081b",
   "lastOpenFiles": [
     "Inspiration/Law Sites.md",
     "css/Questions/10. Images.md",
