@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/blocks/Navbar.md",
+                "file": "css/to build/01. Skip Links.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Navbar"
+              "title": "01. Skip Links"
             }
           }
         ],
@@ -282,8 +282,13 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/Questions/12.Nav bar.md",
+    "css/CUBE.md",
+    "css/to build/01. Skip Links.md",
+    "css/to build",
+    "css/to know/HSL.md",
+    "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
     "css/blocks/Navbar.md",
+    "css/Questions/12.Nav bar.md",
     "css/blocks",
     "css/best-practices/1. CSS Reset.md",
     "css/Questions/11. Resets.md",
@@ -309,15 +314,10 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/02. Parent Psychology.md",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/03. High-Converting Page Structure.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/01. Core Objectives.md",
-    "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/00. Overview.md",
-    "projects/music-school/01-daily-builds/Readme/06. Resend.md",
-    "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
     "css/best-practices",
-    "css/classes",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
