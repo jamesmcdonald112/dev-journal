@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/12.Nav bar.md",
+                "file": "css/blocks/Navbar.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12.Nav bar"
+              "title": "Navbar"
             }
           }
         ],
@@ -282,8 +282,10 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/best-practices/1. CSS Reset.md",
     "css/Questions/12.Nav bar.md",
+    "css/blocks/Navbar.md",
+    "css/blocks",
+    "css/best-practices/1. CSS Reset.md",
     "css/Questions/11. Resets.md",
     "css/Questions/0. All questions.md",
     "Inspiration/Law Sites.md",
@@ -311,13 +313,11 @@
     "projects/music-school/01-daily-builds/02. Design/Kids School/Website Design Best Practices/00. Overview.md",
     "projects/music-school/01-daily-builds/Readme/06. Resend.md",
     "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
-    "projects/music-school/01-daily-builds/01 Setup/00. Overview.md",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
     "css/to know",
     "css/best-practices",
     "css/classes",
-    "projects/music-school/debug/vercel",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
