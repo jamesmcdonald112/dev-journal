@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Checklist/01. CLIENT INTAKE FORM.md",
+                "file": "projects/Law Firm/Checklist/02. Website Layout.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "01. CLIENT INTAKE FORM"
+              "title": "02. Website Layout"
             }
           }
         ],
@@ -282,8 +282,12 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/02. Website Layout.md",
+    "projects/Law Firm/Checklist/02. Website Layout.md",
+    "projects/Law Firm/Nick/01. Client Intake Form.md",
+    "projects/Law Firm/Checklist/01. Client Intake Form.md",
+    "projects/Law Firm/Nick",
     "projects/Law Firm/Checklist/01. Client questions.md",
-    "projects/Law Firm/Checklist/01. CLIENT INTAKE FORM.md",
     "projects/Law Firm/Checklist/01. Client Answers.md",
     "projects/Law Firm/Checklist/Client - Checklist.md",
     "projects/Law Firm/Todo.md",
@@ -309,15 +313,11 @@
     "css/Questions/5. Flexbox.md",
     "css/Questions/8. CSS Custom Properties (Variables).md",
     "css/resources.md",
-    "css/Questions/7. Tuple.md",
-    "css/Questions/6. Intrinsic sizing and min-width.md",
-    "css/Questions/4. Logical Properties.md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
     "cv stuff/projects/Assembly Endgame",
     "cv stuff/projects/Movie Search App",
-    "css/to know",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
