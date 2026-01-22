@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/references/Sites and Figma files.md",
+                "file": "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sites and Figma files"
+              "title": "13. Element Layout Engine vs Text Layout Engine"
             }
           }
         ],
@@ -282,10 +282,14 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "css/Questions/0. All questions.md",
+    "css/Questions/12. Nav bar.md",
+    "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
+    "css/Questions/1. Text layout vs box layout.md",
+    "projects/Law Firm/references/Sites and Figma files.md",
     "projects/Law Firm/Nick/02. Website Layout.md",
     "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Checklist/02. Website Layout.md",
-    "projects/Law Firm/references/Sites and Figma files.md",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Checklist/01. Client Intake Form.md",
@@ -301,19 +305,15 @@
     "css/to know/HSL.md",
     "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
     "css/blocks/Navbar.md",
-    "css/Questions/12.Nav bar.md",
     "css/blocks",
     "css/best-practices/1. CSS Reset.md",
     "css/Questions/11. Resets.md",
-    "css/Questions/0. All questions.md",
     "Inspiration/Law Sites.md",
     "css/Questions/10. Images.md",
     "Inspiration",
     "css/Questions/9. Grid.md",
-    "css/Questions/1. Text layout vs box layout.md",
     "css/best-practices/Untitled.md",
     "css/best-practices/6. Tokens.md",
-    "css/Questions/5. Flexbox.md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
