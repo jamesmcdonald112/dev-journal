@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Checklist/02. CLIENT INTAKE FORM.md",
+                "file": "projects/Law Firm/Checklist/01. CLIENT INTAKE FORM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02. CLIENT INTAKE FORM"
+              "title": "01. CLIENT INTAKE FORM"
             }
           }
         ],
@@ -283,7 +283,7 @@
   "active": "428503aefc84081b",
   "lastOpenFiles": [
     "projects/Law Firm/Checklist/01. Client questions.md",
-    "projects/Law Firm/Checklist/02. CLIENT INTAKE FORM.md",
+    "projects/Law Firm/Checklist/01. CLIENT INTAKE FORM.md",
     "projects/Law Firm/Checklist/01. Client Answers.md",
     "projects/Law Firm/Checklist/Client - Checklist.md",
     "projects/Law Firm/Todo.md",
