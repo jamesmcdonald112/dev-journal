@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Checklist/Client - Checklist.md",
+                "file": "projects/Law Firm/Checklist/02. CLIENT INTAKE FORM.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Client - Checklist"
+              "title": "02. CLIENT INTAKE FORM"
             }
           }
         ],
@@ -283,6 +283,8 @@
   "active": "428503aefc84081b",
   "lastOpenFiles": [
     "projects/Law Firm/Checklist/01. Client questions.md",
+    "projects/Law Firm/Checklist/02. CLIENT INTAKE FORM.md",
+    "projects/Law Firm/Checklist/01. Client Answers.md",
     "projects/Law Firm/Checklist/Client - Checklist.md",
     "projects/Law Firm/Todo.md",
     "projects/Law Firm/Checklist",
@@ -310,8 +312,6 @@
     "css/Questions/7. Tuple.md",
     "css/Questions/6. Intrinsic sizing and min-width.md",
     "css/Questions/4. Logical Properties.md",
-    "css/Questions/2. Line boxes vs line-height.md",
-    "css/Questions/3. Paint vs layout.md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
