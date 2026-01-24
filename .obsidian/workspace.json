@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
+                "file": "design/refactoring ui/Checklist.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "13. Element Layout Engine vs Text Layout Engine"
+              "title": "Checklist"
             }
           }
         ],
@@ -282,9 +282,12 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "design/resources.md",
+    "design/refactoring ui/Checklist.md",
+    "design/refactoring ui",
+    "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
     "css/Questions/0. All questions.md",
     "css/Questions/12. Nav bar.md",
-    "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
     "css/Questions/1. Text layout vs box layout.md",
     "projects/Law Firm/references/Sites and Figma files.md",
     "projects/Law Firm/Nick/02. Website Layout.md",
@@ -312,12 +315,9 @@
     "css/Questions/10. Images.md",
     "Inspiration",
     "css/Questions/9. Grid.md",
-    "css/best-practices/Untitled.md",
-    "css/best-practices/6. Tokens.md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
-    "cv stuff/projects/Assembly Endgame",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"

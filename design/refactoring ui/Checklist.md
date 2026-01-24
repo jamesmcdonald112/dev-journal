@@ -1,0 +1,3 @@
+- Feature → Layout → polish
+	- Features decide layout. Layout reveals hierarchy. Details come last.
+- 
