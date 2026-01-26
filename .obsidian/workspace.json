@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "design/refactoring ui/Checklist.md",
+                "file": "css/best-practices/1. CSS Reset.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Checklist"
+              "title": "1. CSS Reset"
             }
           }
         ],
@@ -282,8 +282,9 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "design/resources.md",
+    "css/best-practices/2. Composition.md",
     "design/refactoring ui/Checklist.md",
+    "design/resources.md",
     "design/refactoring ui",
     "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
     "css/Questions/0. All questions.md",
@@ -314,7 +315,6 @@
     "Inspiration/Law Sites.md",
     "css/Questions/10. Images.md",
     "Inspiration",
-    "css/Questions/9. Grid.md",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm",
