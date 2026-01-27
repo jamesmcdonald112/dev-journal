@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/to know/PostCSS.md",
+                "file": "css/to know/fontsource.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "PostCSS"
+              "title": "fontsource"
             }
           }
         ],
@@ -282,8 +282,9 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/best-practices/7. Breakpoints.md",
     "css/to know/PostCSS.md",
+    "css/to know/fontsource.md",
+    "css/best-practices/7. Breakpoints.md",
     "css/to know/HSL.md",
     "css/to know/CSS variables as “layout knobs” (scoped overrides).md",
     "css/best-practices/1. CSS Reset.md",
@@ -313,7 +314,6 @@
     "css/to build",
     "css/blocks/Navbar.md",
     "css/blocks",
-    "css/Questions/11. Resets.md",
     "Inspiration",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",

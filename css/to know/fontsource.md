@@ -1,0 +1,1 @@
+https://fontsource.org/fonts/source-serif-4/install
