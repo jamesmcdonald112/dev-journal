@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Site references/5..md",
+                "file": "projects/Law Firm/Nick/Site references/Sources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5."
+              "title": "Sources"
             }
           }
         ],
@@ -282,12 +282,15 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/Site references/8. FAQs.md",
     "projects/Law Firm/Nick/Site references/Sources.md",
-    "projects/Law Firm/Nick/Site references/5..md",
+    "projects/Law Firm/Nick/Site references/7. Contact.md",
     "projects/Law Firm/Nick/Site references/4. About Us.md",
+    "projects/Law Firm/Nick/Site references/6. Footer.md",
+    "projects/Law Firm/Nick/Site references/1. Navbar.md",
+    "projects/Law Firm/Nick/Site references/5. Testimonials.md",
     "projects/Law Firm/Nick/Site references/3. Practice Areas.md",
     "projects/Law Firm/Nick/Site references/2. Hero.md",
-    "projects/Law Firm/Nick/Site references/1. Navbar.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
@@ -312,9 +315,6 @@
     "design/refactoring ui/Checklist.md",
     "design/resources.md",
     "design/refactoring ui",
-    "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
-    "css/Questions/12. Nav bar.md",
-    "css/Questions/1. Text layout vs box layout.md",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
     "projects/Law Firm/Checklist",
