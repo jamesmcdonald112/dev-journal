@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/8. Fontsource.md",
+                "file": "projects/Law Firm/Nick/Site references/Sources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. Fontsource"
+              "title": "Sources"
             }
           }
         ],
@@ -282,8 +282,12 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/to know/fontsource.md",
+    "projects/Law Firm/Nick/01. Client Intake Form.md",
+    "projects/Law Firm/Nick/Site references/Sources.md",
+    "projects/Law Firm/Nick/Site references",
+    "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "css/best-practices/8. Fontsource.md",
+    "css/to know/fontsource.md",
     "css/Questions/0. All questions.md",
     "css/Questions/14. Accessibility.md",
     "css/to know/PostCSS.md",
@@ -303,21 +307,17 @@
     "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Checklist/02. Website Layout.md",
     "projects/Law Firm/references",
-    "projects/Law Firm/Nick/01. Client Intake Form.md",
-    "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "projects/Law Firm/Nick",
     "projects/Law Firm/Checklist/01. Client questions.md",
     "projects/Law Firm/Checklist/01. Client Answers.md",
     "projects/Law Firm/Checklist/Client - Checklist.md",
     "projects/Law Firm/Todo.md",
     "projects/Law Firm/Checklist",
-    "css/to build/01. Skip Links.md",
     "css/to build",
     "css/blocks",
     "Inspiration",
     "css/Questions",
     "projects/music-school/01-daily-builds/02. Design/solicitor firm/copy",
-    "projects/music-school/01-daily-builds/02. Design/solicitor firm",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
