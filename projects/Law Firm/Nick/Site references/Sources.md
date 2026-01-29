@@ -3,6 +3,7 @@
 https://raftersolicitors.ie/
 https://htmlbeans.com/html/lawfirm/?storefront=envato-elements
 https://www.smithwicksolicitors.ie/
+https://raftersolicitors.ie/
 
 
 ![[attatchments/images/Screenshot 2026-01-29 at 13.53.54.png]]
@@ -62,3 +63,11 @@ https://app.envato.com/search/photos/d8f4ac3f-dd3c-44d4-9e96-4a370e82bfec?itemTy
 
 
 
+## Testimonials
+https://raftersolicitors.ie/
+![[attatchments/images/Screenshot 2026-01-29 at 15.16.56.png]]
+
+
+## Phone and Opening times
+https://www.pkhl.ie/
+![[attatchments/images/Screenshot 2026-01-29 at 15.21.21.png]]
