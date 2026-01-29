@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/0. All questions.md",
+                "file": "css/best-practices/8. Fontsource.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. All questions"
+              "title": "8. Fontsource"
             }
           }
         ],
@@ -282,8 +282,10 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/Questions/14. Accessibility.md",
     "css/to know/fontsource.md",
+    "css/best-practices/8. Fontsource.md",
+    "css/Questions/0. All questions.md",
+    "css/Questions/14. Accessibility.md",
     "css/to know/PostCSS.md",
     "css/best-practices/7. Breakpoints.md",
     "css/to know/HSL.md",
@@ -294,7 +296,6 @@
     "design/resources.md",
     "design/refactoring ui",
     "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
-    "css/Questions/0. All questions.md",
     "css/Questions/12. Nav bar.md",
     "css/Questions/1. Text layout vs box layout.md",
     "projects/Law Firm/references/Sites and Figma files.md",
@@ -311,7 +312,6 @@
     "projects/Law Firm/Todo.md",
     "projects/Law Firm/Checklist",
     "css/to build/01. Skip Links.md",
-    "css/CUBE.md",
     "css/to build",
     "css/blocks",
     "Inspiration",
