@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/02. Website Layout.md",
+                "file": "projects/Law Firm/Nick/Site references/Sources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02. Website Layout"
+              "title": "Sources"
             }
           }
         ],
@@ -282,11 +282,11 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/02. Website Layout.md",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/Site references/Sources.md",
     "projects/Law Firm/references/Sites and Figma files.md",
     "projects/Law Firm/Nick/03. What i need.md",
-    "projects/Law Firm/Nick/02. Website Layout.md",
     "projects/Law Firm/Nick/Site references",
     "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "css/best-practices/8. Fontsource.md",
