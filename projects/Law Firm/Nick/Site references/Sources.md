@@ -14,7 +14,12 @@ https://www.smithwicksolicitors.ie/
 https://www.gracesolicitors.ie/our-team/
 ![[attatchments/images/Screenshot 2026-01-29 at 13.38.42.png]]
 
+![[attatchments/images/Screenshot 2026-01-29 at 14.02.33.png]]
+https://app.envato.com/search/photos/d8f4ac3f-dd3c-44d4-9e96-4a370e82bfec?itemType=photos&term=lady+justice&sort=relevance
 
+
+ Testimonlais 
+ - maybe not
 
 
 ## Areas
