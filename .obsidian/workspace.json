@@ -136,7 +136,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "\"key",
+                "query": "tag:#D9C7C1",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -157,7 +157,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -280,7 +281,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "428503aefc84081b",
+  "active": "e9b2fa10f7ab8344",
   "lastOpenFiles": [
     "css/best-practices/7. Breakpoints.md",
     "css/best-practices/6. Tokens.md",
