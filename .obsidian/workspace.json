@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Site references/Sources.md",
+                "file": "projects/Law Firm/Nick/02. Website Layout.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sources"
+              "title": "02. Website Layout"
             }
           }
         ],
@@ -284,6 +284,9 @@
   "lastOpenFiles": [
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/Site references/Sources.md",
+    "projects/Law Firm/references/Sites and Figma files.md",
+    "projects/Law Firm/Nick/03. What i need.md",
+    "projects/Law Firm/Nick/02. Website Layout.md",
     "projects/Law Firm/Nick/Site references",
     "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "css/best-practices/8. Fontsource.md",
@@ -302,9 +305,6 @@
     "css/Questions/13. Element Layout Engine vs Text Layout Engine.md",
     "css/Questions/12. Nav bar.md",
     "css/Questions/1. Text layout vs box layout.md",
-    "projects/Law Firm/references/Sites and Figma files.md",
-    "projects/Law Firm/Nick/02. Website Layout.md",
-    "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Checklist/02. Website Layout.md",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
