@@ -18,8 +18,16 @@ https://www.gracesolicitors.ie/our-team/
 https://app.envato.com/search/photos/d8f4ac3f-dd3c-44d4-9e96-4a370e82bfec?itemType=photos&term=lady+justice&sort=relevance
 
 
- Testimonlais 
+ ## Testimonials 
  - maybe not
+
+## FAQs
+- Maybe 
+- One for each practice area page
+
+## Footer 
+- Google maps
+- Addresses
 
 
 ## Areas
@@ -33,6 +41,8 @@ https://app.envato.com/search/photos/d8f4ac3f-dd3c-44d4-9e96-4a370e82bfec?itemTy
 
 ## Teams page
 
+### About us
+- Page about the firm 
 
 ## Contact
 - Name
