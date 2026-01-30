@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/to build/03. SVGs.md",
+                "file": "css/to know/0. Reminders.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "03. SVGs"
+              "title": "0. Reminders"
             }
           }
         ],
@@ -282,8 +282,9 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/to build/02. Blurred Headers - Glass effect.md",
     "css/to build/03. SVGs.md",
+    "css/to know/0. Reminders.md",
+    "css/to build/02. Blurred Headers - Glass effect.md",
     "css/to build/01. Skip Links.md",
     "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
@@ -314,7 +315,6 @@
     "projects/Law Firm/references/Sites and Figma files.md",
     "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Nick/Site references",
-    "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "design/refactoring ui",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
