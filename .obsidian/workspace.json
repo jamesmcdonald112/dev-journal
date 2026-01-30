@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
+                "file": "css/to build/02. Blurred Headers - Glass effect.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Tailwind Themeing"
+              "title": "02. Blurred Headers - Glass effect"
             }
           }
         ],
@@ -282,8 +282,10 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/01. Client Intake Form.md",
+    "css/to build/01. Skip Links.md",
+    "css/to build/02. Blurred Headers - Glass effect.md",
     "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
+    "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/Building the site",
     "css/best-practices/8. Fontsource.md",
     "projects/Law Firm/Nick/Untitled.md",
@@ -313,8 +315,6 @@
     "projects/Law Firm/Nick/Site references",
     "projects/Law Firm/Checklist/01. Client Intake Form.md",
     "css/to know/fontsource.md",
-    "css/Questions/0. All questions.md",
-    "css/Questions/14. Accessibility.md",
     "design/refactoring ui",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
