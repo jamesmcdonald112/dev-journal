@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/to build/02. Blurred Headers - Glass effect.md",
+                "file": "css/to build/03. SVGs.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "02. Blurred Headers - Glass effect"
+              "title": "03. SVGs"
             }
           }
         ],
@@ -161,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5,
-    "collapsed": true
+    "width": 330.5
   },
   "right": {
     "id": "4e3e56dd8897e3e9",
@@ -283,8 +282,9 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
-    "css/to build/01. Skip Links.md",
     "css/to build/02. Blurred Headers - Glass effect.md",
+    "css/to build/03. SVGs.md",
+    "css/to build/01. Skip Links.md",
     "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/Building the site",
@@ -315,7 +315,6 @@
     "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Nick/Site references",
     "projects/Law Firm/Checklist/01. Client Intake Form.md",
-    "css/to know/fontsource.md",
     "design/refactoring ui",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
