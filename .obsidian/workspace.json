@@ -102,9 +102,21 @@
               "icon": "lucide-file",
               "title": "16. Layout containers"
             }
+          },
+          {
+            "id": "b9322e6fb6f7ac97",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.7"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.11.7"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -280,7 +292,7 @@
       "templates:Insert template": false
     }
   },
-  "active": "428503aefc84081b",
+  "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
     "css/Questions/0. All questions.md",
     "css/Questions/16. Layout containers.md",
