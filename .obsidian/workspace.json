@@ -85,7 +85,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/0. All questions.md",
+                "file": "css/Questions/15. Margin Collapse.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -100,7 +100,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. All questions"
+              "title": "15. Margin Collapse"
             }
           }
         ],
@@ -282,6 +282,8 @@
   },
   "active": "428503aefc84081b",
   "lastOpenFiles": [
+    "css/Questions/0. All questions.md",
+    "css/Questions/15. Margin Collapse.md",
     "css/to know/0. Reminders.md",
     "css/to build/03. SVGs.md",
     "css/to build/02. Blurred Headers - Glass effect.md",
@@ -312,8 +314,6 @@
     "attatchments/images/Screenshot 2026-01-29 at 13.53.54.png",
     "attatchments/images/Screenshot 2026-01-29 at 13.38.42.png",
     "projects/Law Firm/Nick/02. Website Layout.md",
-    "projects/Law Firm/references/Sites and Figma files.md",
-    "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Nick/Site references",
     "design/refactoring ui",
     "projects/Law Firm/references",
