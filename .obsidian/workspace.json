@@ -107,12 +107,24 @@
             "id": "b9322e6fb6f7ac97",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.11.7"
+                "file": "css/best-practices/9. Anchor.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
               },
-              "icon": "lucide-book-up",
-              "title": "Release Notes 1.11.7"
+              "icon": "lucide-file",
+              "title": "9. Anchor"
             }
           }
         ],
@@ -294,6 +306,7 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "css/best-practices/9. Anchor.md",
     "css/Questions/0. All questions.md",
     "css/Questions/16. Layout containers.md",
     "css/Questions/15. Margin Collapse.md",
@@ -320,7 +333,6 @@
     "projects/Law Firm/Nick/Site references/1. Navbar.md",
     "projects/Law Firm/Nick/Site references/5. Testimonials.md",
     "projects/Law Firm/Nick/Site references/3. Practice Areas.md",
-    "projects/Law Firm/Nick/Site references/2. Hero.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
