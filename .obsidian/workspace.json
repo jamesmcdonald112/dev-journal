@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/9. Anchor.md",
+                "file": "projects/Law Firm/Nick/todo/Complaints Procedure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "9. Anchor"
+              "title": "Complaints Procedure"
             }
           }
         ],
@@ -304,8 +304,16 @@
       "templates:Insert template": false
     }
   },
-  "active": "b9322e6fb6f7ac97",
+  "active": "005002f697b386b7",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/todo/footer",
+    "projects/Law Firm/Nick/todo/Accessibility.md",
+    "projects/Law Firm/Nick/todo/Complaints Procedure.md",
+    "projects/Law Firm/Nick/todo/Disclaimer (Terms).md",
+    "projects/Law Firm/Nick/todo/Cookie Policy.md",
+    "projects/Law Firm/Nick/todo/Privacy Policy.md",
+    "projects/Law Firm/Nick/01. Client Intake Form.md",
+    "projects/Law Firm/Nick/todo",
     "css/best-practices/9. Anchor.md",
     "css/Questions/0. All questions.md",
     "css/Questions/16. Layout containers.md",
@@ -315,10 +323,8 @@
     "css/to build/02. Blurred Headers - Glass effect.md",
     "css/to build/01. Skip Links.md",
     "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
-    "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/Building the site",
     "css/best-practices/8. Fontsource.md",
-    "projects/Law Firm/Nick/Untitled.md",
     "css/best-practices/7. Breakpoints.md",
     "css/best-practices/6. Tokens.md",
     "css/best-practices/5. Exceptions.md",
@@ -328,11 +334,6 @@
     "projects/Law Firm/Nick/Site references/Sources.md",
     "projects/Law Firm/Nick/Site references/8. FAQs.md",
     "projects/Law Firm/Nick/Site references/7. Contact.md",
-    "projects/Law Firm/Nick/Site references/4. About Us.md",
-    "projects/Law Firm/Nick/Site references/6. Footer.md",
-    "projects/Law Firm/Nick/Site references/1. Navbar.md",
-    "projects/Law Firm/Nick/Site references/5. Testimonials.md",
-    "projects/Law Firm/Nick/Site references/3. Practice Areas.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
@@ -346,7 +347,6 @@
     "css/to build",
     "css/blocks",
     "Inspiration",
-    "css/Questions",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
