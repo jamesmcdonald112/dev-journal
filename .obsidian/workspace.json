@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "astro/questions/1. ES Modules and Astro File Imports.md",
+                "file": "seo/1. Social Metadata.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. ES Modules and Astro File Imports"
+              "title": "1. Social Metadata"
             }
           }
         ],
@@ -306,8 +306,10 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/Building the site/1. Tailwind Theming.md",
     "astro/questions/1. ES Modules and Astro File Imports.md",
+    "seo/1. Social Metadata.md",
+    "seo",
+    "projects/Law Firm/Nick/Building the site/1. Tailwind Theming.md",
     "astro/questions",
     "projects/Law Firm/Nick/todo/footer/Privacy Policy.md",
     "astro",
@@ -345,7 +347,6 @@
     "projects/Law Firm/Nick/Site references",
     "design/refactoring ui",
     "projects/Law Firm/references",
-    "projects/Law Firm/Nick",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
