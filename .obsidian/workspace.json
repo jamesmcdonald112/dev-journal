@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
+                "file": "astro/questions/1. ES Modules and Astro File Imports.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Tailwind Themeing"
+              "title": "1. ES Modules and Astro File Imports"
             }
           }
         ],
@@ -306,6 +306,7 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/Building the site/1. Tailwind Theming.md",
     "astro/questions/1. ES Modules and Astro File Imports.md",
     "astro/questions",
     "projects/Law Firm/Nick/todo/footer/Privacy Policy.md",
@@ -328,7 +329,6 @@
     "css/to build/03. SVGs.md",
     "css/to build/02. Blurred Headers - Glass effect.md",
     "css/to build/01. Skip Links.md",
-    "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
     "projects/Law Firm/Nick/Building the site",
     "css/best-practices/8. Fontsource.md",
     "css/best-practices/7. Breakpoints.md",
