@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seo/1. Social Metadata.md",
+                "file": "seo/social metadata/5. Structured Data.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Social Metadata"
+              "title": "5. Structured Data"
             }
           }
         ],
@@ -306,8 +306,13 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "seo/social metadata/4. Favicon.md",
+    "seo/social metadata/5. Structured Data.md",
+    "seo/social metadata/3. OG Image.md",
+    "seo/social metadata/2. SEO Title & description Rules (Law Firm Specific).md",
+    "seo/social metadata/1. testing metadata.md",
+    "seo/social metadata",
     "astro/questions/1. ES Modules and Astro File Imports.md",
-    "seo/1. Social Metadata.md",
     "seo",
     "projects/Law Firm/Nick/Building the site/1. Tailwind Theming.md",
     "astro/questions",
@@ -335,10 +340,6 @@
     "css/best-practices/8. Fontsource.md",
     "css/best-practices/7. Breakpoints.md",
     "css/best-practices/6. Tokens.md",
-    "css/best-practices/5. Exceptions.md",
-    "css/best-practices/4. Block.md",
-    "css/best-practices/3. Utility Classes.md",
-    "css/best-practices/1. CSS Reset.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
@@ -346,7 +347,6 @@
     "attatchments/images/Screenshot 2026-01-29 at 13.38.42.png",
     "projects/Law Firm/Nick/Site references",
     "design/refactoring ui",
-    "projects/Law Firm/references",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
