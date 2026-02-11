@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/todo/footer/Privacy Policy.md",
+                "file": "projects/Law Firm/Nick/Building the site/1. Tailwind Themeing.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Privacy Policy"
+              "title": "1. Tailwind Themeing"
             }
           }
         ],
@@ -306,6 +306,10 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "astro/questions/1. ES Modules and Astro File Imports.md",
+    "astro/questions",
+    "projects/Law Firm/Nick/todo/footer/Privacy Policy.md",
+    "astro",
     "projects/Law Firm/Nick/todo/footer/Disclaimer (Terms).md",
     "projects/Law Firm/Nick/todo/footer/Cookie Policy.md",
     "projects/Law Firm/Nick/todo/footer/Complaints Procedure.md",
@@ -314,7 +318,6 @@
     "projects/Law Firm/Nick/todo/domain",
     "projects/Law Firm/Nick/todo/footer/Accessibility.md",
     "projects/Law Firm/Nick/todo/footer",
-    "projects/Law Firm/Nick/todo/footer/Privacy Policy.md",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/todo",
     "css/best-practices/9. Anchor.md",
@@ -334,8 +337,6 @@
     "css/best-practices/4. Block.md",
     "css/best-practices/3. Utility Classes.md",
     "css/best-practices/1. CSS Reset.md",
-    "projects/Law Firm/Nick/Site references/Sources.md",
-    "projects/Law Firm/Nick/Site references/8. FAQs.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
@@ -345,8 +346,6 @@
     "design/refactoring ui",
     "projects/Law Firm/references",
     "projects/Law Firm/Nick",
-    "projects/Law Firm/Checklist",
-    "css/to build",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
     "Screenshot 2025-10-20 at 15.17.32.png",
     "Screenshot 2025-10-20 at 15.17.04.png"
