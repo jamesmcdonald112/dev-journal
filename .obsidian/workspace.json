@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/0. All questions.md",
+                "file": "css/best-practices/10. Button Styling.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. All questions"
+              "title": "10. Button Styling"
             }
           }
         ],
@@ -306,6 +306,9 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "css/best-practices/9. Anchor.md",
+    "css/best-practices/10. Button Styling.md",
+    "css/Questions/0. All questions.md",
     "css/Questions/17.  Block vs Inline Layout Mechanics.md",
     "seo/social metadata/5. Structured Data.md",
     "seo/social metadata/4. Favicon.md",
@@ -331,14 +334,11 @@
     "projects/Law Firm/Nick/todo/footer",
     "projects/Law Firm/Nick/01. Client Intake Form.md",
     "projects/Law Firm/Nick/todo",
-    "css/best-practices/9. Anchor.md",
-    "css/Questions/0. All questions.md",
     "css/Questions/16. Layout containers.md",
     "css/Questions/15. Margin Collapse.md",
     "css/to know/0. Reminders.md",
     "css/to build/03. SVGs.md",
     "css/to build/02. Blurred Headers - Glass effect.md",
-    "css/to build/01. Skip Links.md",
     "projects/Law Firm/Nick/Building the site",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
