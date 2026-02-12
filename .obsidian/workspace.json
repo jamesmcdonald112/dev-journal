@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "seo/social metadata/5. Structured Data.md",
+                "file": "css/Questions/0. All questions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "5. Structured Data"
+              "title": "0. All questions"
             }
           }
         ],
@@ -306,9 +306,10 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
+    "css/Questions/17.  Block vs Inline Layout Mechanics.md",
+    "seo/social metadata/5. Structured Data.md",
     "seo/social metadata/4. Favicon.md",
     "seo/social metadata/3. Open Graph.md",
-    "seo/social metadata/5. Structured Data.md",
     "seo/social metadata/0. Todo.md",
     "seo/social metadata/6. Robots Meta.md",
     "seo/social metadata/2. SEO Title & description Rules (Law Firm Specific).md",
@@ -339,7 +340,6 @@
     "css/to build/02. Blurred Headers - Glass effect.md",
     "css/to build/01. Skip Links.md",
     "projects/Law Firm/Nick/Building the site",
-    "css/best-practices/8. Fontsource.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
