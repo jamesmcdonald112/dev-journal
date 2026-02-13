@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
+                "file": "projects/guitar-lessons-online/Todo.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "8. Robots meta"
+              "title": "Todo"
             }
           }
         ],
@@ -306,8 +306,10 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
     "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
+    "projects/guitar-lessons-online/Todo.md",
+    "projects/guitar-lessons-online",
+    "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
     "projects/Law Firm/Nick/todo/seo + meta/6. Favicon.md",
     "projects/Law Firm/Nick/todo/seo + meta/5. OG image.md",
     "projects/Law Firm/Nick/todo/seo + meta/4. OpenGraph + Twitter.md",
@@ -335,13 +337,11 @@
     "seo/social metadata/3. Open Graph.md",
     "seo/social metadata/0. Todo.md",
     "seo/social metadata/6. Robots Meta.md",
-    "seo/social metadata/2. SEO Title & description Rules (Law Firm Specific).md",
     "seo/social metadata",
     "seo",
     "astro/questions",
     "astro",
     "projects/Law Firm/Nick/todo/domain",
-    "projects/Law Firm/Nick/todo/footer",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
