@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/guitar-lessons-online/Todo.md",
+                "file": "projects/guitar-lessons-online/google analytics.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Todo"
+              "title": "google analytics"
             }
           }
         ],
@@ -306,8 +306,9 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
     "projects/guitar-lessons-online/Todo.md",
+    "projects/guitar-lessons-online/google analytics.md",
+    "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
     "projects/guitar-lessons-online",
     "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
     "projects/Law Firm/Nick/todo/seo + meta/6. Favicon.md",
@@ -336,7 +337,6 @@
     "seo/social metadata/4. Favicon.md",
     "seo/social metadata/3. Open Graph.md",
     "seo/social metadata/0. Todo.md",
-    "seo/social metadata/6. Robots Meta.md",
     "seo/social metadata",
     "seo",
     "astro/questions",
