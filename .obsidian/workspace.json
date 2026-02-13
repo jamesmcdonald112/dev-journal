@@ -109,7 +109,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/guitar-lessons-online/google analytics.md",
+                "file": "ads/1. privacy policy.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -124,7 +124,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "google analytics"
+              "title": "1. privacy policy"
             }
           }
         ],
@@ -306,8 +306,11 @@
   },
   "active": "b9322e6fb6f7ac97",
   "lastOpenFiles": [
-    "projects/guitar-lessons-online/Todo.md",
+    "ads/legal docs",
     "projects/guitar-lessons-online/google analytics.md",
+    "ads/1. privacy policy.md",
+    "ads",
+    "projects/guitar-lessons-online/Todo.md",
     "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
     "projects/guitar-lessons-online",
     "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
@@ -335,13 +338,10 @@
     "css/Questions/17.  Block vs Inline Layout Mechanics.md",
     "seo/social metadata/5. Structured Data.md",
     "seo/social metadata/4. Favicon.md",
-    "seo/social metadata/3. Open Graph.md",
-    "seo/social metadata/0. Todo.md",
     "seo/social metadata",
     "seo",
     "astro/questions",
     "astro",
-    "projects/Law Firm/Nick/todo/domain",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
