@@ -126,9 +126,33 @@
               "icon": "lucide-file",
               "title": "1. privacy policy"
             }
+          },
+          {
+            "id": "1022f00db1cd5d36",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "The Adult Beginner Guitar Progress System.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "The Adult Beginner Guitar Progress System"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -304,11 +328,12 @@
       "templates:Insert template": false
     }
   },
-  "active": "b9322e6fb6f7ac97",
+  "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
+    "ads/1. privacy policy.md",
+    "The Adult Beginner Guitar Progress System.md",
     "ads/legal docs",
     "projects/guitar-lessons-online/google analytics.md",
-    "ads/1. privacy policy.md",
     "ads",
     "projects/guitar-lessons-online/Todo.md",
     "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
@@ -341,7 +366,6 @@
     "seo/social metadata",
     "seo",
     "astro/questions",
-    "astro",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
