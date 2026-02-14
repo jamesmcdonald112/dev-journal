@@ -10,6 +10,9 @@ tags:
 
 ---
 
+<div class="page-break"></div>
+
+
 Learning guitar as an adult doesn’t require extreme discipline.
 
 It requires structure.
@@ -18,16 +21,17 @@ This simple framework gives you a repeatable way to practise — even if you onl
 
 ---
 
-# The Four-Stage Practice Cycle
+# The Three-Stage Practice Cycle
 
 You repeat this cycle each week.
 
 1. Setup  
-2. Precision  
-3. Rhythm  
-4. Build & Integrate  
+2. Precision (including rhythm checks)  
+3. Build & Integrate  
 
 ---
+
+<div class="page-break"></div>
 
 ## Stage 1 — Setup
 
@@ -58,7 +62,9 @@ You’ll make far better use of your time.
 
 ---
 
-## Stage 2 — Precision
+<div class="page-break"></div>
+
+## Stage 2 — Precision (and Rhythm Checks)
 
 This is where real progress happens.
 
@@ -99,6 +105,21 @@ Smaller sections create stronger foundations.
 
 ---
 
+### Clap Before You Play
+
+Most mistakes begin with unclear rhythm.
+
+- Clap the rhythm  
+- Count out loud  
+- Clap three clean repetitions  
+- Then play while counting  
+
+If rhythm feels uncertain, isolate it before playing.
+
+> Rhythm clarity prevents future frustration.
+
+---
+
 ### Slow Builds Progress
 
 If it doesn’t work slowly, it isn’t learned yet.
@@ -126,30 +147,15 @@ Learn slowly, forget slowly.
 
 ---
 
-## Stage 3 — Rhythm
+<div class="page-break"></div>
 
-Most mistakes begin with unclear rhythm.
-
-### Clap Before You Play
-
-- Clap the rhythm  
-- Count out loud  
-- Clap three clean repetitions  
-- Then play while counting  
-
-If rhythm feels uncertain, isolate it before playing.
-
-> Clear rhythm prevents future frustration.
-
----
-
-## Stage 4 — Build & Integrate
+## Stage 3 — Build & Integrate
 
 Now you expand.
 
 - Combine bars into phrases (four to eight bars)
 - Apply Stage 2 again (three clean repetitions)
-- Confirm rhythm if unsure
+- Confirm rhythm if unsure (clap first if needed)
 - Increase tempo gradually
 - Record short clips
 - Play along with recordings as often as possible
@@ -163,13 +169,15 @@ Playing with recordings improves:
 
 Then repeat the cycle.
 
-Setup → Precision → Rhythm → Build.
+Setup → Precision → Build.
 
 Each week.
 
 > Build in layers, not leaps.
 
 ---
+
+<div class="page-break"></div>
 
 # How Often Should You Practise?
 
@@ -181,7 +189,7 @@ A strong rhythm:
 
 Ideal:
 
-- Around 30 minutes, five days per week  
+- Around 30 minutes, five days a week  
 
 If that’s not realistic:
 
@@ -194,6 +202,8 @@ Short sessions done consistently outperform long sessions done rarely.
 > Frequency beats intensity.
 
 ---
+
+<div class="page-break"></div>
 
 # The Plateau Principle
 
@@ -212,6 +222,8 @@ When you expect difficulty, it becomes easier to handle.
 > Improvement is often quiet before it becomes obvious.
 
 ---
+
+<div class="page-break"></div>
 
 # Structured Learning
 
@@ -232,6 +244,9 @@ Even without exams, structure accelerates learning.
 > Structure reduces guesswork.
 
 ---
+
+<div class="page-break"></div>
+
 
 # Practice vs Playing
 
@@ -256,9 +271,10 @@ Improvement happens during deliberate practice.
 
 ---
 
+<div class="page-break"></div>
+
 ## Ready to Apply This?
 
-> [!cta]
 > **Book your free 15-minute consultation**
 >
 > 👉 https://calendly.com/james-mcdonald-music/15min
