@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "The Adult Beginner Guitar Progress System.md",
+                "file": "css/Questions/0. All questions.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "The Adult Beginner Guitar Progress System"
+              "title": "0. All questions"
             }
           }
         ],
@@ -330,8 +330,15 @@
   },
   "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
-    "ads/1. privacy policy.md",
+    "css/Questions/18. Selectors.md",
+    "html/questions/0. All questions.md",
+    "html/questions/1. Sections.md",
+    "html/best practices/1. Sections.md",
+    "html/questions",
     "The Adult Beginner Guitar Progress System.md",
+    "html/best practices",
+    "html",
+    "ads/1. privacy policy.md",
     "ads/legal docs",
     "projects/guitar-lessons-online/google analytics.md",
     "ads",
@@ -359,13 +366,6 @@
     "css/best-practices/10. Button Styling.md",
     "projects/Law Firm/Nick/todo/general",
     "css/best-practices/9. Anchor.md",
-    "css/Questions/0. All questions.md",
-    "css/Questions/17.  Block vs Inline Layout Mechanics.md",
-    "seo/social metadata/5. Structured Data.md",
-    "seo/social metadata/4. Favicon.md",
-    "seo/social metadata",
-    "seo",
-    "astro/questions",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
