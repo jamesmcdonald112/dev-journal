@@ -1,25 +1,19 @@
 ---
 title: Adult Beginner Guitar Progress System
-author: James McDonald
+auth: James McDonald
 tags:
 ---
 # The Simple Guitar Practice Framework
 ## A Clear Way to Improve With Limited Time
 
+
 > “It’s not the hours you put in, but what you put into the hours.”
-
----
-
-<div class="page-break"></div>
-
 
 Learning guitar as an adult doesn’t require extreme discipline.
 
 It requires structure.
 
 This simple framework gives you a repeatable way to practise — even if you only have short windows of time.
-
----
 
 # The Three-Stage Practice Cycle
 
@@ -203,8 +197,6 @@ Short sessions done consistently outperform long sessions done rarely.
 
 ---
 
-<div class="page-break"></div>
-
 # The Plateau Principle
 
 Progress does not feel dramatic.
@@ -244,9 +236,6 @@ Even without exams, structure accelerates learning.
 > Structure reduces guesswork.
 
 ---
-
-<div class="page-break"></div>
-
 
 # Practice vs Playing
 
