@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/Questions/0. All questions.md",
+                "file": "css/best-practices/11. Fonts.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. All questions"
+              "title": "11. Fonts"
             }
           }
         ],
@@ -330,6 +330,9 @@
   },
   "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
+    "css/Questions/0. All questions.md",
+    "css/best-practices/11. Fonts.md",
+    "css/Questions/19. Fonts.md",
     "css/Questions/18. Selectors.md",
     "html/questions/0. All questions.md",
     "html/questions/1. Sections.md",
@@ -361,11 +364,8 @@
     "projects/Law Firm/Nick/todo/forms & pipeline/4. Email templates (from your normal email, not Resend).md",
     "projects/Law Firm/Nick/todo/forms & pipeline/3. Create your asset delivery system (Drive).md",
     "projects/Law Firm/Nick/todo/forms & pipeline/2. Link each form to a Google Sheet.md",
-    "projects/Law Firm/Nick/todo/forms & pipeline/1. Test Form 1 and Form 2.md",
     "projects/Law Firm/Nick/todo/forms & pipeline",
-    "css/best-practices/10. Button Styling.md",
     "projects/Law Firm/Nick/todo/general",
-    "css/best-practices/9. Anchor.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
