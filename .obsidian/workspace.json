@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Site references/Sources.md",
+                "file": "projects/Law Firm/Nick/keyword research/1. Findings.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Sources"
+              "title": "1. Findings"
             }
           }
         ],
@@ -330,6 +330,9 @@
   },
   "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/Site references/Sources.md",
+    "projects/Law Firm/Nick/keyword research/1. Findings.md",
+    "projects/Law Firm/Nick/keyword research",
     "projects/Law Firm/Nick/Site references/3. Practice Areas.md",
     "projects/Law Firm/Nick/Site references/2. Hero.md",
     "projects/Law Firm/Nick/Site references/1. Navbar.md",
@@ -360,12 +363,9 @@
     "projects/Law Firm/Nick/todo/seo + meta/8. Robots meta.md",
     "projects/guitar-lessons-online",
     "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
-    "projects/Law Firm/Nick/todo/seo + meta/6. Favicon.md",
-    "projects/Law Firm/Nick/todo/seo + meta/5. OG image.md",
     "projects/Law Firm/Nick/todo/seo + meta",
     "projects/Law Firm/Nick/todo/legal pages",
     "projects/Law Firm/Nick/todo/forms & pipeline",
-    "projects/Law Firm/Nick/todo/general",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
