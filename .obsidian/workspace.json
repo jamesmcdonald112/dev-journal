@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "html/questions/0. All questions.md",
+                "file": "projects/Law Firm/Nick/Site references/Sources.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. All questions"
+              "title": "Sources"
             }
           }
         ],
@@ -330,12 +330,23 @@
   },
   "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/Site references/3. Practice Areas.md",
+    "projects/Law Firm/Nick/Site references/2. Hero.md",
+    "projects/Law Firm/Nick/Site references/1. Navbar.md",
+    "projects/Law Firm/Nick/todo/legal pages/1. Create the legal pages you listed.md",
+    "projects/Law Firm/Nick/01. Client Intake Form.md",
+    "projects/Law Firm/Nick/02. Website Layout.md",
+    "projects/Law Firm/Nick/03. What i need.md",
+    "projects/Law Firm/Proposals/Approaching other Law Firms.md",
+    "projects/Law Firm/Proposals/Mock Ups.md",
+    "projects/Law Firm/references/Sites and Figma files.md",
+    "projects/Law Firm/Nick/Building the site/1. Tailwind Theming.md",
+    "html/questions/0. All questions.md",
     "html/questions/1. Sections.md",
     "css/best-practices/11. Fonts.md",
     "css/Questions/0. All questions.md",
     "css/Questions/19. Fonts.md",
     "css/Questions/18. Selectors.md",
-    "html/questions/0. All questions.md",
     "html/best practices/1. Sections.md",
     "html/questions",
     "The Adult Beginner Guitar Progress System.md",
@@ -351,19 +362,8 @@
     "projects/Law Firm/Nick/todo/seo + meta/7. Structured data (LegalService  and LocalBusiness).md",
     "projects/Law Firm/Nick/todo/seo + meta/6. Favicon.md",
     "projects/Law Firm/Nick/todo/seo + meta/5. OG image.md",
-    "projects/Law Firm/Nick/todo/seo + meta/4. OpenGraph + Twitter.md",
-    "projects/Law Firm/Nick/todo/seo + meta/3. Canonical URLs.md",
-    "projects/Law Firm/Nick/todo/seo + meta/2. Per-page titles and descriptions.md",
-    "projects/Law Firm/Nick/todo/seo + meta/1. Default SEO in firm.ts.md",
-    "projects/Law Firm/Nick/todo/legal pages/3. Thank-you page.md",
     "projects/Law Firm/Nick/todo/seo + meta",
-    "projects/Law Firm/Nick/todo/legal pages/2. Make sure the contact flow supports “General enquiry”.md",
-    "projects/Law Firm/Nick/todo/legal pages/1. Create the legal pages you listed.md",
-    "projects/Law Firm/Nick/todo/forms & pipeline/5. Prefill Form 2.md",
     "projects/Law Firm/Nick/todo/legal pages",
-    "projects/Law Firm/Nick/todo/forms & pipeline/4. Email templates (from your normal email, not Resend).md",
-    "projects/Law Firm/Nick/todo/forms & pipeline/3. Create your asset delivery system (Drive).md",
-    "projects/Law Firm/Nick/todo/forms & pipeline/2. Link each form to a Google Sheet.md",
     "projects/Law Firm/Nick/todo/forms & pipeline",
     "projects/Law Firm/Nick/todo/general",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
