@@ -133,7 +133,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
+                "file": "projects/Law Firm/Nick/Building the site/2. Core Structure.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -148,7 +148,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Reverse Engineering pages"
+              "title": "2. Core Structure"
             }
           }
         ],
@@ -330,10 +330,11 @@
   },
   "active": "1022f00db1cd5d36",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/seo/SERP/1.  Findings.md",
     "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
-    "projects/Law Firm/Nick/seo/SERP",
+    "projects/Law Firm/Nick/seo/SERP/1.  Findings.md",
     "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
+    "projects/Law Firm/Nick/Building the site/2. Core Structure.md",
+    "projects/Law Firm/Nick/seo/SERP",
     "projects/Law Firm/Nick/seo",
     "projects/Law Firm/Nick/Site references/Sources.md",
     "projects/Law Firm/Nick/seo/1. keyword research",
@@ -363,7 +364,6 @@
     "ads/legal docs",
     "projects/guitar-lessons-online/google analytics.md",
     "ads",
-    "projects/guitar-lessons-online/Todo.md",
     "projects/guitar-lessons-online",
     "projects/Law Firm/Nick/todo/seo + meta",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
