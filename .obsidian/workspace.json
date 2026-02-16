@@ -150,9 +150,33 @@
               "icon": "lucide-file",
               "title": "2. Core Structure"
             }
+          },
+          {
+            "id": "7b7be25769478a8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "2. Reverse Engineering pages"
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -328,12 +352,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "1022f00db1cd5d36",
+  "active": "7b7be25769478a8e",
   "lastOpenFiles": [
-    "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
     "projects/Law Firm/Nick/seo/SERP/1.  Findings.md",
     "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
+    "Untitled.md",
     "projects/Law Firm/Nick/Building the site/2. Core Structure.md",
+    "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
     "projects/Law Firm/Nick/seo/SERP",
     "projects/Law Firm/Nick/seo",
     "projects/Law Firm/Nick/Site references/Sources.md",
@@ -362,7 +387,6 @@
     "html",
     "ads/1. privacy policy.md",
     "ads/legal docs",
-    "projects/guitar-lessons-online/google analytics.md",
     "ads",
     "projects/guitar-lessons-online",
     "projects/Law Firm/Nick/todo/seo + meta",
