@@ -1,4 +1,4 @@
-- Decide which file is the active property page you’re editing (likely src/pages/test.astro for now).
+
     
 - Add breadcrumbs block at top: Home → Services → Buying & Selling Property with correct links.
     
