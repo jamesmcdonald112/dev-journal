@@ -1,0 +1,5 @@
+- Text pretty - text-pretty is Tailwind’s **text-wrap: pretty;** utility.
+	- Improves line breaks for multi-line text (headings/paragraphs)
+	- Reduces “ugly” wraps like a single short word on its own last line (widows/orphans)
+	- Doesn’t change font size/weight—just wrapping behaviour.
+	- Headings, hero subtitles, short paragraphs where wrapping looks awkward.
