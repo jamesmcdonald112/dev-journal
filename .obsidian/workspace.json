@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
+                "file": "projects/Law Firm/legality/About Law Firm Websites.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "1. Findings"
+              "title": "About Law Firm Websites"
             }
           }
         ],
@@ -354,9 +354,11 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
+    "projects/Law Firm/legality/About Law Firm Websites.md",
+    "projects/Law Firm/legality",
     "projects/Law Firm/Nick/seo/SERP/1.  Findings.md",
     "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
-    "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
     "Untitled.md",
     "projects/Law Firm/Nick/Building the site/2. Core Structure.md",
     "projects/Law Firm/Nick/seo/SERP",
@@ -385,11 +387,9 @@
     "The Adult Beginner Guitar Progress System.md",
     "html/best practices",
     "html",
-    "ads/1. privacy policy.md",
     "ads/legal docs",
     "ads",
     "projects/guitar-lessons-online",
-    "projects/Law Firm/Nick/todo/seo + meta",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
