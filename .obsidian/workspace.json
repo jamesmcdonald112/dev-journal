@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
+                "file": "projects/Law Firm/Nick/Questions & Answers/All.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2. Reverse Engineering pages"
+              "title": "All"
             }
           }
         ],
@@ -233,7 +233,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 330.5
+    "width": 330.5,
+    "collapsed": true
   },
   "right": {
     "id": "4e3e56dd8897e3e9",
@@ -354,6 +355,9 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
+    "projects/Law Firm/Nick/Questions & Answers/All.md",
+    "projects/Law Firm/Nick/Questions & Answers",
     "projects/Law Firm/Nick/seo/SERP/1.  Findings.md",
     "projects/Law Firm/Nick/seo/1. keyword research/1. Findings.md",
     "css/tailwind/best practices/Text.md",
@@ -361,7 +365,6 @@
     "projects/Law Firm/legality/About Law Firm Websites.md",
     "css/tailwind",
     "projects/Law Firm/legality",
-    "projects/Law Firm/Nick/seo/SERP/2. Reverse Engineering pages.md",
     "Untitled.md",
     "projects/Law Firm/Nick/Building the site/2. Core Structure.md",
     "projects/Law Firm/Nick/seo/SERP",
@@ -388,7 +391,6 @@
     "html/questions",
     "html/best practices",
     "html",
-    "ads/legal docs",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
