@@ -295,158 +295,340 @@ Ads management (if ever):
 Separate pricing.
 
 ---
-
-# **⚙️ Why Astro + Vercel (And Not WordPress/Webflow)**
-
-  
-
-You need to explain this clearly.
+# **⚖️ Astro vs WordPress vs Webflow**
 
   
 
-### **1️⃣ Performance**
+_(For a Solicitor Website)_
+
+---
+
+# **1️⃣ Performance (Speed & SEO)**
 
   
 
-Astro generates static pages.
+### **🟢 Astro**
 
+- Generates static HTML
+    
 - Extremely fast load times
     
-- Better SEO performance
+- Excellent Core Web Vitals
     
-- Better Core Web Vitals
+- No runtime overhead
     
 
   
 
-Google prefers fast sites.
+Best for SEO performance.
 
 ---
 
-### **2️⃣ Security**
+### **🟡 WordPress**
+
+- Dynamic PHP
+    
+- Depends heavily on hosting
+    
+- Plugins slow it down
+    
+- Often bloated
+    
 
   
 
-No plugins.
-
-No WordPress vulnerabilities.
-
-No update cycles breaking the site.
-
-  
-
-Much lower security risk.
-
-  
-
-Very important for a solicitor.
+Can be fast — but usually isn’t without optimisation.
 
 ---
 
-### **3️⃣ Low Maintenance**
+### **🟡 Webflow**
+
+- Good performance
+    
+- Hosted on their CDN
+    
+- Slightly heavier than Astro
+    
+- Still good SEO
+    
 
   
 
-WordPress:
+Solid, but not as lean as Astro.
 
+---
+
+# **2️⃣ Security**
+
+  
+
+### **🟢 Astro**
+
+- No database exposed
+    
+- No plugins
+    
+- No admin login to attack
+    
+- Static output = extremely secure
+    
+
+  
+
+Very low risk.
+
+---
+
+### **🔴 WordPress**
+
+- Biggest CMS in the world
+    
+- Target for hackers
+    
+- Plugin vulnerabilities
+    
+- Needs updates constantly
+    
+
+  
+
+High maintenance risk.
+
+---
+
+### **🟡 Webflow**
+
+- Hosted platform
+    
+- No plugin risk
+    
+- Secure infrastructure
+    
+- Limited backend control
+    
+
+  
+
+Safe, but locked into platform.
+
+---
+
+# **3️⃣ Maintenance**
+
+  
+
+### **🟢 Astro**
+
+- No updates needed
+    
+- No plugin conflicts
+    
+- No version breaks
+    
+- Hosting rarely causes issues
+    
+
+  
+
+Very low ongoing maintenance.
+
+---
+
+### **🔴 WordPress**
+
+- Theme updates
+    
 - Plugin updates
     
-- Theme updates
+- PHP version updates
+    
+- Hosting management
     
 - Security patches
     
-- Backup management
+
+  
+
+Ongoing maintenance required.
+
+---
+
+### **🟡 Webflow**
+
+- No plugin updates
+    
+- Platform handles hosting
+    
+- But you depend on Webflow ecosystem
     
 
   
 
-Astro:
+Low maintenance, but not fully owned.
 
-- Static output
+---
+
+# **4️⃣ Flexibility & Control**
+
+  
+
+### **🟢 Astro**
+
+- Full code control
     
-- Minimal moving parts
+- Custom SEO structure
     
-- Extremely stable
+- Full ownership
+    
+- Can migrate anywhere
+    
+
+  
+
+Completely yours.
+
+---
+
+### **🟡 WordPress**
+
+- Flexible
+    
+- But often plugin-dependent
+    
+- Harder to keep clean long-term
     
 
 ---
 
-### **4️⃣ Hosting Cost**
+### **🔴 Webflow**
 
-  
-
-Vercel:
-
-- Very cheap
+- Locked into Webflow
     
-- Globally fast
+- Harder to export properly
     
-- Reliable
+- Ongoing subscription
     
 
   
 
-WordPress hosting often:
+You don’t truly own the platform.
 
-- Slower
+---
+
+# **5️⃣ Cost Structure**
+
+  
+
+### **Astro**
+
+- Hosting: Very low (Vercel)
     
-- More maintenance overhead
+- No CMS subscription
+    
+- No plugin fees
+    
+- You control updates
     
 
 ---
 
-### **5️⃣ Long-Term Scalability**
+### **WordPress**
 
-  
-
-This structure allows:
-
-- Easy new service pages
+- Hosting cost
     
-- SEO expansion
+- Premium theme cost
     
-- Structured growth
+- Plugin costs
     
-
-  
-
-Without rebuilding.
+- Maintenance cost
+    
 
 ---
 
-# **🎯 Now the Real Question**
+### **Webflow**
 
-  
-
-You need to decide something:
-
-  
-
-Are you pricing like:
-
-- A friend helping a friend
+- Monthly subscription
     
-    or
+- CMS plan fees
     
-- A specialist building a niche service business?
+- Hosting bundled
     
-
-  
-
-You can give a friend discount.
-
-  
-
-But don’t undervalue strategic work.
+- Can get expensive long term
+    
 
 ---
 
-If you want, tell me:
+# **6️⃣ Best Fit for This Solicitor Project**
 
   
 
-What number are you thinking of saying?
+This project is:
+
+- Local
+    
+- SEO-driven
+    
+- Lead generation focused
+    
+- Mostly static content
+    
+- High trust industry
+    
+- Needs security
+    
+- Doesn’t require blog-heavy publishing
+    
 
   
 
-I’ll tell you whether it’s too low.
+Astro fits that perfectly.
+
+---
+
+# **🔥 Simple Explanation You Can Say**
+
+  
+
+> “I’m building this in Astro rather than WordPress or Webflow because it gives you better speed, better security, and lower long-term maintenance. It’s not plugin-based, so it won’t break over time, and you fully own it.”
+
+  
+
+That’s clean.
+
+---
+
+# **🎯 Honest Positioning**
+
+  
+
+If he wanted:
+
+- Frequent blogging
+    
+- Internal editing himself
+    
+- Non-technical editing access
+    
+
+  
+
+Then WordPress or Webflow might make more sense.
+
+  
+
+But that’s not this site.
+
+  
+
+This is:
+
+- Structured service pages
+    
+- Stable content
+    
+- Growth-focused architecture
+    
+
+  
+
+Astro is stronger long-term.
