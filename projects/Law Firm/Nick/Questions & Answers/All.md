@@ -1,5 +1,7 @@
 three buttons at the top not working
 
+remove deuseks meddows from address.
+
 
 # **📞 CALL STRUCTURE (Clean & Professional)**
 
@@ -81,11 +83,11 @@ Questions:
 
 ## **4️⃣ Geographic Scope**
 
-1. Are we focusing strictly on Kilkenny?
+1. Are we focusing strictly on Kilkenny? - yes
     
-2. Do you want nearby counties mentioned?
+2. Do you want nearby counties mentioned? - thye work in othere areas so i have to figure out if they can find wording fo rit. best might be a small local firm.
     
-3. Do you actively want work outside Kilkenny, or just accept it if it comes?
+3. Do you actively want work outside Kilkenny, or just accept it if it comes? - accept if it comes possibly
     
 
   
@@ -96,7 +98,7 @@ Questions:
 
 ## **5️⃣ Ads & Tracking**
 
-1. Do you plan to run Google Ads or Facebook Ads?
+1. Do you plan to run Google Ads or Facebook Ads? - maybe later i told them it woudl be good to run google ads at the start ot boost the site, is that a good idea?
     
 2. If yes, roughly small test or serious lead channel?
     
@@ -643,3 +645,10 @@ This is:
   
 
 Astro is stronger long-term.
+
+
+
+
+2. Can we use testimonials? 
+    
+3. Can we embed Google reviews?
