@@ -1,7 +1,7 @@
 
 # **📞 CALL STRUCTURE (Clean & Professional)**
 
-  
+  MaryMolloySolicitor
 
 ## **1️⃣ Scope Confirmation (Foundation)**
 
@@ -14,8 +14,9 @@
     - Home
         
     - 4–8 service pages (Property first, then Probate, Family, etc.)
+    - page for each service. 
         
-    - About
+    - About - about the firm, no individual pages.
         
     - Contact
         
