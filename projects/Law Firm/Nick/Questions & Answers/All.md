@@ -1,6 +1,3 @@
-three buttons at the top not working
-
-remove deuseks meddows from address.
 
 
 # **📞 CALL STRUCTURE (Clean & Professional)**
