@@ -1,7 +1,11 @@
+three buttons at the top not working
+
 
 # **📞 CALL STRUCTURE (Clean & Professional)**
 
   MaryMolloySolicitor
+
+otopions to propmotes outseide kilkenny?
 
 ## **1️⃣ Scope Confirmation (Foundation)**
 
@@ -58,13 +62,13 @@ Questions:
 
 ## **3️⃣ Trust & Compliance**
 
-1. Can we mention years in practice?
+1. Can we mention years in practice? 46 years (maybe do dynamically using js or something)
     
-2. Can we use testimonials?
+2. Can we use testimonials? 
     
 3. Can we embed Google reviews?
     
-4. Are you comfortable with wording like “experienced property solicitors”?
+4. Are you comfortable with wording like “experienced property solicitors”? - yes
     
 5. Are there any specific Law Society advertising rules you’re aware of that we need to follow?
     
@@ -142,8 +146,14 @@ Then ask:
 1. Why should someone choose you over another Kilkenny solicitor?
     
 2. What are you genuinely strongest at? (speed, communication, clarity, problem-solving)
-    
-    
+	1. happy using words like that
+	2. 46 years experince 
+	3. Expertise in that area
+	4. Personal abilti, 
+	5. communications
+	6. clarity
+	7. Staying informs and up to date iwth teh clients
+	8. Friednly
     
 
 ---
