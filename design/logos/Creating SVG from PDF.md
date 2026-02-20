@@ -1,0 +1,1 @@
+- Screenshot the part you want (in as high res as possible) and use  like [Free SVG Converter (picsvg.com)](https://picsvg.com/)
