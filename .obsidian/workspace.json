@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Questions & Answers/All.md",
+                "file": "design/refactoring ui/Using a Colour Palette.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "All"
+              "title": "Using a Colour Palette"
             }
           }
         ],
@@ -354,8 +354,9 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
-    "design/logos/Creating SVG from PDF.md",
     "projects/Law Firm/Nick/Questions & Answers/All.md",
+    "design/refactoring ui/Using a Colour Palette.md",
+    "design/logos/Creating SVG from PDF.md",
     "design/logos",
     "css/logos/Untitled.md",
     "css/logos",
@@ -388,7 +389,6 @@
     "html/questions/0. All questions.md",
     "html/questions/1. Sections.md",
     "css/best-practices/11. Fonts.md",
-    "css/Questions/0. All questions.md",
     "html/questions",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
