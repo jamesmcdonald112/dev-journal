@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "cv stuff/linkedin/Movie Search App.md",
+                "file": "css/Questions/19. Replaced Element.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Movie Search App"
+              "title": "19. Replaced Element"
             }
           }
         ],
@@ -354,9 +354,11 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
+    "css/Questions/0. All questions.md",
+    "css/Questions/19. Replaced Element.md",
+    "cv stuff/linkedin/Movie Search App.md",
     "attatchments/images/Movie Search App.jpeg",
     "cv stuff/linkedin/Simple Banking System.md",
-    "cv stuff/linkedin/Movie Search App.md",
     "attatchments/images/simple banking system.jpeg",
     "cv stuff/linkedin/AI-Powered E-Commerce Platform (Next.js, MongoDB, OpenAI).md",
     "attatchments/images/AI-Powered E-Commerce Platform.jpeg",
@@ -391,14 +393,12 @@
     "projects/Law Firm/Nick/02. Website Layout.md",
     "projects/Law Firm/Nick/03. What i need.md",
     "projects/Law Firm/Proposals/Approaching other Law Firms.md",
-    "projects/Law Firm/Proposals/Mock Ups.md",
     "attatchments/images/Screenshot 2026-01-29 at 15.21.21.png",
     "attatchments/images/Screenshot 2026-01-29 at 15.16.56.png",
     "attatchments/images/Screenshot 2026-01-29 at 14.02.33.png",
     "attatchments/images/Screenshot 2026-01-29 at 13.53.54.png",
     "attatchments/images/Screenshot 2026-01-29 at 13.38.42.png",
     "attatchments/images/Screenshot 2025-10-20 at 15.18.21.png",
-    "Screenshot 2025-10-20 at 15.17.32.png",
-    "Screenshot 2025-10-20 at 15.17.04.png"
+    "Screenshot 2025-10-20 at 15.17.32.png"
   ]
 }
