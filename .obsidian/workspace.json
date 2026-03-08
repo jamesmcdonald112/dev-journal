@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/best-practices/12. Line Height.md",
+                "file": "css/to know/Background blend mode.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "12. Line Height"
+              "title": "Background blend mode"
             }
           }
         ],
@@ -354,8 +354,9 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
-    "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "css/best-practices/12. Line Height.md",
+    "css/to know/Background blend mode.md",
+    "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
     "projects/Law Firm/Nick/Building the site/Untitled.md",
     "projects/Law Firm/Nick/Building the site/Form",
@@ -384,7 +385,6 @@
     "cv stuff/projects/Assembly Endgame/All Notes.md",
     "cv stuff/linkedin",
     "design/refactoring ui/Using a Colour Palette.md",
-    "projects/Law Firm/Nick/Questions & Answers/All.md",
     "design/logos",
     "css/logos",
     "projects/Law Firm/Nick/Questions & Answers",
