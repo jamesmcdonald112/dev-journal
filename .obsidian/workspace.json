@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "css/to know/Background blend mode.md",
+                "file": "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Background blend mode"
+              "title": "0. Full Guide"
             }
           }
         ],
@@ -208,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#D9C7C1",
+                "query": "marymoll",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,7 +229,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -352,10 +353,10 @@
       "templates:Insert template": false
     }
   },
-  "active": "7b7be25769478a8e",
+  "active": "e9b2fa10f7ab8344",
   "lastOpenFiles": [
-    "css/best-practices/12. Line Height.md",
     "css/to know/Background blend mode.md",
+    "css/best-practices/12. Line Height.md",
     "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
     "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
     "projects/Law Firm/Nick/Building the site/Untitled.md",
