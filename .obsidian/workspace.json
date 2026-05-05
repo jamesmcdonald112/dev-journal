@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
+                "file": "projects/Law Firm/Nick/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "0. Full Guide"
+              "title": "Untitled"
             }
           }
         ],
@@ -208,7 +208,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "marymoll",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -229,8 +229,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -353,12 +352,13 @@
       "templates:Insert template": false
     }
   },
-  "active": "e9b2fa10f7ab8344",
+  "active": "7b7be25769478a8e",
   "lastOpenFiles": [
+    "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
+    "projects/Law Firm/Nick/Untitled.md",
     "css/to know/Background blend mode.md",
     "css/best-practices/12. Line Height.md",
     "projects/music-school/01-daily-builds/01 Setup/33. InfoPack – Spam Protection (Honeypot).md",
-    "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
     "projects/Law Firm/Nick/Building the site/Untitled.md",
     "projects/Law Firm/Nick/Building the site/Form",
     "projects/music-school/01-daily-builds/01 Setup/39. Resend Part 2.md",
@@ -385,7 +385,6 @@
     "attatchments/images/AI-Powered E-Commerce Platform.jpeg",
     "cv stuff/projects/Assembly Endgame/All Notes.md",
     "cv stuff/linkedin",
-    "design/refactoring ui/Using a Colour Palette.md",
     "design/logos",
     "css/logos",
     "projects/Law Firm/Nick/Questions & Answers",
