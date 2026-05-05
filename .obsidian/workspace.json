@@ -157,7 +157,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "projects/Law Firm/Nick/Untitled.md",
+                "file": "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -172,7 +172,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Untitled"
+              "title": "0. Full Guide"
             }
           }
         ],
@@ -354,7 +354,10 @@
   },
   "active": "7b7be25769478a8e",
   "lastOpenFiles": [
+    "css/Untitled.md",
     "projects/Law Firm/Nick/Building the site/Form/0. Full Guide.md",
+    "astro/dynamic-html-tags.md",
+    "astro/class-list.md",
     "projects/Law Firm/Nick/Untitled.md",
     "css/to know/Background blend mode.md",
     "css/best-practices/12. Line Height.md",
@@ -379,11 +382,8 @@
     "css/Questions/0. All questions.md",
     "cv stuff/linkedin/Movie Search App.md",
     "attatchments/images/Movie Search App.jpeg",
-    "cv stuff/linkedin/Simple Banking System.md",
     "attatchments/images/simple banking system.jpeg",
-    "cv stuff/linkedin/AI-Powered E-Commerce Platform (Next.js, MongoDB, OpenAI).md",
     "attatchments/images/AI-Powered E-Commerce Platform.jpeg",
-    "cv stuff/projects/Assembly Endgame/All Notes.md",
     "cv stuff/linkedin",
     "design/logos",
     "css/logos",
